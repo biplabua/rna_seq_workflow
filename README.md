@@ -9,4 +9,4 @@ https://snakemake.readthedocs.io/en/stable/getting_started/installation.html#ins
 
 After installing snakemake run following command to run the pipeline. 
 
-snakemake --core 1
+```snakemake --core 1```
