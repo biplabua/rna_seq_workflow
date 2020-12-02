@@ -9,6 +9,8 @@ https://snakemake.readthedocs.io/en/stable/getting_started/installation.html#ins
 
 After installing snakemake run following command to run the pipeline. 
 
+```conda activate snakemake```
+
 ```snakemake --core 1```
 
 # To analyze geo data of your interest
