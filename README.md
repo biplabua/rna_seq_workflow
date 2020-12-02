@@ -10,3 +10,9 @@ https://snakemake.readthedocs.io/en/stable/getting_started/installation.html#ins
 After installing snakemake run following command to run the pipeline. 
 
 ```snakemake --core 1```
+
+# To analyze geo data of your interest
+Remove the default link and add link for the transcript sequence in the congif.yaml file.
+Remove the default sra id in meta-data.csv file and add your own sra id number.
+Then run
+```snakemake --core 1```
