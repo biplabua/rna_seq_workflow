@@ -1,0 +1,4 @@
+makeCountsFromAbundance	makeCountsFromAbundance
+summarizeToGene	summarizeToGene
+summarizeToGene,list-method	summarizeToGene
+tximport	tximport

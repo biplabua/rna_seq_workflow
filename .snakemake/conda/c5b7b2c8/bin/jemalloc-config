@@ -1,0 +1,83 @@
+#!/bin/sh
+
+usage() {
+	cat <<EOF
+Usage:
+  /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/bin/jemalloc-config <option>
+Options:
+  --help | -h  : Print usage.
+  --version    : Print jemalloc version.
+  --revision   : Print shared library revision number.
+  --config     : Print configure options used to build jemalloc.
+  --prefix     : Print installation directory prefix.
+  --bindir     : Print binary installation directory.
+  --datadir    : Print data installation directory.
+  --includedir : Print include installation directory.
+  --libdir     : Print library installation directory.
+  --mandir     : Print manual page installation directory.
+  --cc         : Print compiler used to build jemalloc.
+  --cflags     : Print compiler flags used to build jemalloc.
+  --cppflags   : Print preprocessor flags used to build jemalloc.
+  --cxxflags   : Print C++ compiler flags used to build jemalloc.
+  --ldflags    : Print library flags used to build jemalloc.
+  --libs       : Print libraries jemalloc was linked against.
+EOF
+}
+
+prefix="/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8"
+exec_prefix="/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8"
+
+case "$1" in
+--help | -h)
+	usage
+	exit 0
+	;;
+--version)
+	echo "5.2.1-0-gea6b3e973b477b8061e0076bb257dbd7f3faa756"
+	;;
+--revision)
+	echo "2"
+	;;
+--config)
+	echo "--prefix=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8 --disable-static --disable-tls CC=x86_64-apple-darwin13.4.0-clang 'CFLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/jemalloc_1595331940797/work=/usr/local/src/conda/jemalloc-5.2.1 -fdebug-prefix-map=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8=/usr/local/src/conda-prefix' 'LDFLAGS=-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib -L/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib' 'CPPFLAGS=-D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9 -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include' CXX=x86_64-apple-darwin13.4.0-clang++ 'CXXFLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0 -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/jemalloc_1595331940797/work=/usr/local/src/conda/jemalloc-5.2.1 -fdebug-prefix-map=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8=/usr/local/src/conda-prefix'"
+	;;
+--prefix)
+	echo "/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8"
+	;;
+--bindir)
+	echo "/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/bin"
+	;;
+--datadir)
+	echo "/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/share"
+	;;
+--includedir)
+	echo "/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include"
+	;;
+--libdir)
+	echo "/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib"
+	;;
+--mandir)
+	echo "/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/share/man"
+	;;
+--cc)
+	echo "x86_64-apple-darwin13.4.0-clang"
+	;;
+--cflags)
+	echo "-std=gnu11 -Wall -Wextra -Wshorten-64-to-32 -Wsign-compare -Wundef -Wno-format-zero-length -pipe -g3 -O3 -funroll-loops -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/jemalloc_1595331940797/work=/usr/local/src/conda/jemalloc-5.2.1 -fdebug-prefix-map=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8=/usr/local/src/conda-prefix"
+	;;
+--cppflags)
+	echo "-D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9 -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include -D_REENTRANT"
+	;;
+--cxxflags)
+	echo "-Wall -Wextra -g3 -O3 -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0 -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/jemalloc_1595331940797/work=/usr/local/src/conda/jemalloc-5.2.1 -fdebug-prefix-map=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8=/usr/local/src/conda-prefix"
+	;;
+--ldflags)
+	echo "-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib -L/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib "
+	;;
+--libs)
+	echo "-lstdc++ -pthread"
+	;;
+*)
+	usage
+	exit 1
+esac

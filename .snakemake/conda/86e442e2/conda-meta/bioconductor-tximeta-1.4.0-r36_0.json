@@ -1,0 +1,282 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+    "bioconductor-biocfilecache >=1.10.0,<1.11.0",
+    "bioconductor-biostrings >=2.54.0,<2.55.0",
+    "bioconductor-ensembldb >=2.10.0,<2.11.0",
+    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+    "bioconductor-genomicfeatures >=1.38.0,<1.39.0",
+    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+    "bioconductor-tximport >=1.14.0,<1.15.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-jsonlite",
+    "r-rappdirs",
+    "r-tibble"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-tximeta-1.4.0-r36_0",
+  "features": "",
+  "files": [
+    "lib/R/library/tximeta/CITATION",
+    "lib/R/library/tximeta/DESCRIPTION",
+    "lib/R/library/tximeta/INDEX",
+    "lib/R/library/tximeta/Meta/Rd.rds",
+    "lib/R/library/tximeta/Meta/features.rds",
+    "lib/R/library/tximeta/Meta/hsearch.rds",
+    "lib/R/library/tximeta/Meta/links.rds",
+    "lib/R/library/tximeta/Meta/nsInfo.rds",
+    "lib/R/library/tximeta/Meta/package.rds",
+    "lib/R/library/tximeta/Meta/vignette.rds",
+    "lib/R/library/tximeta/NAMESPACE",
+    "lib/R/library/tximeta/NEWS",
+    "lib/R/library/tximeta/R/tximeta",
+    "lib/R/library/tximeta/R/tximeta.rdb",
+    "lib/R/library/tximeta/R/tximeta.rdx",
+    "lib/R/library/tximeta/doc/index.html",
+    "lib/R/library/tximeta/doc/tximeta.R",
+    "lib/R/library/tximeta/doc/tximeta.Rmd",
+    "lib/R/library/tximeta/doc/tximeta.html",
+    "lib/R/library/tximeta/extdata/hashtable.csv",
+    "lib/R/library/tximeta/help/AnIndex",
+    "lib/R/library/tximeta/help/aliases.rds",
+    "lib/R/library/tximeta/help/paths.rds",
+    "lib/R/library/tximeta/help/tximeta.rdb",
+    "lib/R/library/tximeta/help/tximeta.rdx",
+    "lib/R/library/tximeta/html/00Index.html",
+    "lib/R/library/tximeta/html/R.css",
+    "lib/R/library/tximeta/script/README.md",
+    "lib/R/library/tximeta/script/metatximeta.R"
+  ],
+  "fn": "bioconductor-tximeta-1.4.0-r36_0.tar.bz2",
+  "license": "GPL-2",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-tximeta-1.4.0-r36_0",
+    "type": 1
+  },
+  "md5": "2019f819f9aa87292038aa84747d60e4",
+  "name": "bioconductor-tximeta",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-tximeta-1.4.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/tximeta/CITATION",
+        "path_type": "hardlink",
+        "sha256": "1f02e3cae9a49ffcab0921ca5eaf37d9abdba0c263d0abbeb0010e68072ec960",
+        "sha256_in_prefix": "1f02e3cae9a49ffcab0921ca5eaf37d9abdba0c263d0abbeb0010e68072ec960",
+        "size_in_bytes": 893
+      },
+      {
+        "_path": "lib/R/library/tximeta/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "f023812863b9a2ab2d6de53a26956faac33aec94ecd0a496ac4a48dcf7e2bbb4",
+        "sha256_in_prefix": "f023812863b9a2ab2d6de53a26956faac33aec94ecd0a496ac4a48dcf7e2bbb4",
+        "size_in_bytes": 1660
+      },
+      {
+        "_path": "lib/R/library/tximeta/INDEX",
+        "path_type": "hardlink",
+        "sha256": "48dba626a108b1d9326c092b3d652527d15097f1fa796293535a6c41c3702669",
+        "sha256_in_prefix": "48dba626a108b1d9326c092b3d652527d15097f1fa796293535a6c41c3702669",
+        "size_in_bytes": 623
+      },
+      {
+        "_path": "lib/R/library/tximeta/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "80c6f99dcaa6cac11388d5cc1830fde5b5880dd34ab0d759bbb7880dce504813",
+        "sha256_in_prefix": "80c6f99dcaa6cac11388d5cc1830fde5b5880dd34ab0d759bbb7880dce504813",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "lib/R/library/tximeta/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/tximeta/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "45514e1c23ecd1421187dae551c655d05c07a0e07492d1c237a5734f16c04f21",
+        "sha256_in_prefix": "45514e1c23ecd1421187dae551c655d05c07a0e07492d1c237a5734f16c04f21",
+        "size_in_bytes": 552
+      },
+      {
+        "_path": "lib/R/library/tximeta/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "02b867aafceeab0b66d249f9d80dbdc1bcb046ccf9cc9a45dd3d11cef90542e7",
+        "sha256_in_prefix": "02b867aafceeab0b66d249f9d80dbdc1bcb046ccf9cc9a45dd3d11cef90542e7",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/tximeta/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d8cb433314cb5ced198ec3f5b1bfb70d94219ada24ca6f5e7edad75f460506c6",
+        "sha256_in_prefix": "d8cb433314cb5ced198ec3f5b1bfb70d94219ada24ca6f5e7edad75f460506c6",
+        "size_in_bytes": 749
+      },
+      {
+        "_path": "lib/R/library/tximeta/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "2e6a38a242c62e6916febd33e80cd6964e9a8a195b966921b3018e6a1d9000d6",
+        "sha256_in_prefix": "2e6a38a242c62e6916febd33e80cd6964e9a8a195b966921b3018e6a1d9000d6",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "lib/R/library/tximeta/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "d6b5e439426021b3671d68fd8973805024874e5a5d4ce0cadaa17b22d074f69a",
+        "sha256_in_prefix": "d6b5e439426021b3671d68fd8973805024874e5a5d4ce0cadaa17b22d074f69a",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "lib/R/library/tximeta/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "ec24c83b4024fc3e4632c2416d105cc1e2bd1d0e9ea6ccd6fc5dece13b4e2ef8",
+        "sha256_in_prefix": "ec24c83b4024fc3e4632c2416d105cc1e2bd1d0e9ea6ccd6fc5dece13b4e2ef8",
+        "size_in_bytes": 1752
+      },
+      {
+        "_path": "lib/R/library/tximeta/NEWS",
+        "path_type": "hardlink",
+        "sha256": "882318cc5e64c355548ce4f1bc51036c6414f1aba94a97af885c584b391be7d9",
+        "sha256_in_prefix": "882318cc5e64c355548ce4f1bc51036c6414f1aba94a97af885c584b391be7d9",
+        "size_in_bytes": 2083
+      },
+      {
+        "_path": "lib/R/library/tximeta/R/tximeta",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/tximeta/R/tximeta.rdb",
+        "path_type": "hardlink",
+        "sha256": "b3769d6c08095b877170953d7f54976a9dbb5819745ed72e9d7fe11a0ddf83b7",
+        "sha256_in_prefix": "b3769d6c08095b877170953d7f54976a9dbb5819745ed72e9d7fe11a0ddf83b7",
+        "size_in_bytes": 58383
+      },
+      {
+        "_path": "lib/R/library/tximeta/R/tximeta.rdx",
+        "path_type": "hardlink",
+        "sha256": "f7fbb3290ea5d7b5d4e1e77342b134148065aa1336774ac042858242739c408e",
+        "sha256_in_prefix": "f7fbb3290ea5d7b5d4e1e77342b134148065aa1336774ac042858242739c408e",
+        "size_in_bytes": 744
+      },
+      {
+        "_path": "lib/R/library/tximeta/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "40d71b786f79e1ef0e58a95560575c7b98f4b2b266dfa1dd7464e276afc1caac",
+        "sha256_in_prefix": "40d71b786f79e1ef0e58a95560575c7b98f4b2b266dfa1dd7464e276afc1caac",
+        "size_in_bytes": 1369
+      },
+      {
+        "_path": "lib/R/library/tximeta/doc/tximeta.R",
+        "path_type": "hardlink",
+        "sha256": "a7110e9cfa3b80b3a9a007b18c4f9c8bf417251fea6124e140d59b37a0bf84ed",
+        "sha256_in_prefix": "a7110e9cfa3b80b3a9a007b18c4f9c8bf417251fea6124e140d59b37a0bf84ed",
+        "size_in_bytes": 7353
+      },
+      {
+        "_path": "lib/R/library/tximeta/doc/tximeta.Rmd",
+        "path_type": "hardlink",
+        "sha256": "fe730010c60dc5ae5b94aa654578edd09f4ae55e56bd51f983c460a27ee60854",
+        "sha256_in_prefix": "fe730010c60dc5ae5b94aa654578edd09f4ae55e56bd51f983c460a27ee60854",
+        "size_in_bytes": 24244
+      },
+      {
+        "_path": "lib/R/library/tximeta/doc/tximeta.html",
+        "path_type": "hardlink",
+        "sha256": "fa7f434c1b3fb354932dc7864ff570066d6a96d5e4f8869b604834b65f313fa6",
+        "sha256_in_prefix": "fa7f434c1b3fb354932dc7864ff570066d6a96d5e4f8869b604834b65f313fa6",
+        "size_in_bytes": 885840
+      },
+      {
+        "_path": "lib/R/library/tximeta/extdata/hashtable.csv",
+        "path_type": "hardlink",
+        "sha256": "5fb20c8bed28d5343122b581d520d7f42f795633d06c3aefc99e1d19d71788df",
+        "sha256_in_prefix": "5fb20c8bed28d5343122b581d520d7f42f795633d06c3aefc99e1d19d71788df",
+        "size_in_bytes": 60364
+      },
+      {
+        "_path": "lib/R/library/tximeta/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "6a17bd41c9493317414bfa47215d773b95d2b0a59caedfb7ae249d481f1a96bc",
+        "sha256_in_prefix": "6a17bd41c9493317414bfa47215d773b95d2b0a59caedfb7ae249d481f1a96bc",
+        "size_in_bytes": 244
+      },
+      {
+        "_path": "lib/R/library/tximeta/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "6ebbbdebbb4745f52dfc485ae0c0ce427d0eb8769d6335b254c9bfb460289b2b",
+        "sha256_in_prefix": "6ebbbdebbb4745f52dfc485ae0c0ce427d0eb8769d6335b254c9bfb460289b2b",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/R/library/tximeta/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "e3e317f94bfa3ba58e7aaf9a78713e3f3fd9b98ec20baf006ad4de90890255e7",
+        "sha256_in_prefix": "e3e317f94bfa3ba58e7aaf9a78713e3f3fd9b98ec20baf006ad4de90890255e7",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "lib/R/library/tximeta/help/tximeta.rdb",
+        "path_type": "hardlink",
+        "sha256": "e7c98bbc1d19510e639a13aa60202a04bf12b3c904aab985520ed6e7dd8a0cb1",
+        "sha256_in_prefix": "e7c98bbc1d19510e639a13aa60202a04bf12b3c904aab985520ed6e7dd8a0cb1",
+        "size_in_bytes": 17195
+      },
+      {
+        "_path": "lib/R/library/tximeta/help/tximeta.rdx",
+        "path_type": "hardlink",
+        "sha256": "2b5fae9546d4d1a79db8ca2335ec9061b134803d6c38158a51d23fdbaa46d623",
+        "sha256_in_prefix": "2b5fae9546d4d1a79db8ca2335ec9061b134803d6c38158a51d23fdbaa46d623",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "lib/R/library/tximeta/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "0a5d9ce3eb33ccfa502e002241f4220c183b8c801a026fc51ca82d156a9e9f5a",
+        "sha256_in_prefix": "0a5d9ce3eb33ccfa502e002241f4220c183b8c801a026fc51ca82d156a9e9f5a",
+        "size_in_bytes": 2451
+      },
+      {
+        "_path": "lib/R/library/tximeta/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/tximeta/script/README.md",
+        "path_type": "hardlink",
+        "sha256": "214ac7711e8210b37ce3fc5225905a68220ed0fb333a0756462a1650f7dc296d",
+        "sha256_in_prefix": "214ac7711e8210b37ce3fc5225905a68220ed0fb333a0756462a1650f7dc296d",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "lib/R/library/tximeta/script/metatximeta.R",
+        "path_type": "hardlink",
+        "sha256": "8fd3b185dde308ccc0478d345f4c104a3d0655f844ade129529529e4f4e6a4f2",
+        "sha256_in_prefix": "8fd3b185dde308ccc0478d345f4c104a3d0655f844ade129529529e4f4e6a4f2",
+        "size_in_bytes": 4138
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconductor-tximeta=1.4.0",
+  "sha256": "3477864a90cea27111be86b0f68ae0114e5526a47deca301f58f2a98a673c8e2",
+  "size": 390317,
+  "subdir": "noarch",
+  "timestamp": 1572899234958,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-tximeta-1.4.0-r36_0.tar.bz2",
+  "version": "1.4.0"
+}

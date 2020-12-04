@@ -1,0 +1,192 @@
+{
+  "build": "r36h6115d3f_1003",
+  "build_number": 1003,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-futile.options",
+    "r-lambda.r >=1.1.0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-futile.logger-1.4.3-r36h6115d3f_1003",
+  "features": "",
+  "files": [
+    "lib/R/library/futile.logger/DESCRIPTION",
+    "lib/R/library/futile.logger/INDEX",
+    "lib/R/library/futile.logger/Meta/Rd.rds",
+    "lib/R/library/futile.logger/Meta/features.rds",
+    "lib/R/library/futile.logger/Meta/hsearch.rds",
+    "lib/R/library/futile.logger/Meta/links.rds",
+    "lib/R/library/futile.logger/Meta/nsInfo.rds",
+    "lib/R/library/futile.logger/Meta/package.rds",
+    "lib/R/library/futile.logger/NAMESPACE",
+    "lib/R/library/futile.logger/R/futile.logger",
+    "lib/R/library/futile.logger/R/futile.logger.rdb",
+    "lib/R/library/futile.logger/R/futile.logger.rdx",
+    "lib/R/library/futile.logger/help/AnIndex",
+    "lib/R/library/futile.logger/help/aliases.rds",
+    "lib/R/library/futile.logger/help/futile.logger.rdb",
+    "lib/R/library/futile.logger/help/futile.logger.rdx",
+    "lib/R/library/futile.logger/help/paths.rds",
+    "lib/R/library/futile.logger/html/00Index.html",
+    "lib/R/library/futile.logger/html/R.css"
+  ],
+  "fn": "r-futile.logger-1.4.3-r36h6115d3f_1003.tar.bz2",
+  "license": "LGPL-3.0-only",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-futile.logger-1.4.3-r36h6115d3f_1003",
+    "type": 1
+  },
+  "md5": "630c15a838114d2a09a3fab15bf436ab",
+  "name": "r-futile.logger",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-futile.logger-1.4.3-r36h6115d3f_1003.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/futile.logger/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "065f26a8763225e0b167240f2656c5d3f42766334de3da0d6537f516add6fafb",
+        "sha256_in_prefix": "065f26a8763225e0b167240f2656c5d3f42766334de3da0d6537f516add6fafb",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "lib/R/library/futile.logger/INDEX",
+        "path_type": "hardlink",
+        "sha256": "e72b17b73c778100f4946239ce1e5e35a546100166eef711296ab15eb4673912",
+        "sha256_in_prefix": "e72b17b73c778100f4946239ce1e5e35a546100166eef711296ab15eb4673912",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "lib/R/library/futile.logger/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "6c03476701ff9c831ce2528315e993c3256372fc4aca955a5f2aa9b25dfb4a69",
+        "sha256_in_prefix": "6c03476701ff9c831ce2528315e993c3256372fc4aca955a5f2aa9b25dfb4a69",
+        "size_in_bytes": 702
+      },
+      {
+        "_path": "lib/R/library/futile.logger/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/futile.logger/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "4d659b00d68b1ca6c3f18f8f1cfb26b936040d4ec8a8f97946e95cdfc424279e",
+        "sha256_in_prefix": "4d659b00d68b1ca6c3f18f8f1cfb26b936040d4ec8a8f97946e95cdfc424279e",
+        "size_in_bytes": 827
+      },
+      {
+        "_path": "lib/R/library/futile.logger/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "6fb656636a77df9ee5fadd9f431440e068f1441e6756d2bd09b316c5513770fa",
+        "sha256_in_prefix": "6fb656636a77df9ee5fadd9f431440e068f1441e6756d2bd09b316c5513770fa",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "lib/R/library/futile.logger/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "755daf78503f725cd848189f6a46a648fe653385f8375016faed5a6b5017336c",
+        "sha256_in_prefix": "755daf78503f725cd848189f6a46a648fe653385f8375016faed5a6b5017336c",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "lib/R/library/futile.logger/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "57c962a2b48ccf0937b1cbfe743f38f3f7f7ee93b538d398b0d24a8d84b6b3b4",
+        "sha256_in_prefix": "57c962a2b48ccf0937b1cbfe743f38f3f7f7ee93b538d398b0d24a8d84b6b3b4",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "lib/R/library/futile.logger/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "ec29e2540acf4ffe737af7491ea12c179841995a19bb6a30ebdb9cb1b5a1cbc9",
+        "sha256_in_prefix": "ec29e2540acf4ffe737af7491ea12c179841995a19bb6a30ebdb9cb1b5a1cbc9",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/R/library/futile.logger/R/futile.logger",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/futile.logger/R/futile.logger.rdb",
+        "path_type": "hardlink",
+        "sha256": "1f57de855e84e0bf36585b310cd3b5d196eb2e410d1296d0dff3ea349e2aee73",
+        "sha256_in_prefix": "1f57de855e84e0bf36585b310cd3b5d196eb2e410d1296d0dff3ea349e2aee73",
+        "size_in_bytes": 76419
+      },
+      {
+        "_path": "lib/R/library/futile.logger/R/futile.logger.rdx",
+        "path_type": "hardlink",
+        "sha256": "758a6a6d3e05f0ae19c95c808c558ef4aa44111829d0743fb97aa181e20b7d2f",
+        "sha256_in_prefix": "758a6a6d3e05f0ae19c95c808c558ef4aa44111829d0743fb97aa181e20b7d2f",
+        "size_in_bytes": 1581
+      },
+      {
+        "_path": "lib/R/library/futile.logger/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "83272697c57a8e328fd9b7ebaa0f5e84c7bfff699dc38193f315015693d9199b",
+        "sha256_in_prefix": "83272697c57a8e328fd9b7ebaa0f5e84c7bfff699dc38193f315015693d9199b",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "lib/R/library/futile.logger/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "95b1c9ef3fdb0d7a16d33d908b31e59936f6022b0cb62cd72c1e9e423c170c52",
+        "sha256_in_prefix": "95b1c9ef3fdb0d7a16d33d908b31e59936f6022b0cb62cd72c1e9e423c170c52",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "lib/R/library/futile.logger/help/futile.logger.rdb",
+        "path_type": "hardlink",
+        "sha256": "bde03746d5704c07220a353523cb20bb9aa40af50684444b414cf9ce51d665c9",
+        "sha256_in_prefix": "bde03746d5704c07220a353523cb20bb9aa40af50684444b414cf9ce51d665c9",
+        "size_in_bytes": 25626
+      },
+      {
+        "_path": "lib/R/library/futile.logger/help/futile.logger.rdx",
+        "path_type": "hardlink",
+        "sha256": "7c91cae1d97a155481c8222e0d57fd746ff40fa001e74fdf72d788db762bd6fc",
+        "sha256_in_prefix": "7c91cae1d97a155481c8222e0d57fd746ff40fa001e74fdf72d788db762bd6fc",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "lib/R/library/futile.logger/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "3df646d681528da9bdd04fa59f378d29902b04f7362e1ad628c8351517a5daac",
+        "sha256_in_prefix": "3df646d681528da9bdd04fa59f378d29902b04f7362e1ad628c8351517a5daac",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/R/library/futile.logger/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "5acf3e5b87a79b79e14b4536849dad86822b2ccc6af12cd6a660ac94e7d9a90b",
+        "sha256_in_prefix": "5acf3e5b87a79b79e14b4536849dad86822b2ccc6af12cd6a660ac94e7d9a90b",
+        "size_in_bytes": 4652
+      },
+      {
+        "_path": "lib/R/library/futile.logger/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c561f64b2f6e916d913f988bfdebc7511f176d2ae914dea651c245a4bbf3e05b",
+  "size": 110579,
+  "subdir": "noarch",
+  "timestamp": 1588561804431,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-futile.logger-1.4.3-r36h6115d3f_1003.tar.bz2",
+  "version": "1.4.3"
+}

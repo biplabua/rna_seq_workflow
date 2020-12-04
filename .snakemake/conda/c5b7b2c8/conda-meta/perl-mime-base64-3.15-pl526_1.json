@@ -1,0 +1,72 @@
+{
+  "build": "pl526_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0",
+    "perl-xsloader"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/perl-mime-base64-3.15-pl526_1",
+  "features": "",
+  "files": [
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/MIME/Base64.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/MIME/QuotedPrint.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/MIME/Base64/.packlist",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/MIME/Base64/Base64.bundle"
+  ],
+  "fn": "perl-mime-base64-3.15-pl526_1.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/perl-mime-base64-3.15-pl526_1",
+    "type": 1
+  },
+  "md5": "cd9f076249ffcaac86f113c9640e0bd8",
+  "name": "perl-mime-base64",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/perl-mime-base64-3.15-pl526_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/MIME/Base64.pm",
+        "path_type": "hardlink",
+        "sha256": "91498dfbc6bd12dc65c54cd637793cd3c5183598f16e2340656310a30c28d0ab",
+        "sha256_in_prefix": "91498dfbc6bd12dc65c54cd637793cd3c5183598f16e2340656310a30c28d0ab",
+        "size_in_bytes": 5450
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/MIME/QuotedPrint.pm",
+        "path_type": "hardlink",
+        "sha256": "c28ca1088145029ee83e44257306565889a87a4275eee54260fb19bdccc5b5c7",
+        "sha256_in_prefix": "c28ca1088145029ee83e44257306565889a87a4275eee54260fb19bdccc5b5c7",
+        "size_in_bytes": 3290
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/MIME/Base64/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "ec0675af1cd49def0acad828c2c33fc9baf5ce982bc776f954f0dfb14334f254",
+        "sha256_in_prefix": "17c8ad7d3ea2de95d892bae0dbad7266fe1a4c0371ced040a72c84dbfec90107",
+        "size_in_bytes": 650
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/MIME/Base64/Base64.bundle",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/distiller/project/miniconda/conda-bld/perl-mime-base64_1531054478740/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "383b43e535f1eb2c6260da1fde9631c209bbe7edd245c13d961b742a39e17034",
+        "sha256_in_prefix": "a8db4d081585f0c2777042bf27dfb96a184c5970c8d3615ae038d5483f7ffc4a",
+        "size_in_bytes": 18328
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a36e663001fc817cd33d33bc80718224db08e1d10ff28e069fb3642ebe4599d5",
+  "size": 14021,
+  "subdir": "osx-64",
+  "timestamp": 1531054502826,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/perl-mime-base64-3.15-pl526_1.tar.bz2",
+  "version": "3.15"
+}

@@ -1,0 +1,239 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-lazyeval"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-annotationfilter-1.10.0-r36_0",
+  "features": "",
+  "files": [
+    "lib/R/library/AnnotationFilter/DESCRIPTION",
+    "lib/R/library/AnnotationFilter/INDEX",
+    "lib/R/library/AnnotationFilter/Meta/Rd.rds",
+    "lib/R/library/AnnotationFilter/Meta/features.rds",
+    "lib/R/library/AnnotationFilter/Meta/hsearch.rds",
+    "lib/R/library/AnnotationFilter/Meta/links.rds",
+    "lib/R/library/AnnotationFilter/Meta/nsInfo.rds",
+    "lib/R/library/AnnotationFilter/Meta/package.rds",
+    "lib/R/library/AnnotationFilter/Meta/vignette.rds",
+    "lib/R/library/AnnotationFilter/NAMESPACE",
+    "lib/R/library/AnnotationFilter/NEWS",
+    "lib/R/library/AnnotationFilter/R/AnnotationFilter",
+    "lib/R/library/AnnotationFilter/R/AnnotationFilter.rdb",
+    "lib/R/library/AnnotationFilter/R/AnnotationFilter.rdx",
+    "lib/R/library/AnnotationFilter/doc/AnnotationFilter.R",
+    "lib/R/library/AnnotationFilter/doc/AnnotationFilter.Rmd",
+    "lib/R/library/AnnotationFilter/doc/AnnotationFilter.html",
+    "lib/R/library/AnnotationFilter/doc/index.html",
+    "lib/R/library/AnnotationFilter/help/AnIndex",
+    "lib/R/library/AnnotationFilter/help/AnnotationFilter.rdb",
+    "lib/R/library/AnnotationFilter/help/AnnotationFilter.rdx",
+    "lib/R/library/AnnotationFilter/help/aliases.rds",
+    "lib/R/library/AnnotationFilter/help/paths.rds",
+    "lib/R/library/AnnotationFilter/html/00Index.html",
+    "lib/R/library/AnnotationFilter/html/R.css"
+  ],
+  "fn": "bioconductor-annotationfilter-1.10.0-r36_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-annotationfilter-1.10.0-r36_0",
+    "type": 1
+  },
+  "md5": "c69302cfbb9acfb51ba42b7d08aaae71",
+  "name": "bioconductor-annotationfilter",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-annotationfilter-1.10.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/AnnotationFilter/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "7569996debfde4d229e4b5945a49684457194bc23a2564ced649a7f866888bd5",
+        "sha256_in_prefix": "7569996debfde4d229e4b5945a49684457194bc23a2564ced649a7f866888bd5",
+        "size_in_bytes": 1834
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/INDEX",
+        "path_type": "hardlink",
+        "sha256": "8cc0b0cee33338c066d0fb6587ecda3831e8692c9f90d54aed1b9c7da29d1448",
+        "sha256_in_prefix": "8cc0b0cee33338c066d0fb6587ecda3831e8692c9f90d54aed1b9c7da29d1448",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "f07482669d79bd32548c0cbb29a3eae871e59930845e177ee9afac6f94024a23",
+        "sha256_in_prefix": "f07482669d79bd32548c0cbb29a3eae871e59930845e177ee9afac6f94024a23",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "7654d350056cab1c36b164e66fe8788cf5170550766f89c040250116672c1398",
+        "sha256_in_prefix": "7654d350056cab1c36b164e66fe8788cf5170550766f89c040250116672c1398",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "e69445721a6ec7e8f31add7cb16a0a34318eadda2079299b42163db3a29a1ad9",
+        "sha256_in_prefix": "e69445721a6ec7e8f31add7cb16a0a34318eadda2079299b42163db3a29a1ad9",
+        "size_in_bytes": 718
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d3e8fe728f1db41508cfa026612d3f2b5269eab38a3546701bee7a4453f84771",
+        "sha256_in_prefix": "d3e8fe728f1db41508cfa026612d3f2b5269eab38a3546701bee7a4453f84771",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "e40ec813c1566398c5aeb6ecbee53857cf2ec2fafea508fe08c05bda80a9dde3",
+        "sha256_in_prefix": "e40ec813c1566398c5aeb6ecbee53857cf2ec2fafea508fe08c05bda80a9dde3",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "0395040995c9df04b6a5d8356d3a278a37643e9c81811c0594c2523f360c51be",
+        "sha256_in_prefix": "0395040995c9df04b6a5d8356d3a278a37643e9c81811c0594c2523f360c51be",
+        "size_in_bytes": 273
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "fbef4ab5d797eff510e82ddc1f559682bcbef2e17314daf03611aa7676846f52",
+        "sha256_in_prefix": "fbef4ab5d797eff510e82ddc1f559682bcbef2e17314daf03611aa7676846f52",
+        "size_in_bytes": 2142
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/NEWS",
+        "path_type": "hardlink",
+        "sha256": "dddcc0bf817ec62464d27f4fce3b584610c8ab60ca2fcd9bb396c69850c7de99",
+        "sha256_in_prefix": "dddcc0bf817ec62464d27f4fce3b584610c8ab60ca2fcd9bb396c69850c7de99",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/R/AnnotationFilter",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/R/AnnotationFilter.rdb",
+        "path_type": "hardlink",
+        "sha256": "90678f88050122056f0da7808125b67e4124e0763a25a6ec0129c7e920a12cfe",
+        "sha256_in_prefix": "90678f88050122056f0da7808125b67e4124e0763a25a6ec0129c7e920a12cfe",
+        "size_in_bytes": 204176
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/R/AnnotationFilter.rdx",
+        "path_type": "hardlink",
+        "sha256": "7869448c0a09e808c2d50665af787453cf7855a56cbba1fd5f4505df675e50aa",
+        "sha256_in_prefix": "7869448c0a09e808c2d50665af787453cf7855a56cbba1fd5f4505df675e50aa",
+        "size_in_bytes": 2287
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/doc/AnnotationFilter.R",
+        "path_type": "hardlink",
+        "sha256": "251e2fac8b171e1bb2d7cd0ea044bc271c77f5f75bd5151cc5d1e79b814aee9a",
+        "sha256_in_prefix": "251e2fac8b171e1bb2d7cd0ea044bc271c77f5f75bd5151cc5d1e79b814aee9a",
+        "size_in_bytes": 5103
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/doc/AnnotationFilter.Rmd",
+        "path_type": "hardlink",
+        "sha256": "4d610c8605111540d15d7a60bfb6f48d4351fd98bd8f4029aec92c2ec33b1382",
+        "sha256_in_prefix": "4d610c8605111540d15d7a60bfb6f48d4351fd98bd8f4029aec92c2ec33b1382",
+        "size_in_bytes": 15868
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/doc/AnnotationFilter.html",
+        "path_type": "hardlink",
+        "sha256": "951a9680648042587ede8bb26e93d661495fc293add931968b2425e94e6d6db8",
+        "sha256_in_prefix": "951a9680648042587ede8bb26e93d661495fc293add931968b2425e94e6d6db8",
+        "size_in_bytes": 898433
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "f08724e8bc5ef9f19df4c67c93ad715ca0b1ca33062f77aa43bde6490ed8c64d",
+        "sha256_in_prefix": "f08724e8bc5ef9f19df4c67c93ad715ca0b1ca33062f77aa43bde6490ed8c64d",
+        "size_in_bytes": 1470
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "f2076f7afb5e522f5f0bcb9ffa029e9208a23912965fd9ed0238891de8c2e735",
+        "sha256_in_prefix": "f2076f7afb5e522f5f0bcb9ffa029e9208a23912965fd9ed0238891de8c2e735",
+        "size_in_bytes": 3160
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/help/AnnotationFilter.rdb",
+        "path_type": "hardlink",
+        "sha256": "c50cd8846a610bbda1f9f3a84ccef868a2e3563e095badc45cb51ec2ffc6c71c",
+        "sha256_in_prefix": "c50cd8846a610bbda1f9f3a84ccef868a2e3563e095badc45cb51ec2ffc6c71c",
+        "size_in_bytes": 18344
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/help/AnnotationFilter.rdx",
+        "path_type": "hardlink",
+        "sha256": "e1a99da91d1b317653e7a84c960a35c8a580ae7c7b70521a7c5bf51ee8c372f9",
+        "sha256_in_prefix": "e1a99da91d1b317653e7a84c960a35c8a580ae7c7b70521a7c5bf51ee8c372f9",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "2ba0950c25d136927e855a0f10aa97381a3bd66da75e90c36d8693f0dc7b7d0e",
+        "sha256_in_prefix": "2ba0950c25d136927e855a0f10aa97381a3bd66da75e90c36d8693f0dc7b7d0e",
+        "size_in_bytes": 698
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "7e28035beb5b5e9a4fe5e3247662b7c275f7ec7c76449c70abd7124b2535ce4d",
+        "sha256_in_prefix": "7e28035beb5b5e9a4fe5e3247662b7c275f7ec7c76449c70abd7124b2535ce4d",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "8bf326a82381065e6164be4050d541eaca3c7b96cc96c64eb74475fd93b3a33c",
+        "sha256_in_prefix": "8bf326a82381065e6164be4050d541eaca3c7b96cc96c64eb74475fd93b3a33c",
+        "size_in_bytes": 11608
+      },
+      {
+        "_path": "lib/R/library/AnnotationFilter/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "765e0f573b14717de3f0155c069cee44f6212578e303801010ce4c52eaa329b1",
+  "size": 509329,
+  "subdir": "noarch",
+  "timestamp": 1572801473307,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-annotationfilter-1.10.0-r36_0.tar.bz2",
+  "version": "1.10.0"
+}

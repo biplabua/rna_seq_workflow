@@ -1,0 +1,42 @@
+Deprecated              Deprecated functionality
+EnsDb                   Connect to an EnsDb object
+EnsDb-class             Basic usage of an Ensembl based annotation
+                        database
+Filter-classes          Filters supported by ensembldb
+addFilter,EnsDb-method
+                        Globally add filters to an EnsDb database
+cdsToTranscript         Map positions within the CDS to coordinates
+                        relative to the start of the transcript
+convertFilter,AnnotationFilter,EnsDb-method
+                        Convert an AnnotationFilter to a SQL WHERE
+                        condition for EnsDb
+exonsBy                 Retrieve annotation data from an Ensembl based
+                        package
+genomeToProtein         Map genomic coordinates to protein coordinates
+genomeToTranscript      Map genomic coordinates to transcript
+                        coordinates
+getGeneRegionTrackForGviz
+                        Utility functions
+getGenomeFaFile         Functionality related to DNA/RNA sequences
+hasProteinData,EnsDb-method
+                        Determine whether protein data is available in
+                        the database
+lengthOf                Calculating lengths of features
+listEnsDbs              List EnsDb databases in a MariaDB/MySQL server
+makeEnsembldbPackage    Generating a Ensembl annotation package from
+                        Ensembl
+proteinToGenome         Map within-protein coordinates to genomic
+                        coordinates
+proteinToTranscript     Map protein-relative coordinates to positions
+                        within the transcript
+proteins,EnsDb-method   Protein related functionality
+runEnsDbApp             Search annotations interactively
+select                  Integration into the AnnotationDbi framework
+seqlevelsStyle          Support for other than Ensembl seqlevel style
+transcriptToCds         Map transcript-relative coordinates to
+                        positions within the CDS
+transcriptToGenome      Map transcript-relative coordinates to genomic
+                        coordinates
+transcriptToProtein     Map transcript-relative coordinates to amino
+                        acid residues of the encoded protein
+useMySQL,EnsDb-method   Use a MariaDB/MySQL backend

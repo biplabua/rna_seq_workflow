@@ -1,0 +1,110 @@
+{
+  "build": "h9ce4665_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0.a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/tapi-1100.0.11-h9ce4665_0",
+  "features": "",
+  "files": [
+    "include/tapi/APIVersion.h",
+    "include/tapi/Defines.h",
+    "include/tapi/LinkerInterfaceFile.h",
+    "include/tapi/PackedVersion32.h",
+    "include/tapi/Symbol.h",
+    "include/tapi/Version.h",
+    "include/tapi/Version.inc",
+    "include/tapi/tapi.h",
+    "lib/libtapi.dylib"
+  ],
+  "fn": "tapi-1100.0.11-h9ce4665_0.tar.bz2",
+  "license": "NCSA",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/tapi-1100.0.11-h9ce4665_0",
+    "type": 1
+  },
+  "md5": "f9ff42ccf809a21ba6f8607f8de36108",
+  "name": "tapi",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/tapi-1100.0.11-h9ce4665_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/tapi/APIVersion.h",
+        "path_type": "hardlink",
+        "sha256": "ca63453c8ed3378cbfe89aeee2a8cf5327dfd3052991598287022d062eb2b9f5",
+        "sha256_in_prefix": "ca63453c8ed3378cbfe89aeee2a8cf5327dfd3052991598287022d062eb2b9f5",
+        "size_in_bytes": 3077
+      },
+      {
+        "_path": "include/tapi/Defines.h",
+        "path_type": "hardlink",
+        "sha256": "5b99f9c0097e92d34ed3544dc5060e15e0a1ecb480ebe82623dbac82d1905ade",
+        "sha256_in_prefix": "5b99f9c0097e92d34ed3544dc5060e15e0a1ecb480ebe82623dbac82d1905ade",
+        "size_in_bytes": 886
+      },
+      {
+        "_path": "include/tapi/LinkerInterfaceFile.h",
+        "path_type": "hardlink",
+        "sha256": "5f56716fd4a3c776efca0f9f1f07ce94a8a8daf1431eb980ea9921f32c749359",
+        "sha256_in_prefix": "5f56716fd4a3c776efca0f9f1f07ce94a8a8daf1431eb980ea9921f32c749359",
+        "size_in_bytes": 15155
+      },
+      {
+        "_path": "include/tapi/PackedVersion32.h",
+        "path_type": "hardlink",
+        "sha256": "163a0b75a3bcee9eda687065a99d94efd4e2fb5b954b00b2bf846910b6f70fe9",
+        "sha256_in_prefix": "163a0b75a3bcee9eda687065a99d94efd4e2fb5b954b00b2bf846910b6f70fe9",
+        "size_in_bytes": 2636
+      },
+      {
+        "_path": "include/tapi/Symbol.h",
+        "path_type": "hardlink",
+        "sha256": "5f696c7bb27813edbbcd76613764830f7e63adf205c5b92536b928016a718862",
+        "sha256_in_prefix": "5f696c7bb27813edbbcd76613764830f7e63adf205c5b92536b928016a718862",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "include/tapi/Version.h",
+        "path_type": "hardlink",
+        "sha256": "b9b9143965f243ef1ffb44482caceb81c3de7833b95cc7f96649e9f11f3a5cf1",
+        "sha256_in_prefix": "b9b9143965f243ef1ffb44482caceb81c3de7833b95cc7f96649e9f11f3a5cf1",
+        "size_in_bytes": 2470
+      },
+      {
+        "_path": "include/tapi/Version.inc",
+        "path_type": "hardlink",
+        "sha256": "5787ac03464ceda32f420e464163b203dd7757b453169cf423fac7645fce9064",
+        "sha256_in_prefix": "5787ac03464ceda32f420e464163b203dd7757b453169cf423fac7645fce9064",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "include/tapi/tapi.h",
+        "path_type": "hardlink",
+        "sha256": "d737bb5ba430fac02e3807334389db8b018a184d2eebd6878e7dcb47fa817759",
+        "sha256_in_prefix": "d737bb5ba430fac02e3807334389db8b018a184d2eebd6878e7dcb47fa817759",
+        "size_in_bytes": 883
+      },
+      {
+        "_path": "lib/libtapi.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/tapi_1602663145237/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "b39663519dd01b3e78ae68d1a6a300d50250a5b78602e945f24dfa275737acc5",
+        "sha256_in_prefix": "c539d2c27a446bc8ed038a53f785b86a2a3836e4aaa84f30ad98638748ec53f9",
+        "size_in_bytes": 504392
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "34b18ce8d1518b67e333ca1d3af733c3976ecbdf3a36b727f9b4dedddcc588fa",
+  "size": 201044,
+  "subdir": "osx-64",
+  "timestamp": 1602664232074,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/tapi-1100.0.11-h9ce4665_0.tar.bz2",
+  "version": "1100.0.11"
+}

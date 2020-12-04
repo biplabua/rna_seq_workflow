@@ -1,0 +1,50 @@
+Changes in version 1.4.0
++ tximeta will now pull down RefSeq seqinfo, using the
+  dirname() of the GTF location, and assuming some
+  consistency in the structure of the assembly_report.txt
+  that is located in the same directory. Needs more
+  testing though across releases and organisms.
++ expanded caching of ranges to exons and genes as well.
+  Exons in particular take a long time to build from
+  TxDb, so this saves quite a lot of time.
++ new 'addExons' function will add exons to trancript-level
+  summarized experiments, by replacing transcript GRanges
+  with exon-by-transcript GRangesList. Purposely designed
+  only for transcript-level, see note in ?addExons
++ tximeta now also caches the transcript ranges themselves,
+  rather than just the TxDb. This shaves extra seconds off
+  the tximeta() call!
++ add 'skipSeqinfo' argument, which avoids attempting
+  to fetch chromosome information (from UCSC) if set
+  to TRUE.
+
+Changes in version 1.1.18
++ Specifying gene=TRUE in addIds() when rows are
+  transcripts will attempt to use a gene_id column
+  to map the IDs. This usually gives a better mapping
+  rate.
+
+Changes in version 1.1.14
++ Cut off version number from Ensembl names only (not GENCODE)
+
+Changes in version 1.1.13
++ Added 'cleanDuplicateTxps' argument, which does a lot of work
+  for the user: it downloads the FASTA from the source, identifies
+  duplicate transcripts (identical cDNA sequence) then looks to
+  see if transcripts that are in the quantification files,
+  but missing from the GTF, could be renamed from the list of
+  duplicate transcripts such that they would be present in the GTF.
+
+Changes in version 1.1.11
++ Added coding + non-coding combinations of Ensembl transcriptomes
+  to the hash table. Must be in this order: coding, then non-coding.
+
+Changes in version 1.1.9
++ Added support for dammit de novo transcriptomes.
+
+Changes in version 1.1.6
++ Added summarizeToGene as a method, to avoid conflicts with tximport.
+
+Changes in version 1.1.5
++ Added in Charlotte's code to split out GENCODE and Ensembl code
+  for generating transcript ranges.

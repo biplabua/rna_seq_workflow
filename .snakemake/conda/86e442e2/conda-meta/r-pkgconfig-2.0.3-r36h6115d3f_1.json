@@ -1,0 +1,222 @@
+{
+  "build": "r36h6115d3f_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-pkgconfig-2.0.3-r36h6115d3f_1",
+  "features": "",
+  "files": [
+    "lib/R/library/pkgconfig/DESCRIPTION",
+    "lib/R/library/pkgconfig/INDEX",
+    "lib/R/library/pkgconfig/LICENSE",
+    "lib/R/library/pkgconfig/Meta/Rd.rds",
+    "lib/R/library/pkgconfig/Meta/features.rds",
+    "lib/R/library/pkgconfig/Meta/hsearch.rds",
+    "lib/R/library/pkgconfig/Meta/links.rds",
+    "lib/R/library/pkgconfig/Meta/nsInfo.rds",
+    "lib/R/library/pkgconfig/Meta/package.rds",
+    "lib/R/library/pkgconfig/NAMESPACE",
+    "lib/R/library/pkgconfig/NEWS.markdown",
+    "lib/R/library/pkgconfig/R/pkgconfig",
+    "lib/R/library/pkgconfig/R/pkgconfig.rdb",
+    "lib/R/library/pkgconfig/R/pkgconfig.rdx",
+    "lib/R/library/pkgconfig/README.Rmd",
+    "lib/R/library/pkgconfig/README.markdown",
+    "lib/R/library/pkgconfig/help/AnIndex",
+    "lib/R/library/pkgconfig/help/aliases.rds",
+    "lib/R/library/pkgconfig/help/paths.rds",
+    "lib/R/library/pkgconfig/help/pkgconfig.rdb",
+    "lib/R/library/pkgconfig/help/pkgconfig.rdx",
+    "lib/R/library/pkgconfig/html/00Index.html",
+    "lib/R/library/pkgconfig/html/R.css"
+  ],
+  "fn": "r-pkgconfig-2.0.3-r36h6115d3f_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-pkgconfig-2.0.3-r36h6115d3f_1",
+    "type": 1
+  },
+  "md5": "d8c0bd8e2b4de78157be2866e6cc320b",
+  "name": "r-pkgconfig",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-pkgconfig-2.0.3-r36h6115d3f_1.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/pkgconfig/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "c13ca5b30f05626dc6fefb14384641a39cc084752782e8825ac86d303b240239",
+        "sha256_in_prefix": "c13ca5b30f05626dc6fefb14384641a39cc084752782e8825ac86d303b240239",
+        "size_in_bytes": 715
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/INDEX",
+        "path_type": "hardlink",
+        "sha256": "6aba47850f91b22f0cdf1e23b2a6894a9967be04034b0304a95a09bf935f39e9",
+        "sha256_in_prefix": "6aba47850f91b22f0cdf1e23b2a6894a9967be04034b0304a95a09bf935f39e9",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "375d96241b4a2ead695a70ac4f52909d35b164fe1b68dd67e935a7d8f6a47bf7",
+        "sha256_in_prefix": "375d96241b4a2ead695a70ac4f52909d35b164fe1b68dd67e935a7d8f6a47bf7",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "1eec3aaea3bd4b067cbb7bb662044339434b43fdff0c119338bbd30f3ac51f9b",
+        "sha256_in_prefix": "1eec3aaea3bd4b067cbb7bb662044339434b43fdff0c119338bbd30f3ac51f9b",
+        "size_in_bytes": 342
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "8b1ddcc994016a68a3e13dd4724af936d772d0c3dcb63bd1e5bd9e0fd04a358f",
+        "sha256_in_prefix": "8b1ddcc994016a68a3e13dd4724af936d772d0c3dcb63bd1e5bd9e0fd04a358f",
+        "size_in_bytes": 347
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "6ce20a117b34862aa24cdf02de7575cd95d1b596a71015ffd3d7fe6209b52f46",
+        "sha256_in_prefix": "6ce20a117b34862aa24cdf02de7575cd95d1b596a71015ffd3d7fe6209b52f46",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "a73ab89e5f9fa9ade9f1fa5cf42395651d87b66c8f4f3d6f639e1c0651b28d5f",
+        "sha256_in_prefix": "a73ab89e5f9fa9ade9f1fa5cf42395651d87b66c8f4f3d6f639e1c0651b28d5f",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "5714327aef4de8ee1ef6bf1a0a16dc0967b572dff7dca8257ac23b005e2bd25f",
+        "sha256_in_prefix": "5714327aef4de8ee1ef6bf1a0a16dc0967b572dff7dca8257ac23b005e2bd25f",
+        "size_in_bytes": 850
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "b7e504072e91226799de1c3fefc2bdc5be605d462f6f54382c24de8981f0b149",
+        "sha256_in_prefix": "b7e504072e91226799de1c3fefc2bdc5be605d462f6f54382c24de8981f0b149",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/NEWS.markdown",
+        "path_type": "hardlink",
+        "sha256": "d33bc6958285f93c55dc23930b9280416fd929e25c304cb15adddd87b9e345bd",
+        "sha256_in_prefix": "d33bc6958285f93c55dc23930b9280416fd929e25c304cb15adddd87b9e345bd",
+        "size_in_bytes": 643
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/R/pkgconfig",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/R/pkgconfig.rdb",
+        "path_type": "hardlink",
+        "sha256": "22acb9b277975085dc91f26cc035643ea9f3b5cdc09d44b1d8d5362f04dd8acd",
+        "sha256_in_prefix": "22acb9b277975085dc91f26cc035643ea9f3b5cdc09d44b1d8d5362f04dd8acd",
+        "size_in_bytes": 4551
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/R/pkgconfig.rdx",
+        "path_type": "hardlink",
+        "sha256": "8a28c5650fc1a7576fcf18dc10e3ae0cf6b73af31b35f5e77cf11f04912c6891",
+        "sha256_in_prefix": "8a28c5650fc1a7576fcf18dc10e3ae0cf6b73af31b35f5e77cf11f04912c6891",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/README.Rmd",
+        "path_type": "hardlink",
+        "sha256": "1dd4466c1549b978bab20b340b37eba5737bb67966886ed50b0a638d2bbcb318",
+        "sha256_in_prefix": "1dd4466c1549b978bab20b340b37eba5737bb67966886ed50b0a638d2bbcb318",
+        "size_in_bytes": 3594
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/README.markdown",
+        "path_type": "hardlink",
+        "sha256": "1dd4466c1549b978bab20b340b37eba5737bb67966886ed50b0a638d2bbcb318",
+        "sha256_in_prefix": "1dd4466c1549b978bab20b340b37eba5737bb67966886ed50b0a638d2bbcb318",
+        "size_in_bytes": 3594
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "ad7f9e685fb9d1213da025bbcab4454df2fa04e46a3b2543c252a0c942f87c34",
+        "sha256_in_prefix": "ad7f9e685fb9d1213da025bbcab4454df2fa04e46a3b2543c252a0c942f87c34",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "088eb9e5d7e5ce7188e95535d415866aa59ccc2b3962f655879773d3d5b28021",
+        "sha256_in_prefix": "088eb9e5d7e5ce7188e95535d415866aa59ccc2b3962f655879773d3d5b28021",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "f7956a56770a9f3f3e282a990de4c02d6cec51fe1cc40517fb872fe8344e4318",
+        "sha256_in_prefix": "f7956a56770a9f3f3e282a990de4c02d6cec51fe1cc40517fb872fe8344e4318",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/help/pkgconfig.rdb",
+        "path_type": "hardlink",
+        "sha256": "288add20317d0eed0864b1a20270b032d60d788598f8ee54621407318f64cac6",
+        "sha256_in_prefix": "288add20317d0eed0864b1a20270b032d60d788598f8ee54621407318f64cac6",
+        "size_in_bytes": 5528
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/help/pkgconfig.rdx",
+        "path_type": "hardlink",
+        "sha256": "101def70bcdcf81baeb9615f1fa31e3a35943d5b6e1f5469cf7c8c51e61daf0f",
+        "sha256_in_prefix": "101def70bcdcf81baeb9615f1fa31e3a35943d5b6e1f5469cf7c8c51e61daf0f",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "92898c24afa6d7eca96ce787cf4dd302e41460ef3826058e1addda99c9fa782c",
+        "sha256_in_prefix": "92898c24afa6d7eca96ce787cf4dd302e41460ef3826058e1addda99c9fa782c",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "lib/R/library/pkgconfig/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8f61114f38567d647d88b42c3a6fee7adb417043b823d8516f31ffa485eadcf4",
+  "size": 24992,
+  "subdir": "noarch",
+  "timestamp": 1588380383091,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-pkgconfig-2.0.3-r36h6115d3f_1.tar.bz2",
+  "version": "2.0.3"
+}

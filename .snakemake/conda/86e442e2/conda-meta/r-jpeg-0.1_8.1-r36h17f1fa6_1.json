@@ -1,0 +1,214 @@
+{
+  "build": "r36h17f1fa6_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-jpeg-0.1_8.1-r36h17f1fa6_1",
+  "features": "",
+  "files": [
+    "lib/R/library/jpeg/DESCRIPTION",
+    "lib/R/library/jpeg/INDEX",
+    "lib/R/library/jpeg/Meta/Rd.rds",
+    "lib/R/library/jpeg/Meta/features.rds",
+    "lib/R/library/jpeg/Meta/hsearch.rds",
+    "lib/R/library/jpeg/Meta/links.rds",
+    "lib/R/library/jpeg/Meta/nsInfo.rds",
+    "lib/R/library/jpeg/Meta/package.rds",
+    "lib/R/library/jpeg/NAMESPACE",
+    "lib/R/library/jpeg/NEWS",
+    "lib/R/library/jpeg/R/jpeg",
+    "lib/R/library/jpeg/R/jpeg.rdb",
+    "lib/R/library/jpeg/R/jpeg.rdx",
+    "lib/R/library/jpeg/help/AnIndex",
+    "lib/R/library/jpeg/help/aliases.rds",
+    "lib/R/library/jpeg/help/jpeg.rdb",
+    "lib/R/library/jpeg/help/jpeg.rdx",
+    "lib/R/library/jpeg/help/paths.rds",
+    "lib/R/library/jpeg/html/00Index.html",
+    "lib/R/library/jpeg/html/R.css",
+    "lib/R/library/jpeg/img/Rlogo.jpg",
+    "lib/R/library/jpeg/libs/jpeg.dylib"
+  ],
+  "fn": "r-jpeg-0.1_8.1-r36h17f1fa6_1.tar.bz2",
+  "license": "GPL-2 | GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-jpeg-0.1_8.1-r36h17f1fa6_1",
+    "type": 1
+  },
+  "md5": "e9b6da4e8fbdd25c1ae44098ab141c42",
+  "name": "r-jpeg",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-jpeg-0.1_8.1-r36h17f1fa6_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/jpeg/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "57c8fe1ed9669b65eae35d79b111b83770374a8385605bfd1de4e47ae53e7d87",
+        "sha256_in_prefix": "57c8fe1ed9669b65eae35d79b111b83770374a8385605bfd1de4e47ae53e7d87",
+        "size_in_bytes": 661
+      },
+      {
+        "_path": "lib/R/library/jpeg/INDEX",
+        "path_type": "hardlink",
+        "sha256": "a9cb145dbfe7659bc377286b7b4e2f26327812ba8dff388629622fa9c3e1f3e0",
+        "sha256_in_prefix": "a9cb145dbfe7659bc377286b7b4e2f26327812ba8dff388629622fa9c3e1f3e0",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "lib/R/library/jpeg/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "9da937a30951dfcad98e31ceb67bcde11ffb0acaf37348598151c6d8ea53857a",
+        "sha256_in_prefix": "9da937a30951dfcad98e31ceb67bcde11ffb0acaf37348598151c6d8ea53857a",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "lib/R/library/jpeg/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "sha256_in_prefix": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/R/library/jpeg/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "4e7c602fef4cb3cda04dca97ddb6c22b4bb6149bdefccf501ae991dafaf544a3",
+        "sha256_in_prefix": "4e7c602fef4cb3cda04dca97ddb6c22b4bb6149bdefccf501ae991dafaf544a3",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "lib/R/library/jpeg/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "cf62083ba7d3c8b5c19a5a5dfb4da52d9b22b4179fcabf9dfe6a13799a1cec50",
+        "sha256_in_prefix": "cf62083ba7d3c8b5c19a5a5dfb4da52d9b22b4179fcabf9dfe6a13799a1cec50",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/R/library/jpeg/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "0418f7477d3d2cb313c08b36f3bc671c808bfaf80446ecd4dda840d3dbf3351a",
+        "sha256_in_prefix": "0418f7477d3d2cb313c08b36f3bc671c808bfaf80446ecd4dda840d3dbf3351a",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "lib/R/library/jpeg/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "ca6ab7f54d9c81ecdd6e5049f06dafbb471dfa5fe0484a69ba347845eb5638bd",
+        "sha256_in_prefix": "ca6ab7f54d9c81ecdd6e5049f06dafbb471dfa5fe0484a69ba347845eb5638bd",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "lib/R/library/jpeg/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "cd239772a6648018e7f23ccb062899135ea4a027c4d638a726838d7a74933446",
+        "sha256_in_prefix": "cd239772a6648018e7f23ccb062899135ea4a027c4d638a726838d7a74933446",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "lib/R/library/jpeg/NEWS",
+        "path_type": "hardlink",
+        "sha256": "b01c193cba326a32b6e9aa8ca8242ef7eba9a390ec25ba726a4c67744d730074",
+        "sha256_in_prefix": "b01c193cba326a32b6e9aa8ca8242ef7eba9a390ec25ba726a4c67744d730074",
+        "size_in_bytes": 959
+      },
+      {
+        "_path": "lib/R/library/jpeg/R/jpeg",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/jpeg/R/jpeg.rdb",
+        "path_type": "hardlink",
+        "sha256": "f113bc668cadb815b99c091680b5e2d16ae3a9e2e2860ef0ce5b8bd3fe55843f",
+        "sha256_in_prefix": "f113bc668cadb815b99c091680b5e2d16ae3a9e2e2860ef0ce5b8bd3fe55843f",
+        "size_in_bytes": 2132
+      },
+      {
+        "_path": "lib/R/library/jpeg/R/jpeg.rdx",
+        "path_type": "hardlink",
+        "sha256": "30ef5969e42a8da1af9c9a7d582aac57f486a1f2f962ee84aabdb13b3e60f373",
+        "sha256_in_prefix": "30ef5969e42a8da1af9c9a7d582aac57f486a1f2f962ee84aabdb13b3e60f373",
+        "size_in_bytes": 272
+      },
+      {
+        "_path": "lib/R/library/jpeg/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "0e99ee62ad6a5ad5323798db9e34cee140609dc41a2239c5efacd59475e34bfa",
+        "sha256_in_prefix": "0e99ee62ad6a5ad5323798db9e34cee140609dc41a2239c5efacd59475e34bfa",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "lib/R/library/jpeg/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "b3d2b14213dc52b82f4512794b4e2ba33cb8b9b76793a64e1c6b796b14261ac0",
+        "sha256_in_prefix": "b3d2b14213dc52b82f4512794b4e2ba33cb8b9b76793a64e1c6b796b14261ac0",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "lib/R/library/jpeg/help/jpeg.rdb",
+        "path_type": "hardlink",
+        "sha256": "6b1ec91f9c044fb4579ad289b8c70df1c84ac08a8922bda908f15270be8bfc2c",
+        "sha256_in_prefix": "6b1ec91f9c044fb4579ad289b8c70df1c84ac08a8922bda908f15270be8bfc2c",
+        "size_in_bytes": 7680
+      },
+      {
+        "_path": "lib/R/library/jpeg/help/jpeg.rdx",
+        "path_type": "hardlink",
+        "sha256": "fd47bb63f6a034fa0a8b1d21e8b0f6f1194c0236d32dc36563d588aefdfcdfbd",
+        "sha256_in_prefix": "fd47bb63f6a034fa0a8b1d21e8b0f6f1194c0236d32dc36563d588aefdfcdfbd",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "lib/R/library/jpeg/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "68514507ab22a7d882cb4a4c397f9802d26ea307536773527663930d8eda12d5",
+        "sha256_in_prefix": "68514507ab22a7d882cb4a4c397f9802d26ea307536773527663930d8eda12d5",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/R/library/jpeg/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "75b2b398cc8fca5ad625f10deed9bb347c907ec009a7a7d4e88e91c4d42edc39",
+        "sha256_in_prefix": "75b2b398cc8fca5ad625f10deed9bb347c907ec009a7a7d4e88e91c4d42edc39",
+        "size_in_bytes": 1223
+      },
+      {
+        "_path": "lib/R/library/jpeg/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/jpeg/img/Rlogo.jpg",
+        "path_type": "hardlink",
+        "sha256": "de40fb8389126a42427079b028ce3bb64df1bca29e0c1d7da75fc5269cd4c449",
+        "sha256_in_prefix": "de40fb8389126a42427079b028ce3bb64df1bca29e0c1d7da75fc5269cd4c449",
+        "size_in_bytes": 5170
+      },
+      {
+        "_path": "lib/R/library/jpeg/libs/jpeg.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/r-jpeg_1588359032029/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "0c539f5be092f3d99714e03e843d7852180e1d2f6193b575efae049466834b35",
+        "sha256_in_prefix": "086389aa5419b8ec17f2c3c7db67f5f9b5961770351bfd52a6f96d498dc36f06",
+        "size_in_bytes": 23912
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "88cebee1fa606c9bb2a7c9ddc24480f9cea490ad170fed24951ed075de261e84",
+  "size": 50542,
+  "subdir": "osx-64",
+  "timestamp": 1588359248491,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-jpeg-0.1_8.1-r36h17f1fa6_1.tar.bz2",
+  "version": "0.1_8.1"
+}

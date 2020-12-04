@@ -1,0 +1,190 @@
+{
+  "build": "r36h6115d3f_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-assertthat-0.2.1-r36h6115d3f_2",
+  "features": "",
+  "files": [
+    "lib/R/library/assertthat/DESCRIPTION",
+    "lib/R/library/assertthat/INDEX",
+    "lib/R/library/assertthat/Meta/Rd.rds",
+    "lib/R/library/assertthat/Meta/features.rds",
+    "lib/R/library/assertthat/Meta/hsearch.rds",
+    "lib/R/library/assertthat/Meta/links.rds",
+    "lib/R/library/assertthat/Meta/nsInfo.rds",
+    "lib/R/library/assertthat/Meta/package.rds",
+    "lib/R/library/assertthat/NAMESPACE",
+    "lib/R/library/assertthat/R/assertthat",
+    "lib/R/library/assertthat/R/assertthat.rdb",
+    "lib/R/library/assertthat/R/assertthat.rdx",
+    "lib/R/library/assertthat/help/AnIndex",
+    "lib/R/library/assertthat/help/aliases.rds",
+    "lib/R/library/assertthat/help/assertthat.rdb",
+    "lib/R/library/assertthat/help/assertthat.rdx",
+    "lib/R/library/assertthat/help/paths.rds",
+    "lib/R/library/assertthat/html/00Index.html",
+    "lib/R/library/assertthat/html/R.css"
+  ],
+  "fn": "r-assertthat-0.2.1-r36h6115d3f_2.tar.bz2",
+  "license": "GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-assertthat-0.2.1-r36h6115d3f_2",
+    "type": 1
+  },
+  "md5": "89894bf1427eea74d7adb24bf93858dc",
+  "name": "r-assertthat",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-assertthat-0.2.1-r36h6115d3f_2.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/assertthat/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "15c169dad4c8d0b94f6cac7d3f491f84c9f7886b777535e536ba7f911096a21e",
+        "sha256_in_prefix": "15c169dad4c8d0b94f6cac7d3f491f84c9f7886b777535e536ba7f911096a21e",
+        "size_in_bytes": 932
+      },
+      {
+        "_path": "lib/R/library/assertthat/INDEX",
+        "path_type": "hardlink",
+        "sha256": "c773f2b7d29f2720dd4788946b3246b48e2b780787a5ef398a742b2e6f8bef41",
+        "sha256_in_prefix": "c773f2b7d29f2720dd4788946b3246b48e2b780787a5ef398a742b2e6f8bef41",
+        "size_in_bytes": 666
+      },
+      {
+        "_path": "lib/R/library/assertthat/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "23a46af4f863d826ab372953b841d6e66825b4f6f797b7f7c32de50346e393e7",
+        "sha256_in_prefix": "23a46af4f863d826ab372953b841d6e66825b4f6f797b7f7c32de50346e393e7",
+        "size_in_bytes": 711
+      },
+      {
+        "_path": "lib/R/library/assertthat/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/assertthat/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "b723badcaa6d7cf418f9b31730bba4542e1e98cb695bcc678ab8a290ee54c204",
+        "sha256_in_prefix": "b723badcaa6d7cf418f9b31730bba4542e1e98cb695bcc678ab8a290ee54c204",
+        "size_in_bytes": 819
+      },
+      {
+        "_path": "lib/R/library/assertthat/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d142003c24b8c634cb10bdd69d9ab9c5136063618d8de2eaa2136f3e25ed188e",
+        "sha256_in_prefix": "d142003c24b8c634cb10bdd69d9ab9c5136063618d8de2eaa2136f3e25ed188e",
+        "size_in_bytes": 369
+      },
+      {
+        "_path": "lib/R/library/assertthat/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "a48b36ee83964cbde170559e4c55bb8b1971a25939a257f71910ffbfebdc8fdc",
+        "sha256_in_prefix": "a48b36ee83964cbde170559e4c55bb8b1971a25939a257f71910ffbfebdc8fdc",
+        "size_in_bytes": 369
+      },
+      {
+        "_path": "lib/R/library/assertthat/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "6d868547c0d877fcdaa7707f1a05861fa00e62eb751cdaa1aa6802cdc8ff3706",
+        "sha256_in_prefix": "6d868547c0d877fcdaa7707f1a05861fa00e62eb751cdaa1aa6802cdc8ff3706",
+        "size_in_bytes": 918
+      },
+      {
+        "_path": "lib/R/library/assertthat/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "d2017661492e700bad0772292a99435429404d68c0af62d029b92d99455e7d8c",
+        "sha256_in_prefix": "d2017661492e700bad0772292a99435429404d68c0af62d029b92d99455e7d8c",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "lib/R/library/assertthat/R/assertthat",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/assertthat/R/assertthat.rdb",
+        "path_type": "hardlink",
+        "sha256": "afcb0b73b1541c720b8b396282f67147154f7d03f805b8a0e745a62d72768a01",
+        "sha256_in_prefix": "afcb0b73b1541c720b8b396282f67147154f7d03f805b8a0e745a62d72768a01",
+        "size_in_bytes": 26868
+      },
+      {
+        "_path": "lib/R/library/assertthat/R/assertthat.rdx",
+        "path_type": "hardlink",
+        "sha256": "afd813488591ba96301f9231726e11406c1abd604e79b352ea4b8dc2e3d1b4fc",
+        "sha256_in_prefix": "afd813488591ba96301f9231726e11406c1abd604e79b352ea4b8dc2e3d1b4fc",
+        "size_in_bytes": 1001
+      },
+      {
+        "_path": "lib/R/library/assertthat/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "241da0e7135bfd9a129bcd33c2621d8cbe4d8997796f3ff3a080b9b9b0ea5aba",
+        "sha256_in_prefix": "241da0e7135bfd9a129bcd33c2621d8cbe4d8997796f3ff3a080b9b9b0ea5aba",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "lib/R/library/assertthat/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "134db7569f30c476c0a436dd4d9bb2b9c9d5063bb64d7d4a6e9b47d13f070079",
+        "sha256_in_prefix": "134db7569f30c476c0a436dd4d9bb2b9c9d5063bb64d7d4a6e9b47d13f070079",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "lib/R/library/assertthat/help/assertthat.rdb",
+        "path_type": "hardlink",
+        "sha256": "c33058a0c7be8aca50087c0f80cd77eff9c489b760e4ef94a16935b078fd5bad",
+        "sha256_in_prefix": "c33058a0c7be8aca50087c0f80cd77eff9c489b760e4ef94a16935b078fd5bad",
+        "size_in_bytes": 18431
+      },
+      {
+        "_path": "lib/R/library/assertthat/help/assertthat.rdx",
+        "path_type": "hardlink",
+        "sha256": "65d2d08b3dcf37bbb7ff5aa6f3866676f12ff1e3f07c5f94358bb7081b9c0a2b",
+        "sha256_in_prefix": "65d2d08b3dcf37bbb7ff5aa6f3866676f12ff1e3f07c5f94358bb7081b9c0a2b",
+        "size_in_bytes": 403
+      },
+      {
+        "_path": "lib/R/library/assertthat/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "be9cae9ad6beeff0870804bd1f4445dbbf55b61939861d6175c510267acf6edf",
+        "sha256_in_prefix": "be9cae9ad6beeff0870804bd1f4445dbbf55b61939861d6175c510267acf6edf",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "lib/R/library/assertthat/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "a5084c666d280290a08ccf716c7f661337e22f9035f0b1acdf1b51387f3c08d9",
+        "sha256_in_prefix": "a5084c666d280290a08ccf716c7f661337e22f9035f0b1acdf1b51387f3c08d9",
+        "size_in_bytes": 4112
+      },
+      {
+        "_path": "lib/R/library/assertthat/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4250e256531f3ea804f3c02b60f47a7b18b3b9f45a8e462e718e6391055c0abd",
+  "size": 71793,
+  "subdir": "noarch",
+  "timestamp": 1588380962824,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-assertthat-0.2.1-r36h6115d3f_2.tar.bz2",
+  "version": "0.2.1"
+}

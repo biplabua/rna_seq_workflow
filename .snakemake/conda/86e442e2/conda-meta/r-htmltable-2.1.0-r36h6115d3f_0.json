@@ -1,0 +1,413 @@
+{
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-checkmate",
+    "r-htmltools",
+    "r-htmlwidgets",
+    "r-knitr >=1.6",
+    "r-magrittr >=1.5",
+    "r-rstudioapi >=0.6",
+    "r-stringr"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-htmltable-2.1.0-r36h6115d3f_0",
+  "features": "",
+  "files": [
+    "lib/R/library/htmlTable/DESCRIPTION",
+    "lib/R/library/htmlTable/INDEX",
+    "lib/R/library/htmlTable/Meta/Rd.rds",
+    "lib/R/library/htmlTable/Meta/data.rds",
+    "lib/R/library/htmlTable/Meta/features.rds",
+    "lib/R/library/htmlTable/Meta/hsearch.rds",
+    "lib/R/library/htmlTable/Meta/links.rds",
+    "lib/R/library/htmlTable/Meta/nsInfo.rds",
+    "lib/R/library/htmlTable/Meta/package.rds",
+    "lib/R/library/htmlTable/Meta/vignette.rds",
+    "lib/R/library/htmlTable/NAMESPACE",
+    "lib/R/library/htmlTable/NEWS.md",
+    "lib/R/library/htmlTable/R/htmlTable",
+    "lib/R/library/htmlTable/R/htmlTable.rdb",
+    "lib/R/library/htmlTable/R/htmlTable.rdx",
+    "lib/R/library/htmlTable/data/SCB.rda",
+    "lib/R/library/htmlTable/doc/complex_tables.R",
+    "lib/R/library/htmlTable/doc/complex_tables.Rmd",
+    "lib/R/library/htmlTable/doc/complex_tables.html",
+    "lib/R/library/htmlTable/doc/general.R",
+    "lib/R/library/htmlTable/doc/general.Rmd",
+    "lib/R/library/htmlTable/doc/general.html",
+    "lib/R/library/htmlTable/doc/index.html",
+    "lib/R/library/htmlTable/doc/tidyHtmlTable.R",
+    "lib/R/library/htmlTable/doc/tidyHtmlTable.Rmd",
+    "lib/R/library/htmlTable/doc/tidyHtmlTable.html",
+    "lib/R/library/htmlTable/examples/data-SCB_example.R",
+    "lib/R/library/htmlTable/examples/htmlTable_example.R",
+    "lib/R/library/htmlTable/examples/interactiveTable_example.R",
+    "lib/R/library/htmlTable/examples/tidyHtmlTable_example.R",
+    "lib/R/library/htmlTable/help/AnIndex",
+    "lib/R/library/htmlTable/help/aliases.rds",
+    "lib/R/library/htmlTable/help/htmlTable.rdb",
+    "lib/R/library/htmlTable/help/htmlTable.rdx",
+    "lib/R/library/htmlTable/help/paths.rds",
+    "lib/R/library/htmlTable/html/00Index.html",
+    "lib/R/library/htmlTable/html/R.css",
+    "lib/R/library/htmlTable/html_components/button.html",
+    "lib/R/library/htmlTable/htmlwidgets/htmlTableWidget.js",
+    "lib/R/library/htmlTable/htmlwidgets/htmlTableWidget.yaml",
+    "lib/R/library/htmlTable/htmlwidgets/lib/jquery/jquery-AUTHORS.txt",
+    "lib/R/library/htmlTable/htmlwidgets/lib/jquery/jquery.min.js",
+    "lib/R/library/htmlTable/htmlwidgets/lib/table_pagination/table_pagination.css",
+    "lib/R/library/htmlTable/htmlwidgets/lib/table_pagination/table_pagination.js",
+    "lib/R/library/htmlTable/javascript/button.js",
+    "lib/R/library/htmlTable/javascript/toggler.js"
+  ],
+  "fn": "r-htmltable-2.1.0-r36h6115d3f_0.tar.bz2",
+  "license": "GPL-3.0-or-later",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-htmltable-2.1.0-r36h6115d3f_0",
+    "type": 1
+  },
+  "md5": "eee1b7aeb0b393100e5fd5eab9b53e0a",
+  "name": "r-htmltable",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-htmltable-2.1.0-r36h6115d3f_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/htmlTable/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "e3de56c23b78fb917e25d21c49e2a1edd84f54f9034768a00430d83df830734b",
+        "sha256_in_prefix": "e3de56c23b78fb917e25d21c49e2a1edd84f54f9034768a00430d83df830734b",
+        "size_in_bytes": 1450
+      },
+      {
+        "_path": "lib/R/library/htmlTable/INDEX",
+        "path_type": "hardlink",
+        "sha256": "06e23d86d3b0744cf3fb73f93430f49c971cf3834a9bd363d475884bf17d3bbb",
+        "sha256_in_prefix": "06e23d86d3b0744cf3fb73f93430f49c971cf3834a9bd363d475884bf17d3bbb",
+        "size_in_bytes": 1795
+      },
+      {
+        "_path": "lib/R/library/htmlTable/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "e67eb31a1a3fbd8b2bce812a1b7f003b52d210d8af06f134c63475f8bb47ee1e",
+        "sha256_in_prefix": "e67eb31a1a3fbd8b2bce812a1b7f003b52d210d8af06f134c63475f8bb47ee1e",
+        "size_in_bytes": 2238
+      },
+      {
+        "_path": "lib/R/library/htmlTable/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "8ceab46358c22dd8dfa1f3957447b66f17e97158dc3dd737b0485becc69b8837",
+        "sha256_in_prefix": "8ceab46358c22dd8dfa1f3957447b66f17e97158dc3dd737b0485becc69b8837",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/R/library/htmlTable/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/htmlTable/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "5f9957ccc3a02a2d371091759e7a03d7a28df12f73fd05e1b717a46bf7766a4f",
+        "sha256_in_prefix": "5f9957ccc3a02a2d371091759e7a03d7a28df12f73fd05e1b717a46bf7766a4f",
+        "size_in_bytes": 2154
+      },
+      {
+        "_path": "lib/R/library/htmlTable/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "8e7da89592b420ef9a9ae9baf6b9dd19dfc8f233a9e46b6c8a9d32262035e4ff",
+        "sha256_in_prefix": "8e7da89592b420ef9a9ae9baf6b9dd19dfc8f233a9e46b6c8a9d32262035e4ff",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "lib/R/library/htmlTable/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "a7d7de0d0b84d9f666a80e9c25df46d1571f88be70eb2c753b1d54d8cd157174",
+        "sha256_in_prefix": "a7d7de0d0b84d9f666a80e9c25df46d1571f88be70eb2c753b1d54d8cd157174",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "lib/R/library/htmlTable/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d9c629425731a0db5c9fb3834e5da9b72a06679326ce6a747b27c0d83771a3ad",
+        "sha256_in_prefix": "d9c629425731a0db5c9fb3834e5da9b72a06679326ce6a747b27c0d83771a3ad",
+        "size_in_bytes": 1451
+      },
+      {
+        "_path": "lib/R/library/htmlTable/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "b3eaf33c47b8b78f3db27507e457fbc4c77833636fd409efff7f4df5f7f68cb2",
+        "sha256_in_prefix": "b3eaf33c47b8b78f3db27507e457fbc4c77833636fd409efff7f4df5f7f68cb2",
+        "size_in_bytes": 278
+      },
+      {
+        "_path": "lib/R/library/htmlTable/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "e474b5753453236fa84b76e52cf9454421b63f4e7dff291a67d19f4df9ac6805",
+        "sha256_in_prefix": "e474b5753453236fa84b76e52cf9454421b63f4e7dff291a67d19f4df9ac6805",
+        "size_in_bytes": 1606
+      },
+      {
+        "_path": "lib/R/library/htmlTable/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "4ba5842d004bf4b00b8599924eee61bda4a1cb4853a18eb5249a2e6ac5ef8c79",
+        "sha256_in_prefix": "4ba5842d004bf4b00b8599924eee61bda4a1cb4853a18eb5249a2e6ac5ef8c79",
+        "size_in_bytes": 8758
+      },
+      {
+        "_path": "lib/R/library/htmlTable/R/htmlTable",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/htmlTable/R/htmlTable.rdb",
+        "path_type": "hardlink",
+        "sha256": "e9a9d464d7acdbbb81d035363e7447431903605ec303afe0c36ed7bdc95d5153",
+        "sha256_in_prefix": "e9a9d464d7acdbbb81d035363e7447431903605ec303afe0c36ed7bdc95d5153",
+        "size_in_bytes": 148069
+      },
+      {
+        "_path": "lib/R/library/htmlTable/R/htmlTable.rdx",
+        "path_type": "hardlink",
+        "sha256": "f6f1d1124a96abd4298cc2b52506eda060fd7931d40feb1bcb8d999e05d1f503",
+        "sha256_in_prefix": "f6f1d1124a96abd4298cc2b52506eda060fd7931d40feb1bcb8d999e05d1f503",
+        "size_in_bytes": 1650
+      },
+      {
+        "_path": "lib/R/library/htmlTable/data/SCB.rda",
+        "path_type": "hardlink",
+        "sha256": "c9f7e21c93ab8cf4ea38d2a586e4756878a1791ea4ad921d367cad47416217e7",
+        "sha256_in_prefix": "c9f7e21c93ab8cf4ea38d2a586e4756878a1791ea4ad921d367cad47416217e7",
+        "size_in_bytes": 677
+      },
+      {
+        "_path": "lib/R/library/htmlTable/doc/complex_tables.R",
+        "path_type": "hardlink",
+        "sha256": "e7a85404de1a5bd90baa80d8d9178740b18adce48f03a6a7980a0b1405f46c73",
+        "sha256_in_prefix": "e7a85404de1a5bd90baa80d8d9178740b18adce48f03a6a7980a0b1405f46c73",
+        "size_in_bytes": 7849
+      },
+      {
+        "_path": "lib/R/library/htmlTable/doc/complex_tables.Rmd",
+        "path_type": "hardlink",
+        "sha256": "6f58c5d408d15ada9ecb759e6b68684f4965a4b57207665ed3063512cfebe3eb",
+        "sha256_in_prefix": "6f58c5d408d15ada9ecb759e6b68684f4965a4b57207665ed3063512cfebe3eb",
+        "size_in_bytes": 12178
+      },
+      {
+        "_path": "lib/R/library/htmlTable/doc/complex_tables.html",
+        "path_type": "hardlink",
+        "sha256": "47c259e7c2a448b8e90d2813bdb08a208cd457c78980c22b4fe41229230eae16",
+        "sha256_in_prefix": "47c259e7c2a448b8e90d2813bdb08a208cd457c78980c22b4fe41229230eae16",
+        "size_in_bytes": 358773
+      },
+      {
+        "_path": "lib/R/library/htmlTable/doc/general.R",
+        "path_type": "hardlink",
+        "sha256": "bac76121030ff8264b2d5b3bb076d17f7792700d952d995ec4a53dc8fe5a33f6",
+        "sha256_in_prefix": "bac76121030ff8264b2d5b3bb076d17f7792700d952d995ec4a53dc8fe5a33f6",
+        "size_in_bytes": 7887
+      },
+      {
+        "_path": "lib/R/library/htmlTable/doc/general.Rmd",
+        "path_type": "hardlink",
+        "sha256": "0e03720adc1d2862083145116b17b75c9558effca0bfd9b82297d4699f6e2dc4",
+        "sha256_in_prefix": "0e03720adc1d2862083145116b17b75c9558effca0bfd9b82297d4699f6e2dc4",
+        "size_in_bytes": 11355
+      },
+      {
+        "_path": "lib/R/library/htmlTable/doc/general.html",
+        "path_type": "hardlink",
+        "sha256": "dbeaaf30910d4d3779df25943b2c57b1f2d5a464a5b26db0418fcf006a26d959",
+        "sha256_in_prefix": "dbeaaf30910d4d3779df25943b2c57b1f2d5a464a5b26db0418fcf006a26d959",
+        "size_in_bytes": 179542
+      },
+      {
+        "_path": "lib/R/library/htmlTable/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "8337b11a98346e9087b1416f6a0c48d2911db3f1fb751c3abcb8699a4ad73716",
+        "sha256_in_prefix": "8337b11a98346e9087b1416f6a0c48d2911db3f1fb751c3abcb8699a4ad73716",
+        "size_in_bytes": 2369
+      },
+      {
+        "_path": "lib/R/library/htmlTable/doc/tidyHtmlTable.R",
+        "path_type": "hardlink",
+        "sha256": "8415fe6e7bb9d852d25da13f1fc0852c23054dae056fb4c4aa31d718d45b3648",
+        "sha256_in_prefix": "8415fe6e7bb9d852d25da13f1fc0852c23054dae056fb4c4aa31d718d45b3648",
+        "size_in_bytes": 1447
+      },
+      {
+        "_path": "lib/R/library/htmlTable/doc/tidyHtmlTable.Rmd",
+        "path_type": "hardlink",
+        "sha256": "8f5fc9eacfc0b272d7895717baf13f362eb64610b3924bd9bff6e026453911ee",
+        "sha256_in_prefix": "8f5fc9eacfc0b272d7895717baf13f362eb64610b3924bd9bff6e026453911ee",
+        "size_in_bytes": 2498
+      },
+      {
+        "_path": "lib/R/library/htmlTable/doc/tidyHtmlTable.html",
+        "path_type": "hardlink",
+        "sha256": "22ec30b5f186b3d4c70afefb87395e0061b7435623013b3b2e236f78ff2d2a11",
+        "sha256_in_prefix": "22ec30b5f186b3d4c70afefb87395e0061b7435623013b3b2e236f78ff2d2a11",
+        "size_in_bytes": 44753
+      },
+      {
+        "_path": "lib/R/library/htmlTable/examples/data-SCB_example.R",
+        "path_type": "hardlink",
+        "sha256": "92d2e04131c5b04f09b723b743db59dd5d9d822c6ec7c6b0ba00bf46ba1afd47",
+        "sha256_in_prefix": "92d2e04131c5b04f09b723b743db59dd5d9d822c6ec7c6b0ba00bf46ba1afd47",
+        "size_in_bytes": 978
+      },
+      {
+        "_path": "lib/R/library/htmlTable/examples/htmlTable_example.R",
+        "path_type": "hardlink",
+        "sha256": "61e8ae73b827ceb78eb71a7a75919be92ccc4cce219d7f65cd0b2c5e12e58e99",
+        "sha256_in_prefix": "61e8ae73b827ceb78eb71a7a75919be92ccc4cce219d7f65cd0b2c5e12e58e99",
+        "size_in_bytes": 3557
+      },
+      {
+        "_path": "lib/R/library/htmlTable/examples/interactiveTable_example.R",
+        "path_type": "hardlink",
+        "sha256": "3b70a8ea5db7f20308a9b4c6acfa35fc6c00913e2e2f50ce30904ac72db02125",
+        "sha256_in_prefix": "3b70a8ea5db7f20308a9b4c6acfa35fc6c00913e2e2f50ce30904ac72db02125",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "lib/R/library/htmlTable/examples/tidyHtmlTable_example.R",
+        "path_type": "hardlink",
+        "sha256": "c3bad26bcb8148013e60b15a4c764f9d87c93a53802a0138e1852fb1066b811a",
+        "sha256_in_prefix": "c3bad26bcb8148013e60b15a4c764f9d87c93a53802a0138e1852fb1066b811a",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "lib/R/library/htmlTable/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "c1cf638c9d9f45676f64a1d8f0bbd79834ca2f77f3b0711cb98136a942324254",
+        "sha256_in_prefix": "c1cf638c9d9f45676f64a1d8f0bbd79834ca2f77f3b0711cb98136a942324254",
+        "size_in_bytes": 1913
+      },
+      {
+        "_path": "lib/R/library/htmlTable/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "e2b34beb78f1ef4b927525dba426224e11f7f8206f49eac8a4d4808e87d278f2",
+        "sha256_in_prefix": "e2b34beb78f1ef4b927525dba426224e11f7f8206f49eac8a4d4808e87d278f2",
+        "size_in_bytes": 677
+      },
+      {
+        "_path": "lib/R/library/htmlTable/help/htmlTable.rdb",
+        "path_type": "hardlink",
+        "sha256": "73e7f101579393d9438f9bf43b19bdb4818cb32e4f43014cec8adc7701f1ce89",
+        "sha256_in_prefix": "73e7f101579393d9438f9bf43b19bdb4818cb32e4f43014cec8adc7701f1ce89",
+        "size_in_bytes": 140140
+      },
+      {
+        "_path": "lib/R/library/htmlTable/help/htmlTable.rdx",
+        "path_type": "hardlink",
+        "sha256": "06bca66bb1ad95e832cbdaf6645695c4f99afbd41b5621af811e4af034ec7bf2",
+        "sha256_in_prefix": "06bca66bb1ad95e832cbdaf6645695c4f99afbd41b5621af811e4af034ec7bf2",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "lib/R/library/htmlTable/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "9670e8b5a853cac1da41cb7c60d23c32d8d647bacc1ffc4bd205a750c7273b05",
+        "sha256_in_prefix": "9670e8b5a853cac1da41cb7c60d23c32d8d647bacc1ffc4bd205a750c7273b05",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "lib/R/library/htmlTable/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "600c987d29add8fd0eb6ba321261ff3c3900584b872c3434a6ea941e68dff0c0",
+        "sha256_in_prefix": "600c987d29add8fd0eb6ba321261ff3c3900584b872c3434a6ea941e68dff0c0",
+        "size_in_bytes": 6240
+      },
+      {
+        "_path": "lib/R/library/htmlTable/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/htmlTable/html_components/button.html",
+        "path_type": "hardlink",
+        "sha256": "22f654dbb6d8ffd8c74edce9e5019118b8833c4870d504c574fee667b4aaf5af",
+        "sha256_in_prefix": "22f654dbb6d8ffd8c74edce9e5019118b8833c4870d504c574fee667b4aaf5af",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "lib/R/library/htmlTable/htmlwidgets/htmlTableWidget.js",
+        "path_type": "hardlink",
+        "sha256": "242c9d9525a1af76bfb5016a3c0bbc1970d542e7a54225ab37529823a002bfff",
+        "sha256_in_prefix": "242c9d9525a1af76bfb5016a3c0bbc1970d542e7a54225ab37529823a002bfff",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "lib/R/library/htmlTable/htmlwidgets/htmlTableWidget.yaml",
+        "path_type": "hardlink",
+        "sha256": "53b201663651765acbf2708a250c0e9788add8bca2c0637708c2866d5f2ecc6d",
+        "sha256_in_prefix": "53b201663651765acbf2708a250c0e9788add8bca2c0637708c2866d5f2ecc6d",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "lib/R/library/htmlTable/htmlwidgets/lib/jquery/jquery-AUTHORS.txt",
+        "path_type": "hardlink",
+        "sha256": "19ffc23f3adf180dc08b86c6eb9ee85211f47e2cffa90ad6ad44a264865b1f02",
+        "sha256_in_prefix": "19ffc23f3adf180dc08b86c6eb9ee85211f47e2cffa90ad6ad44a264865b1f02",
+        "size_in_bytes": 8048
+      },
+      {
+        "_path": "lib/R/library/htmlTable/htmlwidgets/lib/jquery/jquery.min.js",
+        "path_type": "hardlink",
+        "sha256": "85556761a8800d14ced8fcd41a6b8b26bf012d44a318866c0d81a62092efd9bf",
+        "sha256_in_prefix": "85556761a8800d14ced8fcd41a6b8b26bf012d44a318866c0d81a62092efd9bf",
+        "size_in_bytes": 86709
+      },
+      {
+        "_path": "lib/R/library/htmlTable/htmlwidgets/lib/table_pagination/table_pagination.css",
+        "path_type": "hardlink",
+        "sha256": "b400728d7325d2e635bb6ac2b20d30d33d19ef1dc3c1a35d57b60ee1ecf5c480",
+        "sha256_in_prefix": "b400728d7325d2e635bb6ac2b20d30d33d19ef1dc3c1a35d57b60ee1ecf5c480",
+        "size_in_bytes": 2864
+      },
+      {
+        "_path": "lib/R/library/htmlTable/htmlwidgets/lib/table_pagination/table_pagination.js",
+        "path_type": "hardlink",
+        "sha256": "87eeb9d9ab22895b2ee8994ff31fac03d0322c0523d7f96b48b8b30d90c63097",
+        "sha256_in_prefix": "87eeb9d9ab22895b2ee8994ff31fac03d0322c0523d7f96b48b8b30d90c63097",
+        "size_in_bytes": 5902
+      },
+      {
+        "_path": "lib/R/library/htmlTable/javascript/button.js",
+        "path_type": "hardlink",
+        "sha256": "669ebbbf8eea9d05c7518f94d6705506886fafce1bf5b4efa11630cd001627e2",
+        "sha256_in_prefix": "669ebbbf8eea9d05c7518f94d6705506886fafce1bf5b4efa11630cd001627e2",
+        "size_in_bytes": 878
+      },
+      {
+        "_path": "lib/R/library/htmlTable/javascript/toggler.js",
+        "path_type": "hardlink",
+        "sha256": "3e3346c90ffd87f84b8beae0d71141d30cce278b727714d0452dd3bfbf1f3c3d",
+        "sha256_in_prefix": "3e3346c90ffd87f84b8beae0d71141d30cce278b727714d0452dd3bfbf1f3c3d",
+        "size_in_bytes": 1273
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1dae6d9a4179c8f6594338735e9f70bcc7523e44320a835c50d6b537025f99ab",
+  "size": 404623,
+  "subdir": "noarch",
+  "timestamp": 1600297115563,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-htmltable-2.1.0-r36h6115d3f_0.tar.bz2",
+  "version": "2.1.0"
+}

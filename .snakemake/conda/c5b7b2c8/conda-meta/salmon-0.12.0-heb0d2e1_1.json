@@ -1,0 +1,59 @@
+{
+  "build": "heb0d2e1_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.6,<2.0a0",
+    "icu >=58.2,<59.0a0",
+    "jemalloc >=5.1.0",
+    "libboost",
+    "libcxx >=4.0.1",
+    "tbb >=2019.3",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/salmon-0.12.0-heb0d2e1_1",
+  "features": "",
+  "files": [
+    "bin/salmon",
+    "lib/libsalmon_core.a"
+  ],
+  "fn": "salmon-0.12.0-heb0d2e1_1.tar.bz2",
+  "license": "GPLv3",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/salmon-0.12.0-heb0d2e1_1",
+    "type": 1
+  },
+  "md5": "bf48cae1b9b0cea34c73720609845136",
+  "name": "salmon",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/salmon-0.12.0-heb0d2e1_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/salmon",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/distiller/project/miniconda/conda-bld/salmon_1544073264359/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "26fd531977dc0b56e0135374a747c740b1f28db24d3e26fd2b752e5133e5c4d1",
+        "sha256_in_prefix": "2623c3d35bd0383ec8d392690777639e0822a652cab7f2b7d26449ec0040005f",
+        "size_in_bytes": 41950276
+      },
+      {
+        "_path": "lib/libsalmon_core.a",
+        "path_type": "hardlink",
+        "sha256": "8c3b87058256871fe72073d757e588f02877d58a6fadc1240c3163907c7d63ee",
+        "sha256_in_prefix": "8c3b87058256871fe72073d757e588f02877d58a6fadc1240c3163907c7d63ee",
+        "size_in_bytes": 2112256
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "salmon=0.12.0",
+  "sha256": "d19caa362c8f3edc20035dd80153906f83833a7c56277ea5d820a1fa9edb6045",
+  "size": 14120540,
+  "subdir": "osx-64",
+  "timestamp": 1544074045628,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/salmon-0.12.0-heb0d2e1_1.tar.bz2",
+  "version": "0.12.0"
+}

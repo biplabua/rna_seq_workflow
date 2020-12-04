@@ -1,0 +1,246 @@
+{
+  "build": "r36h142f84f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-formula-1.2_4-r36h142f84f_0",
+  "features": "",
+  "files": [
+    "lib/R/library/Formula/CITATION",
+    "lib/R/library/Formula/DESCRIPTION",
+    "lib/R/library/Formula/INDEX",
+    "lib/R/library/Formula/Meta/Rd.rds",
+    "lib/R/library/Formula/Meta/features.rds",
+    "lib/R/library/Formula/Meta/hsearch.rds",
+    "lib/R/library/Formula/Meta/links.rds",
+    "lib/R/library/Formula/Meta/nsInfo.rds",
+    "lib/R/library/Formula/Meta/package.rds",
+    "lib/R/library/Formula/Meta/vignette.rds",
+    "lib/R/library/Formula/NAMESPACE",
+    "lib/R/library/Formula/NEWS.md",
+    "lib/R/library/Formula/R/Formula",
+    "lib/R/library/Formula/R/Formula.rdb",
+    "lib/R/library/Formula/R/Formula.rdx",
+    "lib/R/library/Formula/doc/Formula.R",
+    "lib/R/library/Formula/doc/Formula.Rnw",
+    "lib/R/library/Formula/doc/Formula.pdf",
+    "lib/R/library/Formula/doc/index.html",
+    "lib/R/library/Formula/help/AnIndex",
+    "lib/R/library/Formula/help/Formula.rdb",
+    "lib/R/library/Formula/help/Formula.rdx",
+    "lib/R/library/Formula/help/aliases.rds",
+    "lib/R/library/Formula/help/paths.rds",
+    "lib/R/library/Formula/html/00Index.html",
+    "lib/R/library/Formula/html/R.css"
+  ],
+  "fn": "r-formula-1.2_4-r36h142f84f_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-formula-1.2_4-r36h142f84f_0",
+    "type": 1
+  },
+  "md5": "fa119ecd7acf1149da313a77a9cbe3cf",
+  "name": "r-formula",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-formula-1.2_4-r36h142f84f_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/Formula/CITATION",
+        "path_type": "hardlink",
+        "sha256": "6db9737c579e0ac6431911929fb5691b3074eecc994d4bc2df53840794edeee0",
+        "sha256_in_prefix": "6db9737c579e0ac6431911929fb5691b3074eecc994d4bc2df53840794edeee0",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "lib/R/library/Formula/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "7ddfdb7c226080807d3656fce77987b66f072450f940981882933af733dfa489",
+        "sha256_in_prefix": "7ddfdb7c226080807d3656fce77987b66f072450f940981882933af733dfa489",
+        "size_in_bytes": 946
+      },
+      {
+        "_path": "lib/R/library/Formula/INDEX",
+        "path_type": "hardlink",
+        "sha256": "67a685732219a655e00f0d1fe760b57e278a1c271b6637dad832fd1efe16f1cc",
+        "sha256_in_prefix": "67a685732219a655e00f0d1fe760b57e278a1c271b6637dad832fd1efe16f1cc",
+        "size_in_bytes": 226
+      },
+      {
+        "_path": "lib/R/library/Formula/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "0d8b9f3b5a3b52b08aac6865dd9901518d44867f3321fd9032de17d0cc871f42",
+        "sha256_in_prefix": "0d8b9f3b5a3b52b08aac6865dd9901518d44867f3321fd9032de17d0cc871f42",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "lib/R/library/Formula/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/Formula/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "847924a8dc1d233559419e64920b00d52c69c72d56a834526cdbaf48b786e0ff",
+        "sha256_in_prefix": "847924a8dc1d233559419e64920b00d52c69c72d56a834526cdbaf48b786e0ff",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "lib/R/library/Formula/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "dae77c052e17c2a9c2ed9d5752bca918de16618555dfe1d5cf918b6c58f3dcff",
+        "sha256_in_prefix": "dae77c052e17c2a9c2ed9d5752bca918de16618555dfe1d5cf918b6c58f3dcff",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "lib/R/library/Formula/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "7dc1c160f7c8953a95dca0d462f420147295e6482dddc84371c05bb71152cc98",
+        "sha256_in_prefix": "7dc1c160f7c8953a95dca0d462f420147295e6482dddc84371c05bb71152cc98",
+        "size_in_bytes": 321
+      },
+      {
+        "_path": "lib/R/library/Formula/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d3f1679c8605d61b99d8e21c0d568fde885173933efaea1a32946909df102e7a",
+        "sha256_in_prefix": "d3f1679c8605d61b99d8e21c0d568fde885173933efaea1a32946909df102e7a",
+        "size_in_bytes": 910
+      },
+      {
+        "_path": "lib/R/library/Formula/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "a1de7cd17354909a7982497d2af08aca676c7f41d26f57ec1e6bf65506c1a620",
+        "sha256_in_prefix": "a1de7cd17354909a7982497d2af08aca676c7f41d26f57ec1e6bf65506c1a620",
+        "size_in_bytes": 273
+      },
+      {
+        "_path": "lib/R/library/Formula/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "664fc380c943ee2ebbc192d8fef1da2a175cf0d9947b0bfefcebfb846c6f3b36",
+        "sha256_in_prefix": "664fc380c943ee2ebbc192d8fef1da2a175cf0d9947b0bfefcebfb846c6f3b36",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "lib/R/library/Formula/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "3405e1c4af4ce873a222e6d257594ef7ed522da0ac07663746088359e971113a",
+        "sha256_in_prefix": "3405e1c4af4ce873a222e6d257594ef7ed522da0ac07663746088359e971113a",
+        "size_in_bytes": 4313
+      },
+      {
+        "_path": "lib/R/library/Formula/R/Formula",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/Formula/R/Formula.rdb",
+        "path_type": "hardlink",
+        "sha256": "a9184c9b68b284d958f88636a01099b55cbdcce83ba1b92b02ba754b7ba3d698",
+        "sha256_in_prefix": "a9184c9b68b284d958f88636a01099b55cbdcce83ba1b92b02ba754b7ba3d698",
+        "size_in_bytes": 26517
+      },
+      {
+        "_path": "lib/R/library/Formula/R/Formula.rdx",
+        "path_type": "hardlink",
+        "sha256": "62504d4d2faddf08eefb58cb3afc83caa6c61039f74e22e5024f0c38d0690211",
+        "sha256_in_prefix": "62504d4d2faddf08eefb58cb3afc83caa6c61039f74e22e5024f0c38d0690211",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "lib/R/library/Formula/doc/Formula.R",
+        "path_type": "hardlink",
+        "sha256": "29f55a6d1abd09c0f710347de22e777332015725d4500ae07551444ad6156c16",
+        "sha256_in_prefix": "29f55a6d1abd09c0f710347de22e777332015725d4500ae07551444ad6156c16",
+        "size_in_bytes": 5386
+      },
+      {
+        "_path": "lib/R/library/Formula/doc/Formula.Rnw",
+        "path_type": "hardlink",
+        "sha256": "54c55ae0ebdadeca3e9cc64a7f343fb34ef87ed306a3db1b4dee3ee14760dc1c",
+        "sha256_in_prefix": "54c55ae0ebdadeca3e9cc64a7f343fb34ef87ed306a3db1b4dee3ee14760dc1c",
+        "size_in_bytes": 25333
+      },
+      {
+        "_path": "lib/R/library/Formula/doc/Formula.pdf",
+        "path_type": "hardlink",
+        "sha256": "6ec44e0cf7900753885dc2ee5812fa4dbea2f0c10d896efcbd15653acd907756",
+        "sha256_in_prefix": "6ec44e0cf7900753885dc2ee5812fa4dbea2f0c10d896efcbd15653acd907756",
+        "size_in_bytes": 114647
+      },
+      {
+        "_path": "lib/R/library/Formula/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "2ef425f6a8808d0ae76b2c82665417ec982158bde140d7340af30cb684abb8ca",
+        "sha256_in_prefix": "2ef425f6a8808d0ae76b2c82665417ec982158bde140d7340af30cb684abb8ca",
+        "size_in_bytes": 1377
+      },
+      {
+        "_path": "lib/R/library/Formula/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "1c25759fad2e64fbf7fad91d6e6573636e705e2c34bbde83677cba87d962d02a",
+        "sha256_in_prefix": "1c25759fad2e64fbf7fad91d6e6573636e705e2c34bbde83677cba87d962d02a",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "lib/R/library/Formula/help/Formula.rdb",
+        "path_type": "hardlink",
+        "sha256": "3972be339125064faffc549986ec174bded67cd47086e46c67e7f99eb3fbecbe",
+        "sha256_in_prefix": "3972be339125064faffc549986ec174bded67cd47086e46c67e7f99eb3fbecbe",
+        "size_in_bytes": 16042
+      },
+      {
+        "_path": "lib/R/library/Formula/help/Formula.rdx",
+        "path_type": "hardlink",
+        "sha256": "5fad1ed257f7ec4e125ccdb3eb1a0c6531e8bced89d455e276f263916b99bc37",
+        "sha256_in_prefix": "5fad1ed257f7ec4e125ccdb3eb1a0c6531e8bced89d455e276f263916b99bc37",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/R/library/Formula/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "21f8b666dc39e0320568be44b1d85a85db2fc63083fbc072a91469797ed8fc18",
+        "sha256_in_prefix": "21f8b666dc39e0320568be44b1d85a85db2fc63083fbc072a91469797ed8fc18",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "lib/R/library/Formula/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "83ff3a8d3992b36d83c2670979f9b139f5b141dc14afc30964efbdbdfcc4d1de",
+        "sha256_in_prefix": "83ff3a8d3992b36d83c2670979f9b139f5b141dc14afc30964efbdbdfcc4d1de",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "lib/R/library/Formula/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "afeb502ee24edf6cf3a09e68edbab72a898a132fba213bb8112deb156048c879",
+        "sha256_in_prefix": "afeb502ee24edf6cf3a09e68edbab72a898a132fba213bb8112deb156048c879",
+        "size_in_bytes": 3885
+      },
+      {
+        "_path": "lib/R/library/Formula/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2611ba76a7de7b27770a45c1881b32fe645448a7261e9a900b8b33f4b9bfb2fb",
+  "size": 193617,
+  "subdir": "noarch",
+  "timestamp": 1602869214715,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-formula-1.2_4-r36h142f84f_0.tar.bz2",
+  "version": "1.2_4"
+}

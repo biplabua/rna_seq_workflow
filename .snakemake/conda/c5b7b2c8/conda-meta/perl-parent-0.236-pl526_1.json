@@ -1,0 +1,63 @@
+{
+  "build": "pl526_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.0,<5.27.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/perl-parent-0.236-pl526_1",
+  "features": "",
+  "files": [
+    "lib/perl5/5.22.0/darwin-thread-multi-2level/perllocal.pod",
+    "lib/perl5/site_perl/5.22.0/darwin-thread-multi-2level/auto/parent/.packlist",
+    "lib/perl5/site_perl/5.22.0/parent.pm"
+  ],
+  "fn": "perl-parent-0.236-pl526_1.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/perl-parent-0.236-pl526_1",
+    "type": 1
+  },
+  "md5": "3fff03fa561b5336f5e22849016a4614",
+  "name": "perl-parent",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/perl-parent-0.236-pl526_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.22.0/darwin-thread-multi-2level/perllocal.pod",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "79b6cab7bf757c3b58c7ecdb653338da8cc35f3dfa0ae7c8ea88eb3abc719f49",
+        "sha256_in_prefix": "d4e1ab4291e694b74ca6a6efacf4846d65625121b2e94751de72a2cdd432c778",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "lib/perl5/site_perl/5.22.0/darwin-thread-multi-2level/auto/parent/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d5b7547edbe81976a2274e5029acfc06f4676d377eb4eacfeba1b550330d5222",
+        "sha256_in_prefix": "18a743d058c98726fd437a034d2504b03cd8ee3dc407b177f902978914142ea0",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "lib/perl5/site_perl/5.22.0/parent.pm",
+        "path_type": "hardlink",
+        "sha256": "c9cc8bde36f5a6193ab97be2b5503082ed917ba425746523a9a08dc4d3a5b78c",
+        "sha256_in_prefix": "c9cc8bde36f5a6193ab97be2b5503082ed917ba425746523a9a08dc4d3a5b78c",
+        "size_in_bytes": 2591
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3b69ff079aa6ef46c5474e2da1db341c23a1e277e89cdf7125477806905aba96",
+  "size": 5845,
+  "subdir": "osx-64",
+  "timestamp": 1529809904060,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/perl-parent-0.236-pl526_1.tar.bz2",
+  "version": "0.236"
+}

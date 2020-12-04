@@ -1,0 +1,261 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+    "bioconductor-biocfilecache >=1.10.0,<1.11.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-httr",
+    "r-openssl",
+    "r-progress",
+    "r-rappdirs",
+    "r-stringr",
+    "r-xml"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-biomart-2.42.0-r36_0",
+  "features": "",
+  "files": [
+    "lib/R/library/biomaRt/CITATION",
+    "lib/R/library/biomaRt/DESCRIPTION",
+    "lib/R/library/biomaRt/INDEX",
+    "lib/R/library/biomaRt/Meta/Rd.rds",
+    "lib/R/library/biomaRt/Meta/features.rds",
+    "lib/R/library/biomaRt/Meta/hsearch.rds",
+    "lib/R/library/biomaRt/Meta/links.rds",
+    "lib/R/library/biomaRt/Meta/nsInfo.rds",
+    "lib/R/library/biomaRt/Meta/package.rds",
+    "lib/R/library/biomaRt/Meta/vignette.rds",
+    "lib/R/library/biomaRt/NAMESPACE",
+    "lib/R/library/biomaRt/NEWS",
+    "lib/R/library/biomaRt/R/biomaRt",
+    "lib/R/library/biomaRt/R/biomaRt.rdb",
+    "lib/R/library/biomaRt/R/biomaRt.rdx",
+    "lib/R/library/biomaRt/doc/biomaRt.R",
+    "lib/R/library/biomaRt/doc/biomaRt.Rmd",
+    "lib/R/library/biomaRt/doc/biomaRt.html",
+    "lib/R/library/biomaRt/doc/index.html",
+    "lib/R/library/biomaRt/help/AnIndex",
+    "lib/R/library/biomaRt/help/aliases.rds",
+    "lib/R/library/biomaRt/help/biomaRt.rdb",
+    "lib/R/library/biomaRt/help/biomaRt.rdx",
+    "lib/R/library/biomaRt/help/paths.rds",
+    "lib/R/library/biomaRt/html/00Index.html",
+    "lib/R/library/biomaRt/html/R.css",
+    "lib/R/library/biomaRt/scripts/Integration-NP.R"
+  ],
+  "fn": "bioconductor-biomart-2.42.0-r36_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-biomart-2.42.0-r36_0",
+    "type": 1
+  },
+  "md5": "b074ebc4d030fd6ead53c42d883c63aa",
+  "name": "bioconductor-biomart",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-biomart-2.42.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/biomaRt/CITATION",
+        "path_type": "hardlink",
+        "sha256": "7428bf76fedfd98abc03667c740b7c023ece000366ead6755c082f85914dfd83",
+        "sha256_in_prefix": "7428bf76fedfd98abc03667c740b7c023ece000366ead6755c082f85914dfd83",
+        "size_in_bytes": 1813
+      },
+      {
+        "_path": "lib/R/library/biomaRt/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "6c338d86da894e49b49f2678c82293cb60ef1262fa7694edda7e2a618d9a7b1b",
+        "sha256_in_prefix": "6c338d86da894e49b49f2678c82293cb60ef1262fa7694edda7e2a618d9a7b1b",
+        "size_in_bytes": 2152
+      },
+      {
+        "_path": "lib/R/library/biomaRt/INDEX",
+        "path_type": "hardlink",
+        "sha256": "675c1b339f14ce744be377d257dfc235f62ee893e0ff580a806f55cec3822b09",
+        "sha256_in_prefix": "675c1b339f14ce744be377d257dfc235f62ee893e0ff580a806f55cec3822b09",
+        "size_in_bytes": 1984
+      },
+      {
+        "_path": "lib/R/library/biomaRt/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "8163f1bcf13d8a3b5dd03bbda962727dedb5fe44a79136369b701785ad38ba38",
+        "sha256_in_prefix": "8163f1bcf13d8a3b5dd03bbda962727dedb5fe44a79136369b701785ad38ba38",
+        "size_in_bytes": 1127
+      },
+      {
+        "_path": "lib/R/library/biomaRt/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/biomaRt/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "b5f10c634c279c378e020f0671fb479029a03cb2bfbb47123e491b5e3fc96989",
+        "sha256_in_prefix": "b5f10c634c279c378e020f0671fb479029a03cb2bfbb47123e491b5e3fc96989",
+        "size_in_bytes": 1191
+      },
+      {
+        "_path": "lib/R/library/biomaRt/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "ec6470e56f0ccaa243f00bad214d8f962062fb536cf092b05327d422523206b8",
+        "sha256_in_prefix": "ec6470e56f0ccaa243f00bad214d8f962062fb536cf092b05327d422523206b8",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "lib/R/library/biomaRt/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "4cac3978865083d0061bb1594e0c232a2cfdf84193fb1f45894e20d76f24f2dc",
+        "sha256_in_prefix": "4cac3978865083d0061bb1594e0c232a2cfdf84193fb1f45894e20d76f24f2dc",
+        "size_in_bytes": 691
+      },
+      {
+        "_path": "lib/R/library/biomaRt/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "a7e91fafd70e0b636302c70aa2845f59abda691601b0e796cb554e9d7503fa41",
+        "sha256_in_prefix": "a7e91fafd70e0b636302c70aa2845f59abda691601b0e796cb554e9d7503fa41",
+        "size_in_bytes": 1591
+      },
+      {
+        "_path": "lib/R/library/biomaRt/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "a71dd88df677e19d5ff1c6d83131cfe849c72fdb7f33970deae685b1440f4563",
+        "sha256_in_prefix": "a71dd88df677e19d5ff1c6d83131cfe849c72fdb7f33970deae685b1440f4563",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "lib/R/library/biomaRt/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "c7969b6ab7c7f255afa1403af5998a743b433e10a4c4944d15977876cfabe2fb",
+        "sha256_in_prefix": "c7969b6ab7c7f255afa1403af5998a743b433e10a4c4944d15977876cfabe2fb",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "lib/R/library/biomaRt/NEWS",
+        "path_type": "hardlink",
+        "sha256": "9a3af7dfbd903ad217cd905e0f58633d6ab25a838b18bc9da19c8711dae7c1a5",
+        "sha256_in_prefix": "9a3af7dfbd903ad217cd905e0f58633d6ab25a838b18bc9da19c8711dae7c1a5",
+        "size_in_bytes": 2317
+      },
+      {
+        "_path": "lib/R/library/biomaRt/R/biomaRt",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/biomaRt/R/biomaRt.rdb",
+        "path_type": "hardlink",
+        "sha256": "d1d062045db51a732db9ce1eb7c168938149b7c62e9c13e2874dec15ccba0405",
+        "sha256_in_prefix": "d1d062045db51a732db9ce1eb7c168938149b7c62e9c13e2874dec15ccba0405",
+        "size_in_bytes": 236960
+      },
+      {
+        "_path": "lib/R/library/biomaRt/R/biomaRt.rdx",
+        "path_type": "hardlink",
+        "sha256": "682583e3b63c616ca4f04b5d2d3fe478853e1549bf787cb11f71581fe5e321f6",
+        "sha256_in_prefix": "682583e3b63c616ca4f04b5d2d3fe478853e1549bf787cb11f71581fe5e321f6",
+        "size_in_bytes": 2016
+      },
+      {
+        "_path": "lib/R/library/biomaRt/doc/biomaRt.R",
+        "path_type": "hardlink",
+        "sha256": "7cd04ba837867e46607080c3d766f58777d3f31123d88ae01b8119e2ee0be518",
+        "sha256_in_prefix": "7cd04ba837867e46607080c3d766f58777d3f31123d88ae01b8119e2ee0be518",
+        "size_in_bytes": 9604
+      },
+      {
+        "_path": "lib/R/library/biomaRt/doc/biomaRt.Rmd",
+        "path_type": "hardlink",
+        "sha256": "903583e75f58a917627478c2aebf17d018fdb4b4e84f0b481974915faf352ff9",
+        "sha256_in_prefix": "903583e75f58a917627478c2aebf17d018fdb4b4e84f0b481974915faf352ff9",
+        "size_in_bytes": 30313
+      },
+      {
+        "_path": "lib/R/library/biomaRt/doc/biomaRt.html",
+        "path_type": "hardlink",
+        "sha256": "83113938fd33913964b9bd59a48a94cbbf446b514461566b95a63b91aafb2edf",
+        "sha256_in_prefix": "83113938fd33913964b9bd59a48a94cbbf446b514461566b95a63b91aafb2edf",
+        "size_in_bytes": 796237
+      },
+      {
+        "_path": "lib/R/library/biomaRt/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "c99869fe83ecdd952676f6e2c1be0b58e0d540c62a725c12678c19c5153df7a7",
+        "sha256_in_prefix": "c99869fe83ecdd952676f6e2c1be0b58e0d540c62a725c12678c19c5153df7a7",
+        "size_in_bytes": 1336
+      },
+      {
+        "_path": "lib/R/library/biomaRt/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "6fce3735c62fad6f005330e07624912c5fe45522d954384ae2eb1bfa0a1ea0d5",
+        "sha256_in_prefix": "6fce3735c62fad6f005330e07624912c5fe45522d954384ae2eb1bfa0a1ea0d5",
+        "size_in_bytes": 901
+      },
+      {
+        "_path": "lib/R/library/biomaRt/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "cf0895be6cb4543826dea6952da1466d14f5af7b2fa8ed2b8cc06c32bb4ab3a5",
+        "sha256_in_prefix": "cf0895be6cb4543826dea6952da1466d14f5af7b2fa8ed2b8cc06c32bb4ab3a5",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "lib/R/library/biomaRt/help/biomaRt.rdb",
+        "path_type": "hardlink",
+        "sha256": "4fced500e6f240e6b46fe24376a2d124aa45e2586060f17ac37457ca032cfe3b",
+        "sha256_in_prefix": "4fced500e6f240e6b46fe24376a2d124aa45e2586060f17ac37457ca032cfe3b",
+        "size_in_bytes": 51498
+      },
+      {
+        "_path": "lib/R/library/biomaRt/help/biomaRt.rdx",
+        "path_type": "hardlink",
+        "sha256": "32848485d39e3ffbd4db4deddb5ca7db8fbf3d68c1bcfdfc6d962339ccca69ea",
+        "sha256_in_prefix": "32848485d39e3ffbd4db4deddb5ca7db8fbf3d68c1bcfdfc6d962339ccca69ea",
+        "size_in_bytes": 708
+      },
+      {
+        "_path": "lib/R/library/biomaRt/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "f7a55e127509b7e62ce5f93866548635dd8405eefed2bac9c5cb3a0366270056",
+        "sha256_in_prefix": "f7a55e127509b7e62ce5f93866548635dd8405eefed2bac9c5cb3a0366270056",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "lib/R/library/biomaRt/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "42e23734ff1bc8e738f40878ccfcf0cf9b7df7dc0c759de58a81364749a67f2f",
+        "sha256_in_prefix": "42e23734ff1bc8e738f40878ccfcf0cf9b7df7dc0c759de58a81364749a67f2f",
+        "size_in_bytes": 6302
+      },
+      {
+        "_path": "lib/R/library/biomaRt/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/biomaRt/scripts/Integration-NP.R",
+        "path_type": "hardlink",
+        "sha256": "f4ccc2de335dc0528bda013b93329a518b2b6788887d27c61e81f639b5772b83",
+        "sha256_in_prefix": "f4ccc2de335dc0528bda013b93329a518b2b6788887d27c61e81f639b5772b83",
+        "size_in_bytes": 6106
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f45f892d246538286e6dc49bf926a4f31c610906a07c996a2be306989c2a1744",
+  "size": 627591,
+  "subdir": "noarch",
+  "timestamp": 1572681277710,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-biomart-2.42.0-r36_0.tar.bz2",
+  "version": "2.42.0"
+}

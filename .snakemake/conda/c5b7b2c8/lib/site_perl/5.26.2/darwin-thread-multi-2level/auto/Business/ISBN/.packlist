@@ -1,0 +1,6 @@
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib/site_perl/5.26.2/Business/ISBN.pm relocate_as=../../../../Business/ISBN.pm
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib/site_perl/5.26.2/Business/ISBN10.pm relocate_as=../../../../Business/ISBN10.pm
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib/site_perl/5.26.2/Business/ISBN13.pm relocate_as=../../../../Business/ISBN13.pm
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/man/man3/Business::ISBN.3 relocate_as=../../../../../../../man/man3/Business::ISBN.3
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/man/man3/Business::ISBN10.3 relocate_as=../../../../../../../man/man3/Business::ISBN10.3
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/man/man3/Business::ISBN13.3 relocate_as=../../../../../../../man/man3/Business::ISBN13.3

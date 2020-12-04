@@ -1,0 +1,214 @@
+{
+  "build": "r36h6b199c2_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-brio-1.1.0-r36h6b199c2_1",
+  "features": "",
+  "files": [
+    "lib/R/library/brio/DESCRIPTION",
+    "lib/R/library/brio/INDEX",
+    "lib/R/library/brio/LICENSE",
+    "lib/R/library/brio/Meta/Rd.rds",
+    "lib/R/library/brio/Meta/features.rds",
+    "lib/R/library/brio/Meta/hsearch.rds",
+    "lib/R/library/brio/Meta/links.rds",
+    "lib/R/library/brio/Meta/nsInfo.rds",
+    "lib/R/library/brio/Meta/package.rds",
+    "lib/R/library/brio/NAMESPACE",
+    "lib/R/library/brio/NEWS.md",
+    "lib/R/library/brio/R/brio",
+    "lib/R/library/brio/R/brio.rdb",
+    "lib/R/library/brio/R/brio.rdx",
+    "lib/R/library/brio/help/AnIndex",
+    "lib/R/library/brio/help/aliases.rds",
+    "lib/R/library/brio/help/brio.rdb",
+    "lib/R/library/brio/help/brio.rdx",
+    "lib/R/library/brio/help/paths.rds",
+    "lib/R/library/brio/html/00Index.html",
+    "lib/R/library/brio/html/R.css",
+    "lib/R/library/brio/libs/brio.dylib"
+  ],
+  "fn": "r-brio-1.1.0-r36h6b199c2_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-brio-1.1.0-r36h6b199c2_1",
+    "type": 1
+  },
+  "md5": "7e39d75b7fb7c0271366f494a84f079d",
+  "name": "r-brio",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-brio-1.1.0-r36h6b199c2_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/brio/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "533edbe4441b661123bd3ecca13f0dab9b050ffab41df7935a36b1526f2e308d",
+        "sha256_in_prefix": "533edbe4441b661123bd3ecca13f0dab9b050ffab41df7935a36b1526f2e308d",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "lib/R/library/brio/INDEX",
+        "path_type": "hardlink",
+        "sha256": "987e6f1929bd5c3bd4ef94f8b9d59d88a51df9c7a1ae97e2edd8efcd8ffa0c64",
+        "sha256_in_prefix": "987e6f1929bd5c3bd4ef94f8b9d59d88a51df9c7a1ae97e2edd8efcd8ffa0c64",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "lib/R/library/brio/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6654d97ff54de7e7bcddc25d4e31e7634f25380cff8f41510ba5bf10a173e42a",
+        "sha256_in_prefix": "6654d97ff54de7e7bcddc25d4e31e7634f25380cff8f41510ba5bf10a173e42a",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "lib/R/library/brio/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "51469410017ce570ceeebf236a434a166048e0a318572c084486545ff301baf1",
+        "sha256_in_prefix": "51469410017ce570ceeebf236a434a166048e0a318572c084486545ff301baf1",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "lib/R/library/brio/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "sha256_in_prefix": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/R/library/brio/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "f145199d62e51033e0d951f10d77676fbd4a256170b0ede1cc47040db76944ee",
+        "sha256_in_prefix": "f145199d62e51033e0d951f10d77676fbd4a256170b0ede1cc47040db76944ee",
+        "size_in_bytes": 405
+      },
+      {
+        "_path": "lib/R/library/brio/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "288f712d57627c0268890b5735aba8c525825ba1f843cfebc3a2f66d81f452d5",
+        "sha256_in_prefix": "288f712d57627c0268890b5735aba8c525825ba1f843cfebc3a2f66d81f452d5",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/R/library/brio/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "4779330a4fd9dfe71db5a541c4888e6ccb8326fb41e3acbac48e89edfaa29a60",
+        "sha256_in_prefix": "4779330a4fd9dfe71db5a541c4888e6ccb8326fb41e3acbac48e89edfaa29a60",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/R/library/brio/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "83d20c2e276255bc21b39a2f0c97790b82dcc08c538b397cdf1251a110215484",
+        "sha256_in_prefix": "83d20c2e276255bc21b39a2f0c97790b82dcc08c538b397cdf1251a110215484",
+        "size_in_bytes": 1018
+      },
+      {
+        "_path": "lib/R/library/brio/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "87ae1eff503ddd3ef706ed6586dfd502fc63f77ce7184134899500d521229bf1",
+        "sha256_in_prefix": "87ae1eff503ddd3ef706ed6586dfd502fc63f77ce7184134899500d521229bf1",
+        "size_in_bytes": 245
+      },
+      {
+        "_path": "lib/R/library/brio/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "b943bec254c7a992f90e421d502dc67a524ef2dd11c819393e7af917303502b4",
+        "sha256_in_prefix": "b943bec254c7a992f90e421d502dc67a524ef2dd11c819393e7af917303502b4",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/R/library/brio/R/brio",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/brio/R/brio.rdb",
+        "path_type": "hardlink",
+        "sha256": "61298e2279a66716ab50afc72a9bb00a8eb9949c8de206e8d212d86ec4c5c314",
+        "sha256_in_prefix": "61298e2279a66716ab50afc72a9bb00a8eb9949c8de206e8d212d86ec4c5c314",
+        "size_in_bytes": 5140
+      },
+      {
+        "_path": "lib/R/library/brio/R/brio.rdx",
+        "path_type": "hardlink",
+        "sha256": "8416ade6f561f477eb706cf87280977355666d692402baea53ac016996bf7bb6",
+        "sha256_in_prefix": "8416ade6f561f477eb706cf87280977355666d692402baea53ac016996bf7bb6",
+        "size_in_bytes": 349
+      },
+      {
+        "_path": "lib/R/library/brio/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "a6075b39ff87d93946ee6a5b82d12f785f2003f49dda4a311c93d63c17b52f70",
+        "sha256_in_prefix": "a6075b39ff87d93946ee6a5b82d12f785f2003f49dda4a311c93d63c17b52f70",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "lib/R/library/brio/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "fdeb1e7905187e5c1da267b79374419193b1f16e91b14ae2994218fe773e0962",
+        "sha256_in_prefix": "fdeb1e7905187e5c1da267b79374419193b1f16e91b14ae2994218fe773e0962",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/R/library/brio/help/brio.rdb",
+        "path_type": "hardlink",
+        "sha256": "827e2cd678d7dbab696c5b36f0c179abb4f1aaaddddbdeade1f55630889dc2bd",
+        "sha256_in_prefix": "827e2cd678d7dbab696c5b36f0c179abb4f1aaaddddbdeade1f55630889dc2bd",
+        "size_in_bytes": 12189
+      },
+      {
+        "_path": "lib/R/library/brio/help/brio.rdx",
+        "path_type": "hardlink",
+        "sha256": "b10d3f796d677374f320c57552cfc830c1adab54903022e1c5ee531797b801e3",
+        "sha256_in_prefix": "b10d3f796d677374f320c57552cfc830c1adab54903022e1c5ee531797b801e3",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "lib/R/library/brio/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "9d4c143d4b267428e055114de2cbbeca18d82c6be2215bb6011d1a9ea459ca17",
+        "sha256_in_prefix": "9d4c143d4b267428e055114de2cbbeca18d82c6be2215bb6011d1a9ea459ca17",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "lib/R/library/brio/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "c50c655a0a044fd49fac58d9b3a17d293fa08f3683b142ff2024e919f5b529e4",
+        "sha256_in_prefix": "c50c655a0a044fd49fac58d9b3a17d293fa08f3683b142ff2024e919f5b529e4",
+        "size_in_bytes": 1840
+      },
+      {
+        "_path": "lib/R/library/brio/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/brio/libs/brio.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/r-brio_1604230332623/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "f0f5f36020eccace19d58004580009f713ee09c54c53cdce6965b1bbed93e6ef",
+        "sha256_in_prefix": "907cbaa01c0b76229030c4b0c1e5d57fd1960b005c2c4e605497b8993d7e8e99",
+        "size_in_bytes": 19040
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "403b7135cbed18d2d7cbf56342cce82d784885de214b7fef18bde9d69fcd06a6",
+  "size": 36776,
+  "subdir": "osx-64",
+  "timestamp": 1604230591970,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-brio-1.1.0-r36h6b199c2_1.tar.bz2",
+  "version": "1.1.0"
+}

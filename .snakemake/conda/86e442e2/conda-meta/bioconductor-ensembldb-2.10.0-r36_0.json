@@ -1,0 +1,541 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+    "bioconductor-annotationfilter >=1.10.0,<1.11.0",
+    "bioconductor-biobase >=2.46.0,<2.47.0",
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "bioconductor-biostrings >=2.54.0,<2.55.0",
+    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+    "bioconductor-genomicfeatures >=1.38.0,<1.39.0",
+    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+    "bioconductor-iranges >=2.20.0,<2.21.0",
+    "bioconductor-protgenerics >=1.18.0,<1.19.0",
+    "bioconductor-rsamtools >=2.2.0,<2.3.0",
+    "bioconductor-rtracklayer >=1.46.0,<1.47.0",
+    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-curl",
+    "r-dbi",
+    "r-rsqlite >=1.1"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-ensembldb-2.10.0-r36_0",
+  "features": "",
+  "files": [
+    "lib/R/library/ensembldb/CITATION",
+    "lib/R/library/ensembldb/DESCRIPTION",
+    "lib/R/library/ensembldb/INDEX",
+    "lib/R/library/ensembldb/Meta/Rd.rds",
+    "lib/R/library/ensembldb/Meta/features.rds",
+    "lib/R/library/ensembldb/Meta/hsearch.rds",
+    "lib/R/library/ensembldb/Meta/links.rds",
+    "lib/R/library/ensembldb/Meta/nsInfo.rds",
+    "lib/R/library/ensembldb/Meta/package.rds",
+    "lib/R/library/ensembldb/Meta/vignette.rds",
+    "lib/R/library/ensembldb/NAMESPACE",
+    "lib/R/library/ensembldb/NEWS",
+    "lib/R/library/ensembldb/R/ensembldb",
+    "lib/R/library/ensembldb/R/ensembldb.rdb",
+    "lib/R/library/ensembldb/R/ensembldb.rdx",
+    "lib/R/library/ensembldb/YGRanges.RData",
+    "lib/R/library/ensembldb/chrY/ens_chromosome.txt",
+    "lib/R/library/ensembldb/chrY/ens_exon.txt",
+    "lib/R/library/ensembldb/chrY/ens_gene.txt",
+    "lib/R/library/ensembldb/chrY/ens_metadata.txt",
+    "lib/R/library/ensembldb/chrY/ens_tx.txt",
+    "lib/R/library/ensembldb/chrY/ens_tx2exon.txt",
+    "lib/R/library/ensembldb/doc/MySQL-backend.R",
+    "lib/R/library/ensembldb/doc/MySQL-backend.Rmd",
+    "lib/R/library/ensembldb/doc/MySQL-backend.html",
+    "lib/R/library/ensembldb/doc/coordinate-mapping-use-cases.R",
+    "lib/R/library/ensembldb/doc/coordinate-mapping-use-cases.Rmd",
+    "lib/R/library/ensembldb/doc/coordinate-mapping-use-cases.html",
+    "lib/R/library/ensembldb/doc/coordinate-mapping.R",
+    "lib/R/library/ensembldb/doc/coordinate-mapping.Rmd",
+    "lib/R/library/ensembldb/doc/coordinate-mapping.html",
+    "lib/R/library/ensembldb/doc/ensembldb.R",
+    "lib/R/library/ensembldb/doc/ensembldb.Rmd",
+    "lib/R/library/ensembldb/doc/ensembldb.html",
+    "lib/R/library/ensembldb/doc/index.html",
+    "lib/R/library/ensembldb/doc/proteins.R",
+    "lib/R/library/ensembldb/doc/proteins.Rmd",
+    "lib/R/library/ensembldb/doc/proteins.html",
+    "lib/R/library/ensembldb/extended_tests/extended_tests.R",
+    "lib/R/library/ensembldb/extended_tests/performance_tests.R",
+    "lib/R/library/ensembldb/gff/Devosia_geojensis.ASM96941v1.32.gff3.gz",
+    "lib/R/library/ensembldb/gtf/Devosia_geojensis.ASM96941v1.32.gtf.gz",
+    "lib/R/library/ensembldb/help/AnIndex",
+    "lib/R/library/ensembldb/help/aliases.rds",
+    "lib/R/library/ensembldb/help/ensembldb.rdb",
+    "lib/R/library/ensembldb/help/ensembldb.rdx",
+    "lib/R/library/ensembldb/help/paths.rds",
+    "lib/R/library/ensembldb/html/00Index.html",
+    "lib/R/library/ensembldb/html/R.css",
+    "lib/R/library/ensembldb/perl/get_gene_transcript_exon_tables.pl",
+    "lib/R/library/ensembldb/perl/test_script.pl",
+    "lib/R/library/ensembldb/pkg-template/DESCRIPTION",
+    "lib/R/library/ensembldb/pkg-template/NAMESPACE",
+    "lib/R/library/ensembldb/pkg-template/R/zzz.R",
+    "lib/R/library/ensembldb/pkg-template/man/package.Rd",
+    "lib/R/library/ensembldb/scripts/checkEnsDbs.R",
+    "lib/R/library/ensembldb/scripts/generate-EnsDBs.R",
+    "lib/R/library/ensembldb/shinyHappyPeople/server.R",
+    "lib/R/library/ensembldb/shinyHappyPeople/ui.R",
+    "lib/R/library/ensembldb/txt/ENST00000200135.fa.gz",
+    "lib/R/library/ensembldb/txt/ENST00000335953.fa.gz"
+  ],
+  "fn": "bioconductor-ensembldb-2.10.0-r36_0.tar.bz2",
+  "license": "LGPL",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-ensembldb-2.10.0-r36_0",
+    "type": 1
+  },
+  "md5": "803760fdd4f1898733a057bbb3333605",
+  "name": "bioconductor-ensembldb",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-ensembldb-2.10.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ensembldb/CITATION",
+        "path_type": "hardlink",
+        "sha256": "9ce6d1c5f936e54e22fd3521489cd7be0971d92b49a53448ac7142307b425080",
+        "sha256_in_prefix": "9ce6d1c5f936e54e22fd3521489cd7be0971d92b49a53448ac7142307b425080",
+        "size_in_bytes": 766
+      },
+      {
+        "_path": "lib/R/library/ensembldb/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "5c444a73ab26a76201ece3f979560ab225e39a10c842d7d4664fc8ef22207a53",
+        "sha256_in_prefix": "5c444a73ab26a76201ece3f979560ab225e39a10c842d7d4664fc8ef22207a53",
+        "size_in_bytes": 3286
+      },
+      {
+        "_path": "lib/R/library/ensembldb/INDEX",
+        "path_type": "hardlink",
+        "sha256": "c5718fe8e4a0860f12a5f08386c9803582c7b8f8c959a696271dfe29d253aecb",
+        "sha256_in_prefix": "c5718fe8e4a0860f12a5f08386c9803582c7b8f8c959a696271dfe29d253aecb",
+        "size_in_bytes": 2271
+      },
+      {
+        "_path": "lib/R/library/ensembldb/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "aaf0be33e275a7b492cf68d67097c97f13078f9bf3bdf0004318af4429e39012",
+        "sha256_in_prefix": "aaf0be33e275a7b492cf68d67097c97f13078f9bf3bdf0004318af4429e39012",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "lib/R/library/ensembldb/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/ensembldb/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "4ffa53e994534ac75a79bffd1f373b69bfeaec77a5c2bce5e382e8fafb5b3b81",
+        "sha256_in_prefix": "4ffa53e994534ac75a79bffd1f373b69bfeaec77a5c2bce5e382e8fafb5b3b81",
+        "size_in_bytes": 2145
+      },
+      {
+        "_path": "lib/R/library/ensembldb/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "61cd69c4fd2d02618f2e0368ad6b12ee5c799a28963f36d13d9611a68a88a908",
+        "sha256_in_prefix": "61cd69c4fd2d02618f2e0368ad6b12ee5c799a28963f36d13d9611a68a88a908",
+        "size_in_bytes": 1402
+      },
+      {
+        "_path": "lib/R/library/ensembldb/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "0f99007d3f83d29cedc4e9ab3702b620319201e7286f4f8c6ed2b130c945accb",
+        "sha256_in_prefix": "0f99007d3f83d29cedc4e9ab3702b620319201e7286f4f8c6ed2b130c945accb",
+        "size_in_bytes": 1438
+      },
+      {
+        "_path": "lib/R/library/ensembldb/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "732913c318cf61baf1402f3fc371b9545a2437a86574cae4a880ebde47d033b1",
+        "sha256_in_prefix": "732913c318cf61baf1402f3fc371b9545a2437a86574cae4a880ebde47d033b1",
+        "size_in_bytes": 2205
+      },
+      {
+        "_path": "lib/R/library/ensembldb/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "c4eb306330f654b229648ef520ac804495626d8a0c4c8341d621737d43fc3d30",
+        "sha256_in_prefix": "c4eb306330f654b229648ef520ac804495626d8a0c4c8341d621737d43fc3d30",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "lib/R/library/ensembldb/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "afe6d603f45ad83a487eeb59d9fc6dd188943770c446f631f93e039fb10e045b",
+        "sha256_in_prefix": "afe6d603f45ad83a487eeb59d9fc6dd188943770c446f631f93e039fb10e045b",
+        "size_in_bytes": 6776
+      },
+      {
+        "_path": "lib/R/library/ensembldb/NEWS",
+        "path_type": "hardlink",
+        "sha256": "ba9290f3ab5881d9ee57a7e3debcbfdc9802c070ad5db3c10d9a34617005ab92",
+        "sha256_in_prefix": "ba9290f3ab5881d9ee57a7e3debcbfdc9802c070ad5db3c10d9a34617005ab92",
+        "size_in_bytes": 14866
+      },
+      {
+        "_path": "lib/R/library/ensembldb/R/ensembldb",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/ensembldb/R/ensembldb.rdb",
+        "path_type": "hardlink",
+        "sha256": "121e7b2ebad4797644d03418b1b52d552f456523b70a79291c5aa061409f620b",
+        "sha256_in_prefix": "121e7b2ebad4797644d03418b1b52d552f456523b70a79291c5aa061409f620b",
+        "size_in_bytes": 837069
+      },
+      {
+        "_path": "lib/R/library/ensembldb/R/ensembldb.rdx",
+        "path_type": "hardlink",
+        "sha256": "c20057e8d73110d132987595f4074a58fcf99df52cb40f30b2c304cc93ce9247",
+        "sha256_in_prefix": "c20057e8d73110d132987595f4074a58fcf99df52cb40f30b2c304cc93ce9247",
+        "size_in_bytes": 6656
+      },
+      {
+        "_path": "lib/R/library/ensembldb/YGRanges.RData",
+        "path_type": "hardlink",
+        "sha256": "ead951b84f963d12b71642f14b99e540f1abc112cab8d2612d961b16bf61b2d4",
+        "sha256_in_prefix": "ead951b84f963d12b71642f14b99e540f1abc112cab8d2612d961b16bf61b2d4",
+        "size_in_bytes": 47220
+      },
+      {
+        "_path": "lib/R/library/ensembldb/chrY/ens_chromosome.txt",
+        "path_type": "hardlink",
+        "sha256": "0cca1f0bd339eacffb5414d7d34cfa7c2e694ba0e739498c1effd55915e0d7b9",
+        "sha256_in_prefix": "0cca1f0bd339eacffb5414d7d34cfa7c2e694ba0e739498c1effd55915e0d7b9",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "lib/R/library/ensembldb/chrY/ens_exon.txt",
+        "path_type": "hardlink",
+        "sha256": "fbcde4131f0f44333658f71e96d6f11c1af376cba1b0924ffc0a1c79e55e8a1d",
+        "sha256_in_prefix": "fbcde4131f0f44333658f71e96d6f11c1af376cba1b0924ffc0a1c79e55e8a1d",
+        "size_in_bytes": 90410
+      },
+      {
+        "_path": "lib/R/library/ensembldb/chrY/ens_gene.txt",
+        "path_type": "hardlink",
+        "sha256": "317268050f7f83b5c548cbfc31181d3588437d308d710bbd1d2ea76c289bd426",
+        "sha256_in_prefix": "317268050f7f83b5c548cbfc31181d3588437d308d710bbd1d2ea76c289bd426",
+        "size_in_bytes": 35534
+      },
+      {
+        "_path": "lib/R/library/ensembldb/chrY/ens_metadata.txt",
+        "path_type": "hardlink",
+        "sha256": "c571c57c8956a523439807e1333bb8797ba7fc2601b9b766b94264f36e405ede",
+        "sha256_in_prefix": "c571c57c8956a523439807e1333bb8797ba7fc2601b9b766b94264f36e405ede",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "lib/R/library/ensembldb/chrY/ens_tx.txt",
+        "path_type": "hardlink",
+        "sha256": "9edb41b978e396db72936781863f6fcaa611472356528564f9c196c589a25e77",
+        "sha256_in_prefix": "9edb41b978e396db72936781863f6fcaa611472356528564f9c196c589a25e77",
+        "size_in_bytes": 58085
+      },
+      {
+        "_path": "lib/R/library/ensembldb/chrY/ens_tx2exon.txt",
+        "path_type": "hardlink",
+        "sha256": "7456a6c517a5e92edcbcb526d04be9d63ed3f405e4607850a87e3c216003a4f3",
+        "sha256_in_prefix": "7456a6c517a5e92edcbcb526d04be9d63ed3f405e4607850a87e3c216003a4f3",
+        "size_in_bytes": 128060
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/MySQL-backend.R",
+        "path_type": "hardlink",
+        "sha256": "34a1f4ff7565437351aaaf4fb81d150e98cdc5efbd6384e7187d2e4ba11f9d63",
+        "sha256_in_prefix": "34a1f4ff7565437351aaaf4fb81d150e98cdc5efbd6384e7187d2e4ba11f9d63",
+        "size_in_bytes": 1216
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/MySQL-backend.Rmd",
+        "path_type": "hardlink",
+        "sha256": "fab0a4179008042492bb41a80a58f6251c0a78063b3869634c5b7282ba75f2a1",
+        "sha256_in_prefix": "fab0a4179008042492bb41a80a58f6251c0a78063b3869634c5b7282ba75f2a1",
+        "size_in_bytes": 2512
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/MySQL-backend.html",
+        "path_type": "hardlink",
+        "sha256": "5ee5ba424994b75a679abac4bba44d3f21bb03f667c6e8a605d0f425d4393ab1",
+        "sha256_in_prefix": "5ee5ba424994b75a679abac4bba44d3f21bb03f667c6e8a605d0f425d4393ab1",
+        "size_in_bytes": 876578
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/coordinate-mapping-use-cases.R",
+        "path_type": "hardlink",
+        "sha256": "74737368c9ddb0e40c177a2f71e4c960cd3c1f209415afd93ba17f718c16ac5b",
+        "sha256_in_prefix": "74737368c9ddb0e40c177a2f71e4c960cd3c1f209415afd93ba17f718c16ac5b",
+        "size_in_bytes": 7045
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/coordinate-mapping-use-cases.Rmd",
+        "path_type": "hardlink",
+        "sha256": "a74787e14fdc8194510be12ff19a6bdc6eac5df030ca0869c88066727197e984",
+        "sha256_in_prefix": "a74787e14fdc8194510be12ff19a6bdc6eac5df030ca0869c88066727197e984",
+        "size_in_bytes": 14682
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/coordinate-mapping-use-cases.html",
+        "path_type": "hardlink",
+        "sha256": "bac8d3b3dbecdc29db954a5ed8b955926138d9028ae4f016ea50f0079f04f49c",
+        "sha256_in_prefix": "bac8d3b3dbecdc29db954a5ed8b955926138d9028ae4f016ea50f0079f04f49c",
+        "size_in_bytes": 1033380
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/coordinate-mapping.R",
+        "path_type": "hardlink",
+        "sha256": "80d95ad2fc9419bdf47463e1ae120776689273919a1e820b988f381b9ddca7b6",
+        "sha256_in_prefix": "80d95ad2fc9419bdf47463e1ae120776689273919a1e820b988f381b9ddca7b6",
+        "size_in_bytes": 8276
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/coordinate-mapping.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5dc0efba5eb058cd70b1313b2c25edc5e98fac7e8ac481496f5cb8b653ea8ad7",
+        "sha256_in_prefix": "5dc0efba5eb058cd70b1313b2c25edc5e98fac7e8ac481496f5cb8b653ea8ad7",
+        "size_in_bytes": 27736
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/coordinate-mapping.html",
+        "path_type": "hardlink",
+        "sha256": "036a356da9e4262e3b9357b2ca84de88fc7ff54534b15faf49ce3e2d549077f9",
+        "sha256_in_prefix": "036a356da9e4262e3b9357b2ca84de88fc7ff54534b15faf49ce3e2d549077f9",
+        "size_in_bytes": 1028452
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/ensembldb.R",
+        "path_type": "hardlink",
+        "sha256": "37a45078ef75792d01d8d19cb2c9ce263c45b9db430562c6aa40f47c65997992",
+        "sha256_in_prefix": "37a45078ef75792d01d8d19cb2c9ce263c45b9db430562c6aa40f47c65997992",
+        "size_in_bytes": 16372
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/ensembldb.Rmd",
+        "path_type": "hardlink",
+        "sha256": "d657c8f73ef7731245ed3d5edb2f37f764ae9c2ce13513fab09dd24b9155405e",
+        "sha256_in_prefix": "d657c8f73ef7731245ed3d5edb2f37f764ae9c2ce13513fab09dd24b9155405e",
+        "size_in_bytes": 48387
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/ensembldb.html",
+        "path_type": "hardlink",
+        "sha256": "9495a5c4c71af6063afe2c64fffeba67ca45362c4a3d105713b867637be55be2",
+        "sha256_in_prefix": "9495a5c4c71af6063afe2c64fffeba67ca45362c4a3d105713b867637be55be2",
+        "size_in_bytes": 1612077
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "5af595c699a61804bd74bde97e86afe3427b85da476390491abd8e27fa142f4e",
+        "sha256_in_prefix": "5af595c699a61804bd74bde97e86afe3427b85da476390491abd8e27fa142f4e",
+        "size_in_bytes": 3581
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/proteins.R",
+        "path_type": "hardlink",
+        "sha256": "69050eb88ed6230311f49b8970214574854ae2eab82614ea307541676d77bd89",
+        "sha256_in_prefix": "69050eb88ed6230311f49b8970214574854ae2eab82614ea307541676d77bd89",
+        "size_in_bytes": 4089
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/proteins.Rmd",
+        "path_type": "hardlink",
+        "sha256": "0773f8e912edc74dd5e6a50a4bc16d1e655bc2a05a6cb79e4d68f6e42e385d7a",
+        "sha256_in_prefix": "0773f8e912edc74dd5e6a50a4bc16d1e655bc2a05a6cb79e4d68f6e42e385d7a",
+        "size_in_bytes": 11778
+      },
+      {
+        "_path": "lib/R/library/ensembldb/doc/proteins.html",
+        "path_type": "hardlink",
+        "sha256": "ff1774bce46a1f90596a9965fd5780999d1b1b2cffbcd0bced0f570899043086",
+        "sha256_in_prefix": "ff1774bce46a1f90596a9965fd5780999d1b1b2cffbcd0bced0f570899043086",
+        "size_in_bytes": 905660
+      },
+      {
+        "_path": "lib/R/library/ensembldb/extended_tests/extended_tests.R",
+        "path_type": "hardlink",
+        "sha256": "f8bd5bc5f04183278e3a3d186cfb0223070669845ce18e6ff1b3dbbc9f2347b2",
+        "sha256_in_prefix": "f8bd5bc5f04183278e3a3d186cfb0223070669845ce18e6ff1b3dbbc9f2347b2",
+        "size_in_bytes": 34340
+      },
+      {
+        "_path": "lib/R/library/ensembldb/extended_tests/performance_tests.R",
+        "path_type": "hardlink",
+        "sha256": "95fe183cc8bff489c9415bb73ab3663c02460d0b472dacfbe5a2386da4b5cdc2",
+        "sha256_in_prefix": "95fe183cc8bff489c9415bb73ab3663c02460d0b472dacfbe5a2386da4b5cdc2",
+        "size_in_bytes": 7808
+      },
+      {
+        "_path": "lib/R/library/ensembldb/gff/Devosia_geojensis.ASM96941v1.32.gff3.gz",
+        "path_type": "hardlink",
+        "sha256": "f2e13bb42a584b4bf4c86e6e53dc3d526460160b580560070344e8dae69ad437",
+        "sha256_in_prefix": "f2e13bb42a584b4bf4c86e6e53dc3d526460160b580560070344e8dae69ad437",
+        "size_in_bytes": 272773
+      },
+      {
+        "_path": "lib/R/library/ensembldb/gtf/Devosia_geojensis.ASM96941v1.32.gtf.gz",
+        "path_type": "hardlink",
+        "sha256": "f800558a6db719e9254c618d193673c6fd0442cbaec2dd3615e8126e5c643f7d",
+        "sha256_in_prefix": "f800558a6db719e9254c618d193673c6fd0442cbaec2dd3615e8126e5c643f7d",
+        "size_in_bytes": 269765
+      },
+      {
+        "_path": "lib/R/library/ensembldb/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "71a5fefb78ac1bb29cd59ae57d9f67486b05e2fc089d72c99b3ae810bf3d521f",
+        "sha256_in_prefix": "71a5fefb78ac1bb29cd59ae57d9f67486b05e2fc089d72c99b3ae810bf3d521f",
+        "size_in_bytes": 4934
+      },
+      {
+        "_path": "lib/R/library/ensembldb/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "8a5dbab6bb8c20eae1cc4115ff41a017e627a37b196bc30356b9cab4b46d8b54",
+        "sha256_in_prefix": "8a5dbab6bb8c20eae1cc4115ff41a017e627a37b196bc30356b9cab4b46d8b54",
+        "size_in_bytes": 1375
+      },
+      {
+        "_path": "lib/R/library/ensembldb/help/ensembldb.rdb",
+        "path_type": "hardlink",
+        "sha256": "6a0cee0964ab9189b88eec3a39aef46ffc8a96fe3b1ad036288d4d19b0fb6a24",
+        "sha256_in_prefix": "6a0cee0964ab9189b88eec3a39aef46ffc8a96fe3b1ad036288d4d19b0fb6a24",
+        "size_in_bytes": 146639
+      },
+      {
+        "_path": "lib/R/library/ensembldb/help/ensembldb.rdx",
+        "path_type": "hardlink",
+        "sha256": "6cdd09663c20d334e25d6186f8a46210d8757358c07a788acd988b63330e934c",
+        "sha256_in_prefix": "6cdd09663c20d334e25d6186f8a46210d8757358c07a788acd988b63330e934c",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "lib/R/library/ensembldb/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "d959b1d3780b9db8ff26590665d1b78631956ec0f5ce3114ef973439093d101b",
+        "sha256_in_prefix": "d959b1d3780b9db8ff26590665d1b78631956ec0f5ce3114ef973439093d101b",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "lib/R/library/ensembldb/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "c3e83e74b6a5eeb0a854ca87507ca4e442aaa6eff676066133cce445eb3db1e7",
+        "sha256_in_prefix": "c3e83e74b6a5eeb0a854ca87507ca4e442aaa6eff676066133cce445eb3db1e7",
+        "size_in_bytes": 22393
+      },
+      {
+        "_path": "lib/R/library/ensembldb/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/ensembldb/perl/get_gene_transcript_exon_tables.pl",
+        "path_type": "hardlink",
+        "sha256": "fb7c76955ab52a3b0d32dcffb05535df3566c6ef0bdf4c27f45c206eabb65b93",
+        "sha256_in_prefix": "fb7c76955ab52a3b0d32dcffb05535df3566c6ef0bdf4c27f45c206eabb65b93",
+        "size_in_bytes": 14977
+      },
+      {
+        "_path": "lib/R/library/ensembldb/perl/test_script.pl",
+        "path_type": "hardlink",
+        "sha256": "2a89ccc6af437f57641ed630f3a08b5f7458e823dba18abceda1a81a6584e253",
+        "sha256_in_prefix": "2a89ccc6af437f57641ed630f3a08b5f7458e823dba18abceda1a81a6584e253",
+        "size_in_bytes": 2533
+      },
+      {
+        "_path": "lib/R/library/ensembldb/pkg-template/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "acd2ddc7d1f1f874929a75b672a5173dd1ef27dfa7fb4193c0ae0ac7547b79e2",
+        "sha256_in_prefix": "acd2ddc7d1f1f874929a75b672a5173dd1ef27dfa7fb4193c0ae0ac7547b79e2",
+        "size_in_bytes": 369
+      },
+      {
+        "_path": "lib/R/library/ensembldb/pkg-template/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "08e98830359cf4b9b3bede3c7135de0f11f07623913a885397c6bfbbdb486115",
+        "sha256_in_prefix": "08e98830359cf4b9b3bede3c7135de0f11f07623913a885397c6bfbbdb486115",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/R/library/ensembldb/pkg-template/R/zzz.R",
+        "path_type": "hardlink",
+        "sha256": "907ec82c893ab5bb27b4b6b4ea3b1ffc8a5de6496a90415fff6b93b833809385",
+        "sha256_in_prefix": "907ec82c893ab5bb27b4b6b4ea3b1ffc8a5de6496a90415fff6b93b833809385",
+        "size_in_bytes": 481
+      },
+      {
+        "_path": "lib/R/library/ensembldb/pkg-template/man/package.Rd",
+        "path_type": "hardlink",
+        "sha256": "efa8441033b064245e87449e1ef2834b6206fa1a4c902bb9ea8ed50b6d3cc6cd",
+        "sha256_in_prefix": "efa8441033b064245e87449e1ef2834b6206fa1a4c902bb9ea8ed50b6d3cc6cd",
+        "size_in_bytes": 751
+      },
+      {
+        "_path": "lib/R/library/ensembldb/scripts/checkEnsDbs.R",
+        "path_type": "hardlink",
+        "sha256": "e9a3b92db4f49d9858ce379359cd0f4e60b40c08a3a0127415bdfb8e8191a12f",
+        "sha256_in_prefix": "e9a3b92db4f49d9858ce379359cd0f4e60b40c08a3a0127415bdfb8e8191a12f",
+        "size_in_bytes": 719
+      },
+      {
+        "_path": "lib/R/library/ensembldb/scripts/generate-EnsDBs.R",
+        "path_type": "hardlink",
+        "sha256": "64d04144f871dfae6b48d4aa033663714958b3eacb1b299083fd477a4b3577f6",
+        "sha256_in_prefix": "64d04144f871dfae6b48d4aa033663714958b3eacb1b299083fd477a4b3577f6",
+        "size_in_bytes": 12761
+      },
+      {
+        "_path": "lib/R/library/ensembldb/shinyHappyPeople/server.R",
+        "path_type": "hardlink",
+        "sha256": "1dae7cadfcd5b172ec562232b8ebb57d64087b4883c0ebfad34840bc52a9d4da",
+        "sha256_in_prefix": "1dae7cadfcd5b172ec562232b8ebb57d64087b4883c0ebfad34840bc52a9d4da",
+        "size_in_bytes": 8166
+      },
+      {
+        "_path": "lib/R/library/ensembldb/shinyHappyPeople/ui.R",
+        "path_type": "hardlink",
+        "sha256": "67af484595caf8b31a668120e285f8879e03307669411eea236b348863a1c985",
+        "sha256_in_prefix": "67af484595caf8b31a668120e285f8879e03307669411eea236b348863a1c985",
+        "size_in_bytes": 5830
+      },
+      {
+        "_path": "lib/R/library/ensembldb/txt/ENST00000200135.fa.gz",
+        "path_type": "hardlink",
+        "sha256": "f4eb411a4aa379fbb6d273dc1ce9999357f5db75c6a5f9b3bd02362d39d95378",
+        "sha256_in_prefix": "f4eb411a4aa379fbb6d273dc1ce9999357f5db75c6a5f9b3bd02362d39d95378",
+        "size_in_bytes": 13986
+      },
+      {
+        "_path": "lib/R/library/ensembldb/txt/ENST00000335953.fa.gz",
+        "path_type": "hardlink",
+        "sha256": "35dfcec2ccfabfdc8b164b54837c61c29e4449a5a9b60df9a752a507a2a50c90",
+        "sha256_in_prefix": "35dfcec2ccfabfdc8b164b54837c61c29e4449a5a9b60df9a752a507a2a50c90",
+        "size_in_bytes": 60063
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "467072a84dfe5ec0ca8a549540cfb912e730a620694b95be34e94124e6cc9c2a",
+  "size": 3688348,
+  "subdir": "noarch",
+  "timestamp": 1572872844000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-ensembldb-2.10.0-r36_0.tar.bz2",
+  "version": "2.10.0"
+}

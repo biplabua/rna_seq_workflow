@@ -1,0 +1,7 @@
+makeCountsFromAbundance
+                        Low-level function to make counts from
+                        abundance using matrices
+summarizeToGene         Summarize estimated quantitites to gene-level
+tximport                Import transcript-level abundances and counts
+                        for transcript- and gene-level analysis
+                        packages

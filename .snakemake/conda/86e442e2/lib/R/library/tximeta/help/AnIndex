@@ -1,0 +1,9 @@
+addExons	addExons
+addIds	addIds
+getTximetaBFC	getTximetaBFC
+linkedTxome	linkedTxome
+loadLinkedTxome	linkedTxome
+makeLinkedTxome	linkedTxome
+setTximetaBFC	getTximetaBFC
+summarizeToGene,SummarizedExperiment-method	summarizeToGene
+tximeta	tximeta

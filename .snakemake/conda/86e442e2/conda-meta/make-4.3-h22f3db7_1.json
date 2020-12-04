@@ -1,0 +1,82 @@
+{
+  "build": "h22f3db7_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/make-4.3-h22f3db7_1",
+  "features": "",
+  "files": [
+    "bin/make",
+    "include/gnumake.h",
+    "share/info/make.info",
+    "share/info/make.info-1",
+    "share/info/make.info-2",
+    "share/man/man1/make.1"
+  ],
+  "fn": "make-4.3-h22f3db7_1.tar.bz2",
+  "license": "GPL-3.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/make-4.3-h22f3db7_1",
+    "type": 1
+  },
+  "md5": "ac4a1dd58e6d821c518ae0011e8592b7",
+  "name": "make",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/make-4.3-h22f3db7_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/make",
+        "path_type": "hardlink",
+        "sha256": "40f7840424cb97df3da2748b649e5f1c8d0cb60c62d9a5ed1d00a0abefcda391",
+        "sha256_in_prefix": "40f7840424cb97df3da2748b649e5f1c8d0cb60c62d9a5ed1d00a0abefcda391",
+        "size_in_bytes": 220496
+      },
+      {
+        "_path": "include/gnumake.h",
+        "path_type": "hardlink",
+        "sha256": "64b7abf4a666e292d8d819cab6e113347f8369634b014b14168f6ddebda7f648",
+        "sha256_in_prefix": "64b7abf4a666e292d8d819cab6e113347f8369634b014b14168f6ddebda7f648",
+        "size_in_bytes": 2912
+      },
+      {
+        "_path": "share/info/make.info",
+        "path_type": "hardlink",
+        "sha256": "797d6c6e51f71b9e9e5b7ee81ecd44b286877945df24464694c3bf7fb40ae353",
+        "sha256_in_prefix": "797d6c6e51f71b9e9e5b7ee81ecd44b286877945df24464694c3bf7fb40ae353",
+        "size_in_bytes": 6185
+      },
+      {
+        "_path": "share/info/make.info-1",
+        "path_type": "hardlink",
+        "sha256": "d237ef969a8dd755969577ae48cd185b633dcc4eb92af00c2c109d87f4e494ba",
+        "sha256_in_prefix": "d237ef969a8dd755969577ae48cd185b633dcc4eb92af00c2c109d87f4e494ba",
+        "size_in_bytes": 300214
+      },
+      {
+        "_path": "share/info/make.info-2",
+        "path_type": "hardlink",
+        "sha256": "1c498d825c56447740b1d3ca801f974c95b1fb5075f0bffc116dc44dfc1dcfdb",
+        "sha256_in_prefix": "1c498d825c56447740b1d3ca801f974c95b1fb5075f0bffc116dc44dfc1dcfdb",
+        "size_in_bytes": 313692
+      },
+      {
+        "_path": "share/man/man1/make.1",
+        "path_type": "hardlink",
+        "sha256": "282f17d5765ea8c56aba187cdffecbef254f2c76e75ca57d1f5b02ea6c752ae3",
+        "sha256_in_prefix": "282f17d5765ea8c56aba187cdffecbef254f2c76e75ca57d1f5b02ea6c752ae3",
+        "size_in_bytes": 11033
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "adef15126b518548b69ecaef24e22f88fa0a6358bd3c11e791af214f7344983b",
+  "size": 255465,
+  "subdir": "osx-64",
+  "timestamp": 1602706542653,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/make-4.3-h22f3db7_1.tar.bz2",
+  "version": "4.3"
+}

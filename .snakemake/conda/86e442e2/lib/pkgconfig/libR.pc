@@ -1,0 +1,10 @@
+rhome=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/86e442e2/lib/R
+rlibdir=${rhome}/lib
+rincludedir=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/86e442e2/lib/R/include
+
+Name: libR
+Description: R as a library
+Version: 3.6.3
+Libs: -fopenmp  -Wl,-dead_strip_dylibs -isysroot /Applications/Xcode_11.7.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/86e442e2/lib -L/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/86e442e2/lib -L${rlibdir} -lR
+Cflags: -I${rincludedir} -I${rincludedir}
+Libs.private:

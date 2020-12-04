@@ -1,0 +1,8 @@
+  using clang : 10.0.0 : x86_64-apple-darwin13.4.0-clang++
+              : # options
+                  <archiver>x86_64-apple-darwin13.4.0-ar
+                  <cflags>"-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include -fdebug-prefix-map=/opt/concourse/worker/volumes/live/cdbb9590-6632-417c-7839-fb2ef57c5fc4/volume/bst_1601386505401/work=/usr/local/src/conda/bst-1.73.0 -fdebug-prefix-map=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8=/usr/local/src/conda-prefix"
+                  <cxxflags>"-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0 -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include -fdebug-prefix-map=/opt/concourse/worker/volumes/live/cdbb9590-6632-417c-7839-fb2ef57c5fc4/volume/bst_1601386505401/work=/usr/local/src/conda/bst-1.73.0 -fdebug-prefix-map=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8=/usr/local/src/conda-prefix -std=c++14 -stdlib=libc++"
+                  <linkflags>"-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib -L/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib"
+                  <ranlib>x86_64-apple-darwin13.4.0-ranlib
+              ;

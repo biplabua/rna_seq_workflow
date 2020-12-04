@@ -1,0 +1,335 @@
+{
+  "build": "r36h6115d3f_1003",
+  "build_number": 1003,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-gtable"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-gridextra-2.3-r36h6115d3f_1003",
+  "features": "",
+  "files": [
+    "lib/R/library/gridExtra/DESCRIPTION",
+    "lib/R/library/gridExtra/INDEX",
+    "lib/R/library/gridExtra/Meta/Rd.rds",
+    "lib/R/library/gridExtra/Meta/features.rds",
+    "lib/R/library/gridExtra/Meta/hsearch.rds",
+    "lib/R/library/gridExtra/Meta/links.rds",
+    "lib/R/library/gridExtra/Meta/nsInfo.rds",
+    "lib/R/library/gridExtra/Meta/package.rds",
+    "lib/R/library/gridExtra/Meta/vignette.rds",
+    "lib/R/library/gridExtra/NAMESPACE",
+    "lib/R/library/gridExtra/NEWS.md",
+    "lib/R/library/gridExtra/R/gridExtra",
+    "lib/R/library/gridExtra/R/gridExtra.rdb",
+    "lib/R/library/gridExtra/R/gridExtra.rdx",
+    "lib/R/library/gridExtra/doc/arrangeGrob.R",
+    "lib/R/library/gridExtra/doc/arrangeGrob.html",
+    "lib/R/library/gridExtra/doc/arrangeGrob.rmd",
+    "lib/R/library/gridExtra/doc/gtable.R",
+    "lib/R/library/gridExtra/doc/gtable.Rmd",
+    "lib/R/library/gridExtra/doc/gtable.html",
+    "lib/R/library/gridExtra/doc/index.html",
+    "lib/R/library/gridExtra/doc/ngonGrob.R",
+    "lib/R/library/gridExtra/doc/ngonGrob.Rmd",
+    "lib/R/library/gridExtra/doc/ngonGrob.html",
+    "lib/R/library/gridExtra/doc/tableGrob.R",
+    "lib/R/library/gridExtra/doc/tableGrob.Rmd",
+    "lib/R/library/gridExtra/doc/tableGrob.html",
+    "lib/R/library/gridExtra/help/AnIndex",
+    "lib/R/library/gridExtra/help/aliases.rds",
+    "lib/R/library/gridExtra/help/gridExtra.rdb",
+    "lib/R/library/gridExtra/help/gridExtra.rdx",
+    "lib/R/library/gridExtra/help/paths.rds",
+    "lib/R/library/gridExtra/html/00Index.html",
+    "lib/R/library/gridExtra/html/R.css",
+    "lib/R/library/gridExtra/tests/testthat.r",
+    "lib/R/library/gridExtra/tests/testthat/test-arrangeGrob.R",
+    "lib/R/library/gridExtra/tests/testthat/test-tableGrob.R"
+  ],
+  "fn": "r-gridextra-2.3-r36h6115d3f_1003.tar.bz2",
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-gridextra-2.3-r36h6115d3f_1003",
+    "type": 1
+  },
+  "md5": "90ea5454e60912eacf31ed6d06cb0139",
+  "name": "r-gridextra",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-gridextra-2.3-r36h6115d3f_1003.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/gridExtra/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "dc8e0c748a0f61bbb4d455cb6416404b45a7ec3e0454abf68697d786d9f6ad7a",
+        "sha256_in_prefix": "dc8e0c748a0f61bbb4d455cb6416404b45a7ec3e0454abf68697d786d9f6ad7a",
+        "size_in_bytes": 906
+      },
+      {
+        "_path": "lib/R/library/gridExtra/INDEX",
+        "path_type": "hardlink",
+        "sha256": "51c40e6969807c1ccd85025b9fadde8285ac7d525916e0846c0cc8438aa89e1c",
+        "sha256_in_prefix": "51c40e6969807c1ccd85025b9fadde8285ac7d525916e0846c0cc8438aa89e1c",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/R/library/gridExtra/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "b2979fda30015b4c45068c3a1b53cd3b4a3f9688c4ce1d585cee2a92202dc4bd",
+        "sha256_in_prefix": "b2979fda30015b4c45068c3a1b53cd3b4a3f9688c4ce1d585cee2a92202dc4bd",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "lib/R/library/gridExtra/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/gridExtra/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "cee17b3b14c3005f1960e7327947163326648cf63cc4dfd9f7eb810f8e10da91",
+        "sha256_in_prefix": "cee17b3b14c3005f1960e7327947163326648cf63cc4dfd9f7eb810f8e10da91",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "lib/R/library/gridExtra/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "648de98b4102d554e6dbcb7eb009d44963bea21c6bdd0df4c413aa57c8f44b43",
+        "sha256_in_prefix": "648de98b4102d554e6dbcb7eb009d44963bea21c6bdd0df4c413aa57c8f44b43",
+        "size_in_bytes": 286
+      },
+      {
+        "_path": "lib/R/library/gridExtra/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "ce1f6efb63f1a6ffd5f7dc46abe6cedf87d16f6858be59a9de634bf7f52bf9ae",
+        "sha256_in_prefix": "ce1f6efb63f1a6ffd5f7dc46abe6cedf87d16f6858be59a9de634bf7f52bf9ae",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "lib/R/library/gridExtra/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "001d8b0bb92922603bb2aba0362a571a98b9ec6c09ba28c4ca1202d6d8a35e35",
+        "sha256_in_prefix": "001d8b0bb92922603bb2aba0362a571a98b9ec6c09ba28c4ca1202d6d8a35e35",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "lib/R/library/gridExtra/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "b31338dfaaa9c68c2fc56807aec702b72cfa6367ddaca438c1c8ef9ce1e2ae9e",
+        "sha256_in_prefix": "b31338dfaaa9c68c2fc56807aec702b72cfa6367ddaca438c1c8ef9ce1e2ae9e",
+        "size_in_bytes": 359
+      },
+      {
+        "_path": "lib/R/library/gridExtra/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "ebec62f0900f3b1a00d6f37d19e52aba211e45a7eb69ea65e6e0cdb7b775d243",
+        "sha256_in_prefix": "ebec62f0900f3b1a00d6f37d19e52aba211e45a7eb69ea65e6e0cdb7b775d243",
+        "size_in_bytes": 686
+      },
+      {
+        "_path": "lib/R/library/gridExtra/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "66464320ff1f9cf81520c7fddca99cd0c15c031986498cb65b8b1faf39af321e",
+        "sha256_in_prefix": "66464320ff1f9cf81520c7fddca99cd0c15c031986498cb65b8b1faf39af321e",
+        "size_in_bytes": 1511
+      },
+      {
+        "_path": "lib/R/library/gridExtra/R/gridExtra",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/gridExtra/R/gridExtra.rdb",
+        "path_type": "hardlink",
+        "sha256": "1282da13319fef48f0805cad358722878b6eadc5554af11d202eed25b38e8613",
+        "sha256_in_prefix": "1282da13319fef48f0805cad358722878b6eadc5554af11d202eed25b38e8613",
+        "size_in_bytes": 39663
+      },
+      {
+        "_path": "lib/R/library/gridExtra/R/gridExtra.rdx",
+        "path_type": "hardlink",
+        "sha256": "6650502b8479a1caf6b912ee0e26ab65f282ca284cb2d691e3348dd02b7b8a01",
+        "sha256_in_prefix": "6650502b8479a1caf6b912ee0e26ab65f282ca284cb2d691e3348dd02b7b8a01",
+        "size_in_bytes": 773
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/arrangeGrob.R",
+        "path_type": "hardlink",
+        "sha256": "08078cff21f8456261290982a3221714ee11102a8423c14be080eb92d6297a59",
+        "sha256_in_prefix": "08078cff21f8456261290982a3221714ee11102a8423c14be080eb92d6297a59",
+        "size_in_bytes": 2018
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/arrangeGrob.html",
+        "path_type": "hardlink",
+        "sha256": "30d33a51defa56bcc380e73cfef8de8ce979737a65a2eafda7a181996ac315f5",
+        "sha256_in_prefix": "30d33a51defa56bcc380e73cfef8de8ce979737a65a2eafda7a181996ac315f5",
+        "size_in_bytes": 434503
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/arrangeGrob.rmd",
+        "path_type": "hardlink",
+        "sha256": "eae31a04a508e96736cdc0795031be4e04ffcb60cc740dece42a4f41de298af7",
+        "sha256_in_prefix": "eae31a04a508e96736cdc0795031be4e04ffcb60cc740dece42a4f41de298af7",
+        "size_in_bytes": 3132
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/gtable.R",
+        "path_type": "hardlink",
+        "sha256": "a535213c1a2595c15610da9c965f3e23d44dea4a6d43d0c676d568474a949137",
+        "sha256_in_prefix": "a535213c1a2595c15610da9c965f3e23d44dea4a6d43d0c676d568474a949137",
+        "size_in_bytes": 2050
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/gtable.Rmd",
+        "path_type": "hardlink",
+        "sha256": "2e6308b710d461836e7b321fd62070c03829aa08c418bc8b83d0a8e098d798ce",
+        "sha256_in_prefix": "2e6308b710d461836e7b321fd62070c03829aa08c418bc8b83d0a8e098d798ce",
+        "size_in_bytes": 5436
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/gtable.html",
+        "path_type": "hardlink",
+        "sha256": "1e1b423cf27b4358b073963f71baf2b8d67bd2576abea95c77619dbf001b2424",
+        "sha256_in_prefix": "1e1b423cf27b4358b073963f71baf2b8d67bd2576abea95c77619dbf001b2424",
+        "size_in_bytes": 173110
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "67c95dc9dd9c37ba5ba2837604d2b495547019605acff92469220e31e3d8c9ab",
+        "sha256_in_prefix": "67c95dc9dd9c37ba5ba2837604d2b495547019605acff92469220e31e3d8c9ab",
+        "size_in_bytes": 2908
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/ngonGrob.R",
+        "path_type": "hardlink",
+        "sha256": "71f236f34b5c260849bc80ac73e45a10cc052e6a3d940b9c7d7ae56d8b48e0d0",
+        "sha256_in_prefix": "71f236f34b5c260849bc80ac73e45a10cc052e6a3d940b9c7d7ae56d8b48e0d0",
+        "size_in_bytes": 1178
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/ngonGrob.Rmd",
+        "path_type": "hardlink",
+        "sha256": "c5cf6a89025bf6d6cceab7ba5c7c475d86704b09ca93a5135a4ee798815053da",
+        "sha256_in_prefix": "c5cf6a89025bf6d6cceab7ba5c7c475d86704b09ca93a5135a4ee798815053da",
+        "size_in_bytes": 1574
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/ngonGrob.html",
+        "path_type": "hardlink",
+        "sha256": "9d3bc4ded3374e7a4ed6f445ebc6733eb50b3a91ad89548a6c7fcc6253fedfc0",
+        "sha256_in_prefix": "9d3bc4ded3374e7a4ed6f445ebc6733eb50b3a91ad89548a6c7fcc6253fedfc0",
+        "size_in_bytes": 129708
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/tableGrob.R",
+        "path_type": "hardlink",
+        "sha256": "981b246ba00357934ddbe11a7e31c0e030eaf60421e51e22d31bb1a917e39192",
+        "sha256_in_prefix": "981b246ba00357934ddbe11a7e31c0e030eaf60421e51e22d31bb1a917e39192",
+        "size_in_bytes": 6905
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/tableGrob.Rmd",
+        "path_type": "hardlink",
+        "sha256": "089ce717b8e062780a5cf1059153aed565340b844a4afd8c3a5a1a88f18d1780",
+        "sha256_in_prefix": "089ce717b8e062780a5cf1059153aed565340b844a4afd8c3a5a1a88f18d1780",
+        "size_in_bytes": 10606
+      },
+      {
+        "_path": "lib/R/library/gridExtra/doc/tableGrob.html",
+        "path_type": "hardlink",
+        "sha256": "caedc1bef106452a3ceebc7ef0f15abb8c7f597ad791d9d1a309872a62ac1262",
+        "sha256_in_prefix": "caedc1bef106452a3ceebc7ef0f15abb8c7f597ad791d9d1a309872a62ac1262",
+        "size_in_bytes": 862417
+      },
+      {
+        "_path": "lib/R/library/gridExtra/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "aa6dddbb532067f48faebd956818f42bed2a252dbe2a3711b2e8e9aeb24e6cb9",
+        "sha256_in_prefix": "aa6dddbb532067f48faebd956818f42bed2a252dbe2a3711b2e8e9aeb24e6cb9",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "lib/R/library/gridExtra/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "c208c1d5cb61ed6357591d34efb170231a22cbdccd572bd7151c9ebf9f3466d3",
+        "sha256_in_prefix": "c208c1d5cb61ed6357591d34efb170231a22cbdccd572bd7151c9ebf9f3466d3",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/gridExtra/help/gridExtra.rdb",
+        "path_type": "hardlink",
+        "sha256": "88d9330171f0baa461cd56866c6e9139c02f6bdece97a000be24419390cce2fa",
+        "sha256_in_prefix": "88d9330171f0baa461cd56866c6e9139c02f6bdece97a000be24419390cce2fa",
+        "size_in_bytes": 13216
+      },
+      {
+        "_path": "lib/R/library/gridExtra/help/gridExtra.rdx",
+        "path_type": "hardlink",
+        "sha256": "1db1d06eee830661ec2d07e11901d551ae14cd5bb2f8a8a69b98f8762b5dccf3",
+        "sha256_in_prefix": "1db1d06eee830661ec2d07e11901d551ae14cd5bb2f8a8a69b98f8762b5dccf3",
+        "size_in_bytes": 293
+      },
+      {
+        "_path": "lib/R/library/gridExtra/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "2ac80bea89af08cd98dd4769a32b4d102b52be9879a2abf3b71fbcec85f7bf77",
+        "sha256_in_prefix": "2ac80bea89af08cd98dd4769a32b4d102b52be9879a2abf3b71fbcec85f7bf77",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "lib/R/library/gridExtra/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "f97d12f09f692fb5b0a2084fd23e0ce385a09c7ff967b26e19c8324831e4db24",
+        "sha256_in_prefix": "f97d12f09f692fb5b0a2084fd23e0ce385a09c7ff967b26e19c8324831e4db24",
+        "size_in_bytes": 3209
+      },
+      {
+        "_path": "lib/R/library/gridExtra/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/gridExtra/tests/testthat.r",
+        "path_type": "hardlink",
+        "sha256": "c86cd07ce8d82d0bf90ba7f8d9dc75909b90270c171bc90fd1a5036428cd48f5",
+        "sha256_in_prefix": "c86cd07ce8d82d0bf90ba7f8d9dc75909b90270c171bc90fd1a5036428cd48f5",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "lib/R/library/gridExtra/tests/testthat/test-arrangeGrob.R",
+        "path_type": "hardlink",
+        "sha256": "131a24ddb4aac4156af194cde1ad4a14e41eddc35e0936fe438990b7329690c2",
+        "sha256_in_prefix": "131a24ddb4aac4156af194cde1ad4a14e41eddc35e0936fe438990b7329690c2",
+        "size_in_bytes": 2018
+      },
+      {
+        "_path": "lib/R/library/gridExtra/tests/testthat/test-tableGrob.R",
+        "path_type": "hardlink",
+        "sha256": "27e357f4d64d30dba00953eaa4922b76fb6d0724baf98ec9356281208b6df84c",
+        "sha256_in_prefix": "27e357f4d64d30dba00953eaa4922b76fb6d0724baf98ec9356281208b6df84c",
+        "size_in_bytes": 423
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3eb81531ecb1595cd42a9ecce94927a96f9cf5c4b91e9b864ea2759fd3336207",
+  "size": 1100227,
+  "subdir": "noarch",
+  "timestamp": 1588532231158,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-gridextra-2.3-r36h6115d3f_1003.tar.bz2",
+  "version": "2.3"
+}

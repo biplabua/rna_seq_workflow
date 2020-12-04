@@ -1,0 +1,286 @@
+{
+  "build": "r36h6115d3f_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-formatr-1.7-r36h6115d3f_2",
+  "features": "",
+  "files": [
+    "lib/R/library/formatR/DESCRIPTION",
+    "lib/R/library/formatR/INDEX",
+    "lib/R/library/formatR/Meta/Rd.rds",
+    "lib/R/library/formatR/Meta/features.rds",
+    "lib/R/library/formatR/Meta/hsearch.rds",
+    "lib/R/library/formatR/Meta/links.rds",
+    "lib/R/library/formatR/Meta/nsInfo.rds",
+    "lib/R/library/formatR/Meta/package.rds",
+    "lib/R/library/formatR/Meta/vignette.rds",
+    "lib/R/library/formatR/NAMESPACE",
+    "lib/R/library/formatR/NEWS",
+    "lib/R/library/formatR/R/formatR",
+    "lib/R/library/formatR/R/formatR.rdb",
+    "lib/R/library/formatR/R/formatR.rdx",
+    "lib/R/library/formatR/doc/formatR.R",
+    "lib/R/library/formatR/doc/formatR.Rmd",
+    "lib/R/library/formatR/doc/formatR.html",
+    "lib/R/library/formatR/doc/index.html",
+    "lib/R/library/formatR/format/messy.R",
+    "lib/R/library/formatR/help/AnIndex",
+    "lib/R/library/formatR/help/aliases.rds",
+    "lib/R/library/formatR/help/formatR.rdb",
+    "lib/R/library/formatR/help/formatR.rdx",
+    "lib/R/library/formatR/help/paths.rds",
+    "lib/R/library/formatR/html/00Index.html",
+    "lib/R/library/formatR/html/R.css",
+    "lib/R/library/formatR/shiny/DESCRIPTION",
+    "lib/R/library/formatR/shiny/Readme.md",
+    "lib/R/library/formatR/shiny/server.R",
+    "lib/R/library/formatR/shiny/ui.R",
+    "lib/R/library/formatR/shiny/www/shiny-handler.js"
+  ],
+  "fn": "r-formatr-1.7-r36h6115d3f_2.tar.bz2",
+  "license": "GPL",
+  "license_family": "GPL",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-formatr-1.7-r36h6115d3f_2",
+    "type": 1
+  },
+  "md5": "c876e1d3b6f2e5d51a6467f62721e868",
+  "name": "r-formatr",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-formatr-1.7-r36h6115d3f_2.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/formatR/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "0f38b7c93481fd984d8d2413b3e6342552026296c309c56875b30f1b11861e84",
+        "sha256_in_prefix": "0f38b7c93481fd984d8d2413b3e6342552026296c309c56875b30f1b11861e84",
+        "size_in_bytes": 1263
+      },
+      {
+        "_path": "lib/R/library/formatR/INDEX",
+        "path_type": "hardlink",
+        "sha256": "a317e1af30bdabf551b6487bc8e60e8f0c9e1a86c97b1b56de41842945bf9b94",
+        "sha256_in_prefix": "a317e1af30bdabf551b6487bc8e60e8f0c9e1a86c97b1b56de41842945bf9b94",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "lib/R/library/formatR/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "61eadf0b0e1adc1bc30e34bbcb2a37b401a9d9bdcf2cee5ea9a033bc9d42bfa2",
+        "sha256_in_prefix": "61eadf0b0e1adc1bc30e34bbcb2a37b401a9d9bdcf2cee5ea9a033bc9d42bfa2",
+        "size_in_bytes": 434
+      },
+      {
+        "_path": "lib/R/library/formatR/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/formatR/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "cdf580db49aaccc11e35390d806b50b1755308f0673686c0cd5cbc22b774a192",
+        "sha256_in_prefix": "cdf580db49aaccc11e35390d806b50b1755308f0673686c0cd5cbc22b774a192",
+        "size_in_bytes": 454
+      },
+      {
+        "_path": "lib/R/library/formatR/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "68c2553554a34edfe3c7b9bc7f7ca608b6d10f1590647a4128bf1706271b7bd9",
+        "sha256_in_prefix": "68c2553554a34edfe3c7b9bc7f7ca608b6d10f1590647a4128bf1706271b7bd9",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/R/library/formatR/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "87099ca655c04340db344bd9169785a5e335c221536fb1ef1b8d67635764dacf",
+        "sha256_in_prefix": "87099ca655c04340db344bd9169785a5e335c221536fb1ef1b8d67635764dacf",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "lib/R/library/formatR/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "c162f0f6fe7f32bd15ca958765cfb3a2a7e13ef329237140c02f5e5331421e85",
+        "sha256_in_prefix": "c162f0f6fe7f32bd15ca958765cfb3a2a7e13ef329237140c02f5e5331421e85",
+        "size_in_bytes": 1150
+      },
+      {
+        "_path": "lib/R/library/formatR/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "1322b24717308ec4e32018a5fa82685be1c782316a61784d1e5fefd18b35c3a6",
+        "sha256_in_prefix": "1322b24717308ec4e32018a5fa82685be1c782316a61784d1e5fefd18b35c3a6",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "lib/R/library/formatR/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "7868802a506683ec605c5768fc6e8d6e7053514ad0d544f11d4af88b07b6a19d",
+        "sha256_in_prefix": "7868802a506683ec605c5768fc6e8d6e7053514ad0d544f11d4af88b07b6a19d",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "lib/R/library/formatR/NEWS",
+        "path_type": "hardlink",
+        "sha256": "a2337b24e205a8781195992320d046c15df07ba48d743c7411a00c6ba9389a4a",
+        "sha256_in_prefix": "a2337b24e205a8781195992320d046c15df07ba48d743c7411a00c6ba9389a4a",
+        "size_in_bytes": 14090
+      },
+      {
+        "_path": "lib/R/library/formatR/R/formatR",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/formatR/R/formatR.rdb",
+        "path_type": "hardlink",
+        "sha256": "dc3b7420732d1d467c35b973b0147b557ad48172ea6a49f5839720d82f649cff",
+        "sha256_in_prefix": "dc3b7420732d1d467c35b973b0147b557ad48172ea6a49f5839720d82f649cff",
+        "size_in_bytes": 37229
+      },
+      {
+        "_path": "lib/R/library/formatR/R/formatR.rdx",
+        "path_type": "hardlink",
+        "sha256": "de43a72ebb2641487f4d6c1955ff9865e3e0bc16e02bad8985450aa3bf74176d",
+        "sha256_in_prefix": "de43a72ebb2641487f4d6c1955ff9865e3e0bc16e02bad8985450aa3bf74176d",
+        "size_in_bytes": 792
+      },
+      {
+        "_path": "lib/R/library/formatR/doc/formatR.R",
+        "path_type": "hardlink",
+        "sha256": "1a0871a8c55f177cbf5a9b450d9b77215ef33869efde45ac2669c2c2e1a44ac8",
+        "sha256_in_prefix": "1a0871a8c55f177cbf5a9b450d9b77215ef33869efde45ac2669c2c2e1a44ac8",
+        "size_in_bytes": 7528
+      },
+      {
+        "_path": "lib/R/library/formatR/doc/formatR.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5110672c6c0dbd599f67bf983f3895aefac375e214de667d41d2306095fd1ef3",
+        "sha256_in_prefix": "5110672c6c0dbd599f67bf983f3895aefac375e214de667d41d2306095fd1ef3",
+        "size_in_bytes": 11044
+      },
+      {
+        "_path": "lib/R/library/formatR/doc/formatR.html",
+        "path_type": "hardlink",
+        "sha256": "41089df1790a0899340350027754d8d8a3d26f649fd6eb90a3621dad6448062d",
+        "sha256_in_prefix": "41089df1790a0899340350027754d8d8a3d26f649fd6eb90a3621dad6448062d",
+        "size_in_bytes": 139540
+      },
+      {
+        "_path": "lib/R/library/formatR/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "513953766191523e5c0cd08c28cca3a32d367361674c6c45e3179149bb65dacf",
+        "sha256_in_prefix": "513953766191523e5c0cd08c28cca3a32d367361674c6c45e3179149bb65dacf",
+        "size_in_bytes": 1339
+      },
+      {
+        "_path": "lib/R/library/formatR/format/messy.R",
+        "path_type": "hardlink",
+        "sha256": "979f455bed838af9a21f5c3818ea4f1442b1bbed7a87dd93ab0fda77eb3d8c0d",
+        "sha256_in_prefix": "979f455bed838af9a21f5c3818ea4f1442b1bbed7a87dd93ab0fda77eb3d8c0d",
+        "size_in_bytes": 552
+      },
+      {
+        "_path": "lib/R/library/formatR/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "2418376a2d4072e8789a71a92a0e6474726d1b4b1632510002bc8f13ef1e2547",
+        "sha256_in_prefix": "2418376a2d4072e8789a71a92a0e6474726d1b4b1632510002bc8f13ef1e2547",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/R/library/formatR/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "dec7e45bc91a590fbf20282aa7f6ffc0d19bcd1b71eaf740a5b80d1b57d4fa26",
+        "sha256_in_prefix": "dec7e45bc91a590fbf20282aa7f6ffc0d19bcd1b71eaf740a5b80d1b57d4fa26",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/formatR/help/formatR.rdb",
+        "path_type": "hardlink",
+        "sha256": "af673c5d25af2c1936ae1a825c31d8688deebb95da3ba203ff45a9f0f7e7c296",
+        "sha256_in_prefix": "af673c5d25af2c1936ae1a825c31d8688deebb95da3ba203ff45a9f0f7e7c296",
+        "size_in_bytes": 13746
+      },
+      {
+        "_path": "lib/R/library/formatR/help/formatR.rdx",
+        "path_type": "hardlink",
+        "sha256": "b929565c38a510c4652d292b2431ad623676a6eada06ee57eacd6ee2e6bfa8ff",
+        "sha256_in_prefix": "b929565c38a510c4652d292b2431ad623676a6eada06ee57eacd6ee2e6bfa8ff",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "lib/R/library/formatR/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "6f449d3b7a77312c856d01c2cb40293b905df9f87b2fd331390086976030caf3",
+        "sha256_in_prefix": "6f449d3b7a77312c856d01c2cb40293b905df9f87b2fd331390086976030caf3",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "lib/R/library/formatR/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "f5cc3c71862ecb8a8e6cba88fdb2f879b66a152e6d7c962544a4d624e05d2771",
+        "sha256_in_prefix": "f5cc3c71862ecb8a8e6cba88fdb2f879b66a152e6d7c962544a4d624e05d2771",
+        "size_in_bytes": 1866
+      },
+      {
+        "_path": "lib/R/library/formatR/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/formatR/shiny/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "8ac1778c22a4f89616e05d6e2b68c31fe7a161df63f5b9fd66834fc85e162b60",
+        "sha256_in_prefix": "8ac1778c22a4f89616e05d6e2b68c31fe7a161df63f5b9fd66834fc85e162b60",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "lib/R/library/formatR/shiny/Readme.md",
+        "path_type": "hardlink",
+        "sha256": "1526b00be7bc6d87e268a18f17ff2caada080a6ac29c25d7ee1f62de95a32e37",
+        "sha256_in_prefix": "1526b00be7bc6d87e268a18f17ff2caada080a6ac29c25d7ee1f62de95a32e37",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/R/library/formatR/shiny/server.R",
+        "path_type": "hardlink",
+        "sha256": "2cf700f561d1458be8c43fe10d9c6f7aa4f0417a6e76eac62935df5b30ad71bc",
+        "sha256_in_prefix": "2cf700f561d1458be8c43fe10d9c6f7aa4f0417a6e76eac62935df5b30ad71bc",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "lib/R/library/formatR/shiny/ui.R",
+        "path_type": "hardlink",
+        "sha256": "d8deaff27a53f77da73a67b7f13eb5f6f9537aa7b75ce4ef25f197182909b9f0",
+        "sha256_in_prefix": "d8deaff27a53f77da73a67b7f13eb5f6f9537aa7b75ce4ef25f197182909b9f0",
+        "size_in_bytes": 1716
+      },
+      {
+        "_path": "lib/R/library/formatR/shiny/www/shiny-handler.js",
+        "path_type": "hardlink",
+        "sha256": "fb7f13ea7b1294fc342c3db4e3e56db134d49c38a83bba5fadedb982ce3cc20f",
+        "sha256_in_prefix": "fb7f13ea7b1294fc342c3db4e3e56db134d49c38a83bba5fadedb982ce3cc20f",
+        "size_in_bytes": 768
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cb986cc81d7e4490b4c879e50744ce2356c128a7b0ff1212a31e8c2e4788b9c7",
+  "size": 169829,
+  "subdir": "noarch",
+  "timestamp": 1588544693895,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-formatr-1.7-r36h6115d3f_2.tar.bz2",
+  "version": "1.7"
+}

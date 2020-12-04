@@ -1,0 +1,426 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "bioconductor-genomeinfodbdata >=1.2.0,<1.3.0",
+    "bioconductor-iranges >=2.20.0,<2.21.0",
+    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-rcurl"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-genomeinfodb-1.22.0-r36_0",
+  "features": "",
+  "files": [
+    "lib/R/library/GenomeInfoDb/DESCRIPTION",
+    "lib/R/library/GenomeInfoDb/INDEX",
+    "lib/R/library/GenomeInfoDb/Meta/Rd.rds",
+    "lib/R/library/GenomeInfoDb/Meta/features.rds",
+    "lib/R/library/GenomeInfoDb/Meta/hsearch.rds",
+    "lib/R/library/GenomeInfoDb/Meta/links.rds",
+    "lib/R/library/GenomeInfoDb/Meta/nsInfo.rds",
+    "lib/R/library/GenomeInfoDb/Meta/package.rds",
+    "lib/R/library/GenomeInfoDb/Meta/vignette.rds",
+    "lib/R/library/GenomeInfoDb/NAMESPACE",
+    "lib/R/library/GenomeInfoDb/NEWS",
+    "lib/R/library/GenomeInfoDb/R/GenomeInfoDb",
+    "lib/R/library/GenomeInfoDb/R/GenomeInfoDb.rdb",
+    "lib/R/library/GenomeInfoDb/R/GenomeInfoDb.rdx",
+    "lib/R/library/GenomeInfoDb/doc/Accept-organism-for-GenomeInfoDb.R",
+    "lib/R/library/GenomeInfoDb/doc/Accept-organism-for-GenomeInfoDb.Rnw",
+    "lib/R/library/GenomeInfoDb/doc/Accept-organism-for-GenomeInfoDb.pdf",
+    "lib/R/library/GenomeInfoDb/doc/GenomeInfoDb.R",
+    "lib/R/library/GenomeInfoDb/doc/GenomeInfoDb.Rnw",
+    "lib/R/library/GenomeInfoDb/doc/GenomeInfoDb.pdf",
+    "lib/R/library/GenomeInfoDb/doc/index.html",
+    "lib/R/library/GenomeInfoDb/extdata/assembly_accessions.rda",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Arabidopsis_thaliana.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Caenorhabditis_elegans.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Canis_familiaris.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Cyanidioschyzon_merolae.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Drosophila_melanogaster.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Homo_sapiens.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Mus_musculus.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Oryza_sativa.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Populus_trichocarpa.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/README",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Rattus_norvegicus.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Saccharomyces_cerevisiae.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/Zea_mays.txt",
+    "lib/R/library/GenomeInfoDb/extdata/dataFiles/genomeMappingTbl.csv",
+    "lib/R/library/GenomeInfoDb/help/AnIndex",
+    "lib/R/library/GenomeInfoDb/help/GenomeInfoDb.rdb",
+    "lib/R/library/GenomeInfoDb/help/GenomeInfoDb.rdx",
+    "lib/R/library/GenomeInfoDb/help/aliases.rds",
+    "lib/R/library/GenomeInfoDb/help/paths.rds",
+    "lib/R/library/GenomeInfoDb/html/00Index.html",
+    "lib/R/library/GenomeInfoDb/html/R.css",
+    "lib/R/library/GenomeInfoDb/unitTests/test_Seqinfo-class.R",
+    "lib/R/library/GenomeInfoDb/unitTests/test_mapGenomeBuilds.R",
+    "lib/R/library/GenomeInfoDb/unitTests/test_seqlevels-wrappers.R",
+    "lib/R/library/GenomeInfoDb/unitTests/test_seqlevelsStyle.R",
+    "lib/R/library/GenomeInfoDb/unitTests/test_utils.R"
+  ],
+  "fn": "bioconductor-genomeinfodb-1.22.0-r36_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-genomeinfodb-1.22.0-r36_0",
+    "type": 1
+  },
+  "md5": "1ec864403fa9add5f45cfcfa17862e82",
+  "name": "bioconductor-genomeinfodb",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-genomeinfodb-1.22.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/GenomeInfoDb/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "27cd4b310b13495bf9e3eada01252317fe5a012c8e4c814fec1f341d4fd52243",
+        "sha256_in_prefix": "27cd4b310b13495bf9e3eada01252317fe5a012c8e4c814fec1f341d4fd52243",
+        "size_in_bytes": 1703
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/INDEX",
+        "path_type": "hardlink",
+        "sha256": "5ee8d018ca95c8097c5f6b8eec37d96589e0264651d84d917d5d300b0169a225",
+        "sha256_in_prefix": "5ee8d018ca95c8097c5f6b8eec37d96589e0264651d84d917d5d300b0169a225",
+        "size_in_bytes": 811
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "05e2bc95b10f99b5fc94a3aa4073cd405f34dab33d727b0ab6dff5d9a94af046",
+        "sha256_in_prefix": "05e2bc95b10f99b5fc94a3aa4073cd405f34dab33d727b0ab6dff5d9a94af046",
+        "size_in_bytes": 1325
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "b2f18e74477cd7e38cd20d8b436aa72b77357f5d243ba7bb5f7e2606b9450d23",
+        "sha256_in_prefix": "b2f18e74477cd7e38cd20d8b436aa72b77357f5d243ba7bb5f7e2606b9450d23",
+        "size_in_bytes": 1441
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "38e1354d4248d4959463a942a54ded0860455f91477c909251ec9229816f65e8",
+        "sha256_in_prefix": "38e1354d4248d4959463a942a54ded0860455f91477c909251ec9229816f65e8",
+        "size_in_bytes": 993
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "1e0c771121d0aa9c2e4ec4a447325edf82d35655d24b6ac42bb52293daa944a3",
+        "sha256_in_prefix": "1e0c771121d0aa9c2e4ec4a447325edf82d35655d24b6ac42bb52293daa944a3",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "c9c404439f9df324d20e6324c17e3cdd6a5536e39b4b4a2939f1fb2828b45951",
+        "sha256_in_prefix": "c9c404439f9df324d20e6324c17e3cdd6a5536e39b4b4a2939f1fb2828b45951",
+        "size_in_bytes": 1591
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "32d4d6c27d6aa3a4b8f1c7184271117c0e8eeb53f3a46941c88235e9ef9a2958",
+        "sha256_in_prefix": "32d4d6c27d6aa3a4b8f1c7184271117c0e8eeb53f3a46941c88235e9ef9a2958",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "a09535b94776f2aab5cdf5780bcf2e4088929d86417e02b43629499beba9634a",
+        "sha256_in_prefix": "a09535b94776f2aab5cdf5780bcf2e4088929d86417e02b43629499beba9634a",
+        "size_in_bytes": 3097
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/NEWS",
+        "path_type": "hardlink",
+        "sha256": "6708126b3adad0f4222739e589b846d7f83735ba0257c52e5a73fb35e6167eb6",
+        "sha256_in_prefix": "6708126b3adad0f4222739e589b846d7f83735ba0257c52e5a73fb35e6167eb6",
+        "size_in_bytes": 6325
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/R/GenomeInfoDb",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/R/GenomeInfoDb.rdb",
+        "path_type": "hardlink",
+        "sha256": "beb2985ffb113125d12a261aac34abede306ac2a7035a57981b6b5196a2980a5",
+        "sha256_in_prefix": "beb2985ffb113125d12a261aac34abede306ac2a7035a57981b6b5196a2980a5",
+        "size_in_bytes": 513186
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/R/GenomeInfoDb.rdx",
+        "path_type": "hardlink",
+        "sha256": "88ec760b9138177e9874e4c35b42cf1d3744e58bc74f4f99e512fa9245676898",
+        "sha256_in_prefix": "88ec760b9138177e9874e4c35b42cf1d3744e58bc74f4f99e512fa9245676898",
+        "size_in_bytes": 4315
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/doc/Accept-organism-for-GenomeInfoDb.R",
+        "path_type": "hardlink",
+        "sha256": "e97074562670cbad9d793a6afd97d531899f503c8365f97dac255fef4e9d0096",
+        "sha256_in_prefix": "e97074562670cbad9d793a6afd97d531899f503c8365f97dac255fef4e9d0096",
+        "size_in_bytes": 346
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/doc/Accept-organism-for-GenomeInfoDb.Rnw",
+        "path_type": "hardlink",
+        "sha256": "0331c2ecfd939c295630001188cc9662e874428df14fd878c5debbba5fa6f75c",
+        "sha256_in_prefix": "0331c2ecfd939c295630001188cc9662e874428df14fd878c5debbba5fa6f75c",
+        "size_in_bytes": 2704
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/doc/Accept-organism-for-GenomeInfoDb.pdf",
+        "path_type": "hardlink",
+        "sha256": "b2518ab4a6f28068370f1f66b877e261533dd5b651c5148a3be3e62fb55bc0e0",
+        "sha256_in_prefix": "b2518ab4a6f28068370f1f66b877e261533dd5b651c5148a3be3e62fb55bc0e0",
+        "size_in_bytes": 124765
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/doc/GenomeInfoDb.R",
+        "path_type": "hardlink",
+        "sha256": "267055c1ac28425449403aae8aa894cccad82d1f9d709a232ea4209797e6663f",
+        "sha256_in_prefix": "267055c1ac28425449403aae8aa894cccad82d1f9d709a232ea4209797e6663f",
+        "size_in_bytes": 5980
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/doc/GenomeInfoDb.Rnw",
+        "path_type": "hardlink",
+        "sha256": "e0ea574c293a75827539734e04e62e738621e7e219a52619ab275729a28f54e2",
+        "sha256_in_prefix": "e0ea574c293a75827539734e04e62e738621e7e219a52619ab275729a28f54e2",
+        "size_in_bytes": 10878
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/doc/GenomeInfoDb.pdf",
+        "path_type": "hardlink",
+        "sha256": "334040d80b87cf15c017f9da5ff4934512d35043c81c0c8bebdaadc958dc20e2",
+        "sha256_in_prefix": "334040d80b87cf15c017f9da5ff4934512d35043c81c0c8bebdaadc958dc20e2",
+        "size_in_bytes": 167677
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "00b67999c3527c802b968251857471112be561f6b78aa66378804e9e201d464f",
+        "sha256_in_prefix": "00b67999c3527c802b968251857471112be561f6b78aa66378804e9e201d464f",
+        "size_in_bytes": 2056
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/assembly_accessions.rda",
+        "path_type": "hardlink",
+        "sha256": "0e45a9a9eb36dfe2d3b6088df2507fa0b6967f01887edd5ddecaf1a8b0f49e83",
+        "sha256_in_prefix": "0e45a9a9eb36dfe2d3b6088df2507fa0b6967f01887edd5ddecaf1a8b0f49e83",
+        "size_in_bytes": 3652897
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Arabidopsis_thaliana.txt",
+        "path_type": "hardlink",
+        "sha256": "3c6d7f47257f2cff52b1413a480bcf6f243a069f7a2a7687c8e9a6c144bf2773",
+        "sha256_in_prefix": "3c6d7f47257f2cff52b1413a480bcf6f243a069f7a2a7687c8e9a6c144bf2773",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Caenorhabditis_elegans.txt",
+        "path_type": "hardlink",
+        "sha256": "a3340b473f13dc157bf9e619b87261099b4acbf0b99c92cbfe5a2d18160c7041",
+        "sha256_in_prefix": "a3340b473f13dc157bf9e619b87261099b4acbf0b99c92cbfe5a2d18160c7041",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Canis_familiaris.txt",
+        "path_type": "hardlink",
+        "sha256": "c8e3d0fbff5e7dc311c63eb0b9669cc70af773671e5e46f4b23f9d394686872a",
+        "sha256_in_prefix": "c8e3d0fbff5e7dc311c63eb0b9669cc70af773671e5e46f4b23f9d394686872a",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Cyanidioschyzon_merolae.txt",
+        "path_type": "hardlink",
+        "sha256": "03eb67b7f4c8f3e57ae9f13ab6e082dae7675b1516140ba944f40f34151b2d5e",
+        "sha256_in_prefix": "03eb67b7f4c8f3e57ae9f13ab6e082dae7675b1516140ba944f40f34151b2d5e",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Drosophila_melanogaster.txt",
+        "path_type": "hardlink",
+        "sha256": "ac79b53f9d7c787535de4bc2bcd3a8e6106080c4194079f8a8a840d73e4e8eb5",
+        "sha256_in_prefix": "ac79b53f9d7c787535de4bc2bcd3a8e6106080c4194079f8a8a840d73e4e8eb5",
+        "size_in_bytes": 391
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Homo_sapiens.txt",
+        "path_type": "hardlink",
+        "sha256": "ba76e0c543beb56cd10551b1b9b2508353a7338b712add283e30d63d863ae3d5",
+        "sha256_in_prefix": "ba76e0c543beb56cd10551b1b9b2508353a7338b712add283e30d63d863ae3d5",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Mus_musculus.txt",
+        "path_type": "hardlink",
+        "sha256": "f56f1fb0199b9380650a782b397822e8f3d7a1a72e472d90557491632f3b6cf2",
+        "sha256_in_prefix": "f56f1fb0199b9380650a782b397822e8f3d7a1a72e472d90557491632f3b6cf2",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Oryza_sativa.txt",
+        "path_type": "hardlink",
+        "sha256": "9101b66774c260c36eda0cd81dc905d7ed62932fc010bc4773f7adeac91a2383",
+        "sha256_in_prefix": "9101b66774c260c36eda0cd81dc905d7ed62932fc010bc4773f7adeac91a2383",
+        "size_in_bytes": 251
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Populus_trichocarpa.txt",
+        "path_type": "hardlink",
+        "sha256": "fd9d197726abb16465cf7ef2cf92d3f6ac2d958ba0777495618a791af4d90bad",
+        "sha256_in_prefix": "fd9d197726abb16465cf7ef2cf92d3f6ac2d958ba0777495618a791af4d90bad",
+        "size_in_bytes": 368
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/README",
+        "path_type": "hardlink",
+        "sha256": "a2bd5653da9735b6fe358482104818aa6c3ffecf557f69eb45bacf9baa6e58a8",
+        "sha256_in_prefix": "a2bd5653da9735b6fe358482104818aa6c3ffecf557f69eb45bacf9baa6e58a8",
+        "size_in_bytes": 663
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Rattus_norvegicus.txt",
+        "path_type": "hardlink",
+        "sha256": "734408737b1c0a4dc978620fb063300a67809bb1c781044b9e03b77490cafcf6",
+        "sha256_in_prefix": "734408737b1c0a4dc978620fb063300a67809bb1c781044b9e03b77490cafcf6",
+        "size_in_bytes": 693
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Saccharomyces_cerevisiae.txt",
+        "path_type": "hardlink",
+        "sha256": "1008ca6c0299acbd940054fecb78dff20724a5e4be8d1b94d878e88c07e86314",
+        "sha256_in_prefix": "1008ca6c0299acbd940054fecb78dff20724a5e4be8d1b94d878e88c07e86314",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/Zea_mays.txt",
+        "path_type": "hardlink",
+        "sha256": "b747e1d4185c94929267fb768fd2f473ca03099d6c7197a5c677a3b6ee774d68",
+        "sha256_in_prefix": "b747e1d4185c94929267fb768fd2f473ca03099d6c7197a5c677a3b6ee774d68",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/extdata/dataFiles/genomeMappingTbl.csv",
+        "path_type": "hardlink",
+        "sha256": "d6cbbe7bb97aff8adfa86ac70875c682ed245e7536f0c07b5d8b2b760b1e2b31",
+        "sha256_in_prefix": "d6cbbe7bb97aff8adfa86ac70875c682ed245e7536f0c07b5d8b2b760b1e2b31",
+        "size_in_bytes": 32253
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "68762c0985fe0c6376d6d4d224f65b6a65474a3b49427872414190aabdcd36a0",
+        "sha256_in_prefix": "68762c0985fe0c6376d6d4d224f65b6a65474a3b49427872414190aabdcd36a0",
+        "size_in_bytes": 3821
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/help/GenomeInfoDb.rdb",
+        "path_type": "hardlink",
+        "sha256": "ef374303b4f78ef690c0c1076a6b012ebf554942a4d9d281f4805c484e564e8e",
+        "sha256_in_prefix": "ef374303b4f78ef690c0c1076a6b012ebf554942a4d9d281f4805c484e564e8e",
+        "size_in_bytes": 62621
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/help/GenomeInfoDb.rdx",
+        "path_type": "hardlink",
+        "sha256": "ea48d387131239aa8a074392f3b9655877ada3e9b82af6b497bfe250e5e87e7c",
+        "sha256_in_prefix": "ea48d387131239aa8a074392f3b9655877ada3e9b82af6b497bfe250e5e87e7c",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "a62e2d68b4a8c77e15df9f7f88afb582f4f35613f4bbb7cdf87501008ae2d763",
+        "sha256_in_prefix": "a62e2d68b4a8c77e15df9f7f88afb582f4f35613f4bbb7cdf87501008ae2d763",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "3754dc24dc5d3fa290af678e7aab802075791a74b57991d63d923d242050858c",
+        "sha256_in_prefix": "3754dc24dc5d3fa290af678e7aab802075791a74b57991d63d923d242050858c",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "ac57f8599a431614abfb18fdeadf70e731867348f4f4208955d4f0e6aa7fd7f1",
+        "sha256_in_prefix": "ac57f8599a431614abfb18fdeadf70e731867348f4f4208955d4f0e6aa7fd7f1",
+        "size_in_bytes": 14135
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/unitTests/test_Seqinfo-class.R",
+        "path_type": "hardlink",
+        "sha256": "cf2faf4654bc8fff1e4fc40bf6b585718c281383ebf529713f323c19c3ea9b89",
+        "sha256_in_prefix": "cf2faf4654bc8fff1e4fc40bf6b585718c281383ebf529713f323c19c3ea9b89",
+        "size_in_bytes": 3248
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/unitTests/test_mapGenomeBuilds.R",
+        "path_type": "hardlink",
+        "sha256": "30b5bd1a4d42f84fdd817ee7432305e67a548edf0849a8486a016a9105396249",
+        "sha256_in_prefix": "30b5bd1a4d42f84fdd817ee7432305e67a548edf0849a8486a016a9105396249",
+        "size_in_bytes": 4957
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/unitTests/test_seqlevels-wrappers.R",
+        "path_type": "hardlink",
+        "sha256": "6e55671ef66cea0a41802b83bf285eeb96753d851485ad6431e0245ddcf039c5",
+        "sha256_in_prefix": "6e55671ef66cea0a41802b83bf285eeb96753d851485ad6431e0245ddcf039c5",
+        "size_in_bytes": 10210
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/unitTests/test_seqlevelsStyle.R",
+        "path_type": "hardlink",
+        "sha256": "25586e328b25b083d5cb5f325e6db9c3237052e05fa42b209d78a2b007678e8d",
+        "sha256_in_prefix": "25586e328b25b083d5cb5f325e6db9c3237052e05fa42b209d78a2b007678e8d",
+        "size_in_bytes": 2345
+      },
+      {
+        "_path": "lib/R/library/GenomeInfoDb/unitTests/test_utils.R",
+        "path_type": "hardlink",
+        "sha256": "eead88b8b81b98108edae0a84de3762e94afaf99a69169335e1da233513bffc8",
+        "sha256_in_prefix": "eead88b8b81b98108edae0a84de3762e94afaf99a69169335e1da233513bffc8",
+        "size_in_bytes": 1222
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "340a5e72bf5d9c0a94bb255b63cff3ee2dedcd40d19ea44fe1b32e87545f728a",
+  "size": 4012109,
+  "subdir": "noarch",
+  "timestamp": 1572624736427,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-genomeinfodb-1.22.0-r36_0.tar.bz2",
+  "version": "1.22.0"
+}

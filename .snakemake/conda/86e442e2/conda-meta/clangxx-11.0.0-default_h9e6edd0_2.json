@@ -1,0 +1,50 @@
+{
+  "build": "default_h9e6edd0_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "clang 11.0.0 h694c41f_2"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/clangxx-11.0.0-default_h9e6edd0_2",
+  "features": "",
+  "files": [
+    "bin/-clang++",
+    "bin/clang++"
+  ],
+  "fn": "clangxx-11.0.0-default_h9e6edd0_2.tar.bz2",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/clangxx-11.0.0-default_h9e6edd0_2",
+    "type": 1
+  },
+  "md5": "faef5c5e53c5aa6c6111a03c16ae9620",
+  "name": "clangxx",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/clangxx-11.0.0-default_h9e6edd0_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/-clang++",
+        "path_type": "softlink",
+        "sha256": "f38c18274b8157e23e157293d71bdcb9526c8f2421c47c8973a269cd2870c5b5",
+        "size_in_bytes": 148604
+      },
+      {
+        "_path": "bin/clang++",
+        "path_type": "softlink",
+        "sha256": "f38c18274b8157e23e157293d71bdcb9526c8f2421c47c8973a269cd2870c5b5",
+        "size_in_bytes": 148604
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e5ecdcf84c8015282357c1f2e8dc3aa67558279cb7f52df434eb116439648570",
+  "size": 126845,
+  "subdir": "osx-64",
+  "timestamp": 1605745695176,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/clangxx-11.0.0-default_h9e6edd0_2.tar.bz2",
+  "version": "11.0.0"
+}

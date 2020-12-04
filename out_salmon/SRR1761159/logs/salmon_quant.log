@@ -1,0 +1,33 @@
+[2020-12-04 15:20:26.729] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2020-12-04 15:20:26.730] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2020-12-04 15:20:26.730] [jointLog] [info] Usage of --validateMappings implies use of range factorization. rangeFactorizationBins is being set to 4
+[2020-12-04 15:20:26.732] [jointLog] [info] Usage of --validateMappings implies a default consensus slack of 1. Setting consensusSlack to 1.
+[2020-12-04 15:20:26.732] [jointLog] [info] parsing read library format
+[2020-12-04 15:20:26.732] [jointLog] [info] There is 1 library.
+[2020-12-04 15:20:26.863] [jointLog] [info] Loading Quasi index
+[2020-12-04 15:20:26.864] [jointLog] [info] Loading 32-bit quasi index
+[2020-12-04 15:20:28.567] [jointLog] [info] done
+[2020-12-04 15:20:28.567] [jointLog] [info] Index contained 6,560 targets
+[2020-12-04 15:20:29.646] [jointLog] [info] Automatically detected most likely library type as SR
+[2020-12-04 15:23:43.072] [jointLog] [info] Thread saw mini-batch with a maximum of 1.30% zero probability fragments
+[2020-12-04 15:23:43.164] [jointLog] [info] Thread saw mini-batch with a maximum of 1.14% zero probability fragments
+[2020-12-04 15:23:43.210] [jointLog] [info] Thread saw mini-batch with a maximum of 1.06% zero probability fragments
+[2020-12-04 15:23:43.265] [jointLog] [info] Thread saw mini-batch with a maximum of 1.10% zero probability fragments
+[2020-12-04 15:23:43.406] [jointLog] [info] Computed 5,906 rich equivalence classes for further processing
+[2020-12-04 15:23:43.406] [jointLog] [info] Counted 8,126,353 total reads in the equivalence classes 
+[2020-12-04 15:23:43.415] [jointLog] [info] Mapping rate = 65.1402%
+
+[2020-12-04 15:23:43.415] [jointLog] [info] finished quantifyLibrary()
+[2020-12-04 15:23:43.420] [jointLog] [info] Starting optimizer
+[2020-12-04 15:23:43.464] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-12-04 15:23:43.468] [jointLog] [info] iteration = 0 | max rel diff. = 82667.1
+[2020-12-04 15:23:43.408] [fileLog] [info] 
+At end of round 0
+==================
+Observed 12475170 total fragments (12475170 in most recent round)
+
+[2020-12-04 15:23:43.638] [jointLog] [info] iteration = 100 | max rel diff. = 0.163826
+[2020-12-04 15:23:43.722] [jointLog] [info] iteration = 144 | max rel diff. = 0.00681628
+[2020-12-04 15:23:43.722] [jointLog] [info] Finished optimizer
+[2020-12-04 15:23:43.722] [jointLog] [info] writing output 
+

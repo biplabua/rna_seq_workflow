@@ -1,0 +1,35 @@
+[2020-12-04 14:54:38.776] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2020-12-04 14:54:38.776] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2020-12-04 14:54:38.776] [jointLog] [info] Usage of --validateMappings implies use of range factorization. rangeFactorizationBins is being set to 4
+[2020-12-04 14:54:38.776] [jointLog] [info] Usage of --validateMappings implies a default consensus slack of 1. Setting consensusSlack to 1.
+[2020-12-04 14:54:38.776] [jointLog] [info] parsing read library format
+[2020-12-04 14:54:38.776] [jointLog] [info] There is 1 library.
+[2020-12-04 14:54:38.864] [jointLog] [info] Loading Quasi index
+[2020-12-04 14:54:38.864] [jointLog] [info] Loading 32-bit quasi index
+[2020-12-04 14:54:39.598] [jointLog] [info] done
+[2020-12-04 14:54:39.598] [jointLog] [info] Index contained 6,560 targets
+[2020-12-04 14:54:40.217] [jointLog] [info] Automatically detected most likely library type as SR
+[2020-12-04 14:56:46.427] [fileLog] [info] 
+At end of round 0
+==================
+Observed 17816673 total fragments (17816673 in most recent round)
+
+[2020-12-04 14:56:46.269] [jointLog] [info] Thread saw mini-batch with a maximum of 0.86% zero probability fragments
+[2020-12-04 14:56:46.281] [jointLog] [info] Thread saw mini-batch with a maximum of 0.82% zero probability fragments
+[2020-12-04 14:56:46.304] [jointLog] [info] Thread saw mini-batch with a maximum of 0.78% zero probability fragments
+[2020-12-04 14:56:46.325] [jointLog] [info] Thread saw mini-batch with a maximum of 0.78% zero probability fragments
+[2020-12-04 14:56:46.426] [jointLog] [info] Computed 7,072 rich equivalence classes for further processing
+[2020-12-04 14:56:46.426] [jointLog] [info] Counted 12,357,304 total reads in the equivalence classes 
+[2020-12-04 14:56:46.434] [jointLog] [info] Mapping rate = 69.3581%
+
+[2020-12-04 14:56:46.434] [jointLog] [info] finished quantifyLibrary()
+[2020-12-04 14:56:46.434] [jointLog] [info] Starting optimizer
+[2020-12-04 14:56:46.742] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-12-04 14:56:46.742] [jointLog] [info] iteration = 0 | max rel diff. = 126629
+[2020-12-04 14:56:46.797] [jointLog] [info] iteration = 100 | max rel diff. = 0.0206492
+[2020-12-04 14:56:46.854] [jointLog] [info] iteration = 200 | max rel diff. = 0.0591416
+[2020-12-04 14:56:46.913] [jointLog] [info] iteration = 300 | max rel diff. = 0.0177334
+[2020-12-04 14:56:46.959] [jointLog] [info] iteration = 379 | max rel diff. = 0.000113556
+[2020-12-04 14:56:46.959] [jointLog] [info] Finished optimizer
+[2020-12-04 14:56:46.959] [jointLog] [info] writing output 
+

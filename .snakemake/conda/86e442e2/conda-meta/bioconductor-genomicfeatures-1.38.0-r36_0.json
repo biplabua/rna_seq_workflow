@@ -1,0 +1,571 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+    "bioconductor-biobase >=2.46.0,<2.47.0",
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "bioconductor-biomart >=2.42.0,<2.43.0",
+    "bioconductor-biostrings >=2.54.0,<2.55.0",
+    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+    "bioconductor-iranges >=2.20.0,<2.21.0",
+    "bioconductor-rtracklayer >=1.46.0,<1.47.0",
+    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+    "bioconductor-xvector >=0.26.0,<0.27.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-dbi",
+    "r-rcurl",
+    "r-rsqlite >=2.0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-genomicfeatures-1.38.0-r36_0",
+  "features": "",
+  "files": [
+    "lib/R/library/GenomicFeatures/CITATION",
+    "lib/R/library/GenomicFeatures/DESCRIPTION",
+    "lib/R/library/GenomicFeatures/INDEX",
+    "lib/R/library/GenomicFeatures/Meta/Rd.rds",
+    "lib/R/library/GenomicFeatures/Meta/features.rds",
+    "lib/R/library/GenomicFeatures/Meta/hsearch.rds",
+    "lib/R/library/GenomicFeatures/Meta/links.rds",
+    "lib/R/library/GenomicFeatures/Meta/nsInfo.rds",
+    "lib/R/library/GenomicFeatures/Meta/package.rds",
+    "lib/R/library/GenomicFeatures/Meta/vignette.rds",
+    "lib/R/library/GenomicFeatures/NAMESPACE",
+    "lib/R/library/GenomicFeatures/NEWS",
+    "lib/R/library/GenomicFeatures/R/GenomicFeatures",
+    "lib/R/library/GenomicFeatures/R/GenomicFeatures.rdb",
+    "lib/R/library/GenomicFeatures/R/GenomicFeatures.rdx",
+    "lib/R/library/GenomicFeatures/doc/GenomicFeatures.R",
+    "lib/R/library/GenomicFeatures/doc/GenomicFeatures.Rnw",
+    "lib/R/library/GenomicFeatures/doc/GenomicFeatures.pdf",
+    "lib/R/library/GenomicFeatures/doc/index.html",
+    "lib/R/library/GenomicFeatures/extdata/Biomart_Ensembl_sample.sqlite",
+    "lib/R/library/GenomicFeatures/extdata/FeatureDb.sqlite",
+    "lib/R/library/GenomicFeatures/extdata/GFF3_files/NC_011025.gff",
+    "lib/R/library/GenomicFeatures/extdata/GFF3_files/TheCanonicalGene_v1.gff3",
+    "lib/R/library/GenomicFeatures/extdata/GFF3_files/TheCanonicalGene_v2.gff3",
+    "lib/R/library/GenomicFeatures/extdata/GFF3_files/a.gff3",
+    "lib/R/library/GenomicFeatures/extdata/GFF3_files/a.sqlite",
+    "lib/R/library/GenomicFeatures/extdata/GFF3_files/dmel-1000-r5.11.filtered.gff",
+    "lib/R/library/GenomicFeatures/extdata/GFF3_files/dmel-1000-r5.11.filtered.sqlite",
+    "lib/R/library/GenomicFeatures/extdata/GTF_files/Aedes_aegypti.partial.gtf",
+    "lib/R/library/GenomicFeatures/extdata/GTF_files/Aedes_aegypti.partial.sqlite",
+    "lib/R/library/GenomicFeatures/extdata/GTF_files/test1.gtf",
+    "lib/R/library/GenomicFeatures/extdata/cD.exByEdge-SG-Vig.Rda",
+    "lib/R/library/GenomicFeatures/extdata/cD.exsByGenes-SG-Vig.Rda",
+    "lib/R/library/GenomicFeatures/extdata/events.Rda",
+    "lib/R/library/GenomicFeatures/extdata/hg19_knownGene_sample.sqlite",
+    "lib/R/library/GenomicFeatures/extdata/sacCer2_sgdGene_txdb.sqlite",
+    "lib/R/library/GenomicFeatures/extdata/sample_ranges.rds",
+    "lib/R/library/GenomicFeatures/help/AnIndex",
+    "lib/R/library/GenomicFeatures/help/GenomicFeatures.rdb",
+    "lib/R/library/GenomicFeatures/help/GenomicFeatures.rdx",
+    "lib/R/library/GenomicFeatures/help/aliases.rds",
+    "lib/R/library/GenomicFeatures/help/paths.rds",
+    "lib/R/library/GenomicFeatures/html/00Index.html",
+    "lib/R/library/GenomicFeatures/html/R.css",
+    "lib/R/library/GenomicFeatures/script/makeTxDbs.R",
+    "lib/R/library/GenomicFeatures/script/maketRNAFDb.R",
+    "lib/R/library/GenomicFeatures/txdb-template/DESCRIPTION",
+    "lib/R/library/GenomicFeatures/txdb-template/NAMESPACE",
+    "lib/R/library/GenomicFeatures/txdb-template/R/zzz.R",
+    "lib/R/library/GenomicFeatures/txdb-template/man/package.Rd",
+    "lib/R/library/GenomicFeatures/unitTests/test_TxDb_seqinfo.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_coordinate-mapping-methods.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_disjointExons.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_getPromoterSeq-methods.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_makeIdsForUniqueDataFrameRows.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_makeTxDb.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_makeTxDbFromBiomart.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_makeTxDbFromGFF.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_makeTxDbFromGRanges.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_makeTxDbFromUCSC.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_mapIdsToRanges.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_select-methods.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_transcripts.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_transcriptsBy.R",
+    "lib/R/library/GenomicFeatures/unitTests/test_transcriptsByOverlaps.R"
+  ],
+  "fn": "bioconductor-genomicfeatures-1.38.0-r36_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-genomicfeatures-1.38.0-r36_0",
+    "type": 1
+  },
+  "md5": "6398724e5afbe1b57cfd5453d3e471ad",
+  "name": "bioconductor-genomicfeatures",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-genomicfeatures-1.38.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/GenomicFeatures/CITATION",
+        "path_type": "hardlink",
+        "sha256": "9dfd64478cacbf9e9d18c8feecf202e2aa169bd78b068bef032ac5f461d90755",
+        "sha256_in_prefix": "9dfd64478cacbf9e9d18c8feecf202e2aa169bd78b068bef032ac5f461d90755",
+        "size_in_bytes": 940
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "fd35585c7b6d5ed53af081b1abcd8b5d8268858d9a0a8a6d70c00cae1551e57c",
+        "sha256_in_prefix": "fd35585c7b6d5ed53af081b1abcd8b5d8268858d9a0a8a6d70c00cae1551e57c",
+        "size_in_bytes": 3006
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/INDEX",
+        "path_type": "hardlink",
+        "sha256": "160a978da07e22a6679e204f43170821b43fc117dc7318539984c9932a11e5fd",
+        "sha256_in_prefix": "160a978da07e22a6679e204f43170821b43fc117dc7318539984c9932a11e5fd",
+        "size_in_bytes": 3008
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "e4171fd967b64510e2f6ef8612d96c066a1a6dbb27ccbc9004e33108d58aca47",
+        "sha256_in_prefix": "e4171fd967b64510e2f6ef8612d96c066a1a6dbb27ccbc9004e33108d58aca47",
+        "size_in_bytes": 2148
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "aed90b604fd2927d42c7f4450fcbca3b9c64c1eb5e90083b190d621ebf556256",
+        "sha256_in_prefix": "aed90b604fd2927d42c7f4450fcbca3b9c64c1eb5e90083b190d621ebf556256",
+        "size_in_bytes": 2267
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "e6d17231d90b7cc88d1ae701ec70b42405b00a68a9234ee3eacf9d023755cfb8",
+        "sha256_in_prefix": "e6d17231d90b7cc88d1ae701ec70b42405b00a68a9234ee3eacf9d023755cfb8",
+        "size_in_bytes": 1319
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "2061e940e53d9dfdf23864c1ffa12cc98ab76b1b76200057d42293fdeee7af0f",
+        "sha256_in_prefix": "2061e940e53d9dfdf23864c1ffa12cc98ab76b1b76200057d42293fdeee7af0f",
+        "size_in_bytes": 1256
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "b5f209d24031f5d3fc3c620e9052aa42cfe0bd576a576617893f6631ad907ce0",
+        "sha256_in_prefix": "b5f209d24031f5d3fc3c620e9052aa42cfe0bd576a576617893f6631ad907ce0",
+        "size_in_bytes": 2344
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "0f0e8165b41b2b7b29c6f512ae86e5c777220a6a366d477c5c14f222364d7215",
+        "sha256_in_prefix": "0f0e8165b41b2b7b29c6f512ae86e5c777220a6a366d477c5c14f222364d7215",
+        "size_in_bytes": 292
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "f41be80604fb17326052bee0d999859c8cd2a0d91313b6a8ea53096ddf103326",
+        "sha256_in_prefix": "f41be80604fb17326052bee0d999859c8cd2a0d91313b6a8ea53096ddf103326",
+        "size_in_bytes": 3543
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/NEWS",
+        "path_type": "hardlink",
+        "sha256": "152eab5cea3b98eeb38d9c9e5686f19ca9a73ef47ce4b9c2eedcf2457226faf3",
+        "sha256_in_prefix": "152eab5cea3b98eeb38d9c9e5686f19ca9a73ef47ce4b9c2eedcf2457226faf3",
+        "size_in_bytes": 24850
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/R/GenomicFeatures",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/R/GenomicFeatures.rdb",
+        "path_type": "hardlink",
+        "sha256": "71f51c9f7e079089bceac69743318ee50e939645429ba40d785fe5eb0a7f3364",
+        "sha256_in_prefix": "71f51c9f7e079089bceac69743318ee50e939645429ba40d785fe5eb0a7f3364",
+        "size_in_bytes": 852413
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/R/GenomicFeatures.rdx",
+        "path_type": "hardlink",
+        "sha256": "0bfb5dd08189d3fe33cbd1c1f5509d8a481bd4185704672c14cbbf12424bf1dc",
+        "sha256_in_prefix": "0bfb5dd08189d3fe33cbd1c1f5509d8a481bd4185704672c14cbbf12424bf1dc",
+        "size_in_bytes": 9265
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/doc/GenomicFeatures.R",
+        "path_type": "hardlink",
+        "sha256": "b924e2cffe29c151a173606b83e21c5799d504d0f5bb54c4878e6c714e63fae3",
+        "sha256_in_prefix": "b924e2cffe29c151a173606b83e21c5799d504d0f5bb54c4878e6c714e63fae3",
+        "size_in_bytes": 4400
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/doc/GenomicFeatures.Rnw",
+        "path_type": "hardlink",
+        "sha256": "85ba53e1f8d8240f476083193640a3aad37f8f321fae5c3fc5d0023f396c6c0d",
+        "sha256_in_prefix": "85ba53e1f8d8240f476083193640a3aad37f8f321fae5c3fc5d0023f396c6c0d",
+        "size_in_bytes": 19357
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/doc/GenomicFeatures.pdf",
+        "path_type": "hardlink",
+        "sha256": "e0b8f235afb8f0c083ea3f8cb00dd66300f1dc9211d22d50d50e0e5d69653a45",
+        "sha256_in_prefix": "e0b8f235afb8f0c083ea3f8cb00dd66300f1dc9211d22d50d50e0e5d69653a45",
+        "size_in_bytes": 214326
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "5805d130394c255ab372891c04d3c4afd2bcf56bf2f0d64cd8ff1d4c0da35c24",
+        "sha256_in_prefix": "5805d130394c255ab372891c04d3c4afd2bcf56bf2f0d64cd8ff1d4c0da35c24",
+        "size_in_bytes": 1431
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/Biomart_Ensembl_sample.sqlite",
+        "path_type": "hardlink",
+        "sha256": "7a35635d4e12d78fd7c5c8888c22596eb4c022e76dc0367fe89ea71bf5142ba8",
+        "sha256_in_prefix": "7a35635d4e12d78fd7c5c8888c22596eb4c022e76dc0367fe89ea71bf5142ba8",
+        "size_in_bytes": 45056
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/FeatureDb.sqlite",
+        "path_type": "hardlink",
+        "sha256": "b9cb0c4c91f5d0bc8119c1fce332c3795c2eb18d6c07fea941f4a4101f4fcacf",
+        "sha256_in_prefix": "b9cb0c4c91f5d0bc8119c1fce332c3795c2eb18d6c07fea941f4a4101f4fcacf",
+        "size_in_bytes": 34816
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/GFF3_files/NC_011025.gff",
+        "path_type": "hardlink",
+        "sha256": "057de7496927bd5e21886282990b62d81f9ca810a17d21b7e461587f5754c63b",
+        "sha256_in_prefix": "057de7496927bd5e21886282990b62d81f9ca810a17d21b7e461587f5754c63b",
+        "size_in_bytes": 263054
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/GFF3_files/TheCanonicalGene_v1.gff3",
+        "path_type": "hardlink",
+        "sha256": "1a5e7f0ddfa32f2c724ba62d49f75af0fd5742542460b9d77d76a1068fd55717",
+        "sha256_in_prefix": "1a5e7f0ddfa32f2c724ba62d49f75af0fd5742542460b9d77d76a1068fd55717",
+        "size_in_bytes": 1760
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/GFF3_files/TheCanonicalGene_v2.gff3",
+        "path_type": "hardlink",
+        "sha256": "13e0c98f9d525626693617e90f30ccae95b9240446d5214eead7830c988da5ce",
+        "sha256_in_prefix": "13e0c98f9d525626693617e90f30ccae95b9240446d5214eead7830c988da5ce",
+        "size_in_bytes": 1391
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/GFF3_files/a.gff3",
+        "path_type": "hardlink",
+        "sha256": "e1fd18c3f6175d2e7c6ad7ed15a233fbb8013750e92e4eb9441a3f64265d20a4",
+        "sha256_in_prefix": "e1fd18c3f6175d2e7c6ad7ed15a233fbb8013750e92e4eb9441a3f64265d20a4",
+        "size_in_bytes": 661564
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/GFF3_files/a.sqlite",
+        "path_type": "hardlink",
+        "sha256": "78ce7ed3ea86be5dfd31bde53b76673ab80e9dffd6862483017ae3d25b412707",
+        "sha256_in_prefix": "78ce7ed3ea86be5dfd31bde53b76673ab80e9dffd6862483017ae3d25b412707",
+        "size_in_bytes": 286720
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/GFF3_files/dmel-1000-r5.11.filtered.gff",
+        "path_type": "hardlink",
+        "sha256": "5b0533c3773d8232d96c4f99254c6cc43841d5120f1c4a5eafd6c1551d316024",
+        "sha256_in_prefix": "5b0533c3773d8232d96c4f99254c6cc43841d5120f1c4a5eafd6c1551d316024",
+        "size_in_bytes": 56454
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/GFF3_files/dmel-1000-r5.11.filtered.sqlite",
+        "path_type": "hardlink",
+        "sha256": "ab468e260ef7c7762a65de2e18451a9ced2bea5a4d0e5369837912867a157ff0",
+        "sha256_in_prefix": "ab468e260ef7c7762a65de2e18451a9ced2bea5a4d0e5369837912867a157ff0",
+        "size_in_bytes": 69632
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/GTF_files/Aedes_aegypti.partial.gtf",
+        "path_type": "hardlink",
+        "sha256": "0bcc54c83ca4e4497907e69009335c824e68227f33014b9c82e6988992706ccf",
+        "sha256_in_prefix": "0bcc54c83ca4e4497907e69009335c824e68227f33014b9c82e6988992706ccf",
+        "size_in_bytes": 154471
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/GTF_files/Aedes_aegypti.partial.sqlite",
+        "path_type": "hardlink",
+        "sha256": "856022238b0119b64d3a1be4c528d23430e660687293edf501c963723e5c9b2d",
+        "sha256_in_prefix": "856022238b0119b64d3a1be4c528d23430e660687293edf501c963723e5c9b2d",
+        "size_in_bytes": 98304
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/GTF_files/test1.gtf",
+        "path_type": "hardlink",
+        "sha256": "bd5ce6b6e4e9ff787abdd04ea11f67fed2f957efbdad093696a530e3a95f94aa",
+        "sha256_in_prefix": "bd5ce6b6e4e9ff787abdd04ea11f67fed2f957efbdad093696a530e3a95f94aa",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/cD.exByEdge-SG-Vig.Rda",
+        "path_type": "hardlink",
+        "sha256": "7104bc68f368178df4ae31bedcf057838f12930d2f1f09f84dc9afc7dd1e5dd5",
+        "sha256_in_prefix": "7104bc68f368178df4ae31bedcf057838f12930d2f1f09f84dc9afc7dd1e5dd5",
+        "size_in_bytes": 59968
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/cD.exsByGenes-SG-Vig.Rda",
+        "path_type": "hardlink",
+        "sha256": "10da6a6f7776054e72550b127c4bb59e8bd5305f1a7676a35e51e03e048e44c7",
+        "sha256_in_prefix": "10da6a6f7776054e72550b127c4bb59e8bd5305f1a7676a35e51e03e048e44c7",
+        "size_in_bytes": 101438
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/events.Rda",
+        "path_type": "hardlink",
+        "sha256": "a82e5f3d2eceb6cc84b2016296328ff9642988e840b06429bad499487af5221e",
+        "sha256_in_prefix": "a82e5f3d2eceb6cc84b2016296328ff9642988e840b06429bad499487af5221e",
+        "size_in_bytes": 1262
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/hg19_knownGene_sample.sqlite",
+        "path_type": "hardlink",
+        "sha256": "728e16935e227e2155cb083da0d2ea6438bde85927351bc4b9168d60429e374d",
+        "sha256_in_prefix": "728e16935e227e2155cb083da0d2ea6438bde85927351bc4b9168d60429e374d",
+        "size_in_bytes": 111616
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/sacCer2_sgdGene_txdb.sqlite",
+        "path_type": "hardlink",
+        "sha256": "49291f45ef5f1fb8ffa373243761394d7e163365ee4a7d368667c72d5baec418",
+        "sha256_in_prefix": "49291f45ef5f1fb8ffa373243761394d7e163365ee4a7d368667c72d5baec418",
+        "size_in_bytes": 1142784
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/extdata/sample_ranges.rds",
+        "path_type": "hardlink",
+        "sha256": "29c169be4e9f4a80f32302a0d8b498c02d431f9fc424723bca4c3dcccfa75370",
+        "sha256_in_prefix": "29c169be4e9f4a80f32302a0d8b498c02d431f9fc424723bca4c3dcccfa75370",
+        "size_in_bytes": 6488
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "c4eb6bf9e1d6dea3fed2fe789ec8eb55ac715689e847796a550ad7206ca14976",
+        "sha256_in_prefix": "c4eb6bf9e1d6dea3fed2fe789ec8eb55ac715689e847796a550ad7206ca14976",
+        "size_in_bytes": 4969
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/help/GenomicFeatures.rdb",
+        "path_type": "hardlink",
+        "sha256": "9e96f58eacb10c52f788ea839154264367dedc937f03eed6afa619a8ba39d590",
+        "sha256_in_prefix": "9e96f58eacb10c52f788ea839154264367dedc937f03eed6afa619a8ba39d590",
+        "size_in_bytes": 189500
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/help/GenomicFeatures.rdx",
+        "path_type": "hardlink",
+        "sha256": "76a7f773c9d7e9200152f4fbbc44172cfd3a44bf1f9e06206b2620c06cb3a23d",
+        "sha256_in_prefix": "76a7f773c9d7e9200152f4fbbc44172cfd3a44bf1f9e06206b2620c06cb3a23d",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "c1f1d7d3ab038152a652b2526088396461c827f0fe61747caa6371580a14b27d",
+        "sha256_in_prefix": "c1f1d7d3ab038152a652b2526088396461c827f0fe61747caa6371580a14b27d",
+        "size_in_bytes": 1224
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "acf5850045258b39e0dab37e417e3eff42c6f8eb48508a0284428fc66f4a982b",
+        "sha256_in_prefix": "acf5850045258b39e0dab37e417e3eff42c6f8eb48508a0284428fc66f4a982b",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "6436741fe8b20ddea98b9b8297b6392b455407cb3a080206400bd5b8c4a4bc77",
+        "sha256_in_prefix": "6436741fe8b20ddea98b9b8297b6392b455407cb3a080206400bd5b8c4a4bc77",
+        "size_in_bytes": 20004
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/script/makeTxDbs.R",
+        "path_type": "hardlink",
+        "sha256": "62d0164e9c1da28e2e7ef2877442b90a5e135790618bcce3c4d9d4d661131c41",
+        "sha256_in_prefix": "62d0164e9c1da28e2e7ef2877442b90a5e135790618bcce3c4d9d4d661131c41",
+        "size_in_bytes": 4476
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/script/maketRNAFDb.R",
+        "path_type": "hardlink",
+        "sha256": "a29da26fb457027a7f9f81b17ff666ae1f114a3814430fc28c80bfb9eaa6f8fd",
+        "sha256_in_prefix": "a29da26fb457027a7f9f81b17ff666ae1f114a3814430fc28c80bfb9eaa6f8fd",
+        "size_in_bytes": 3849
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/txdb-template/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "e3a4d67463fe316b584a9acbdf9f81251952e5d90433503b5f0ecf75535c8a04",
+        "sha256_in_prefix": "e3a4d67463fe316b584a9acbdf9f81251952e5d90433503b5f0ecf75535c8a04",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/txdb-template/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "88eeb8c972958f93f761584a255cd2e4d0504db8c43bac3abefa14b608ddca22",
+        "sha256_in_prefix": "88eeb8c972958f93f761584a255cd2e4d0504db8c43bac3abefa14b608ddca22",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/txdb-template/R/zzz.R",
+        "path_type": "hardlink",
+        "sha256": "77a2ccefcaa7fb5a992e7d7bb0764c7d36cc4c240fc23352a422b85c7529d492",
+        "sha256_in_prefix": "77a2ccefcaa7fb5a992e7d7bb0764c7d36cc4c240fc23352a422b85c7529d492",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/txdb-template/man/package.Rd",
+        "path_type": "hardlink",
+        "sha256": "b3a37cb91da732179ba47ed48ae71462589c3ea013c053699b7edbb44eff91d9",
+        "sha256_in_prefix": "b3a37cb91da732179ba47ed48ae71462589c3ea013c053699b7edbb44eff91d9",
+        "size_in_bytes": 1007
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_TxDb_seqinfo.R",
+        "path_type": "hardlink",
+        "sha256": "8b7a96b9e1e65599e3af2dc0dcc2728364aab3a5d3638eae3a0ef1a2ac2efe5d",
+        "sha256_in_prefix": "8b7a96b9e1e65599e3af2dc0dcc2728364aab3a5d3638eae3a0ef1a2ac2efe5d",
+        "size_in_bytes": 3970
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_coordinate-mapping-methods.R",
+        "path_type": "hardlink",
+        "sha256": "bd1f88f3a8315e3cc83bc0b4a0df50969d3456e2a6fdacd0bc2d5a8654a316c7",
+        "sha256_in_prefix": "bd1f88f3a8315e3cc83bc0b4a0df50969d3456e2a6fdacd0bc2d5a8654a316c7",
+        "size_in_bytes": 15752
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_disjointExons.R",
+        "path_type": "hardlink",
+        "sha256": "5094edd20f8fae93e7749b0459f7704c829885541f9bebf37a178baf2409a018",
+        "sha256_in_prefix": "5094edd20f8fae93e7749b0459f7704c829885541f9bebf37a178baf2409a018",
+        "size_in_bytes": 701
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_getPromoterSeq-methods.R",
+        "path_type": "hardlink",
+        "sha256": "f23dd48a04cec979b131f1c5c5fb2503581bef6573aefba3aaac3f48ac57e6db",
+        "sha256_in_prefix": "f23dd48a04cec979b131f1c5c5fb2503581bef6573aefba3aaac3f48ac57e6db",
+        "size_in_bytes": 5528
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_makeIdsForUniqueDataFrameRows.R",
+        "path_type": "hardlink",
+        "sha256": "ac1c301a3f27c52001c8f55312e815fec3c72b54b179d3ea1cb8fd452778b12f",
+        "sha256_in_prefix": "ac1c301a3f27c52001c8f55312e815fec3c72b54b179d3ea1cb8fd452778b12f",
+        "size_in_bytes": 518
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_makeTxDb.R",
+        "path_type": "hardlink",
+        "sha256": "d8937328c75a977fc357cad3e312f9f94e43ac7ef529cf3a8015f86bd5861277",
+        "sha256_in_prefix": "d8937328c75a977fc357cad3e312f9f94e43ac7ef529cf3a8015f86bd5861277",
+        "size_in_bytes": 3311
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_makeTxDbFromBiomart.R",
+        "path_type": "hardlink",
+        "sha256": "80c6fd8e794c8dc3e561afd33855fb5776bc77a231de6d77740db86f6a8ab8e7",
+        "sha256_in_prefix": "80c6fd8e794c8dc3e561afd33855fb5776bc77a231de6d77740db86f6a8ab8e7",
+        "size_in_bytes": 2884
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_makeTxDbFromGFF.R",
+        "path_type": "hardlink",
+        "sha256": "86f141dc33dffe4f1eebc8f241a09c8a08bdc12ca45c9717188f758074bb2989",
+        "sha256_in_prefix": "86f141dc33dffe4f1eebc8f241a09c8a08bdc12ca45c9717188f758074bb2989",
+        "size_in_bytes": 2938
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_makeTxDbFromGRanges.R",
+        "path_type": "hardlink",
+        "sha256": "fa1aa12e01594abdd998a730756296896ed8836e6efb5bed866427688ae41b28",
+        "sha256_in_prefix": "fa1aa12e01594abdd998a730756296896ed8836e6efb5bed866427688ae41b28",
+        "size_in_bytes": 14435
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_makeTxDbFromUCSC.R",
+        "path_type": "hardlink",
+        "sha256": "89379f778c5d4a27848b71dbb849f955f78f5444327703a9f69a15d3eaa6ff3f",
+        "sha256_in_prefix": "89379f778c5d4a27848b71dbb849f955f78f5444327703a9f69a15d3eaa6ff3f",
+        "size_in_bytes": 400
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_mapIdsToRanges.R",
+        "path_type": "hardlink",
+        "sha256": "fd7a28090bf26c61c6127c8337eb83d2f3ffe471f1d34c113df55cfa6d5d876b",
+        "sha256_in_prefix": "fd7a28090bf26c61c6127c8337eb83d2f3ffe471f1d34c113df55cfa6d5d876b",
+        "size_in_bytes": 3001
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_select-methods.R",
+        "path_type": "hardlink",
+        "sha256": "49488ecab14a4d4e502a02b4c771696e22fc1c05eeea6d92d69f24a6ab9150b0",
+        "sha256_in_prefix": "49488ecab14a4d4e502a02b4c771696e22fc1c05eeea6d92d69f24a6ab9150b0",
+        "size_in_bytes": 11546
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_transcripts.R",
+        "path_type": "hardlink",
+        "sha256": "7e02e8148085ed371652ca605b3b9996f85553fc814d309a79c8b332e8977033",
+        "sha256_in_prefix": "7e02e8148085ed371652ca605b3b9996f85553fc814d309a79c8b332e8977033",
+        "size_in_bytes": 10103
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_transcriptsBy.R",
+        "path_type": "hardlink",
+        "sha256": "0f14ae70443653ad801ba3d00881733235ebfb3f21998609a3047da6e915e0fd",
+        "sha256_in_prefix": "0f14ae70443653ad801ba3d00881733235ebfb3f21998609a3047da6e915e0fd",
+        "size_in_bytes": 9255
+      },
+      {
+        "_path": "lib/R/library/GenomicFeatures/unitTests/test_transcriptsByOverlaps.R",
+        "path_type": "hardlink",
+        "sha256": "842ce21c6f0aa6412036cf968bb7367b51eb9dfefb870541cd33259b1bc653f2",
+        "sha256_in_prefix": "842ce21c6f0aa6412036cf968bb7367b51eb9dfefb870541cd33259b1bc653f2",
+        "size_in_bytes": 4037
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8766cb458a78318162536b455d349be17f87ec8390e6f6c52596beaf1df5cac6",
+  "size": 2145199,
+  "subdir": "noarch",
+  "timestamp": 1572813953362,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-genomicfeatures-1.38.0-r36_0.tar.bz2",
+  "version": "1.38.0"
+}

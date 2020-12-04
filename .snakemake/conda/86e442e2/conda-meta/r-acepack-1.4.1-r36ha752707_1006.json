@@ -1,0 +1,248 @@
+{
+  "build": "r36ha752707_1006",
+  "build_number": 1006,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libgfortran 4.*",
+    "libgfortran4 >=7.5.0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-acepack-1.4.1-r36ha752707_1006",
+  "features": "",
+  "files": [
+    "lib/R/library/acepack/DESCRIPTION",
+    "lib/R/library/acepack/INDEX",
+    "lib/R/library/acepack/LICENSE",
+    "lib/R/library/acepack/Meta/Rd.rds",
+    "lib/R/library/acepack/Meta/features.rds",
+    "lib/R/library/acepack/Meta/hsearch.rds",
+    "lib/R/library/acepack/Meta/links.rds",
+    "lib/R/library/acepack/Meta/nsInfo.rds",
+    "lib/R/library/acepack/Meta/package.rds",
+    "lib/R/library/acepack/NAMESPACE",
+    "lib/R/library/acepack/NEWS",
+    "lib/R/library/acepack/R/acepack",
+    "lib/R/library/acepack/R/acepack.rdb",
+    "lib/R/library/acepack/R/acepack.rdx",
+    "lib/R/library/acepack/README",
+    "lib/R/library/acepack/README.ace",
+    "lib/R/library/acepack/README.avas",
+    "lib/R/library/acepack/ace.doc",
+    "lib/R/library/acepack/help/AnIndex",
+    "lib/R/library/acepack/help/acepack.rdb",
+    "lib/R/library/acepack/help/acepack.rdx",
+    "lib/R/library/acepack/help/aliases.rds",
+    "lib/R/library/acepack/help/paths.rds",
+    "lib/R/library/acepack/html/00Index.html",
+    "lib/R/library/acepack/html/R.css",
+    "lib/R/library/acepack/libs/acepack.dylib"
+  ],
+  "fn": "r-acepack-1.4.1-r36ha752707_1006.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-acepack-1.4.1-r36ha752707_1006",
+    "type": 1
+  },
+  "md5": "1ba4d7265b0922965c1926255c4a0ed5",
+  "name": "r-acepack",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-acepack-1.4.1-r36ha752707_1006.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/acepack/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "f6e75176900e0d0c7692e7a67632e8809cd544d4336e6d55fc2b5a7df3d4e4d3",
+        "sha256_in_prefix": "f6e75176900e0d0c7692e7a67632e8809cd544d4336e6d55fc2b5a7df3d4e4d3",
+        "size_in_bytes": 1545
+      },
+      {
+        "_path": "lib/R/library/acepack/INDEX",
+        "path_type": "hardlink",
+        "sha256": "d51648c53fffcc5c9c5ee3c4adad84607ac30f4766200c950831211f86895fc7",
+        "sha256_in_prefix": "d51648c53fffcc5c9c5ee3c4adad84607ac30f4766200c950831211f86895fc7",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "lib/R/library/acepack/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "4b6587d7843b535aec4d142821ca4d5382221520dec3312bebb2c02c721a24e1",
+        "sha256_in_prefix": "4b6587d7843b535aec4d142821ca4d5382221520dec3312bebb2c02c721a24e1",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "lib/R/library/acepack/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "6849f092f9cc70a33e84d42d26361a2a5c951cae8a215608778cfa1a822ed081",
+        "sha256_in_prefix": "6849f092f9cc70a33e84d42d26361a2a5c951cae8a215608778cfa1a822ed081",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "lib/R/library/acepack/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "sha256_in_prefix": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/R/library/acepack/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "26bc34292abcf07d93eff8fd4ca4b9cabb860db8e71d92cbd866a0279465444c",
+        "sha256_in_prefix": "26bc34292abcf07d93eff8fd4ca4b9cabb860db8e71d92cbd866a0279465444c",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "lib/R/library/acepack/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "edcd8ccb0063c913a50d7a3aec0ef9ef23c06568974c8aa56c5e2c77cbe95b72",
+        "sha256_in_prefix": "edcd8ccb0063c913a50d7a3aec0ef9ef23c06568974c8aa56c5e2c77cbe95b72",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "lib/R/library/acepack/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "ab1b558ff9c1f35e2fd04aeadbea2c34e11fb4fd48a59d16797aa3a8862c3c80",
+        "sha256_in_prefix": "ab1b558ff9c1f35e2fd04aeadbea2c34e11fb4fd48a59d16797aa3a8862c3c80",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/R/library/acepack/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "2e5cd9452dbaf29a5dfae62cdf753912c2381574e3baecfdab26747abd2c8228",
+        "sha256_in_prefix": "2e5cd9452dbaf29a5dfae62cdf753912c2381574e3baecfdab26747abd2c8228",
+        "size_in_bytes": 1193
+      },
+      {
+        "_path": "lib/R/library/acepack/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "73a88288d5cda29b8d7c34de246fc5592320d953f22bf3080e5d2d8b65a60605",
+        "sha256_in_prefix": "73a88288d5cda29b8d7c34de246fc5592320d953f22bf3080e5d2d8b65a60605",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "lib/R/library/acepack/NEWS",
+        "path_type": "hardlink",
+        "sha256": "bd19b2c104d1106c612315dcb7146675941b3e3990fddab1831ed28a17c544fd",
+        "sha256_in_prefix": "bd19b2c104d1106c612315dcb7146675941b3e3990fddab1831ed28a17c544fd",
+        "size_in_bytes": 1234
+      },
+      {
+        "_path": "lib/R/library/acepack/R/acepack",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/acepack/R/acepack.rdb",
+        "path_type": "hardlink",
+        "sha256": "fde0f0442e25947f3f006f2b7cec038b285990dd4b3f249bbba077dccfd1cf4b",
+        "sha256_in_prefix": "fde0f0442e25947f3f006f2b7cec038b285990dd4b3f249bbba077dccfd1cf4b",
+        "size_in_bytes": 9589
+      },
+      {
+        "_path": "lib/R/library/acepack/R/acepack.rdx",
+        "path_type": "hardlink",
+        "sha256": "e3ef7df52deef0d05bb12c43f49e14589768088abb0884cc81ad6d9d81e3b8c4",
+        "sha256_in_prefix": "e3ef7df52deef0d05bb12c43f49e14589768088abb0884cc81ad6d9d81e3b8c4",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/R/library/acepack/README",
+        "path_type": "hardlink",
+        "sha256": "d09f39366dcac862490399a64f40627c9681679ec0a129290524dead72ba6486",
+        "sha256_in_prefix": "d09f39366dcac862490399a64f40627c9681679ec0a129290524dead72ba6486",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "lib/R/library/acepack/README.ace",
+        "path_type": "hardlink",
+        "sha256": "17d5dcb75228a24afbd59de14b4bcb31d2edced79ec8d193ccbeb815aac58dce",
+        "sha256_in_prefix": "17d5dcb75228a24afbd59de14b4bcb31d2edced79ec8d193ccbeb815aac58dce",
+        "size_in_bytes": 614
+      },
+      {
+        "_path": "lib/R/library/acepack/README.avas",
+        "path_type": "hardlink",
+        "sha256": "6fcefd3a2d4d93cfad30630763e1e030752187a053573c40530f945a57554208",
+        "sha256_in_prefix": "6fcefd3a2d4d93cfad30630763e1e030752187a053573c40530f945a57554208",
+        "size_in_bytes": 468
+      },
+      {
+        "_path": "lib/R/library/acepack/ace.doc",
+        "path_type": "hardlink",
+        "sha256": "eee0e8af192eb39627f5ddff359cfb3a6ea7da76d585e16082c468c227ccee4d",
+        "sha256_in_prefix": "eee0e8af192eb39627f5ddff359cfb3a6ea7da76d585e16082c468c227ccee4d",
+        "size_in_bytes": 92160
+      },
+      {
+        "_path": "lib/R/library/acepack/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "c6e9e6de6183aae720850ebcdbb7c6a06444e57c5a8138b9ec847d07f1d6b79f",
+        "sha256_in_prefix": "c6e9e6de6183aae720850ebcdbb7c6a06444e57c5a8138b9ec847d07f1d6b79f",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "lib/R/library/acepack/help/acepack.rdb",
+        "path_type": "hardlink",
+        "sha256": "edab87f6704ecc7380051575e6001cd0fd56ef7ac55fae75841cc9dd68b23651",
+        "sha256_in_prefix": "edab87f6704ecc7380051575e6001cd0fd56ef7ac55fae75841cc9dd68b23651",
+        "size_in_bytes": 9456
+      },
+      {
+        "_path": "lib/R/library/acepack/help/acepack.rdx",
+        "path_type": "hardlink",
+        "sha256": "c7f4ac45c88bdf93b60bfedbcc3dbc98f2b2d87ee7a4cfe07c24053b033115b0",
+        "sha256_in_prefix": "c7f4ac45c88bdf93b60bfedbcc3dbc98f2b2d87ee7a4cfe07c24053b033115b0",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/R/library/acepack/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "0769b57204f106e62f59b20c16ea5b6a9790b63db98289359228482b91828ede",
+        "sha256_in_prefix": "0769b57204f106e62f59b20c16ea5b6a9790b63db98289359228482b91828ede",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "lib/R/library/acepack/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "7fde725f4717862fdc419756b813927dd80c8f1c4b31b755a8d06b10750a8052",
+        "sha256_in_prefix": "7fde725f4717862fdc419756b813927dd80c8f1c4b31b755a8d06b10750a8052",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "lib/R/library/acepack/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "9a9e4b231c8a052378f197a3b4555ee3be5d301ae7c7b65acc26c06d3c99ae40",
+        "sha256_in_prefix": "9a9e4b231c8a052378f197a3b4555ee3be5d301ae7c7b65acc26c06d3c99ae40",
+        "size_in_bytes": 1421
+      },
+      {
+        "_path": "lib/R/library/acepack/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/acepack/libs/acepack.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/r-acepack_1603189877544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "e29874b7fc5bd8b5430b9e04ad0af076124b294ca657ea96cba8d10cb4753249",
+        "sha256_in_prefix": "4be213722246d1ec64f63039cb38ba99b870b76bf188a9201d9fe9939de714cd",
+        "size_in_bytes": 37984
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1b22f7ce52bed5f66f01ca3a29b76376e7ad77a398cdcc948d07cf6923b2477e",
+  "size": 69702,
+  "subdir": "osx-64",
+  "timestamp": 1603190125081,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-acepack-1.4.1-r36ha752707_1006.tar.bz2",
+  "version": "1.4.1"
+}

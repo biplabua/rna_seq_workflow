@@ -1,0 +1,294 @@
+{
+  "build": "r36h6115d3f_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-snow-0.4_3-r36h6115d3f_1002",
+  "features": "",
+  "files": [
+    "lib/R/library/snow/DESCRIPTION",
+    "lib/R/library/snow/INDEX",
+    "lib/R/library/snow/Meta/Rd.rds",
+    "lib/R/library/snow/Meta/features.rds",
+    "lib/R/library/snow/Meta/hsearch.rds",
+    "lib/R/library/snow/Meta/links.rds",
+    "lib/R/library/snow/Meta/nsInfo.rds",
+    "lib/R/library/snow/Meta/package.rds",
+    "lib/R/library/snow/NAMESPACE",
+    "lib/R/library/snow/R/snow",
+    "lib/R/library/snow/R/snow.rdb",
+    "lib/R/library/snow/R/snow.rdx",
+    "lib/R/library/snow/RMPISNOW",
+    "lib/R/library/snow/RMPISNOWprofile",
+    "lib/R/library/snow/RMPInode.R",
+    "lib/R/library/snow/RMPInode.sh",
+    "lib/R/library/snow/RNWSnode.R",
+    "lib/R/library/snow/RNWSnode.sh",
+    "lib/R/library/snow/RPVMnode.R",
+    "lib/R/library/snow/RPVMnode.sh",
+    "lib/R/library/snow/RSOCKnode.R",
+    "lib/R/library/snow/RSOCKnode.sh",
+    "lib/R/library/snow/RunSnowNode",
+    "lib/R/library/snow/RunSnowWorker",
+    "lib/R/library/snow/RunSnowWorker.bat",
+    "lib/R/library/snow/help/AnIndex",
+    "lib/R/library/snow/help/aliases.rds",
+    "lib/R/library/snow/help/paths.rds",
+    "lib/R/library/snow/help/snow.rdb",
+    "lib/R/library/snow/help/snow.rdx",
+    "lib/R/library/snow/html/00Index.html",
+    "lib/R/library/snow/html/R.css"
+  ],
+  "fn": "r-snow-0.4_3-r36h6115d3f_1002.tar.bz2",
+  "license": "GPL",
+  "license_family": "GPL",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-snow-0.4_3-r36h6115d3f_1002",
+    "type": 1
+  },
+  "md5": "a098d980a29b6e37888f29991377c140",
+  "name": "r-snow",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-snow-0.4_3-r36h6115d3f_1002.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/snow/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "9b5b7f556cf22d21c5addcff3cdd948ee6069b1e91379b010c79d587238b96a4",
+        "sha256_in_prefix": "9b5b7f556cf22d21c5addcff3cdd948ee6069b1e91379b010c79d587238b96a4",
+        "size_in_bytes": 470
+      },
+      {
+        "_path": "lib/R/library/snow/INDEX",
+        "path_type": "hardlink",
+        "sha256": "b43db608b4252ed0c65b7c2e9b7bed05a03a6f29b88e11a16f0ce2cf981255b7",
+        "sha256_in_prefix": "b43db608b4252ed0c65b7c2e9b7bed05a03a6f29b88e11a16f0ce2cf981255b7",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "lib/R/library/snow/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "04cf46415302670a7200b8ecd339924072c1f6824c178f2d9462345eaea5a3b0",
+        "sha256_in_prefix": "04cf46415302670a7200b8ecd339924072c1f6824c178f2d9462345eaea5a3b0",
+        "size_in_bytes": 937
+      },
+      {
+        "_path": "lib/R/library/snow/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/snow/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "272496409a004cce1db146aa31109849f5328029a9d87d642c30731cd4946380",
+        "sha256_in_prefix": "272496409a004cce1db146aa31109849f5328029a9d87d642c30731cd4946380",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "lib/R/library/snow/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "90077a05662ae91c57333f5b07bfa02e9d3b4138239ff4cad2bfebced527ec6b",
+        "sha256_in_prefix": "90077a05662ae91c57333f5b07bfa02e9d3b4138239ff4cad2bfebced527ec6b",
+        "size_in_bytes": 746
+      },
+      {
+        "_path": "lib/R/library/snow/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d99a28794b7d993fe1309acc8bfc6a39e7e2eec87898dba83e4f2a0cb133e0db",
+        "sha256_in_prefix": "d99a28794b7d993fe1309acc8bfc6a39e7e2eec87898dba83e4f2a0cb133e0db",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "lib/R/library/snow/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "0decda716d08695ed198ad3715dc04e1710ecd603649341cccd33cbf7bd5da32",
+        "sha256_in_prefix": "0decda716d08695ed198ad3715dc04e1710ecd603649341cccd33cbf7bd5da32",
+        "size_in_bytes": 733
+      },
+      {
+        "_path": "lib/R/library/snow/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "31e9f5d88096e99460dd44b3455a996722d5b0fdfa6fdf5bc2aceed354e6e52b",
+        "sha256_in_prefix": "31e9f5d88096e99460dd44b3455a996722d5b0fdfa6fdf5bc2aceed354e6e52b",
+        "size_in_bytes": 850
+      },
+      {
+        "_path": "lib/R/library/snow/R/snow",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/snow/R/snow.rdb",
+        "path_type": "hardlink",
+        "sha256": "d045ed295edf684c9e7763e3570269e4c710d264ebf47d2edf208542b5d7b394",
+        "sha256_in_prefix": "d045ed295edf684c9e7763e3570269e4c710d264ebf47d2edf208542b5d7b394",
+        "size_in_bytes": 69413
+      },
+      {
+        "_path": "lib/R/library/snow/R/snow.rdx",
+        "path_type": "hardlink",
+        "sha256": "0dae9dc6d6a1dfc489803546e2c1ccc7a67171383d0edf86e63064163649b5b8",
+        "sha256_in_prefix": "0dae9dc6d6a1dfc489803546e2c1ccc7a67171383d0edf86e63064163649b5b8",
+        "size_in_bytes": 1315
+      },
+      {
+        "_path": "lib/R/library/snow/RMPISNOW",
+        "path_type": "hardlink",
+        "sha256": "384734a311ad1b2820af16c3d002208d23b26ff4c46224cb97fcf430f684a641",
+        "sha256_in_prefix": "384734a311ad1b2820af16c3d002208d23b26ff4c46224cb97fcf430f684a641",
+        "size_in_bytes": 2142
+      },
+      {
+        "_path": "lib/R/library/snow/RMPISNOWprofile",
+        "path_type": "hardlink",
+        "sha256": "bc22fc2eb3b29eca736c0d6a6c191db24a8b91567ee6da9b731e331a2b15e894",
+        "sha256_in_prefix": "bc22fc2eb3b29eca736c0d6a6c191db24a8b91567ee6da9b731e331a2b15e894",
+        "size_in_bytes": 443
+      },
+      {
+        "_path": "lib/R/library/snow/RMPInode.R",
+        "path_type": "hardlink",
+        "sha256": "1c80c872f88e3cc80679a315d50a9eadcb13589f8980a2e3b5ff42244736c719",
+        "sha256_in_prefix": "1c80c872f88e3cc80679a315d50a9eadcb13589f8980a2e3b5ff42244736c719",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "lib/R/library/snow/RMPInode.sh",
+        "path_type": "hardlink",
+        "sha256": "d2922f8705254bbdf72e7c47477ab4d5bc9e7d7317525f8ff4e72b0f8eef7ab2",
+        "sha256_in_prefix": "d2922f8705254bbdf72e7c47477ab4d5bc9e7d7317525f8ff4e72b0f8eef7ab2",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/snow/RNWSnode.R",
+        "path_type": "hardlink",
+        "sha256": "46968b444e86448bcc9c70eec395c4f04e2d5d9cb545aa17a1990f6bd8c67b46",
+        "sha256_in_prefix": "46968b444e86448bcc9c70eec395c4f04e2d5d9cb545aa17a1990f6bd8c67b46",
+        "size_in_bytes": 1155
+      },
+      {
+        "_path": "lib/R/library/snow/RNWSnode.sh",
+        "path_type": "hardlink",
+        "sha256": "cce7e079c9ead284e57e5ab80cb3faa420e05376c0c4d5ada2db8ba9ae7a1a4c",
+        "sha256_in_prefix": "cce7e079c9ead284e57e5ab80cb3faa420e05376c0c4d5ada2db8ba9ae7a1a4c",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "lib/R/library/snow/RPVMnode.R",
+        "path_type": "hardlink",
+        "sha256": "8ccef12abab239fe1ed34d0c0459855c1e44001af6043986283daa83c76d9b9d",
+        "sha256_in_prefix": "8ccef12abab239fe1ed34d0c0459855c1e44001af6043986283daa83c76d9b9d",
+        "size_in_bytes": 734
+      },
+      {
+        "_path": "lib/R/library/snow/RPVMnode.sh",
+        "path_type": "hardlink",
+        "sha256": "54762fb56d880ecdbb0e080a60b922bbefadeeb64eb2d609e1d2acef627d1b09",
+        "sha256_in_prefix": "54762fb56d880ecdbb0e080a60b922bbefadeeb64eb2d609e1d2acef627d1b09",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/R/library/snow/RSOCKnode.R",
+        "path_type": "hardlink",
+        "sha256": "b972815d7b1b9416e94f70445669d2a5287a88071bb13d88312c79cbc561737d",
+        "sha256_in_prefix": "b972815d7b1b9416e94f70445669d2a5287a88071bb13d88312c79cbc561737d",
+        "size_in_bytes": 953
+      },
+      {
+        "_path": "lib/R/library/snow/RSOCKnode.sh",
+        "path_type": "hardlink",
+        "sha256": "e8a107d2000d216f56afac0600f153881d77198af602d5630eb057bbb215154f",
+        "sha256_in_prefix": "e8a107d2000d216f56afac0600f153881d77198af602d5630eb057bbb215154f",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "lib/R/library/snow/RunSnowNode",
+        "path_type": "hardlink",
+        "sha256": "e6a23fba10ea1c59ea87413cbe036749c347793064f263cec12058baa887b672",
+        "sha256_in_prefix": "e6a23fba10ea1c59ea87413cbe036749c347793064f263cec12058baa887b672",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "lib/R/library/snow/RunSnowWorker",
+        "path_type": "hardlink",
+        "sha256": "71ceec8eb95790a6c8921f1e3505e23efabcb3561de2f6983362e7acceb93ce6",
+        "sha256_in_prefix": "71ceec8eb95790a6c8921f1e3505e23efabcb3561de2f6983362e7acceb93ce6",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "lib/R/library/snow/RunSnowWorker.bat",
+        "path_type": "hardlink",
+        "sha256": "44283849eb953fcefc77ed8286aff141d70bcfe3a1b938c23a1150c8022006dd",
+        "sha256_in_prefix": "44283849eb953fcefc77ed8286aff141d70bcfe3a1b938c23a1150c8022006dd",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/R/library/snow/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "4fab5021b2060d537051d986d900172159836c737c986cb6354a4c1a1bec563e",
+        "sha256_in_prefix": "4fab5021b2060d537051d986d900172159836c737c986cb6354a4c1a1bec563e",
+        "size_in_bytes": 2279
+      },
+      {
+        "_path": "lib/R/library/snow/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "ee8ef5f5b3d77e21ec47c5ec0e266af57fffa2ffaeabbd720db2b1f456e08de8",
+        "sha256_in_prefix": "ee8ef5f5b3d77e21ec47c5ec0e266af57fffa2ffaeabbd720db2b1f456e08de8",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "lib/R/library/snow/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "9e16b3d202ae30b6ed991457ecb897339dbafd910b61f3834a425116e3dba673",
+        "sha256_in_prefix": "9e16b3d202ae30b6ed991457ecb897339dbafd910b61f3834a425116e3dba673",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "lib/R/library/snow/help/snow.rdb",
+        "path_type": "hardlink",
+        "sha256": "b3140761bf1e039df2e02833b8872f51fff9d142e53de4e672f97f20cab9ef50",
+        "sha256_in_prefix": "b3140761bf1e039df2e02833b8872f51fff9d142e53de4e672f97f20cab9ef50",
+        "size_in_bytes": 24303
+      },
+      {
+        "_path": "lib/R/library/snow/help/snow.rdx",
+        "path_type": "hardlink",
+        "sha256": "166261a3e319ae700799968dced27a581b0cf4c29b54b0dd31ef6a4d189bfd3e",
+        "sha256_in_prefix": "166261a3e319ae700799968dced27a581b0cf4c29b54b0dd31ef6a4d189bfd3e",
+        "size_in_bytes": 294
+      },
+      {
+        "_path": "lib/R/library/snow/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "5f946d12df1b06fb30833b0e989ee4dedf68728bba62919147e170939346bf6b",
+        "sha256_in_prefix": "5f946d12df1b06fb30833b0e989ee4dedf68728bba62919147e170939346bf6b",
+        "size_in_bytes": 4192
+      },
+      {
+        "_path": "lib/R/library/snow/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "116b134d7d1af90349c1ce21833ca001ab061b40d42c6e784613c53112238743",
+  "size": 126487,
+  "subdir": "noarch",
+  "timestamp": 1588552597582,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-snow-0.4_3-r36h6115d3f_1002.tar.bz2",
+  "version": "0.4_3"
+}

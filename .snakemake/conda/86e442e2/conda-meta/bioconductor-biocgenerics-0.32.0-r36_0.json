@@ -1,0 +1,245 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-biocgenerics-0.32.0-r36_0",
+  "features": "",
+  "files": [
+    "lib/R/library/BiocGenerics/CITATION",
+    "lib/R/library/BiocGenerics/DESCRIPTION",
+    "lib/R/library/BiocGenerics/INDEX",
+    "lib/R/library/BiocGenerics/Meta/Rd.rds",
+    "lib/R/library/BiocGenerics/Meta/features.rds",
+    "lib/R/library/BiocGenerics/Meta/hsearch.rds",
+    "lib/R/library/BiocGenerics/Meta/links.rds",
+    "lib/R/library/BiocGenerics/Meta/nsInfo.rds",
+    "lib/R/library/BiocGenerics/Meta/package.rds",
+    "lib/R/library/BiocGenerics/NAMESPACE",
+    "lib/R/library/BiocGenerics/R/BiocGenerics",
+    "lib/R/library/BiocGenerics/R/BiocGenerics.rdb",
+    "lib/R/library/BiocGenerics/R/BiocGenerics.rdx",
+    "lib/R/library/BiocGenerics/help/AnIndex",
+    "lib/R/library/BiocGenerics/help/BiocGenerics.rdb",
+    "lib/R/library/BiocGenerics/help/BiocGenerics.rdx",
+    "lib/R/library/BiocGenerics/help/aliases.rds",
+    "lib/R/library/BiocGenerics/help/paths.rds",
+    "lib/R/library/BiocGenerics/html/00Index.html",
+    "lib/R/library/BiocGenerics/html/R.css",
+    "lib/R/library/BiocGenerics/unitTests/test_Extremes.R",
+    "lib/R/library/BiocGenerics/unitTests/test_combine.R",
+    "lib/R/library/BiocGenerics/unitTests/test_mapply.R",
+    "lib/R/library/BiocGenerics/unitTests/test_order.R",
+    "lib/R/library/BiocGenerics/unitTests/test_paste.R",
+    "lib/R/library/BiocGenerics/unitTests/test_updateObject.R"
+  ],
+  "fn": "bioconductor-biocgenerics-0.32.0-r36_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-biocgenerics-0.32.0-r36_0",
+    "type": 1
+  },
+  "md5": "4c97226781ab984505ce864c5c2967d8",
+  "name": "bioconductor-biocgenerics",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-biocgenerics-0.32.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/BiocGenerics/CITATION",
+        "path_type": "hardlink",
+        "sha256": "6435875caec8548b32d0059181475d6c0a4f88bb04794bed7ee422b74f88123c",
+        "sha256_in_prefix": "6435875caec8548b32d0059181475d6c0a4f88bb04794bed7ee422b74f88123c",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "8aa09513dd04d23ac691d34fff3270843ff5d7bc5049bcb8404c5f25e3c002ac",
+        "sha256_in_prefix": "8aa09513dd04d23ac691d34fff3270843ff5d7bc5049bcb8404c5f25e3c002ac",
+        "size_in_bytes": 1708
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/INDEX",
+        "path_type": "hardlink",
+        "sha256": "4183b78ffb1143f429b874eccc15832b2368f0948edcb0faf78a97656f7b4a55",
+        "sha256_in_prefix": "4183b78ffb1143f429b874eccc15832b2368f0948edcb0faf78a97656f7b4a55",
+        "size_in_bytes": 4108
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "6542297074e51a4e47d8afe05c24c9daff6b34d2f6f8b044d62bd12ca3f90b53",
+        "sha256_in_prefix": "6542297074e51a4e47d8afe05c24c9daff6b34d2f6f8b044d62bd12ca3f90b53",
+        "size_in_bytes": 2964
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "b495b8353dd5681b4526718ad7391c2d2aaca173cf0db06aa5f81b38994673a5",
+        "sha256_in_prefix": "b495b8353dd5681b4526718ad7391c2d2aaca173cf0db06aa5f81b38994673a5",
+        "size_in_bytes": 2989
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "9878f1590134f194ac21c748078ae41e07bdc3dea1dd39036064068ec4ef8c75",
+        "sha256_in_prefix": "9878f1590134f194ac21c748078ae41e07bdc3dea1dd39036064068ec4ef8c75",
+        "size_in_bytes": 1685
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "ee543d81325f014e3d09c9f5cb4dabd5a4a84a987c4e95793ad320fff3d7bc65",
+        "sha256_in_prefix": "ee543d81325f014e3d09c9f5cb4dabd5a4a84a987c4e95793ad320fff3d7bc65",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "bc5c1f2e8898e0d468bd74261dc5dcd5e6f88d2575efb43796f3e644fd0da87a",
+        "sha256_in_prefix": "bc5c1f2e8898e0d468bd74261dc5dcd5e6f88d2575efb43796f3e644fd0da87a",
+        "size_in_bytes": 1452
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "76c52dc291f3486abe04e4b436a517145b2de70007b9b0e3fdf3eb0636707b35",
+        "sha256_in_prefix": "76c52dc291f3486abe04e4b436a517145b2de70007b9b0e3fdf3eb0636707b35",
+        "size_in_bytes": 4820
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/R/BiocGenerics",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/R/BiocGenerics.rdb",
+        "path_type": "hardlink",
+        "sha256": "2f575bd656771aab2fce78b439640500ec7d2343e71eea6b3d80b827703a5d89",
+        "sha256_in_prefix": "2f575bd656771aab2fce78b439640500ec7d2343e71eea6b3d80b827703a5d89",
+        "size_in_bytes": 596709
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/R/BiocGenerics.rdx",
+        "path_type": "hardlink",
+        "sha256": "e5636e658dd2b147ef9348d9ceb67d81fb4eeaa7660ec409a5f5c61c843eb259",
+        "sha256_in_prefix": "e5636e658dd2b147ef9348d9ceb67d81fb4eeaa7660ec409a5f5c61c843eb259",
+        "size_in_bytes": 7899
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "ce7599f413f8304daaaa6d87e58f75fa6aa259e9e05889995ce43be1d6536119",
+        "sha256_in_prefix": "ce7599f413f8304daaaa6d87e58f75fa6aa259e9e05889995ce43be1d6536119",
+        "size_in_bytes": 3647
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/help/BiocGenerics.rdb",
+        "path_type": "hardlink",
+        "sha256": "8e8085ad8ae8a01455483cf268e203f6f9323d43fbb4ef15c4206c215a3c835b",
+        "sha256_in_prefix": "8e8085ad8ae8a01455483cf268e203f6f9323d43fbb4ef15c4206c215a3c835b",
+        "size_in_bytes": 229337
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/help/BiocGenerics.rdx",
+        "path_type": "hardlink",
+        "sha256": "b32f3859c8468f7d6e322dfe2e25c2b173756abf8d05190e7f2cc4d0fd59d473",
+        "sha256_in_prefix": "b32f3859c8468f7d6e322dfe2e25c2b173756abf8d05190e7f2cc4d0fd59d473",
+        "size_in_bytes": 1517
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "90959e992461bb29f9a280a6dde58478cc3db9e79cfe676febb045dd502a1915",
+        "sha256_in_prefix": "90959e992461bb29f9a280a6dde58478cc3db9e79cfe676febb045dd502a1915",
+        "size_in_bytes": 1459
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "6802b3f642cc5ffe95785e8a1856eba4c8a2557dec4271d6e93d6fda1cb9f4c0",
+        "sha256_in_prefix": "6802b3f642cc5ffe95785e8a1856eba4c8a2557dec4271d6e93d6fda1cb9f4c0",
+        "size_in_bytes": 684
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "01d6d1ee82de827a3f42b4eeac0de409bec39a925555f2bd81ce8266b0fc481e",
+        "sha256_in_prefix": "01d6d1ee82de827a3f42b4eeac0de409bec39a925555f2bd81ce8266b0fc481e",
+        "size_in_bytes": 23762
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/unitTests/test_Extremes.R",
+        "path_type": "hardlink",
+        "sha256": "3e9765ee2bcc74a28a6801984b8f01cf9960459911da81692c7c7de78f54c1f9",
+        "sha256_in_prefix": "3e9765ee2bcc74a28a6801984b8f01cf9960459911da81692c7c7de78f54c1f9",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/unitTests/test_combine.R",
+        "path_type": "hardlink",
+        "sha256": "9a836cd9dae1583254e7441ff840087195cc43900d3d3be3e729267b496f3354",
+        "sha256_in_prefix": "9a836cd9dae1583254e7441ff840087195cc43900d3d3be3e729267b496f3354",
+        "size_in_bytes": 8233
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/unitTests/test_mapply.R",
+        "path_type": "hardlink",
+        "sha256": "565f5b41b5773c8e6d7bb53b3bfcbdb3d503e6ed8af1ed5fbd8e0a9e1bc33e60",
+        "sha256_in_prefix": "565f5b41b5773c8e6d7bb53b3bfcbdb3d503e6ed8af1ed5fbd8e0a9e1bc33e60",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/unitTests/test_order.R",
+        "path_type": "hardlink",
+        "sha256": "0eee687f94d321e9e10243a9171631fb08f9ea5183ea1b7f2ce458e6be05254b",
+        "sha256_in_prefix": "0eee687f94d321e9e10243a9171631fb08f9ea5183ea1b7f2ce458e6be05254b",
+        "size_in_bytes": 509
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/unitTests/test_paste.R",
+        "path_type": "hardlink",
+        "sha256": "78bf5f34f1a28b42c9a4b736c4800bea2968918ba42dab91776d7dd578966056",
+        "sha256_in_prefix": "78bf5f34f1a28b42c9a4b736c4800bea2968918ba42dab91776d7dd578966056",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/R/library/BiocGenerics/unitTests/test_updateObject.R",
+        "path_type": "hardlink",
+        "sha256": "04f523f60fcce5fb736f740261224d48a4315a870cf27db72ece6ae076d8b6bd",
+        "sha256_in_prefix": "04f523f60fcce5fb736f740261224d48a4315a870cf27db72ece6ae076d8b6bd",
+        "size_in_bytes": 3480
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "287f780ec444ea89a2b06e9bcf65ccaa4fc1ee35b57b4e0ee3f8d46f4cdb452c",
+  "size": 707336,
+  "subdir": "noarch",
+  "timestamp": 1572562023629,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-biocgenerics-0.32.0-r36_0.tar.bz2",
+  "version": "0.32.0"
+}

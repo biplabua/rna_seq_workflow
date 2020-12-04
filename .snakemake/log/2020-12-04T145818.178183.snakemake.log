@@ -1,0 +1,79 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	dge_deseq2
+	1	download_reads
+	3	salmon_count_se
+	6
+
+[Fri Dec  4 14:58:19 2020]
+rule salmon_count_se:
+    input: raw_data/SRR1761162.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761162
+    jobid: 10
+    wildcards: sample=SRR1761162
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Fri Dec  4 14:59:55 2020]
+Finished job 10.
+1 of 6 steps (17%) done
+
+[Fri Dec  4 14:59:56 2020]
+rule download_reads:
+    output: raw_data/SRR1761158.fq.gz
+    jobid: 1
+    wildcards: sample=SRR1761158
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Fri Dec  4 15:20:23 2020]
+Finished job 1.
+2 of 6 steps (33%) done
+
+[Fri Dec  4 15:20:23 2020]
+rule salmon_count_se:
+    input: raw_data/SRR1761159.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761159
+    jobid: 9
+    wildcards: sample=SRR1761159
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Fri Dec  4 15:23:44 2020]
+Finished job 9.
+3 of 6 steps (50%) done
+
+[Fri Dec  4 15:23:44 2020]
+rule salmon_count_se:
+    input: raw_data/SRR1761158.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761158
+    jobid: 7
+    wildcards: sample=SRR1761158
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Fri Dec  4 15:28:39 2020]
+Finished job 7.
+4 of 6 steps (67%) done
+
+[Fri Dec  4 15:28:39 2020]
+rule dge_deseq2:
+    input: meta_data.csv, out_salmon/SRR1761158, out_salmon/SRR1761161, out_salmon/SRR1761159, out_salmon/SRR1761162
+    output: log2fc.csv
+    jobid: 11
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/86e442e2
+[Fri Dec  4 15:29:13 2020]
+Finished job 11.
+5 of 6 steps (83%) done
+
+[Fri Dec  4 15:29:13 2020]
+localrule all:
+    input: raw_data/SRR1761158.fq.gz, raw_data/SRR1761161.fq.gz, raw_data/SRR1761159.fq.gz, raw_data/SRR1761162.fq.gz, rna_coding.fasta.gz, rna_coding_index, out_salmon/SRR1761158, out_salmon/SRR1761161, out_salmon/SRR1761159, out_salmon/SRR1761162, log2fc.csv
+    jobid: 0
+
+[Fri Dec  4 15:29:13 2020]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: /Users/biplab/Documents/rna_seq_workflow/.snakemake/log/2020-12-04T145818.178183.snakemake.log

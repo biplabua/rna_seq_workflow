@@ -1,0 +1,252 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-curl",
+    "r-dbi",
+    "r-dbplyr >=1.0.0",
+    "r-dplyr",
+    "r-httr",
+    "r-rappdirs",
+    "r-rsqlite"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-biocfilecache-1.10.0-r36_0",
+  "features": "",
+  "files": [
+    "lib/R/library/BiocFileCache/DESCRIPTION",
+    "lib/R/library/BiocFileCache/INDEX",
+    "lib/R/library/BiocFileCache/Meta/Rd.rds",
+    "lib/R/library/BiocFileCache/Meta/features.rds",
+    "lib/R/library/BiocFileCache/Meta/hsearch.rds",
+    "lib/R/library/BiocFileCache/Meta/links.rds",
+    "lib/R/library/BiocFileCache/Meta/nsInfo.rds",
+    "lib/R/library/BiocFileCache/Meta/package.rds",
+    "lib/R/library/BiocFileCache/Meta/vignette.rds",
+    "lib/R/library/BiocFileCache/NAMESPACE",
+    "lib/R/library/BiocFileCache/NEWS",
+    "lib/R/library/BiocFileCache/R/BiocFileCache",
+    "lib/R/library/BiocFileCache/R/BiocFileCache.rdb",
+    "lib/R/library/BiocFileCache/R/BiocFileCache.rdx",
+    "lib/R/library/BiocFileCache/doc/BiocFileCache.R",
+    "lib/R/library/BiocFileCache/doc/BiocFileCache.Rmd",
+    "lib/R/library/BiocFileCache/doc/BiocFileCache.html",
+    "lib/R/library/BiocFileCache/doc/index.html",
+    "lib/R/library/BiocFileCache/help/AnIndex",
+    "lib/R/library/BiocFileCache/help/BiocFileCache.rdb",
+    "lib/R/library/BiocFileCache/help/BiocFileCache.rdx",
+    "lib/R/library/BiocFileCache/help/aliases.rds",
+    "lib/R/library/BiocFileCache/help/paths.rds",
+    "lib/R/library/BiocFileCache/html/00Index.html",
+    "lib/R/library/BiocFileCache/html/R.css",
+    "lib/R/library/BiocFileCache/schema/BiocFileCache.sql"
+  ],
+  "fn": "bioconductor-biocfilecache-1.10.0-r36_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-biocfilecache-1.10.0-r36_0",
+    "type": 1
+  },
+  "md5": "e0f85dd123180017d434bf271dfca2bc",
+  "name": "bioconductor-biocfilecache",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-biocfilecache-1.10.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/BiocFileCache/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "10f57cdc3cabc8846a937cc700a4936b0d2876ae5b125c8b9acb6847614739e7",
+        "sha256_in_prefix": "10f57cdc3cabc8846a937cc700a4936b0d2876ae5b125c8b9acb6847614739e7",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/INDEX",
+        "path_type": "hardlink",
+        "sha256": "acc6501b8280890e425c3fad997143db817d5935a0a8ab770eff38212512ed8f",
+        "sha256_in_prefix": "acc6501b8280890e425c3fad997143db817d5935a0a8ab770eff38212512ed8f",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "5b7787addde29da7887a495b5c0d7ad1b5b1b573bfad4cb987b2fb4a65aa82e2",
+        "sha256_in_prefix": "5b7787addde29da7887a495b5c0d7ad1b5b1b573bfad4cb987b2fb4a65aa82e2",
+        "size_in_bytes": 780
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "3f76ea70ad3a72af505b29fcd80ba58a98c37a8580364f0865509354ca069a73",
+        "sha256_in_prefix": "3f76ea70ad3a72af505b29fcd80ba58a98c37a8580364f0865509354ca069a73",
+        "size_in_bytes": 899
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "a6566573a88a4a7a04829189932d015d62c6c4ebd5acf5ee663ea29211d54746",
+        "sha256_in_prefix": "a6566573a88a4a7a04829189932d015d62c6c4ebd5acf5ee663ea29211d54746",
+        "size_in_bytes": 715
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "31cae1bcf57830160b1919297fbb09a72b2b09c3581a9585d01c35afa0e3a400",
+        "sha256_in_prefix": "31cae1bcf57830160b1919297fbb09a72b2b09c3581a9585d01c35afa0e3a400",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "e1361304492095f9f3800a4c533ba118e850359508b4dc204056138b1fd72310",
+        "sha256_in_prefix": "e1361304492095f9f3800a4c533ba118e850359508b4dc204056138b1fd72310",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "85cb22855bbd236e8acb9c9b24cce70cd63cc32bc49d8983dd16c019203634ee",
+        "sha256_in_prefix": "85cb22855bbd236e8acb9c9b24cce70cd63cc32bc49d8983dd16c019203634ee",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "623a8a1102c4ed643ca8b065b17eca582c1fbcd6dfa4c150ffcdb18a1532f36b",
+        "sha256_in_prefix": "623a8a1102c4ed643ca8b065b17eca582c1fbcd6dfa4c150ffcdb18a1532f36b",
+        "size_in_bytes": 1811
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/NEWS",
+        "path_type": "hardlink",
+        "sha256": "9c51eb587ccffb1995275f5eba2c55d08daba31eea8fdbaebb717d0434afc515",
+        "sha256_in_prefix": "9c51eb587ccffb1995275f5eba2c55d08daba31eea8fdbaebb717d0434afc515",
+        "size_in_bytes": 5022
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/R/BiocFileCache",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/R/BiocFileCache.rdb",
+        "path_type": "hardlink",
+        "sha256": "d369fd42eefcc04b8ab41b28a683deebf62f33af97b86d493d93bad20eb795f4",
+        "sha256_in_prefix": "d369fd42eefcc04b8ab41b28a683deebf62f33af97b86d493d93bad20eb795f4",
+        "size_in_bytes": 291801
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/R/BiocFileCache.rdx",
+        "path_type": "hardlink",
+        "sha256": "7db4a6ec7988d297d5e4476e54a558f006b3de0514e5651723f0b671bb32326f",
+        "sha256_in_prefix": "7db4a6ec7988d297d5e4476e54a558f006b3de0514e5651723f0b671bb32326f",
+        "size_in_bytes": 2993
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/doc/BiocFileCache.R",
+        "path_type": "hardlink",
+        "sha256": "794f84cf928e1f6ec8056a215c6542bf7c7a722d87bb0706d993b61552528261",
+        "sha256_in_prefix": "794f84cf928e1f6ec8056a215c6542bf7c7a722d87bb0706d993b61552528261",
+        "size_in_bytes": 12822
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/doc/BiocFileCache.Rmd",
+        "path_type": "hardlink",
+        "sha256": "a4b82ac6d05613057cd20ffd9dbe4945cf6f21844bcf474dc27b13be9803e6e4",
+        "sha256_in_prefix": "a4b82ac6d05613057cd20ffd9dbe4945cf6f21844bcf474dc27b13be9803e6e4",
+        "size_in_bytes": 31568
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/doc/BiocFileCache.html",
+        "path_type": "hardlink",
+        "sha256": "62cdbe56c7c461c2dae37033d7ad1e950b72bd9962bb2001fefbf32bc19f2b0d",
+        "sha256_in_prefix": "62cdbe56c7c461c2dae37033d7ad1e950b72bd9962bb2001fefbf32bc19f2b0d",
+        "size_in_bytes": 685968
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "19f944479648d3560ef09bc61eb5d67219c7f0cb20476a8122a62657a07b1733",
+        "sha256_in_prefix": "19f944479648d3560ef09bc61eb5d67219c7f0cb20476a8122a62657a07b1733",
+        "size_in_bytes": 1433
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "f8d91c0b80eb2d51e0b9def2ec8fa3d04bef2a914e3690d24a47e35a22b9b603",
+        "sha256_in_prefix": "f8d91c0b80eb2d51e0b9def2ec8fa3d04bef2a914e3690d24a47e35a22b9b603",
+        "size_in_bytes": 3687
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/help/BiocFileCache.rdb",
+        "path_type": "hardlink",
+        "sha256": "d86b373887441cb186b9e437f8a43330085eea206d6df6c6690f6c875ecfb95b",
+        "sha256_in_prefix": "d86b373887441cb186b9e437f8a43330085eea206d6df6c6690f6c875ecfb95b",
+        "size_in_bytes": 23253
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/help/BiocFileCache.rdx",
+        "path_type": "hardlink",
+        "sha256": "c300ad1135680cf07f4577b990cace91a329437b4a3939067cda58624e458276",
+        "sha256_in_prefix": "c300ad1135680cf07f4577b990cace91a329437b4a3939067cda58624e458276",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "85cbbe45c22f26f6a690df016f7b56051b629dc022373d666736dcd4bda85610",
+        "sha256_in_prefix": "85cbbe45c22f26f6a690df016f7b56051b629dc022373d666736dcd4bda85610",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "01b3fb60f06f740a72e765e4581ccf9e7821981050f6a8a8d96cd441812a21de",
+        "sha256_in_prefix": "01b3fb60f06f740a72e765e4581ccf9e7821981050f6a8a8d96cd441812a21de",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "4d511b92fdc17fb5bb79de49db00daa891cee02181087d80a3ca4194610554f1",
+        "sha256_in_prefix": "4d511b92fdc17fb5bb79de49db00daa891cee02181087d80a3ca4194610554f1",
+        "size_in_bytes": 7780
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/BiocFileCache/schema/BiocFileCache.sql",
+        "path_type": "hardlink",
+        "sha256": "669a49d4454579cd962d1324e5e91277fc1a9c6894b0cc75188ff1bd27bec182",
+        "sha256_in_prefix": "669a49d4454579cd962d1324e5e91277fc1a9c6894b0cc75188ff1bd27bec182",
+        "size_in_bytes": 1992
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f6c1996276c6c8944e4cd99e6fce3327cf79634e9860863cd1337b4fe5b640dc",
+  "size": 516339,
+  "subdir": "noarch",
+  "timestamp": 1572615893986,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-biocfilecache-1.10.0-r36_0.tar.bz2",
+  "version": "1.10.0"
+}

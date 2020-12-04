@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/86e442e2
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpcrecpp
+Description: PCRECPP - C++ wrapper for PCRE
+Version: 8.44
+Libs: -L${libdir} -lpcre -lpcrecpp
+Cflags: -I${includedir} 

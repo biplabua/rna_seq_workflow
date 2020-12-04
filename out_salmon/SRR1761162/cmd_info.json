@@ -1,0 +1,9 @@
+{
+    "salmon_version": "0.12.0",
+    "index": "rna_coding_index",
+    "libType": "A",
+    "unmatedReads": "raw_data/SRR1761162.fq.gz",
+    "validateMappings": [],
+    "output": "out_salmon/SRR1761162",
+    "auxDir": "aux_info"
+}

@@ -1,0 +1,197 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-protgenerics-1.18.0-r36_0",
+  "features": "",
+  "files": [
+    "lib/R/library/ProtGenerics/DESCRIPTION",
+    "lib/R/library/ProtGenerics/INDEX",
+    "lib/R/library/ProtGenerics/Meta/Rd.rds",
+    "lib/R/library/ProtGenerics/Meta/features.rds",
+    "lib/R/library/ProtGenerics/Meta/hsearch.rds",
+    "lib/R/library/ProtGenerics/Meta/links.rds",
+    "lib/R/library/ProtGenerics/Meta/nsInfo.rds",
+    "lib/R/library/ProtGenerics/Meta/package.rds",
+    "lib/R/library/ProtGenerics/NAMESPACE",
+    "lib/R/library/ProtGenerics/NEWS",
+    "lib/R/library/ProtGenerics/R/ProtGenerics",
+    "lib/R/library/ProtGenerics/R/ProtGenerics.rdb",
+    "lib/R/library/ProtGenerics/R/ProtGenerics.rdx",
+    "lib/R/library/ProtGenerics/help/AnIndex",
+    "lib/R/library/ProtGenerics/help/ProtGenerics.rdb",
+    "lib/R/library/ProtGenerics/help/ProtGenerics.rdx",
+    "lib/R/library/ProtGenerics/help/aliases.rds",
+    "lib/R/library/ProtGenerics/help/paths.rds",
+    "lib/R/library/ProtGenerics/html/00Index.html",
+    "lib/R/library/ProtGenerics/html/R.css"
+  ],
+  "fn": "bioconductor-protgenerics-1.18.0-r36_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-protgenerics-1.18.0-r36_0",
+    "type": 1
+  },
+  "md5": "fe12ac378180fa20a3580ab9e76afbf1",
+  "name": "bioconductor-protgenerics",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-protgenerics-1.18.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ProtGenerics/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "a2402d089c158e4634482907eba75e378d42b83b7e3ff07d73e147eb3a1c6dd2",
+        "sha256_in_prefix": "a2402d089c158e4634482907eba75e378d42b83b7e3ff07d73e147eb3a1c6dd2",
+        "size_in_bytes": 719
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/INDEX",
+        "path_type": "hardlink",
+        "sha256": "185ba7dbe449bdebd428b88904f25a1aff9048cc1c883380ff8ab9b1c0258ca0",
+        "sha256_in_prefix": "185ba7dbe449bdebd428b88904f25a1aff9048cc1c883380ff8ab9b1c0258ca0",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "897354b4059e01726b4c8ead85fda60be7050e9188e86b68526ff96d88a72353",
+        "sha256_in_prefix": "897354b4059e01726b4c8ead85fda60be7050e9188e86b68526ff96d88a72353",
+        "size_in_bytes": 914
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "597946f1998a746cc9d90af2fbdc1344deab397ada0a5f776a65409b69d25c29",
+        "sha256_in_prefix": "597946f1998a746cc9d90af2fbdc1344deab397ada0a5f776a65409b69d25c29",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d5b59ce65044685e35411772ad8431009b973622c1c8e9c857c86ef8269b2297",
+        "sha256_in_prefix": "d5b59ce65044685e35411772ad8431009b973622c1c8e9c857c86ef8269b2297",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "bd000363229c039040a14c3e7f2fd99b901b9f0994d4a3d59e522335e44fb7b4",
+        "sha256_in_prefix": "bd000363229c039040a14c3e7f2fd99b901b9f0994d4a3d59e522335e44fb7b4",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "7ad7f826dd799e7d07d0a47aab32fd864c527169657c35d68469974c8d2d023c",
+        "sha256_in_prefix": "7ad7f826dd799e7d07d0a47aab32fd864c527169657c35d68469974c8d2d023c",
+        "size_in_bytes": 729
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "e407e3ba87cb13b77bfad06c2132716c389346fdb93912490affb82456d2b7ae",
+        "sha256_in_prefix": "e407e3ba87cb13b77bfad06c2132716c389346fdb93912490affb82456d2b7ae",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/NEWS",
+        "path_type": "hardlink",
+        "sha256": "c6b323e1a4f8703628727f3d71e2047a9d2bd70d1e879f9e0fe0d2210ace953b",
+        "sha256_in_prefix": "c6b323e1a4f8703628727f3d71e2047a9d2bd70d1e879f9e0fe0d2210ace953b",
+        "size_in_bytes": 1910
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/R/ProtGenerics",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/R/ProtGenerics.rdb",
+        "path_type": "hardlink",
+        "sha256": "dcf2451a74bd9f42a5f34438cc29f17627dfc1a63dc497ce11b3bd41dc16ddb3",
+        "sha256_in_prefix": "dcf2451a74bd9f42a5f34438cc29f17627dfc1a63dc497ce11b3bd41dc16ddb3",
+        "size_in_bytes": 116356
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/R/ProtGenerics.rdx",
+        "path_type": "hardlink",
+        "sha256": "89f1a387849539b783dbd872512212c89e62376f1aad4e00889cfe46871c7d99",
+        "sha256_in_prefix": "89f1a387849539b783dbd872512212c89e62376f1aad4e00889cfe46871c7d99",
+        "size_in_bytes": 4603
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "110609c6ccb13e70eb9b9bad2aabdd77fe51800d00f61f2aaecf82448396178c",
+        "sha256_in_prefix": "110609c6ccb13e70eb9b9bad2aabdd77fe51800d00f61f2aaecf82448396178c",
+        "size_in_bytes": 2473
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/help/ProtGenerics.rdb",
+        "path_type": "hardlink",
+        "sha256": "2e354941dc065cc127d81954aa3ebed958c5f458bd496670434c987f3c65191c",
+        "sha256_in_prefix": "2e354941dc065cc127d81954aa3ebed958c5f458bd496670434c987f3c65191c",
+        "size_in_bytes": 7215
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/help/ProtGenerics.rdx",
+        "path_type": "hardlink",
+        "sha256": "393ca9447403a5fd478d39471dc1152a9637787f4be09178da3052dbccdbda51",
+        "sha256_in_prefix": "393ca9447403a5fd478d39471dc1152a9637787f4be09178da3052dbccdbda51",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "c0559f6ce22ea3527dce01508713d1f9c187e7bc603c84f4337748a77b6bebb0",
+        "sha256_in_prefix": "c0559f6ce22ea3527dce01508713d1f9c187e7bc603c84f4337748a77b6bebb0",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "64da0a4a5dbf6d9a043567b4b76ce765d900b019aa48aec084a292a13f27f273",
+        "sha256_in_prefix": "64da0a4a5dbf6d9a043567b4b76ce765d900b019aa48aec084a292a13f27f273",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "a2919912bc64e2e5a890a2835e3e084c0055a418314b757de1568bfd9f25b4b8",
+        "sha256_in_prefix": "a2919912bc64e2e5a890a2835e3e084c0055a418314b757de1568bfd9f25b4b8",
+        "size_in_bytes": 15811
+      },
+      {
+        "_path": "lib/R/library/ProtGenerics/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "eb17dfba0ad431f3d68c6232d7221f1460dd50781ee72b63c2387229639cf08d",
+  "size": 96767,
+  "subdir": "noarch",
+  "timestamp": 1572598996510,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-protgenerics-1.18.0-r36_0.tar.bz2",
+  "version": "1.18.0"
+}

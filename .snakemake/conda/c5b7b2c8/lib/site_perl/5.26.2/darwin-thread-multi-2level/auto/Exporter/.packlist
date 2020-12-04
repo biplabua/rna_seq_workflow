@@ -1,0 +1,4 @@
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib/site_perl/5.26.2/Exporter.pm relocate_as=../../../Exporter.pm
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib/site_perl/5.26.2/Exporter/Heavy.pm relocate_as=../../../Exporter/Heavy.pm
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/man/man3/Exporter.3 relocate_as=../../../../../../man/man3/Exporter.3
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/man/man3/Exporter::Heavy.3 relocate_as=../../../../../../man/man3/Exporter::Heavy.3

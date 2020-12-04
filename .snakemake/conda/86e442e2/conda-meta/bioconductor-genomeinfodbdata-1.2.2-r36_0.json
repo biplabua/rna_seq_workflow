@@ -1,0 +1,54 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "curl >=7.65.3,<8.0a0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-genomeinfodbdata-1.2.2-r36_0",
+  "features": "",
+  "files": [
+    "bin/.bioconductor-genomeinfodbdata-post-link.sh",
+    "bin/.bioconductor-genomeinfodbdata-pre-unlink.sh"
+  ],
+  "fn": "bioconductor-genomeinfodbdata-1.2.2-r36_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-genomeinfodbdata-1.2.2-r36_0",
+    "type": 1
+  },
+  "md5": "6eb670c3704ab0fd54bdbfdb1a4327ec",
+  "name": "bioconductor-genomeinfodbdata",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-genomeinfodbdata-1.2.2-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.bioconductor-genomeinfodbdata-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "29666636831af4c2a227f4c095d3ef4d0cb1b3271ecd8246db2193ae0f7eba76",
+        "sha256_in_prefix": "29666636831af4c2a227f4c095d3ef4d0cb1b3271ecd8246db2193ae0f7eba76",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "bin/.bioconductor-genomeinfodbdata-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "9f3deb9d40c69175f19104295431710a9097c1164e9555da425aac31077b5737",
+        "sha256_in_prefix": "9f3deb9d40c69175f19104295431710a9097c1164e9555da425aac31077b5737",
+        "size_in_bytes": 63
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "159ea52e3f8e47cd917d8a9e1c6573f9b4aa0bedc50d45bfad9968383f4021a8",
+  "size": 6625,
+  "subdir": "noarch",
+  "timestamp": 1572624259329,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-genomeinfodbdata-1.2.2-r36_0.tar.bz2",
+  "version": "1.2.2"
+}

@@ -1,0 +1,508 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+    "bioconductor-biobase >=2.46.0,<2.47.0",
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-dbi",
+    "r-rcurl",
+    "r-xml",
+    "r-xtable"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-annotate-1.64.0-r36_0",
+  "features": "",
+  "files": [
+    "lib/R/library/annotate/DESCRIPTION",
+    "lib/R/library/annotate/INDEX",
+    "lib/R/library/annotate/Meta/Rd.rds",
+    "lib/R/library/annotate/Meta/data.rds",
+    "lib/R/library/annotate/Meta/features.rds",
+    "lib/R/library/annotate/Meta/hsearch.rds",
+    "lib/R/library/annotate/Meta/links.rds",
+    "lib/R/library/annotate/Meta/nsInfo.rds",
+    "lib/R/library/annotate/Meta/package.rds",
+    "lib/R/library/annotate/Meta/vignette.rds",
+    "lib/R/library/annotate/NAMESPACE",
+    "lib/R/library/annotate/NEWS.Rd",
+    "lib/R/library/annotate/R/annotate",
+    "lib/R/library/annotate/R/annotate.rdb",
+    "lib/R/library/annotate/R/annotate.rdx",
+    "lib/R/library/annotate/data/hgByChroms.rda",
+    "lib/R/library/annotate/data/hgCLengths.rda",
+    "lib/R/library/annotate/data/hgu95AProbLocs.rda",
+    "lib/R/library/annotate/data/hgu95Achroloc.rda",
+    "lib/R/library/annotate/data/hgu95Achrom.rda",
+    "lib/R/library/annotate/data/hgu95All.rda",
+    "lib/R/library/annotate/data/hgu95Asym.rda",
+    "lib/R/library/annotate/doc/GOusage.R",
+    "lib/R/library/annotate/doc/GOusage.Rnw",
+    "lib/R/library/annotate/doc/GOusage.pdf",
+    "lib/R/library/annotate/doc/annotate.R",
+    "lib/R/library/annotate/doc/annotate.Rnw",
+    "lib/R/library/annotate/doc/annotate.pdf",
+    "lib/R/library/annotate/doc/chromLoc.R",
+    "lib/R/library/annotate/doc/chromLoc.Rnw",
+    "lib/R/library/annotate/doc/chromLoc.pdf",
+    "lib/R/library/annotate/doc/index.html",
+    "lib/R/library/annotate/doc/prettyOutput.R",
+    "lib/R/library/annotate/doc/prettyOutput.Rnw",
+    "lib/R/library/annotate/doc/prettyOutput.pdf",
+    "lib/R/library/annotate/doc/query.R",
+    "lib/R/library/annotate/doc/query.Rnw",
+    "lib/R/library/annotate/doc/query.pdf",
+    "lib/R/library/annotate/doc/useDataPkgs.R",
+    "lib/R/library/annotate/doc/useDataPkgs.Rnw",
+    "lib/R/library/annotate/doc/useDataPkgs.pdf",
+    "lib/R/library/annotate/doc/useHomology.R",
+    "lib/R/library/annotate/doc/useHomology.Rnw",
+    "lib/R/library/annotate/doc/useHomology.pdf",
+    "lib/R/library/annotate/doc/useProbeInfo.R",
+    "lib/R/library/annotate/doc/useProbeInfo.Rnw",
+    "lib/R/library/annotate/doc/useProbeInfo.pdf",
+    "lib/R/library/annotate/help/AnIndex",
+    "lib/R/library/annotate/help/aliases.rds",
+    "lib/R/library/annotate/help/annotate.rdb",
+    "lib/R/library/annotate/help/annotate.rdx",
+    "lib/R/library/annotate/help/paths.rds",
+    "lib/R/library/annotate/html/00Index.html",
+    "lib/R/library/annotate/html/R.css",
+    "lib/R/library/annotate/misc/demowrite.html",
+    "lib/R/library/annotate/misc/pmLinkGen.Rnw",
+    "lib/R/library/annotate/misc/pmLinkGen.pdf",
+    "lib/R/library/annotate/unitTests/test_getAnnMap.R"
+  ],
+  "fn": "bioconductor-annotate-1.64.0-r36_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-annotate-1.64.0-r36_0",
+    "type": 1
+  },
+  "md5": "41b336db4f30573b518c906f5fb9613e",
+  "name": "bioconductor-annotate",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-annotate-1.64.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/annotate/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "96b3627e7a3f189f6b2118c29c0ddaad0f4152b8d6456c5b5841b4a11466c067",
+        "sha256_in_prefix": "96b3627e7a3f189f6b2118c29c0ddaad0f4152b8d6456c5b5841b4a11466c067",
+        "size_in_bytes": 1287
+      },
+      {
+        "_path": "lib/R/library/annotate/INDEX",
+        "path_type": "hardlink",
+        "sha256": "7c1746c0aac67c43c3d6253feb3b2240884db1b952cebef6086138f5e2b166e5",
+        "sha256_in_prefix": "7c1746c0aac67c43c3d6253feb3b2240884db1b952cebef6086138f5e2b166e5",
+        "size_in_bytes": 5866
+      },
+      {
+        "_path": "lib/R/library/annotate/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "d107a39fdef8c8285f55cd33817dad82e8dea75da4cc9ff972b299438bef4ca3",
+        "sha256_in_prefix": "d107a39fdef8c8285f55cd33817dad82e8dea75da4cc9ff972b299438bef4ca3",
+        "size_in_bytes": 3751
+      },
+      {
+        "_path": "lib/R/library/annotate/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "dcd2589d4cc9a20fd0b51abe56a05398e534ffbda52a5054a37cee5f1b1cdd93",
+        "sha256_in_prefix": "dcd2589d4cc9a20fd0b51abe56a05398e534ffbda52a5054a37cee5f1b1cdd93",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/R/library/annotate/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/annotate/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "f6dabf92400328d1f9ffc272e20ca5578d4b706267541feb75c17c7216460cf0",
+        "sha256_in_prefix": "f6dabf92400328d1f9ffc272e20ca5578d4b706267541feb75c17c7216460cf0",
+        "size_in_bytes": 3669
+      },
+      {
+        "_path": "lib/R/library/annotate/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "b28ae7539885bc9a710c623e07d5851f585e3ecef75adcbb907a30bd03cf9b67",
+        "sha256_in_prefix": "b28ae7539885bc9a710c623e07d5851f585e3ecef75adcbb907a30bd03cf9b67",
+        "size_in_bytes": 1975
+      },
+      {
+        "_path": "lib/R/library/annotate/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "8a8e5947b147051f3c25e0d4574d6d7ed7c9abac78c209982a51ca4a6fd6564f",
+        "sha256_in_prefix": "8a8e5947b147051f3c25e0d4574d6d7ed7c9abac78c209982a51ca4a6fd6564f",
+        "size_in_bytes": 1584
+      },
+      {
+        "_path": "lib/R/library/annotate/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "3909648416e8365adfe519b733d952ad13399a473919045c0efdd3a15812e333",
+        "sha256_in_prefix": "3909648416e8365adfe519b733d952ad13399a473919045c0efdd3a15812e333",
+        "size_in_bytes": 1388
+      },
+      {
+        "_path": "lib/R/library/annotate/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "aa0790244c38fdfa84baa951a04188fc5c8d1f83e74ef104bb883f3a147daa6e",
+        "sha256_in_prefix": "aa0790244c38fdfa84baa951a04188fc5c8d1f83e74ef104bb883f3a147daa6e",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "lib/R/library/annotate/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "dfe85c6734c9029b7944c26183ec3e7f178aa307c094a1b1ae56327252d2ccde",
+        "sha256_in_prefix": "dfe85c6734c9029b7944c26183ec3e7f178aa307c094a1b1ae56327252d2ccde",
+        "size_in_bytes": 4454
+      },
+      {
+        "_path": "lib/R/library/annotate/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "40754029de89bb8ff544da054ba7e0646173536c064d424749f379642d0003bb",
+        "sha256_in_prefix": "40754029de89bb8ff544da054ba7e0646173536c064d424749f379642d0003bb",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "lib/R/library/annotate/R/annotate",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/annotate/R/annotate.rdb",
+        "path_type": "hardlink",
+        "sha256": "87c229f8a167995c1eb30eff2dc00ab60600bed4e8f8857464e634a69eed6203",
+        "sha256_in_prefix": "87c229f8a167995c1eb30eff2dc00ab60600bed4e8f8857464e634a69eed6203",
+        "size_in_bytes": 405294
+      },
+      {
+        "_path": "lib/R/library/annotate/R/annotate.rdx",
+        "path_type": "hardlink",
+        "sha256": "d41b4fd473429063f069bc9b92e28b849f0380bd0d9d37a7f454306629053baf",
+        "sha256_in_prefix": "d41b4fd473429063f069bc9b92e28b849f0380bd0d9d37a7f454306629053baf",
+        "size_in_bytes": 3960
+      },
+      {
+        "_path": "lib/R/library/annotate/data/hgByChroms.rda",
+        "path_type": "hardlink",
+        "sha256": "4e987d4bb51f2c01fbce8013546a36f455845be5635ec28628c75258fef9d0db",
+        "sha256_in_prefix": "4e987d4bb51f2c01fbce8013546a36f455845be5635ec28628c75258fef9d0db",
+        "size_in_bytes": 51948
+      },
+      {
+        "_path": "lib/R/library/annotate/data/hgCLengths.rda",
+        "path_type": "hardlink",
+        "sha256": "228771354ea712a0b00155de1a154d072f30fa3248217149eb95023b0b222e07",
+        "sha256_in_prefix": "228771354ea712a0b00155de1a154d072f30fa3248217149eb95023b0b222e07",
+        "size_in_bytes": 290
+      },
+      {
+        "_path": "lib/R/library/annotate/data/hgu95AProbLocs.rda",
+        "path_type": "hardlink",
+        "sha256": "00e92542486e9170b8ef29dc695a188753230fa1ab4c188626ae96d6678fa837",
+        "sha256_in_prefix": "00e92542486e9170b8ef29dc695a188753230fa1ab4c188626ae96d6678fa837",
+        "size_in_bytes": 113816
+      },
+      {
+        "_path": "lib/R/library/annotate/data/hgu95Achroloc.rda",
+        "path_type": "hardlink",
+        "sha256": "788bcc00a225b2962575edaff68d35cdaeb0e73dd3ba6d8fbc1239789e0f46a7",
+        "sha256_in_prefix": "788bcc00a225b2962575edaff68d35cdaeb0e73dd3ba6d8fbc1239789e0f46a7",
+        "size_in_bytes": 93792
+      },
+      {
+        "_path": "lib/R/library/annotate/data/hgu95Achrom.rda",
+        "path_type": "hardlink",
+        "sha256": "be0ecbd422e97c7a0cb0a0afcda7c3eada6da517549ee0b0c11555eae8481fa5",
+        "sha256_in_prefix": "be0ecbd422e97c7a0cb0a0afcda7c3eada6da517549ee0b0c11555eae8481fa5",
+        "size_in_bytes": 53048
+      },
+      {
+        "_path": "lib/R/library/annotate/data/hgu95All.rda",
+        "path_type": "hardlink",
+        "sha256": "fa1bb7d977c17aaed09db913cfba2713da3c04e67a264f0eeb827de86fa61c69",
+        "sha256_in_prefix": "fa1bb7d977c17aaed09db913cfba2713da3c04e67a264f0eeb827de86fa61c69",
+        "size_in_bytes": 72340
+      },
+      {
+        "_path": "lib/R/library/annotate/data/hgu95Asym.rda",
+        "path_type": "hardlink",
+        "sha256": "45d9b85cfccaa36c3338473c28486d1373fdbcc142ba6fd58849c8d5076d8cd9",
+        "sha256_in_prefix": "45d9b85cfccaa36c3338473c28486d1373fdbcc142ba6fd58849c8d5076d8cd9",
+        "size_in_bytes": 85080
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/GOusage.R",
+        "path_type": "hardlink",
+        "sha256": "5c4bc03aa8566d1694f4f6cb978608df3ba3e06761e7a9fe97dd8e467958bc0f",
+        "sha256_in_prefix": "5c4bc03aa8566d1694f4f6cb978608df3ba3e06761e7a9fe97dd8e467958bc0f",
+        "size_in_bytes": 2610
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/GOusage.Rnw",
+        "path_type": "hardlink",
+        "sha256": "1dfe6fb8f06dc18a074f8ace2d0e57ae2a0a8375c5be9c673958fdadc77a0746",
+        "sha256_in_prefix": "1dfe6fb8f06dc18a074f8ace2d0e57ae2a0a8375c5be9c673958fdadc77a0746",
+        "size_in_bytes": 11618
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/GOusage.pdf",
+        "path_type": "hardlink",
+        "sha256": "98a378c836cf4d22ecbff1641ea1b6272a131f89fa0d5f7553f00ed190463e93",
+        "sha256_in_prefix": "98a378c836cf4d22ecbff1641ea1b6272a131f89fa0d5f7553f00ed190463e93",
+        "size_in_bytes": 102052
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/annotate.R",
+        "path_type": "hardlink",
+        "sha256": "b46150dcb68dca5608d41622160937a85e662ddd9bfad45e28e34899a379a7ea",
+        "sha256_in_prefix": "b46150dcb68dca5608d41622160937a85e662ddd9bfad45e28e34899a379a7ea",
+        "size_in_bytes": 1159
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/annotate.Rnw",
+        "path_type": "hardlink",
+        "sha256": "bfffc2c1ed28aea14c151b662e58ac5a161fb51e5c298cefdf94356cd94b44b0",
+        "sha256_in_prefix": "bfffc2c1ed28aea14c151b662e58ac5a161fb51e5c298cefdf94356cd94b44b0",
+        "size_in_bytes": 9305
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/annotate.pdf",
+        "path_type": "hardlink",
+        "sha256": "3d8bbfbce74e6b9494109673d10186c7f938d72fc245110afb33bdf80aa4c5ea",
+        "sha256_in_prefix": "3d8bbfbce74e6b9494109673d10186c7f938d72fc245110afb33bdf80aa4c5ea",
+        "size_in_bytes": 119052
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/chromLoc.R",
+        "path_type": "hardlink",
+        "sha256": "a966c50f330b55de4ff133c9abad1635c3aa8a80a184b675be32aa681e12d07c",
+        "sha256_in_prefix": "a966c50f330b55de4ff133c9abad1635c3aa8a80a184b675be32aa681e12d07c",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/chromLoc.Rnw",
+        "path_type": "hardlink",
+        "sha256": "7ee0c82a14828a7404b4865ec80ac6d18b5dffb629ff5b4db93e8259babe0e19",
+        "sha256_in_prefix": "7ee0c82a14828a7404b4865ec80ac6d18b5dffb629ff5b4db93e8259babe0e19",
+        "size_in_bytes": 4658
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/chromLoc.pdf",
+        "path_type": "hardlink",
+        "sha256": "80464ce5639610f7297827f6b9ddaa26dac41f4c78daffde3d4093a69628bebf",
+        "sha256_in_prefix": "80464ce5639610f7297827f6b9ddaa26dac41f4c78daffde3d4093a69628bebf",
+        "size_in_bytes": 127451
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "6bedfb1ed719abd49c00982278618f3a7bd9efa535fb99d2f03935c5fc678dee",
+        "sha256_in_prefix": "6bedfb1ed719abd49c00982278618f3a7bd9efa535fb99d2f03935c5fc678dee",
+        "size_in_bytes": 4756
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/prettyOutput.R",
+        "path_type": "hardlink",
+        "sha256": "abdbbcd133fb44758b3acf59f9bc207b98f26ddd1f56912f33b050371648708a",
+        "sha256_in_prefix": "abdbbcd133fb44758b3acf59f9bc207b98f26ddd1f56912f33b050371648708a",
+        "size_in_bytes": 4355
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/prettyOutput.Rnw",
+        "path_type": "hardlink",
+        "sha256": "5d5a818978d72a74f35ff22c867fe9ef712db5d18ab22225a4ae3ee9988d96f9",
+        "sha256_in_prefix": "5d5a818978d72a74f35ff22c867fe9ef712db5d18ab22225a4ae3ee9988d96f9",
+        "size_in_bytes": 8941
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/prettyOutput.pdf",
+        "path_type": "hardlink",
+        "sha256": "e64ffc87e6eca28fa427f8decd77457ea37a94d8dae7fe06f8249608f13a0f1a",
+        "sha256_in_prefix": "e64ffc87e6eca28fa427f8decd77457ea37a94d8dae7fe06f8249608f13a0f1a",
+        "size_in_bytes": 128377
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/query.R",
+        "path_type": "hardlink",
+        "sha256": "2281c9cf2edda842b9eab3a06a5dc7293022a06df8160a9c5cb3d6d5558b62ec",
+        "sha256_in_prefix": "2281c9cf2edda842b9eab3a06a5dc7293022a06df8160a9c5cb3d6d5558b62ec",
+        "size_in_bytes": 2102
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/query.Rnw",
+        "path_type": "hardlink",
+        "sha256": "c08d15993dd7260be70d3605c47427c0075e73a9295a0f14d05d756dfaa469f1",
+        "sha256_in_prefix": "c08d15993dd7260be70d3605c47427c0075e73a9295a0f14d05d756dfaa469f1",
+        "size_in_bytes": 10260
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/query.pdf",
+        "path_type": "hardlink",
+        "sha256": "9d7875d95af65359f04b3600166a666fa680ebd051c044e0973cdf62e6863d46",
+        "sha256_in_prefix": "9d7875d95af65359f04b3600166a666fa680ebd051c044e0973cdf62e6863d46",
+        "size_in_bytes": 219802
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/useDataPkgs.R",
+        "path_type": "hardlink",
+        "sha256": "61c1ec927b067104652d56590bfa4f8c9910e1a4d7fce5ff0887b5450daeb757",
+        "sha256_in_prefix": "61c1ec927b067104652d56590bfa4f8c9910e1a4d7fce5ff0887b5450daeb757",
+        "size_in_bytes": 1449
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/useDataPkgs.Rnw",
+        "path_type": "hardlink",
+        "sha256": "58945032afbfef609021f4eda8bc35db0d679948c149dd41a9e48fd2ae843dce",
+        "sha256_in_prefix": "58945032afbfef609021f4eda8bc35db0d679948c149dd41a9e48fd2ae843dce",
+        "size_in_bytes": 10999
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/useDataPkgs.pdf",
+        "path_type": "hardlink",
+        "sha256": "2c05f466e296b59039c13cfa36b14f426c0f1cf065732031e306e881da161679",
+        "sha256_in_prefix": "2c05f466e296b59039c13cfa36b14f426c0f1cf065732031e306e881da161679",
+        "size_in_bytes": 129554
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/useHomology.R",
+        "path_type": "hardlink",
+        "sha256": "219020f8498bd8d940fe9f519184f67fa2928fb2578e19cc8b4fd416ca669c8e",
+        "sha256_in_prefix": "219020f8498bd8d940fe9f519184f67fa2928fb2578e19cc8b4fd416ca669c8e",
+        "size_in_bytes": 2798
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/useHomology.Rnw",
+        "path_type": "hardlink",
+        "sha256": "ff4ac3c32bc2da9d9519bf9290c0fb5016c6bcb4bca8e9cd4633fac007fc965c",
+        "sha256_in_prefix": "ff4ac3c32bc2da9d9519bf9290c0fb5016c6bcb4bca8e9cd4633fac007fc965c",
+        "size_in_bytes": 10267
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/useHomology.pdf",
+        "path_type": "hardlink",
+        "sha256": "901abb173b7acaf0a15db91f8d5855c571ce13f63453dd5c91f5a558aa5b7054",
+        "sha256_in_prefix": "901abb173b7acaf0a15db91f8d5855c571ce13f63453dd5c91f5a558aa5b7054",
+        "size_in_bytes": 119757
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/useProbeInfo.R",
+        "path_type": "hardlink",
+        "sha256": "20fc186ee5974166243c9febef0e2a3ebe10ce93174c771f829794c846601908",
+        "sha256_in_prefix": "20fc186ee5974166243c9febef0e2a3ebe10ce93174c771f829794c846601908",
+        "size_in_bytes": 1575
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/useProbeInfo.Rnw",
+        "path_type": "hardlink",
+        "sha256": "c1a7cfb7d456308b453e5246e8cd57a0b1e8b6776836d3dfb227106d866abad0",
+        "sha256_in_prefix": "c1a7cfb7d456308b453e5246e8cd57a0b1e8b6776836d3dfb227106d866abad0",
+        "size_in_bytes": 4671
+      },
+      {
+        "_path": "lib/R/library/annotate/doc/useProbeInfo.pdf",
+        "path_type": "hardlink",
+        "sha256": "bd453212676604e0c524e745f730b2e6a3b4c122b896e0eb169342db264bb4e0",
+        "sha256_in_prefix": "bd453212676604e0c524e745f730b2e6a3b4c122b896e0eb169342db264bb4e0",
+        "size_in_bytes": 117856
+      },
+      {
+        "_path": "lib/R/library/annotate/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "64f8838ef24e912e54385c1086e085d20754241c18c3df98137ce22ab520456d",
+        "sha256_in_prefix": "64f8838ef24e912e54385c1086e085d20754241c18c3df98137ce22ab520456d",
+        "size_in_bytes": 5802
+      },
+      {
+        "_path": "lib/R/library/annotate/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "c69623d85c57be013f977bc03ea11a48d9002d14a1dd9fa5bb493a4a3cb18b9a",
+        "sha256_in_prefix": "c69623d85c57be013f977bc03ea11a48d9002d14a1dd9fa5bb493a4a3cb18b9a",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "lib/R/library/annotate/help/annotate.rdb",
+        "path_type": "hardlink",
+        "sha256": "7703ac1d4f66c57a4197f6d9e11e77078bdb4e4507254617f956cdec27a59891",
+        "sha256_in_prefix": "7703ac1d4f66c57a4197f6d9e11e77078bdb4e4507254617f956cdec27a59891",
+        "size_in_bytes": 140511
+      },
+      {
+        "_path": "lib/R/library/annotate/help/annotate.rdx",
+        "path_type": "hardlink",
+        "sha256": "65c5d3228132d198b6040313e12b43a0c843fe2a4203aefa3d58e16dc5b4566c",
+        "sha256_in_prefix": "65c5d3228132d198b6040313e12b43a0c843fe2a4203aefa3d58e16dc5b4566c",
+        "size_in_bytes": 1566
+      },
+      {
+        "_path": "lib/R/library/annotate/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "eeb390f61d1ccceba7fc4efd5dd7d068ef13e41cbcb83eaf783eedcefb48c78c",
+        "sha256_in_prefix": "eeb390f61d1ccceba7fc4efd5dd7d068ef13e41cbcb83eaf783eedcefb48c78c",
+        "size_in_bytes": 764
+      },
+      {
+        "_path": "lib/R/library/annotate/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "49e5747f68bca18255ae2a47786116f3c21acc257509e002f8364dbd28f6ff95",
+        "sha256_in_prefix": "49e5747f68bca18255ae2a47786116f3c21acc257509e002f8364dbd28f6ff95",
+        "size_in_bytes": 30644
+      },
+      {
+        "_path": "lib/R/library/annotate/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/annotate/misc/demowrite.html",
+        "path_type": "hardlink",
+        "sha256": "bd84b89eb799cb5dac3281077c6451995c94a54f17e1d26f67c0ebf41a916f86",
+        "sha256_in_prefix": "bd84b89eb799cb5dac3281077c6451995c94a54f17e1d26f67c0ebf41a916f86",
+        "size_in_bytes": 24761
+      },
+      {
+        "_path": "lib/R/library/annotate/misc/pmLinkGen.Rnw",
+        "path_type": "hardlink",
+        "sha256": "f1ef3166e3e8a69723b06ba69c9648fef9b63ff1933b2b23d1642c9cea921289",
+        "sha256_in_prefix": "f1ef3166e3e8a69723b06ba69c9648fef9b63ff1933b2b23d1642c9cea921289",
+        "size_in_bytes": 9213
+      },
+      {
+        "_path": "lib/R/library/annotate/misc/pmLinkGen.pdf",
+        "path_type": "hardlink",
+        "sha256": "d25dad1d76e2c5ed6d6504cdb3849c680474db21eed14d72f1a10fe42562a3c6",
+        "sha256_in_prefix": "d25dad1d76e2c5ed6d6504cdb3849c680474db21eed14d72f1a10fe42562a3c6",
+        "size_in_bytes": 70288
+      },
+      {
+        "_path": "lib/R/library/annotate/unitTests/test_getAnnMap.R",
+        "path_type": "hardlink",
+        "sha256": "4150eb36f50235a145b9e5ef4e69a7579e4d7d67c3254c3ac8774ed09bf95e9c",
+        "sha256_in_prefix": "4150eb36f50235a145b9e5ef4e69a7579e4d7d67c3254c3ac8774ed09bf95e9c",
+        "size_in_bytes": 393
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c7bb3a2216b1a59d12cf10ebe58143e9cc74d42e13871e90c28c329908183d94",
+  "size": 2174346,
+  "subdir": "noarch",
+  "timestamp": 1572774547345,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-annotate-1.64.0-r36_0.tar.bz2",
+  "version": "1.64.0"
+}

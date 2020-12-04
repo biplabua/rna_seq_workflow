@@ -1,0 +1,34 @@
+Package: tximport
+Version: 1.14.0
+Title: Import and summarize transcript-level estimates for transcript-
+        and gene-level analysis
+Description: Imports transcript-level abundance, estimated counts and
+        transcript lengths, and summarizes into matrices for use with
+        downstream gene-level analysis packages. Average transcript
+        length, weighted by sample-specific transcript abundance
+        estimates, is provided as a matrix which can be used as an
+        offset for different expression of gene-level counts.
+Author: Michael Love [cre,aut], Charlotte Soneson [aut], Mark Robinson [aut],
+        Rob Patro [ctb], Andrew Parker Morgan [ctb], Ryan C. Thompson [ctb], 
+        Matt Shirley [ctb], Avi Srivastava [ctb]
+Maintainer: Michael Love <michaelisaiahlove@gmail.com>
+License: GPL (>=2)
+VignetteBuilder: knitr
+Imports: utils, stats, methods
+Suggests: knitr, rmarkdown, testthat, tximportData,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, readr (>= 0.2.2), limma,
+        edgeR, csaw, DESeq2 (>= 1.11.6), rhdf5, jsonlite, matrixStats,
+        Matrix, fishpond
+URL: https://github.com/mikelove/tximport
+biocViews: DataImport, Preprocessing, RNASeq, Transcriptomics,
+        Transcription, GeneExpression, ImmunoOncology
+RoxygenNote: 6.1.1
+NeedsCompilation: no
+Encoding: UTF-8
+git_url: https://git.bioconductor.org/packages/tximport
+git_branch: RELEASE_3_10
+git_last_commit: 0fc7537
+git_last_commit_date: 2019-10-29
+Date/Publication: 2019-10-29
+Packaged: 2019-10-30 01:48:37 UTC; biocbuild
+Built: R 3.6.1; ; 2019-11-01 11:36:39 UTC; unix

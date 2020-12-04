@@ -1,0 +1,625 @@
+{
+  "build": "r36h01d97ff_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "bioconductor-biostrings >=2.54.0,<2.55.0",
+    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+    "bioconductor-genomicalignments >=1.22.0,<1.23.0",
+    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+    "bioconductor-iranges >=2.20.0,<2.21.0",
+    "bioconductor-rsamtools >=2.2.0,<2.3.0",
+    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+    "bioconductor-xvector >=0.26.0,<0.27.0",
+    "bioconductor-zlibbioc >=1.32.0,<1.33.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-rcurl >=1.4-2",
+    "r-xml >=1.98-0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-rtracklayer-1.46.0-r36h01d97ff_0",
+  "features": "",
+  "files": [
+    "lib/R/library/rtracklayer/CITATION",
+    "lib/R/library/rtracklayer/DESCRIPTION",
+    "lib/R/library/rtracklayer/INDEX",
+    "lib/R/library/rtracklayer/LICENSE",
+    "lib/R/library/rtracklayer/Meta/Rd.rds",
+    "lib/R/library/rtracklayer/Meta/data.rds",
+    "lib/R/library/rtracklayer/Meta/demo.rds",
+    "lib/R/library/rtracklayer/Meta/features.rds",
+    "lib/R/library/rtracklayer/Meta/hsearch.rds",
+    "lib/R/library/rtracklayer/Meta/links.rds",
+    "lib/R/library/rtracklayer/Meta/nsInfo.rds",
+    "lib/R/library/rtracklayer/Meta/package.rds",
+    "lib/R/library/rtracklayer/Meta/vignette.rds",
+    "lib/R/library/rtracklayer/NAMESPACE",
+    "lib/R/library/rtracklayer/NEWS",
+    "lib/R/library/rtracklayer/R/rtracklayer",
+    "lib/R/library/rtracklayer/R/rtracklayer.rdb",
+    "lib/R/library/rtracklayer/R/rtracklayer.rdx",
+    "lib/R/library/rtracklayer/data/cpneTrack.rda",
+    "lib/R/library/rtracklayer/data/targets.rda",
+    "lib/R/library/rtracklayer/demo/targets.R",
+    "lib/R/library/rtracklayer/doc/index.html",
+    "lib/R/library/rtracklayer/doc/rtracklayer.R",
+    "lib/R/library/rtracklayer/doc/rtracklayer.Rnw",
+    "lib/R/library/rtracklayer/doc/rtracklayer.pdf",
+    "lib/R/library/rtracklayer/extdata/demo.narrowPeak.gz",
+    "lib/R/library/rtracklayer/help/AnIndex",
+    "lib/R/library/rtracklayer/help/aliases.rds",
+    "lib/R/library/rtracklayer/help/paths.rds",
+    "lib/R/library/rtracklayer/help/rtracklayer.rdb",
+    "lib/R/library/rtracklayer/help/rtracklayer.rdx",
+    "lib/R/library/rtracklayer/html/00Index.html",
+    "lib/R/library/rtracklayer/html/R.css",
+    "lib/R/library/rtracklayer/libs/rtracklayer.dylib",
+    "lib/R/library/rtracklayer/notes/design.org",
+    "lib/R/library/rtracklayer/notes/requirements.tex",
+    "lib/R/library/rtracklayer/notes/use-cases.tex",
+    "lib/R/library/rtracklayer/scripts/cpneTrack.R",
+    "lib/R/library/rtracklayer/scripts/twobit.R",
+    "lib/R/library/rtracklayer/tests/bed.bw",
+    "lib/R/library/rtracklayer/tests/bed.wig",
+    "lib/R/library/rtracklayer/tests/genes.gff3",
+    "lib/R/library/rtracklayer/tests/gtf.gff",
+    "lib/R/library/rtracklayer/tests/multi.wig",
+    "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/T_species_Oct_2011.2bit",
+    "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/annots.xml",
+    "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/bedData.bed.gz",
+    "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/bedData.bed.gz.tbi",
+    "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/bedGraphData.bw",
+    "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/mod_chromInfo.txt",
+    "lib/R/library/rtracklayer/tests/quickload/contents.txt",
+    "lib/R/library/rtracklayer/tests/step.wig",
+    "lib/R/library/rtracklayer/tests/test.2bit",
+    "lib/R/library/rtracklayer/tests/test.R",
+    "lib/R/library/rtracklayer/tests/test.bed",
+    "lib/R/library/rtracklayer/tests/test.bed15",
+    "lib/R/library/rtracklayer/tests/test.bedGraph",
+    "lib/R/library/rtracklayer/tests/test.bedpe",
+    "lib/R/library/rtracklayer/tests/test.bw",
+    "lib/R/library/rtracklayer/tests/test.gtf",
+    "lib/R/library/rtracklayer/tests/test.xmfa",
+    "lib/R/library/rtracklayer/tests/v1.gff",
+    "lib/R/library/rtracklayer/tests/v2.gff",
+    "lib/R/library/rtracklayer/tests/v3.gff",
+    "lib/R/library/rtracklayer/tests/variableStep.bw",
+    "lib/R/library/rtracklayer/tests/variableStep.wig",
+    "lib/R/library/rtracklayer/unitTests/test_bed.R",
+    "lib/R/library/rtracklayer/unitTests/test_bedGraph.R",
+    "lib/R/library/rtracklayer/unitTests/test_bw.R",
+    "lib/R/library/rtracklayer/unitTests/test_gff.R",
+    "lib/R/library/rtracklayer/unitTests/test_twoBit.R",
+    "lib/R/library/rtracklayer/unitTests/test_wig.R"
+  ],
+  "fn": "bioconductor-rtracklayer-1.46.0-r36h01d97ff_0.tar.bz2",
+  "license": "Artistic-2.0 + file LICENSE",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-rtracklayer-1.46.0-r36h01d97ff_0",
+    "type": 1
+  },
+  "md5": "7ac67c001f3e06ff9b3a47c2f1dcbf3c",
+  "name": "bioconductor-rtracklayer",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-rtracklayer-1.46.0-r36h01d97ff_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/rtracklayer/CITATION",
+        "path_type": "hardlink",
+        "sha256": "cb8398371b088197670d395dccb71d36fc7c487eb80195209186713858de2f79",
+        "sha256_in_prefix": "cb8398371b088197670d395dccb71d36fc7c487eb80195209186713858de2f79",
+        "size_in_bytes": 808
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "4de6bf6503f88ccfc7fbf68f4140dfbd582c2e95cc5681065eba8c457cef333b",
+        "sha256_in_prefix": "4de6bf6503f88ccfc7fbf68f4140dfbd582c2e95cc5681065eba8c457cef333b",
+        "size_in_bytes": 1873
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/INDEX",
+        "path_type": "hardlink",
+        "sha256": "b40d392e000e4f9244dac63677fe29d48202855dfac284ebc7a99f72fc57508a",
+        "sha256_in_prefix": "b40d392e000e4f9244dac63677fe29d48202855dfac284ebc7a99f72fc57508a",
+        "size_in_bytes": 2476
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f8642f265d4bf483f25a711f520c27232b171a653fbf0d48e4d2e24c48d502a4",
+        "sha256_in_prefix": "f8642f265d4bf483f25a711f520c27232b171a653fbf0d48e4d2e24c48d502a4",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "969717575f6cfd6e5393a52c9706c7d050a2bd7f99f8e24c30392a7037b22ddc",
+        "sha256_in_prefix": "969717575f6cfd6e5393a52c9706c7d050a2bd7f99f8e24c30392a7037b22ddc",
+        "size_in_bytes": 4023
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "473f8938975f71e146e51a06e961653cdf42eaa8c450564aa01421ccf08f391b",
+        "sha256_in_prefix": "473f8938975f71e146e51a06e961653cdf42eaa8c450564aa01421ccf08f391b",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/Meta/demo.rds",
+        "path_type": "hardlink",
+        "sha256": "170a19ac031e0387e0091117f714b235f852f48e2ead83ece97f448eddf1eb38",
+        "sha256_in_prefix": "170a19ac031e0387e0091117f714b235f852f48e2ead83ece97f448eddf1eb38",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "sha256_in_prefix": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "31fa73f5e51fb46b5a8bcb8790f8ee1c113b7ec93ad5bdd70be33d9bb6da2bda",
+        "sha256_in_prefix": "31fa73f5e51fb46b5a8bcb8790f8ee1c113b7ec93ad5bdd70be33d9bb6da2bda",
+        "size_in_bytes": 4245
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "328dd5bf46eda0e4058d27fd9f79b15cd5eca9eb60c17dec08acef4e20d82822",
+        "sha256_in_prefix": "328dd5bf46eda0e4058d27fd9f79b15cd5eca9eb60c17dec08acef4e20d82822",
+        "size_in_bytes": 3328
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "84664e288dea405d319c2af7dde53dde7ce1f28323361bb400bd6099b1a3ca80",
+        "sha256_in_prefix": "84664e288dea405d319c2af7dde53dde7ce1f28323361bb400bd6099b1a3ca80",
+        "size_in_bytes": 1851
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "720e61f4ad975e41839951bfc73d9c7313c7694b9bacea277e5885c62886b7dd",
+        "sha256_in_prefix": "720e61f4ad975e41839951bfc73d9c7313c7694b9bacea277e5885c62886b7dd",
+        "size_in_bytes": 1788
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "621ccb43a757e1a69de5781bd3be104c0350475898c52cf946e64470ce0135f6",
+        "sha256_in_prefix": "621ccb43a757e1a69de5781bd3be104c0350475898c52cf946e64470ce0135f6",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "2ec5d166c4e9c8ba4fdbfefc78f733a05739f2b99de8a9dfe0bb7ca7c6b1e03c",
+        "sha256_in_prefix": "2ec5d166c4e9c8ba4fdbfefc78f733a05739f2b99de8a9dfe0bb7ca7c6b1e03c",
+        "size_in_bytes": 5112
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/NEWS",
+        "path_type": "hardlink",
+        "sha256": "d8a24e9a6ac810e7ac4f8171077a604dc5c2782841fc8e5fa7008c8dbe0131f3",
+        "sha256_in_prefix": "d8a24e9a6ac810e7ac4f8171077a604dc5c2782841fc8e5fa7008c8dbe0131f3",
+        "size_in_bytes": 4702
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/R/rtracklayer",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/R/rtracklayer.rdb",
+        "path_type": "hardlink",
+        "sha256": "cc663dbe5a4c91ea0f416ab8410ccd2c08829edd17f657e67188100c2e726cb3",
+        "sha256_in_prefix": "cc663dbe5a4c91ea0f416ab8410ccd2c08829edd17f657e67188100c2e726cb3",
+        "size_in_bytes": 1790343
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/R/rtracklayer.rdx",
+        "path_type": "hardlink",
+        "sha256": "a00a7d11dfbf4c03ec4a9758b7827a63c5c832cb4aa33a6834505e136d2571e0",
+        "sha256_in_prefix": "a00a7d11dfbf4c03ec4a9758b7827a63c5c832cb4aa33a6834505e136d2571e0",
+        "size_in_bytes": 10528
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/data/cpneTrack.rda",
+        "path_type": "hardlink",
+        "sha256": "c529c59a98c741210a0217fe30ef376a12a3183042b7012711a9ffe050635944",
+        "sha256_in_prefix": "c529c59a98c741210a0217fe30ef376a12a3183042b7012711a9ffe050635944",
+        "size_in_bytes": 600528
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/data/targets.rda",
+        "path_type": "hardlink",
+        "sha256": "ec24596f7ba2620b7fd9f569203a3cca291507c412d5a9431c8063c14ae539a6",
+        "sha256_in_prefix": "ec24596f7ba2620b7fd9f569203a3cca291507c412d5a9431c8063c14ae539a6",
+        "size_in_bytes": 61392
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/demo/targets.R",
+        "path_type": "hardlink",
+        "sha256": "15f3e75314e5b32cdf4bf6e91179d71d75ad149ad48055f422e0d47bff9dfe45",
+        "sha256_in_prefix": "15f3e75314e5b32cdf4bf6e91179d71d75ad149ad48055f422e0d47bff9dfe45",
+        "size_in_bytes": 1353
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "a509b85a82002a3b9467dfe8bdf2a82c876fbd81832311dcba39184078b2591a",
+        "sha256_in_prefix": "a509b85a82002a3b9467dfe8bdf2a82c876fbd81832311dcba39184078b2591a",
+        "size_in_bytes": 1365
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/doc/rtracklayer.R",
+        "path_type": "hardlink",
+        "sha256": "c0c80718b999cc990780a7a83dce5fd52738d6d272576dedb760d9836df1a5b7",
+        "sha256_in_prefix": "c0c80718b999cc990780a7a83dce5fd52738d6d272576dedb760d9836df1a5b7",
+        "size_in_bytes": 12141
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/doc/rtracklayer.Rnw",
+        "path_type": "hardlink",
+        "sha256": "5ee06780d1f47fd057f877e8693063a30aebfbc02f01eb756d90c88af53e36f3",
+        "sha256_in_prefix": "5ee06780d1f47fd057f877e8693063a30aebfbc02f01eb756d90c88af53e36f3",
+        "size_in_bytes": 27875
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/doc/rtracklayer.pdf",
+        "path_type": "hardlink",
+        "sha256": "81df3a6c1088a01c7ff309ec1059f0797137cd9c85262e5048ae2e230d230e75",
+        "sha256_in_prefix": "81df3a6c1088a01c7ff309ec1059f0797137cd9c85262e5048ae2e230d230e75",
+        "size_in_bytes": 467631
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/extdata/demo.narrowPeak.gz",
+        "path_type": "hardlink",
+        "sha256": "f1938486fdbee2255d4b725ea976a96192015b5b18fa35f3f3cbc5a5edd2e416",
+        "sha256_in_prefix": "f1938486fdbee2255d4b725ea976a96192015b5b18fa35f3f3cbc5a5edd2e416",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "26e21e6e55a14c9e7cece919332c949aab8789be2c8e2bc82ceefc9cc7dbba4e",
+        "sha256_in_prefix": "26e21e6e55a14c9e7cece919332c949aab8789be2c8e2bc82ceefc9cc7dbba4e",
+        "size_in_bytes": 17335
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "fecbeb494514b70c5f9aceb853ae40d395c0bcfa2b936142f3b12d95d10a30f4",
+        "sha256_in_prefix": "fecbeb494514b70c5f9aceb853ae40d395c0bcfa2b936142f3b12d95d10a30f4",
+        "size_in_bytes": 3369
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "f77369b3e09875519ed56d532f9b430f78890a169359e08b6a2bb60f19382e4f",
+        "sha256_in_prefix": "f77369b3e09875519ed56d532f9b430f78890a169359e08b6a2bb60f19382e4f",
+        "size_in_bytes": 642
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/help/rtracklayer.rdb",
+        "path_type": "hardlink",
+        "sha256": "e262645f24849832c49530cd09e40e44f40379187c3031916cb7cd8a8e382b86",
+        "sha256_in_prefix": "e262645f24849832c49530cd09e40e44f40379187c3031916cb7cd8a8e382b86",
+        "size_in_bytes": 218630
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/help/rtracklayer.rdx",
+        "path_type": "hardlink",
+        "sha256": "0d17ac37bf44409087ed934d87760ee9e14c6c3c11b5191688163f7ef319ff8f",
+        "sha256_in_prefix": "0d17ac37bf44409087ed934d87760ee9e14c6c3c11b5191688163f7ef319ff8f",
+        "size_in_bytes": 1329
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "653ae0cc19f0936bfe28754a867ec19091db2f998a46ff5c48d4c149694059c8",
+        "sha256_in_prefix": "653ae0cc19f0936bfe28754a867ec19091db2f998a46ff5c48d4c149694059c8",
+        "size_in_bytes": 44715
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/libs/rtracklayer.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/bioconductor-rtracklayer_1572732412438/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "70c650d44017d8250e86d213398452ad068132452269452f45085983196af288",
+        "sha256_in_prefix": "9c3fbe6a5779bc8061f3145a26b0f1ff6e8b78c134bf35c88216ae236cab88bb",
+        "size_in_bytes": 349296
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/notes/design.org",
+        "path_type": "hardlink",
+        "sha256": "2b423405fb68f6f3c991619b8cf0e0ceb9c653a74608ace43669da7a92d4c64e",
+        "sha256_in_prefix": "2b423405fb68f6f3c991619b8cf0e0ceb9c653a74608ace43669da7a92d4c64e",
+        "size_in_bytes": 9656
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/notes/requirements.tex",
+        "path_type": "hardlink",
+        "sha256": "0ad42fd48fd76a06b2e58b60ce3716cb05fcb6061e6648b203daedf9c06b33d7",
+        "sha256_in_prefix": "0ad42fd48fd76a06b2e58b60ce3716cb05fcb6061e6648b203daedf9c06b33d7",
+        "size_in_bytes": 14634
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/notes/use-cases.tex",
+        "path_type": "hardlink",
+        "sha256": "1b0d75227a594afd728d4fbd4a004555a6d1f3794cbd17c07eb6637b493bb963",
+        "sha256_in_prefix": "1b0d75227a594afd728d4fbd4a004555a6d1f3794cbd17c07eb6637b493bb963",
+        "size_in_bytes": 6804
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/scripts/cpneTrack.R",
+        "path_type": "hardlink",
+        "sha256": "3fea50153ab2f555b5d93f4564e0954bfecbf031d9875e179532fb0ee3e3883e",
+        "sha256_in_prefix": "3fea50153ab2f555b5d93f4564e0954bfecbf031d9875e179532fb0ee3e3883e",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/scripts/twobit.R",
+        "path_type": "hardlink",
+        "sha256": "0967975289fcef7be383003ee6165eeec98a64c053daa66f74d927c23c953faa",
+        "sha256_in_prefix": "0967975289fcef7be383003ee6165eeec98a64c053daa66f74d927c23c953faa",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/bed.bw",
+        "path_type": "hardlink",
+        "sha256": "54e4d5950a53c4da1ef4a0b9094ecae6d4223c7fb502307f904e345f25688b4a",
+        "sha256_in_prefix": "54e4d5950a53c4da1ef4a0b9094ecae6d4223c7fb502307f904e345f25688b4a",
+        "size_in_bytes": 74484
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/bed.wig",
+        "path_type": "hardlink",
+        "sha256": "4c5ca9f09ae78f2c37379becf85922700b991a7af1e3a11f9cfb1b033ddaf250",
+        "sha256_in_prefix": "4c5ca9f09ae78f2c37379becf85922700b991a7af1e3a11f9cfb1b033ddaf250",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/genes.gff3",
+        "path_type": "hardlink",
+        "sha256": "32aa0e81cd63a107d7dcd90283a8c64a27db2515dca57ab453fa18a985effcb7",
+        "sha256_in_prefix": "32aa0e81cd63a107d7dcd90283a8c64a27db2515dca57ab453fa18a985effcb7",
+        "size_in_bytes": 2014
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/gtf.gff",
+        "path_type": "hardlink",
+        "sha256": "ba124697d5099a7139cee33650c8ebb1285056b797b0ad451b049d422a413f42",
+        "sha256_in_prefix": "ba124697d5099a7139cee33650c8ebb1285056b797b0ad451b049d422a413f42",
+        "size_in_bytes": 1344
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/multi.wig",
+        "path_type": "hardlink",
+        "sha256": "b31f47b93b3a3f44fea33f0d5e6dc848c07e72f0fea4641c897e5c25ee11aaef",
+        "sha256_in_prefix": "b31f47b93b3a3f44fea33f0d5e6dc848c07e72f0fea4641c897e5c25ee11aaef",
+        "size_in_bytes": 1775
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/T_species_Oct_2011.2bit",
+        "path_type": "hardlink",
+        "sha256": "dc4be915eb077f35bf14de40773b89638aff04a2669813971c8e5ad30494d0d1",
+        "sha256_in_prefix": "dc4be915eb077f35bf14de40773b89638aff04a2669813971c8e5ad30494d0d1",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/annots.xml",
+        "path_type": "hardlink",
+        "sha256": "fa0a9e64aa28f38732caf3489fb780770476908956bc1b6b00b980202ac59398",
+        "sha256_in_prefix": "fa0a9e64aa28f38732caf3489fb780770476908956bc1b6b00b980202ac59398",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/bedData.bed.gz",
+        "path_type": "hardlink",
+        "sha256": "7e52af7f123bdb220b13d93e0e4d65ca2410afe7121e582a4825d9a7b8f94504",
+        "sha256_in_prefix": "7e52af7f123bdb220b13d93e0e4d65ca2410afe7121e582a4825d9a7b8f94504",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/bedData.bed.gz.tbi",
+        "path_type": "hardlink",
+        "sha256": "65428ac49ad22179e1fc0f3f1770b6172596934dfb03646c264d0e342c794d47",
+        "sha256_in_prefix": "65428ac49ad22179e1fc0f3f1770b6172596934dfb03646c264d0e342c794d47",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/bedGraphData.bw",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/quickload/T_species_Oct_2011/mod_chromInfo.txt",
+        "path_type": "hardlink",
+        "sha256": "1a245a99b776ab767a2942cfd12b1a86636d05591abb8e216d8b8c055c45b951",
+        "sha256_in_prefix": "1a245a99b776ab767a2942cfd12b1a86636d05591abb8e216d8b8c055c45b951",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/quickload/contents.txt",
+        "path_type": "hardlink",
+        "sha256": "1b947d5aef1dbd18df3996e1a3afef3acc4af4d1e705d7b0c634570c6d8e5a87",
+        "sha256_in_prefix": "1b947d5aef1dbd18df3996e1a3afef3acc4af4d1e705d7b0c634570c6d8e5a87",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/step.wig",
+        "path_type": "hardlink",
+        "sha256": "8d0e61381ab44c79a717e88343d5d247706708e0467190b3d405d54a2c0df7a5",
+        "sha256_in_prefix": "8d0e61381ab44c79a717e88343d5d247706708e0467190b3d405d54a2c0df7a5",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/test.2bit",
+        "path_type": "hardlink",
+        "sha256": "ad40be19dc13020df8309f961fc6824546b532d3bab04912e76271e16db4f3c8",
+        "sha256_in_prefix": "ad40be19dc13020df8309f961fc6824546b532d3bab04912e76271e16db4f3c8",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/test.R",
+        "path_type": "hardlink",
+        "sha256": "1131c5af2afde1aa134ac333e7a904231980370bdd25232119e4cc1156598fdd",
+        "sha256_in_prefix": "1131c5af2afde1aa134ac333e7a904231980370bdd25232119e4cc1156598fdd",
+        "size_in_bytes": 321
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/test.bed",
+        "path_type": "hardlink",
+        "sha256": "dc31184fd99f66f40ceb4f92d514a756f94f6f182e29512a7276a64a6a3b37db",
+        "sha256_in_prefix": "dc31184fd99f66f40ceb4f92d514a756f94f6f182e29512a7276a64a6a3b37db",
+        "size_in_bytes": 731
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/test.bed15",
+        "path_type": "hardlink",
+        "sha256": "2e5ade18af0db1e9c21b699ad1495283a42095080b09d685148fafd6057e0bae",
+        "sha256_in_prefix": "2e5ade18af0db1e9c21b699ad1495283a42095080b09d685148fafd6057e0bae",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/test.bedGraph",
+        "path_type": "hardlink",
+        "sha256": "25166408058d01a95bf65f346d052e943d1d08547e1ed0c68e94496fd8e9d192",
+        "sha256_in_prefix": "25166408058d01a95bf65f346d052e943d1d08547e1ed0c68e94496fd8e9d192",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/test.bedpe",
+        "path_type": "hardlink",
+        "sha256": "0bf7b34f39fe84dddfb2222cd4c1c55a9fc3085195d7f88931c6c370f448ee3a",
+        "sha256_in_prefix": "0bf7b34f39fe84dddfb2222cd4c1c55a9fc3085195d7f88931c6c370f448ee3a",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/test.bw",
+        "path_type": "hardlink",
+        "sha256": "74e8136b07e11e04517ecff98e62fc9a709fe80613f67a83b449fa178e43accf",
+        "sha256_in_prefix": "74e8136b07e11e04517ecff98e62fc9a709fe80613f67a83b449fa178e43accf",
+        "size_in_bytes": 74326
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/test.gtf",
+        "path_type": "hardlink",
+        "sha256": "0ef781f011ccea21ebf545dbc090d3c2b01fc8f473f996ae8b1c45a9aebd139c",
+        "sha256_in_prefix": "0ef781f011ccea21ebf545dbc090d3c2b01fc8f473f996ae8b1c45a9aebd139c",
+        "size_in_bytes": 294
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/test.xmfa",
+        "path_type": "hardlink",
+        "sha256": "3ae2072e47fa589e83cc6f9c66d85646c11d04c82df78efc00a5527f73db2de9",
+        "sha256_in_prefix": "3ae2072e47fa589e83cc6f9c66d85646c11d04c82df78efc00a5527f73db2de9",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/v1.gff",
+        "path_type": "hardlink",
+        "sha256": "9fdcd760573da516c3e5cf2b28889dc12a41935b6447c592bfb5bef49c40d88a",
+        "sha256_in_prefix": "9fdcd760573da516c3e5cf2b28889dc12a41935b6447c592bfb5bef49c40d88a",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/v2.gff",
+        "path_type": "hardlink",
+        "sha256": "b169496608979e30684ea87819660027d7df69b49907578fff056a40754cb762",
+        "sha256_in_prefix": "b169496608979e30684ea87819660027d7df69b49907578fff056a40754cb762",
+        "size_in_bytes": 1208
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/v3.gff",
+        "path_type": "hardlink",
+        "sha256": "5340b41581e26853f40fb5d5a2b398bc4319ad6f3756a7d9a96bb195b2987afc",
+        "sha256_in_prefix": "5340b41581e26853f40fb5d5a2b398bc4319ad6f3756a7d9a96bb195b2987afc",
+        "size_in_bytes": 948
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/variableStep.bw",
+        "path_type": "hardlink",
+        "sha256": "1c755b7bbdddb3c0989a1b22742ed219415b7acce1440b369e7f83da77983b27",
+        "sha256_in_prefix": "1c755b7bbdddb3c0989a1b22742ed219415b7acce1440b369e7f83da77983b27",
+        "size_in_bytes": 74501
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/tests/variableStep.wig",
+        "path_type": "hardlink",
+        "sha256": "5dc55864fb2670b344ce33655d62682146f09c44acb442cca14d8eff9469c9a6",
+        "sha256_in_prefix": "5dc55864fb2670b344ce33655d62682146f09c44acb442cca14d8eff9469c9a6",
+        "size_in_bytes": 448
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/unitTests/test_bed.R",
+        "path_type": "hardlink",
+        "sha256": "10c098d61502bcbc0801f1da621a045d1a014d5eae666f90b773f8b32043b40e",
+        "sha256_in_prefix": "10c098d61502bcbc0801f1da621a045d1a014d5eae666f90b773f8b32043b40e",
+        "size_in_bytes": 11656
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/unitTests/test_bedGraph.R",
+        "path_type": "hardlink",
+        "sha256": "5e58d9474681fb309abe4c8a1a8ae94587c5aa00a84f32556f77085a7f625064",
+        "sha256_in_prefix": "5e58d9474681fb309abe4c8a1a8ae94587c5aa00a84f32556f77085a7f625064",
+        "size_in_bytes": 4728
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/unitTests/test_bw.R",
+        "path_type": "hardlink",
+        "sha256": "855e669297648814bc5d055b5042442d44ac91d93d81a130049a72a408c382ae",
+        "sha256_in_prefix": "855e669297648814bc5d055b5042442d44ac91d93d81a130049a72a408c382ae",
+        "size_in_bytes": 3008
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/unitTests/test_gff.R",
+        "path_type": "hardlink",
+        "sha256": "71ddcd27cacfddfc67d19630dc5606f44e0ddec6c1ca002e975cf7f48366f424",
+        "sha256_in_prefix": "71ddcd27cacfddfc67d19630dc5606f44e0ddec6c1ca002e975cf7f48366f424",
+        "size_in_bytes": 8488
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/unitTests/test_twoBit.R",
+        "path_type": "hardlink",
+        "sha256": "3dab40a4ca8dca337ac768f1bdddaf9d8198d7ae3d97830f8e21c5300e2f7a05",
+        "sha256_in_prefix": "3dab40a4ca8dca337ac768f1bdddaf9d8198d7ae3d97830f8e21c5300e2f7a05",
+        "size_in_bytes": 2307
+      },
+      {
+        "_path": "lib/R/library/rtracklayer/unitTests/test_wig.R",
+        "path_type": "hardlink",
+        "sha256": "b962bc7bb758b9cb6040a20f0a67d751ea6c485db5669f0481b3c66a23bcf558",
+        "sha256_in_prefix": "b962bc7bb758b9cb6040a20f0a67d751ea6c485db5669f0481b3c66a23bcf558",
+        "size_in_bytes": 5653
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2d46bc368f5e1797dfa80ff511f5fb3651476a1c4d261d5417182e2417a605da",
+  "size": 2936399,
+  "subdir": "osx-64",
+  "timestamp": 1572732565028,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/bioconductor-rtracklayer-1.46.0-r36h01d97ff_0.tar.bz2",
+  "version": "1.46.0"
+}

@@ -1,0 +1,86 @@
+	    SUMMARY OF THE HDF5 CONFIGURATION
+	    =================================
+
+General Information:
+-------------------
+                   HDF5 Version: 1.10.5
+                  Configured on: Sat Nov 28 01:17:57 UTC 2020
+                  Configured by: runner@Mac-1606517592552.local
+                    Host system: x86_64-apple-darwin13.4.0
+              Uname information: Darwin Mac-1606517592552.local 19.6.0 Darwin Kernel Version 19.6.0: Thu Oct 29 22:56:45 PDT 2020; root:xnu-6153.141.2.2~1/RELEASE_X86_64 x86_64
+                       Byte sex: little-endian
+             Installation point: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+
+Compiling Options:
+------------------
+                     Build Mode: production
+              Debugging Symbols: no
+                        Asserts: no
+                      Profiling: no
+             Optimization Level: high
+
+Linking Options:
+----------------
+                      Libraries: static, shared
+  Statically Linked Executables: 
+                        LDFLAGS: -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib -L/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib
+                     H5_LDFLAGS:  -Wl,-commons,use_dylibs
+                     AM_LDFLAGS:  -L/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib
+                Extra libraries: -lpthread -lz -ldl -lm 
+                       Archiver: /Users/runner/miniforge3/conda-bld/hdf5_split_1606526049515/_build_env/bin/x86_64-apple-darwin13.4.0-ar
+                       AR_FLAGS: cr
+                         Ranlib: /Users/runner/miniforge3/conda-bld/hdf5_split_1606526049515/_build_env/bin/x86_64-apple-darwin13.4.0-ranlib
+
+Languages:
+----------
+                              C: yes
+                     C Compiler: /Users/runner/miniforge3/conda-bld/hdf5_split_1606526049515/_build_env/bin/x86_64-apple-darwin13.4.0-clang
+                       CPPFLAGS: -D_FORTIFY_SOURCE=2 -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include -mmacosx-version-min=10.9
+                    H5_CPPFLAGS:   -DNDEBUG -UH5_DEBUG_API
+                    AM_CPPFLAGS:  -I/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include
+                        C Flags: -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/hdf5_split_1606526049515/work=/usr/local/src/conda/hdf5_split-1.10.5 -fdebug-prefix-map=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8=/usr/local/src/conda-prefix
+                     H5 C Flags:     
+                     AM C Flags: 
+               Shared C Library: yes
+               Static C Library: yes
+
+
+                        Fortran: yes
+               Fortran Compiler: /Users/runner/miniforge3/conda-bld/hdf5_split_1606526049515/_build_env/bin/x86_64-apple-darwin13.4.0-gfortran ( GNU Fortran (GCC) 9.3.0)
+                  Fortran Flags: 
+               H5 Fortran Flags:  -pedantic -Wall -Wextra -Wunderflow -Wimplicit-interface -Wsurprising -Wno-c-binding-type  -s -O2
+               AM Fortran Flags: 
+         Shared Fortran Library: no
+         Static Fortran Library: yes
+
+                            C++: yes
+                   C++ Compiler: /Users/runner/miniforge3/conda-bld/hdf5_split_1606526049515/_build_env/bin/x86_64-apple-darwin13.4.0-clang++
+                      C++ Flags: -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0 -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/hdf5_split_1606526049515/work=/usr/local/src/conda/hdf5_split-1.10.5 -fdebug-prefix-map=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8=/usr/local/src/conda-prefix
+                   H5 C++ Flags:    
+                   AM C++ Flags: 
+             Shared C++ Library: yes
+             Static C++ Library: yes
+
+                           Java: no
+
+
+Features:
+---------
+                   Parallel HDF5: no
+Parallel Filtered Dataset Writes: no
+              Large Parallel I/O: no
+              High-level library: yes
+                    Threadsafety: yes
+             Default API mapping: v110
+  With deprecated public symbols: yes
+          I/O filters (external): deflate(zlib)
+                             MPE: no
+                      Direct VFD: no
+                         dmalloc: no
+  Packages w/ extra debug output: none
+                     API tracing: no
+            Using memory checker: yes
+ Memory allocation sanity checks: no
+          Function stack tracing: no
+       Strict file format checks: no
+    Optimization instrumentation: no

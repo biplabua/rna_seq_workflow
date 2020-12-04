@@ -1,0 +1,554 @@
+{
+  "build": "r36h7d45411_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.1",
+    "r-base >=3.6,<3.7.0a0",
+    "r-brio",
+    "r-callr >=3.5.1",
+    "r-cli",
+    "r-crayon >=1.3.4",
+    "r-desc",
+    "r-digest",
+    "r-ellipsis >=0.2.0",
+    "r-evaluate",
+    "r-jsonlite",
+    "r-lifecycle",
+    "r-magrittr",
+    "r-pkgload",
+    "r-praise",
+    "r-processx",
+    "r-ps >=1.3.4",
+    "r-r6 >=2.2.0",
+    "r-rlang >=0.4.1",
+    "r-waldo >=0.2.1",
+    "r-withr >=2.0.0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-testthat-3.0.0-r36h7d45411_0",
+  "features": "",
+  "files": [
+    "lib/R/library/testthat/CITATION",
+    "lib/R/library/testthat/DESCRIPTION",
+    "lib/R/library/testthat/INDEX",
+    "lib/R/library/testthat/LICENSE",
+    "lib/R/library/testthat/Meta/Rd.rds",
+    "lib/R/library/testthat/Meta/features.rds",
+    "lib/R/library/testthat/Meta/hsearch.rds",
+    "lib/R/library/testthat/Meta/links.rds",
+    "lib/R/library/testthat/Meta/nsInfo.rds",
+    "lib/R/library/testthat/Meta/package.rds",
+    "lib/R/library/testthat/Meta/vignette.rds",
+    "lib/R/library/testthat/NAMESPACE",
+    "lib/R/library/testthat/NEWS.md",
+    "lib/R/library/testthat/R/testthat",
+    "lib/R/library/testthat/R/testthat.rdb",
+    "lib/R/library/testthat/R/testthat.rdx",
+    "lib/R/library/testthat/doc/custom-expectation.R",
+    "lib/R/library/testthat/doc/custom-expectation.Rmd",
+    "lib/R/library/testthat/doc/custom-expectation.html",
+    "lib/R/library/testthat/doc/index.html",
+    "lib/R/library/testthat/doc/parallel.R",
+    "lib/R/library/testthat/doc/parallel.Rmd",
+    "lib/R/library/testthat/doc/parallel.html",
+    "lib/R/library/testthat/doc/skipping.R",
+    "lib/R/library/testthat/doc/skipping.Rmd",
+    "lib/R/library/testthat/doc/skipping.html",
+    "lib/R/library/testthat/doc/snapshotting.R",
+    "lib/R/library/testthat/doc/snapshotting.Rmd",
+    "lib/R/library/testthat/doc/snapshotting.html",
+    "lib/R/library/testthat/doc/test-fixtures.R",
+    "lib/R/library/testthat/doc/test-fixtures.Rmd",
+    "lib/R/library/testthat/doc/test-fixtures.html",
+    "lib/R/library/testthat/doc/third-edition.R",
+    "lib/R/library/testthat/doc/third-edition.Rmd",
+    "lib/R/library/testthat/doc/third-edition.html",
+    "lib/R/library/testthat/examples/test-failure.R",
+    "lib/R/library/testthat/examples/test-success.R",
+    "lib/R/library/testthat/help/AnIndex",
+    "lib/R/library/testthat/help/aliases.rds",
+    "lib/R/library/testthat/help/figures/lifecycle-archived.svg",
+    "lib/R/library/testthat/help/figures/lifecycle-defunct.svg",
+    "lib/R/library/testthat/help/figures/lifecycle-deprecated.svg",
+    "lib/R/library/testthat/help/figures/lifecycle-experimental.svg",
+    "lib/R/library/testthat/help/figures/lifecycle-maturing.svg",
+    "lib/R/library/testthat/help/figures/lifecycle-questioning.svg",
+    "lib/R/library/testthat/help/figures/lifecycle-soft-deprecated.svg",
+    "lib/R/library/testthat/help/figures/lifecycle-stable.svg",
+    "lib/R/library/testthat/help/figures/lifecycle-superseded.svg",
+    "lib/R/library/testthat/help/figures/logo.png",
+    "lib/R/library/testthat/help/paths.rds",
+    "lib/R/library/testthat/help/testthat.rdb",
+    "lib/R/library/testthat/help/testthat.rdx",
+    "lib/R/library/testthat/html/00Index.html",
+    "lib/R/library/testthat/html/R.css",
+    "lib/R/library/testthat/include/testthat.h",
+    "lib/R/library/testthat/include/testthat/testthat.h",
+    "lib/R/library/testthat/include/testthat/vendor/catch.h",
+    "lib/R/library/testthat/libs/testthat.dylib",
+    "lib/R/library/testthat/resources/catch-routine-registration.R",
+    "lib/R/library/testthat/resources/test-cpp.R",
+    "lib/R/library/testthat/resources/test-example.cpp",
+    "lib/R/library/testthat/resources/test-runner.cpp"
+  ],
+  "fn": "r-testthat-3.0.0-r36h7d45411_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-testthat-3.0.0-r36h7d45411_0",
+    "type": 1
+  },
+  "md5": "b43e6c2eec9e797eb535779f79eb92fb",
+  "name": "r-testthat",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-testthat-3.0.0-r36h7d45411_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/testthat/CITATION",
+        "path_type": "hardlink",
+        "sha256": "ce5e0f0aaf73818f52ec039ca2d9c0982034f84d628aba0bc706937fd2e36b14",
+        "sha256_in_prefix": "ce5e0f0aaf73818f52ec039ca2d9c0982034f84d628aba0bc706937fd2e36b14",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "lib/R/library/testthat/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "148c91db3ce32ac9979cf79e48221c279d715c41632a0125ef29e89895558fa8",
+        "sha256_in_prefix": "148c91db3ce32ac9979cf79e48221c279d715c41632a0125ef29e89895558fa8",
+        "size_in_bytes": 1779
+      },
+      {
+        "_path": "lib/R/library/testthat/INDEX",
+        "path_type": "hardlink",
+        "sha256": "b0b4be8d46f2d8b8c7d54a4dce1a3f549dcd60b352fb4d2c07e4ef55839f8f88",
+        "sha256_in_prefix": "b0b4be8d46f2d8b8c7d54a4dce1a3f549dcd60b352fb4d2c07e4ef55839f8f88",
+        "size_in_bytes": 3192
+      },
+      {
+        "_path": "lib/R/library/testthat/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "829f0b33d57da940a91c7633c090ddf3c2437e979336b39bcb019d98ccb6661f",
+        "sha256_in_prefix": "829f0b33d57da940a91c7633c090ddf3c2437e979336b39bcb019d98ccb6661f",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "lib/R/library/testthat/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "c74f7eb3d14cc724d4287e5debf4cf30974b6b1ffaee290fd075a4d92acaf3fe",
+        "sha256_in_prefix": "c74f7eb3d14cc724d4287e5debf4cf30974b6b1ffaee290fd075a4d92acaf3fe",
+        "size_in_bytes": 4048
+      },
+      {
+        "_path": "lib/R/library/testthat/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "sha256_in_prefix": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/R/library/testthat/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "58072de737f858e8598c44e2b2c31706d20367bd7f85ccfd6988be681eed88ca",
+        "sha256_in_prefix": "58072de737f858e8598c44e2b2c31706d20367bd7f85ccfd6988be681eed88ca",
+        "size_in_bytes": 3936
+      },
+      {
+        "_path": "lib/R/library/testthat/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "eceb87edfa5cc587cc6deacc09f0381e092ce25c93b1dc18b4fc9263e3bd6bce",
+        "sha256_in_prefix": "eceb87edfa5cc587cc6deacc09f0381e092ce25c93b1dc18b4fc9263e3bd6bce",
+        "size_in_bytes": 2050
+      },
+      {
+        "_path": "lib/R/library/testthat/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "a2aa4df7bc7e050e7e0b407148daa65558d59240fce5e66eca2095ef29d02b7b",
+        "sha256_in_prefix": "a2aa4df7bc7e050e7e0b407148daa65558d59240fce5e66eca2095ef29d02b7b",
+        "size_in_bytes": 1602
+      },
+      {
+        "_path": "lib/R/library/testthat/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "0d91ee7d28bb467fbe9911d9e9b3c54e38f4e7cd26a5fecd6ae966e927e4da31",
+        "sha256_in_prefix": "0d91ee7d28bb467fbe9911d9e9b3c54e38f4e7cd26a5fecd6ae966e927e4da31",
+        "size_in_bytes": 1692
+      },
+      {
+        "_path": "lib/R/library/testthat/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "ec05f1ecbb5f54c3a562f2276ecc1d1e4f26f9f41c4972c55523f947550c1d92",
+        "sha256_in_prefix": "ec05f1ecbb5f54c3a562f2276ecc1d1e4f26f9f41c4972c55523f947550c1d92",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "lib/R/library/testthat/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "5bb2a4b273b6d15c96fcc3fe29f9ae6f6f2650482062ca1f6eda6ac22c1d3311",
+        "sha256_in_prefix": "5bb2a4b273b6d15c96fcc3fe29f9ae6f6f2650482062ca1f6eda6ac22c1d3311",
+        "size_in_bytes": 4941
+      },
+      {
+        "_path": "lib/R/library/testthat/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "e8b6230b0c405f00f8ce223165bcb6fcb26d0feeb768f7c68954e14b8e48c683",
+        "sha256_in_prefix": "e8b6230b0c405f00f8ce223165bcb6fcb26d0feeb768f7c68954e14b8e48c683",
+        "size_in_bytes": 50914
+      },
+      {
+        "_path": "lib/R/library/testthat/R/testthat",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/testthat/R/testthat.rdb",
+        "path_type": "hardlink",
+        "sha256": "7e398f327b5c8f0ad439b45decfbb89c5c9849a1ad81d3a28cda602eaaae6dc8",
+        "sha256_in_prefix": "7e398f327b5c8f0ad439b45decfbb89c5c9849a1ad81d3a28cda602eaaae6dc8",
+        "size_in_bytes": 953954
+      },
+      {
+        "_path": "lib/R/library/testthat/R/testthat.rdx",
+        "path_type": "hardlink",
+        "sha256": "b735535b0fd99bf73b50dd4549dd32b01fa2277519d50795a6a7fd189bb89523",
+        "sha256_in_prefix": "b735535b0fd99bf73b50dd4549dd32b01fa2277519d50795a6a7fd189bb89523",
+        "size_in_bytes": 5774
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/custom-expectation.R",
+        "path_type": "hardlink",
+        "sha256": "bcfd6ccd932795e56409845f9efea3973665abac5d4d7ae2c9f07febc5ffed9e",
+        "sha256_in_prefix": "bcfd6ccd932795e56409845f9efea3973665abac5d4d7ae2c9f07febc5ffed9e",
+        "size_in_bytes": 1443
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/custom-expectation.Rmd",
+        "path_type": "hardlink",
+        "sha256": "2f9750f5962c50206768cbbffb1f618b03cb718cd82378e3014359d676fec098",
+        "sha256_in_prefix": "2f9750f5962c50206768cbbffb1f618b03cb718cd82378e3014359d676fec098",
+        "size_in_bytes": 3558
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/custom-expectation.html",
+        "path_type": "hardlink",
+        "sha256": "576ca81f8d53a5fe2d16c71fe8b8a5f1df7fa63f4281b36ba9d3ee4088b82434",
+        "sha256_in_prefix": "576ca81f8d53a5fe2d16c71fe8b8a5f1df7fa63f4281b36ba9d3ee4088b82434",
+        "size_in_bytes": 22455
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "a52d05eb77117885e50074cadb03beba80e57f84133f1c225a61a09841ab7d7b",
+        "sha256_in_prefix": "a52d05eb77117885e50074cadb03beba80e57f84133f1c225a61a09841ab7d7b",
+        "size_in_bytes": 3830
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/parallel.R",
+        "path_type": "hardlink",
+        "sha256": "4e4c3344c5a2018f534d8bcdf29dc3241e93e390c623a8a0cb4219162f292a00",
+        "sha256_in_prefix": "4e4c3344c5a2018f534d8bcdf29dc3241e93e390c623a8a0cb4219162f292a00",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/parallel.Rmd",
+        "path_type": "hardlink",
+        "sha256": "a2e5617a2307ede78300d48b6fad1ce8c610ff0865004bc4cbc56e7d05922792",
+        "sha256_in_prefix": "a2e5617a2307ede78300d48b6fad1ce8c610ff0865004bc4cbc56e7d05922792",
+        "size_in_bytes": 8940
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/parallel.html",
+        "path_type": "hardlink",
+        "sha256": "070c33470e322f1146967d4e4cb2ad3dee302c1b59814ac1269320e7e5174efe",
+        "sha256_in_prefix": "070c33470e322f1146967d4e4cb2ad3dee302c1b59814ac1269320e7e5174efe",
+        "size_in_bytes": 25355
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/skipping.R",
+        "path_type": "hardlink",
+        "sha256": "32bedff0cb09243b8fa7b85b0cf758d5c4b10039f0e0c8516d38bc4382cdf2f3",
+        "sha256_in_prefix": "32bedff0cb09243b8fa7b85b0cf758d5c4b10039f0e0c8516d38bc4382cdf2f3",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/skipping.Rmd",
+        "path_type": "hardlink",
+        "sha256": "f6aeaa439a099691dd11f0e225a86ebe41fe35691fb9cb2f7c022c0a943c129e",
+        "sha256_in_prefix": "f6aeaa439a099691dd11f0e225a86ebe41fe35691fb9cb2f7c022c0a943c129e",
+        "size_in_bytes": 3885
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/skipping.html",
+        "path_type": "hardlink",
+        "sha256": "92e0239cfa3fd3a8a20792c0ed3f671179e7294b5f6628eee2a58420ae0d2597",
+        "sha256_in_prefix": "92e0239cfa3fd3a8a20792c0ed3f671179e7294b5f6628eee2a58420ae0d2597",
+        "size_in_bytes": 19164
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/snapshotting.R",
+        "path_type": "hardlink",
+        "sha256": "e62c72aed8406e3d677f95a4463dcf305a6eeb3c949c09b9ad4103fd6d984713",
+        "sha256_in_prefix": "e62c72aed8406e3d677f95a4463dcf305a6eeb3c949c09b9ad4103fd6d984713",
+        "size_in_bytes": 2219
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/snapshotting.Rmd",
+        "path_type": "hardlink",
+        "sha256": "d118663de562f9f7bade8ce7775f757f0e088961898e3127e3661ca9b68aec71",
+        "sha256_in_prefix": "d118663de562f9f7bade8ce7775f757f0e088961898e3127e3661ca9b68aec71",
+        "size_in_bytes": 8866
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/snapshotting.html",
+        "path_type": "hardlink",
+        "sha256": "d891df5a7c498d76fef36b8faea02e8eab1f4b1174e20d3b712853b458d0e0c2",
+        "sha256_in_prefix": "d891df5a7c498d76fef36b8faea02e8eab1f4b1174e20d3b712853b458d0e0c2",
+        "size_in_bytes": 242300
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/test-fixtures.R",
+        "path_type": "hardlink",
+        "sha256": "858f57d7bba6096abb3e51f15f0ba38d0459f328d4061bfb989f5b680492aa25",
+        "sha256_in_prefix": "858f57d7bba6096abb3e51f15f0ba38d0459f328d4061bfb989f5b680492aa25",
+        "size_in_bytes": 4744
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/test-fixtures.Rmd",
+        "path_type": "hardlink",
+        "sha256": "b37bb94389b5ae5ef36e76042f8f1ee09230fd013ab18f318e1c97223b118a4f",
+        "sha256_in_prefix": "b37bb94389b5ae5ef36e76042f8f1ee09230fd013ab18f318e1c97223b118a4f",
+        "size_in_bytes": 15349
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/test-fixtures.html",
+        "path_type": "hardlink",
+        "sha256": "f1c150ea2cc28fba175d406ac7386e01ea8599da0f934aea61123982e3ff54e4",
+        "sha256_in_prefix": "f1c150ea2cc28fba175d406ac7386e01ea8599da0f934aea61123982e3ff54e4",
+        "size_in_bytes": 49499
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/third-edition.R",
+        "path_type": "hardlink",
+        "sha256": "7427b804b63be0f5d5fee4a6daf8837353251f0306ead6c7675b1d0e76decb29",
+        "sha256_in_prefix": "7427b804b63be0f5d5fee4a6daf8837353251f0306ead6c7675b1d0e76decb29",
+        "size_in_bytes": 1105
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/third-edition.Rmd",
+        "path_type": "hardlink",
+        "sha256": "223ba28c20a025cff0e76a5cef150f43b30b98d69c5070e0d07947d8a1ac0338",
+        "sha256_in_prefix": "223ba28c20a025cff0e76a5cef150f43b30b98d69c5070e0d07947d8a1ac0338",
+        "size_in_bytes": 8330
+      },
+      {
+        "_path": "lib/R/library/testthat/doc/third-edition.html",
+        "path_type": "hardlink",
+        "sha256": "6a85def74d45086cc6470db24d83ea9d13e35d0b1f0074227c21f15fc799aeff",
+        "sha256_in_prefix": "6a85def74d45086cc6470db24d83ea9d13e35d0b1f0074227c21f15fc799aeff",
+        "size_in_bytes": 29209
+      },
+      {
+        "_path": "lib/R/library/testthat/examples/test-failure.R",
+        "path_type": "hardlink",
+        "sha256": "fb40b890660903043830f5e15a7c24011c880aff5e24bd2fde5ad593489670d9",
+        "sha256_in_prefix": "fb40b890660903043830f5e15a7c24011c880aff5e24bd2fde5ad593489670d9",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "lib/R/library/testthat/examples/test-success.R",
+        "path_type": "hardlink",
+        "sha256": "fafd86b3840407a936625c60df8d372567896dfca17de596f34a35c948f48100",
+        "sha256_in_prefix": "fafd86b3840407a936625c60df8d372567896dfca17de596f34a35c948f48100",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "lib/R/library/testthat/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "c0bda42118c869ee04858e77e85b6b926af7a6cf6ae5b315c14338679bb41d39",
+        "sha256_in_prefix": "c0bda42118c869ee04858e77e85b6b926af7a6cf6ae5b315c14338679bb41d39",
+        "size_in_bytes": 5328
+      },
+      {
+        "_path": "lib/R/library/testthat/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "138edcc0610e10de41aa4d210c40a271f12bcd66687a74195c7452a634daca0e",
+        "sha256_in_prefix": "138edcc0610e10de41aa4d210c40a271f12bcd66687a74195c7452a634daca0e",
+        "size_in_bytes": 1664
+      },
+      {
+        "_path": "lib/R/library/testthat/help/figures/lifecycle-archived.svg",
+        "path_type": "hardlink",
+        "sha256": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "sha256_in_prefix": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "lib/R/library/testthat/help/figures/lifecycle-defunct.svg",
+        "path_type": "hardlink",
+        "sha256": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "sha256_in_prefix": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "lib/R/library/testthat/help/figures/lifecycle-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "sha256_in_prefix": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/R/library/testthat/help/figures/lifecycle-experimental.svg",
+        "path_type": "hardlink",
+        "sha256": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "sha256_in_prefix": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "lib/R/library/testthat/help/figures/lifecycle-maturing.svg",
+        "path_type": "hardlink",
+        "sha256": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "sha256_in_prefix": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/R/library/testthat/help/figures/lifecycle-questioning.svg",
+        "path_type": "hardlink",
+        "sha256": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "sha256_in_prefix": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "lib/R/library/testthat/help/figures/lifecycle-soft-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "sha256_in_prefix": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "lib/R/library/testthat/help/figures/lifecycle-stable.svg",
+        "path_type": "hardlink",
+        "sha256": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "sha256_in_prefix": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "lib/R/library/testthat/help/figures/lifecycle-superseded.svg",
+        "path_type": "hardlink",
+        "sha256": "c425824d3301dc7d4dc0100d408c4b469f488a8488be748a1fbe61abae5bab9e",
+        "sha256_in_prefix": "c425824d3301dc7d4dc0100d408c4b469f488a8488be748a1fbe61abae5bab9e",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "lib/R/library/testthat/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "ecb630ad4586f972f3af1265523ff9324ba98ad445b4482b3bbea8fccc2529f8",
+        "sha256_in_prefix": "ecb630ad4586f972f3af1265523ff9324ba98ad445b4482b3bbea8fccc2529f8",
+        "size_in_bytes": 15363
+      },
+      {
+        "_path": "lib/R/library/testthat/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "5f4060cba6fc0c2ff3e74cad3f307651944320ec4f119d1ae7ff7898dd4bafa1",
+        "sha256_in_prefix": "5f4060cba6fc0c2ff3e74cad3f307651944320ec4f119d1ae7ff7898dd4bafa1",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "lib/R/library/testthat/help/testthat.rdb",
+        "path_type": "hardlink",
+        "sha256": "8345098eedf30e62a06a351ea1de0ea0d060f1cc4bb9adf046135bb4ca7838e5",
+        "sha256_in_prefix": "8345098eedf30e62a06a351ea1de0ea0d060f1cc4bb9adf046135bb4ca7838e5",
+        "size_in_bytes": 209165
+      },
+      {
+        "_path": "lib/R/library/testthat/help/testthat.rdx",
+        "path_type": "hardlink",
+        "sha256": "d984d25455d3b2ae648986c90d260c43a4820ae3f08d6fe1201d5441a2386853",
+        "sha256_in_prefix": "d984d25455d3b2ae648986c90d260c43a4820ae3f08d6fe1201d5441a2386853",
+        "size_in_bytes": 2106
+      },
+      {
+        "_path": "lib/R/library/testthat/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "b3c88606d524d1d742addae139372e9aed4908822a6e25156acbc23c4ef443a4",
+        "sha256_in_prefix": "b3c88606d524d1d742addae139372e9aed4908822a6e25156acbc23c4ef443a4",
+        "size_in_bytes": 12076
+      },
+      {
+        "_path": "lib/R/library/testthat/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/testthat/include/testthat.h",
+        "path_type": "hardlink",
+        "sha256": "5019f72283fb52e0be5a73f532f12e74379d6d9e3e16a571c6c7135cf84bc9bd",
+        "sha256_in_prefix": "5019f72283fb52e0be5a73f532f12e74379d6d9e3e16a571c6c7135cf84bc9bd",
+        "size_in_bytes": 31
+      },
+      {
+        "_path": "lib/R/library/testthat/include/testthat/testthat.h",
+        "path_type": "hardlink",
+        "sha256": "0f8e95fe6474280e2d7c75a1c83ac2b16e41c323d7353d961fb7f09bdba07452",
+        "sha256_in_prefix": "0f8e95fe6474280e2d7c75a1c83ac2b16e41c323d7353d961fb7f09bdba07452",
+        "size_in_bytes": 4789
+      },
+      {
+        "_path": "lib/R/library/testthat/include/testthat/vendor/catch.h",
+        "path_type": "hardlink",
+        "sha256": "f9ccb0a584da9c5d135a2087094285eb65c7905caf88fb697f230446847a14ad",
+        "sha256_in_prefix": "f9ccb0a584da9c5d135a2087094285eb65c7905caf88fb697f230446847a14ad",
+        "size_in_bytes": 420587
+      },
+      {
+        "_path": "lib/R/library/testthat/libs/testthat.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/r-testthat_1604307643234/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "6f84c9efd9dd9fc319371e6c24e1f797bfd713108b44af69721e211be0469c06",
+        "sha256_in_prefix": "7c65f44f5cba212b6d17043b4e24fb5f832697631ad8d26bc3404ad02ee0a296",
+        "size_in_bytes": 494496
+      },
+      {
+        "_path": "lib/R/library/testthat/resources/catch-routine-registration.R",
+        "path_type": "hardlink",
+        "sha256": "8970f2f5f7d7706047effd0573c623701a9410eec71ae2963d5a1f03999a0c47",
+        "sha256_in_prefix": "8970f2f5f7d7706047effd0573c623701a9410eec71ae2963d5a1f03999a0c47",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "lib/R/library/testthat/resources/test-cpp.R",
+        "path_type": "hardlink",
+        "sha256": "48e12b37c81c690a456c8415b5a250268d6c0c98918e95219fcd7e9ce120c04a",
+        "sha256_in_prefix": "48e12b37c81c690a456c8415b5a250268d6c0c98918e95219fcd7e9ce120c04a",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/R/library/testthat/resources/test-example.cpp",
+        "path_type": "hardlink",
+        "sha256": "71d308da1c50c919c2fdf3ae6c7c1ed4d33a11fb309d5aef37e1dc05e0c25628",
+        "sha256_in_prefix": "71d308da1c50c919c2fdf3ae6c7c1ed4d33a11fb309d5aef37e1dc05e0c25628",
+        "size_in_bytes": 1136
+      },
+      {
+        "_path": "lib/R/library/testthat/resources/test-runner.cpp",
+        "path_type": "hardlink",
+        "sha256": "be1ed7327d24bf13b987cfb6399fa3f0954f039f2c73aaddabc64ee6125c355b",
+        "sha256_in_prefix": "be1ed7327d24bf13b987cfb6399fa3f0954f039f2c73aaddabc64ee6125c355b",
+        "size_in_bytes": 247
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "75b780f998fec0cc588c3aa847c8fdd6909abd4d0400d53f293fc1176ea298fb",
+  "size": 1635231,
+  "subdir": "osx-64",
+  "timestamp": 1604307972318,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-testthat-3.0.0-r36h7d45411_0.tar.bz2",
+  "version": "3.0.0"
+}

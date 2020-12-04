@@ -1,0 +1,653 @@
+---
+title: "tximeta: transcript quantification import with automatic metadata"
+author: "Michael Love, Rob Patro, Charlotte Soneson, Peter Hickey"
+date: "`r format(Sys.time(), '%m/%d/%Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: tango
+    toc: true
+    toc_float: true
+abstract: >
+  `tximeta` performs numerous annotation and metadata gathering tasks on
+  behalf of users during the import of transcript quantifications from
+  *Salmon* or *Alevin* into R/Bioconductor. Metadata and transcript
+  ranges are added automatically, facilitating combining multiple
+  genomic datasets and helping to prevent bioinformatic errors.
+bibliography: library.bib
+vignette: |
+  %\VignetteIndexEntry{Transcript quantification import with automatic metadata}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+The `tximeta` package [@Love2019] extends the `tximport` package
+[@Soneson2015] for import of transcript-level quantification data into
+R/Bioconductor. It facilitates addition of annotation data when the
+RNA-seq data has been quantified with *Salmon* [@Patro2017] or for
+scRNA-seq data quantified with *Alevin* [@Srivastava2019]. For more
+details on these packages -- including the motivation for `tximeta`
+and description of similar work -- consult the **References** below.
+
+**Note:** `tximeta` requires that the **entire output directory** of
+*Salmon*/*Alevin* is present and unmodified in order to identify the
+provenance of the reference transcripts. In general, it's a good idea
+to not modify or re-arrange the output directory of bioinformatic
+software as other downstream software rely on and assume a consistent
+directory structure. For sharing multiple samples, one can use, for
+example, `tar -czf` to bundle up a set of Salmon output directories,
+or to bundle one Alevin output directory.
+
+# Analysis starts with sample table
+
+The first step using `tximeta` is to read in the sample table, which
+will become the *column data*, `colData`, of the final object,
+a *SummarizedExperiment*. The sample table should contain all the
+information we need to identify the *Salmon* quantification
+directories. For *Alevin* quantification, one should point to the
+`quants_mat.gz` file that contains the counts for all of the cells.
+
+Here we will use a *Salmon* quantification file in the
+*tximportData* package to demonstrate the usage of `tximeta`. We do
+not have a sample table, so we construct one in R. It is recommended
+to keep a sample table as a CSV or TSV file while working on an
+RNA-seq project with multiple samples.
+
+```{r}
+dir <- system.file("extdata/salmon_dm", package="tximportData")
+files <- file.path(dir, "SRR1197474", "quant.sf") 
+file.exists(files)
+coldata <- data.frame(files, names="SRR1197474", condition="A", stringsAsFactors=FALSE)
+coldata
+```
+
+`tximeta` expects at least two columns in `coldata`: 
+
+1. `files` - a pointer to the `quant.sf` files
+2. `names` - the unique names that should be used to identify samples
+
+# Running tximeta from a sample table
+
+Normally, we would just run `tximeta` like so:
+
+```{r eval=FALSE}
+library(tximeta)
+se <- tximeta(coldata)
+```
+
+However, to avoid downloading remote GTF files during this vignette,
+we will point to a GTF file saved locally (in the *tximportData*
+package). We link the transcriptome of the *Salmon* index to its
+locally saved GTF. The standard recommended usage of `tximeta` would
+be the code chunk above, or to specify a remote GTF source, not a
+local one. This following code is therefore not recommended for a
+typically workflow, but is particular to the vignette code.
+
+```{r}
+indexDir <- file.path(dir, "Dm.BDGP6.22.98_salmon-0.14.1")
+fastaFTP <- c("ftp://ftp.ensembl.org/pub/release-98/fasta/drosophila_melanogaster/cdna/Drosophila_melanogaster.BDGP6.22.cdna.all.fa.gz",
+              "ftp://ftp.ensembl.org/pub/release-98/fasta/drosophila_melanogaster/ncrna/Drosophila_melanogaster.BDGP6.22.ncrna.fa.gz")
+gtfPath <- file.path(dir,"Drosophila_melanogaster.BDGP6.22.98.gtf.gz")
+suppressPackageStartupMessages(library(tximeta))
+makeLinkedTxome(indexDir=indexDir,
+                source="Ensembl",
+                organism="Drosophila melanogaster",
+                release="98",
+                genome="BDGP6.22",
+                fasta=fastaFTP,
+                gtf=gtfPath,
+                write=FALSE)
+```
+
+```{r}
+library(tximeta)
+se <- tximeta(coldata)
+```
+
+# What happened? 
+
+`tximeta` recognized the hashed checksum of the transcriptome that the files
+were quantified against, it accessed the GTF file of the transcriptome
+source, found and attached the transcript ranges, and added the
+appropriate transcriptome and genome metadata.  A remote GTF is only
+downloaded once, and a local or remote GTF is only parsed to build a
+*TxDb* once: if `tximeta` recognizes that it has seen this *Salmon*
+index before, it will use a cached version of the metadata and
+transcript ranges.
+
+Note the warning above that 5 of the transcripts are missing from the
+GTF file and so are dropped from the final output. This is a problem
+coming from the annotation source, and not easily avoided by
+`tximeta`. 
+
+# Pre-computed transcriptome checksums
+
+We plan to support a wide variety of sources and organisms for
+transcriptomes with pre-computed checksums, though for now the
+software focuses on predominantly human and mouse transcriptomes 
+(see **Next steps** below for details). 
+The following checksums are supported in this version of `tximeta`:
+
+```{r echo=FALSE}
+dir2 <- system.file("extdata", package="tximeta")
+tab <- read.csv(file.path(dir2, "hashtable.csv"),
+                stringsAsFactors=FALSE)
+release.range <- function(tab, source, organism) {
+  tab.idx <- tab$organism == organism & tab$source == source
+  rels <- tab$release[tab.idx]
+  if (organism == "Mus musculus" & source == "GENCODE") {
+    paste0("M", range(as.numeric(sub("M","",rels))))
+  } else if (source == "RefSeq") {
+    paste0("p", range(as.numeric(sub(".*p","",rels))))
+  } else {
+    range(as.numeric(rels))
+  }
+}
+dat <- data.frame(
+  source=rep(c("GENCODE","Ensembl","RefSeq"),c(2,3,2)),
+  organism=c("Homo sapiens","Mus musculus",
+             "Drosophila melanogaster")[c(1:2,1:3,1:2)]
+)
+rng <- t(sapply(seq_len(nrow(dat)), function(i)
+  release.range(tab, dat[i,1], dat[i,2])))
+dat$releases <- paste0(rng[,1], "-", rng[,2])
+knitr::kable(dat)
+```
+
+For Ensembl transcriptomes, we support the combined protein coding
+(cDNA) and non-coding (ncRNA) sequences, as well as the protein coding
+alone (although the former approach combining coding and non-coding
+transcripts is recommended for more accurate quantification).
+
+`tximeta` also has functions to support *linked transcriptomes*,
+where one or more sources for transcript sequences have been combined
+or filtered. See the **Linked transcriptome** section below for a
+demonstration. (The *makeLinkedTxome* function was used above to avoid
+downloading the GTF during the vignette building process.)
+
+# SummarizedExperiment output
+
+We, of course, have our coldata from before. Note that we've removed `files`.
+
+```{r}
+suppressPackageStartupMessages(library(SummarizedExperiment))
+colData(se)
+```
+
+Here we show the three matrices that were imported. 
+
+```{r}
+assayNames(se)
+```
+
+If there were inferential replicates (Gibbs samples or
+bootstrap samples), these would be imported as additional assays named
+`"infRep1"`, `"infRep2"`, ...
+
+`tximeta` has imported the correct ranges for the transcripts:
+
+```{r}
+rowRanges(se)
+```
+
+We have appropriate genome information, which prevents us from making 
+bioinformatic mistakes:
+
+```{r}
+seqinfo(se)
+```
+
+# Add exons per transcript
+
+Because the SummarizedExperiment maintains all the metadata of its
+creation, it also keeps a pointer to the necessary database for
+pulling out additional information, as demonstrated in the following
+sections. 
+
+If necessary, the *tximeta* package can pull down the remote source to
+build a TxDb, but given that we've already built a TxDb once, it
+simply loads the cached version. In order to remove the cached TxDb
+and regenerate, one can remove the relevant entry from the `tximeta`
+file cache that resides at the location given by `getTximetaBFC()`.
+
+The `se` object created by `tximeta`, has the start, end, and strand
+information for each transcript. Here, we swap out the transcript
+*GRanges* for exons-by-transcript *GRangesList* (it is a list of
+*GRanges*, where each element of the list gives the exons for a
+particular transcript).
+
+```{r}
+se.exons <- addExons(se)
+rowRanges(se.exons)[[1]]
+```
+
+As with the transcript ranges, the exon ranges will be generated once
+and cached locally. As it takes a non-negligible amount of time to
+generate the exon-by-transcript *GRangesList*, this local caching
+offers substantial time savings for repeated usage of `addExons` with
+the same transcriptome.
+
+We have implemented `addExons` to work only on the transcript-level
+*SummarizedExperiment* object. We provide some motivation for this
+choice in `?addExons`. Briefly, if it is desired to know the exons
+associated with a particular gene, we feel that it makes more sense to
+pull out the relevant set of exons-by-transcript for the transcripts
+for this gene, rather than losing the hierarchical structure (exons to
+transcripts to genes) that would occur with a *GRangesList* of exons
+grouped per gene.
+
+# Easy summarization to gene-level
+
+Likewise, the *tximeta* package can make use of the cached TxDb
+database for the purpose of summarizing transcript-level
+quantifications and bias corrections to the gene-level. After
+summarization, the `rowRanges` reflect the start and end position of
+the gene, which in Bioconductor are defined by the left-most and
+right-most genomic coordinates of all the transcripts. As with the
+transcript and exons, the gene ranges are cached locally for repeated
+usage. 
+
+```{r}
+gse <- summarizeToGene(se)
+rowRanges(gse)
+```
+
+# Add different identifiers
+
+We would like to add support to easily map transcript or gene
+identifiers from one annotation to another. This is just a prototype
+function, but we show how we can easily add alternate IDs given that we
+know the organism and the source of the transcriptome. (This function
+currently only works for GENCODE and Ensembl gene or transcript IDs
+but could be extended to work for arbitrary sources.)
+
+```{r}
+library(org.Dm.eg.db)
+gse <- addIds(gse, "REFSEQ", gene=TRUE)
+mcols(gse)
+```
+
+# Run a differential expression analysis
+
+The following code chunk demonstrates how to build a *DESeqDataSet*
+and begin a differential expression analysis. 
+
+```{r}
+suppressPackageStartupMessages(library(DESeq2))
+# here there is a single sample so we use ~1.
+# expect a warning that there is only a single sample...
+suppressWarnings({dds <- DESeqDataSet(gse, ~1)})
+# ... see DESeq2 vignette
+```
+
+The following code chunk demonstrates how to build a *DGEList* object,
+for use with *edgeR*.
+
+```{r}
+suppressPackageStartupMessages(library(edgeR))
+cts <- assays(gse)[["counts"]]
+normMat <- assays(gse)[["length"]]
+normMat <- normMat / exp(rowMeans(log(normMat)))
+o <- log(calcNormFactors(cts/normMat)) + log(colSums(cts/normMat))
+y <- DGEList(cts)
+y <- scaleOffset(y, t(t(log(normMat)) + o))
+# ... see edgeR User's Guide for further steps
+```
+
+The following code chunk demonstrates how one could use the *Swish*
+method in the fishpond Bioconductor package. Here we use the
+transcript-level object `se`. This dataset only has a single sample
+and no inferential replicates, but the analysis would begin with such
+code. See the Swish vignette in the fishpond package for a complete
+example: 
+
+```{r eval=FALSE}
+y <- se # rename the object to 'y'
+library(fishpond)
+# if inferential replicates existed in the data,
+# analysis would begin with:
+#
+# y <- scaleInfReps(y)
+# ... see Swish vignette in the fishpond package
+```
+
+For *limma* with *voom* transformation we recommend, as in the
+*tximport* vignette to generate counts-from-abundance instead of
+providing an offset for average transcript length.
+
+```{r}
+gse <- summarizeToGene(se, countsFromAbundance="lengthScaledTPM")
+library(limma)
+y <- DGEList(assays(gse)[["counts"]])
+# see limma User's Guide for further steps
+```
+
+Above we generated counts-from-abundance when calling
+`summarizeToGene`. The counts-from-abundance status is then stored in
+the metadata:
+
+```{r}
+metadata(gse)$countsFromAbundance 
+```
+
+# Additional metadata
+
+The following information is attached to the *SummarizedExperiment* by
+`tximeta`: 
+
+```{r}
+names(metadata(se))
+str(metadata(se)[["quantInfo"]])
+str(metadata(se)[["txomeInfo"]])
+metadata(se)[["tximetaInfo"]]
+metadata(se)[["txdbInfo"]]
+```
+
+# Transcriptomes not known to tximeta
+
+`tximeta` automatically imports relevant metadata when the
+transcriptome matches a known source -- *known* in the sense that it
+is in the set of pre-computed hashed checksums in `tximeta` (GENCODE,
+Ensembl, and RefSeq for human and mouse). `tximeta` also facilitates the
+linking of transcriptomes used in building the *Salmon* index with
+relevant public sources, in the case that these are not part of this
+pre-computed set known to `tximeta`.
+The linking of the transcriptome source with the quantification files is
+important in the case that the transcript sequence no longer matches a
+known source (uniquely combined or filtered FASTA files), or if the
+source is not known to `tximeta`. Combinations of coding and
+non-coding human, mouse, and fruit fly *Ensembl* transcripts should be
+automatically recognized by `tximeta` and does not require making a
+*linkedTxome*. As the package is further developed, we plan to roll
+out support for all common transcriptomes, from all sources.  Below we
+demonstrate how to make a *linkedTxome* and how to share and load a
+*linkedTxome*.
+
+We point to a *Salmon* quantification file which was quantified
+against a transcriptome that included the coding and non-coding
+*Drosophila melanogaster* transcripts, as well as an artificial
+transcript of 960 bp (for demonstration purposes only).
+
+```{r}
+file <- file.path(dir, "SRR1197474.plus", "quant.sf")
+file.exists(file)
+coldata <- data.frame(files=file, names="SRR1197474", sample="1",
+                      stringsAsFactors=FALSE)
+```
+
+Trying to import the files gives a message that `tximeta` couldn't find
+a matching transcriptome, so it returns an non-ranged
+*SummarizedExperiment*. 
+
+```{r}
+se <- tximeta(coldata)
+```
+
+# Linked transcriptomes
+
+If the transcriptome used to generate the *Salmon* index does not
+match any transcriptomes from known sources (e.g. from combining or filtering
+known transcriptome files), there is not much that can be done to
+automatically populate the metadata during quantification
+import. However, we can facilitate the following two cases: 
+
+1) the transcriptome was created locally and has been linked to its
+public source(s) 
+2) the transcriptome was produced by another group, and
+they have produced and shared a file that links the transcriptome to
+public source(s)
+
+`tximeta` offers functionality to assist reproducible analysis in both
+of these cases.
+
+To make this quantification reproducible, we make a `linkedTxome`
+which records key information about the sources of the transcript
+FASTA files, and the location of the relevant GTF file. It also
+records the checksum of the transcriptome that was computed by
+*Salmon* during the `index` step.
+
+**Multiple GTF/GFF files:** `linkedTxome` and `tximeta` do not
+currently support multiple GTF/GFF files, which is a more complicated
+case than multiple FASTA, which is supported. Currently, we recommend
+that users should add or combine GTF/GFF files themselves to create
+a single GTF/GFF file that contains all features used in
+quantification, and then upload such a file to *Zenodo*, which can
+then be linked as shown below. Feel free to contact the developers on
+the Bioconductor support site or GitHub Issue page for further details
+or feature requests.
+
+By default, `linkedTxome` will write out a JSON file which can be
+shared with others, linking the checksum of the index with the other
+metadata, including FASTA and GTF sources. By default, it will write
+out to a file with the same name as the `indexDir`, but with a `.json`
+extension added. This can be prevented with `write=FALSE`, and the
+file location can be changed with `jsonFile`.
+
+First we specify the path where the *Salmon* index is located. 
+
+Typically you would not use `system.file` and `file.path` to locate
+this directory, but simply define `indexDir` to be the path of the
+*Salmon* directory on your machine. Here we use `system.file` and
+`file.path` because we have included parts of a *Salmon* index
+directory in the *tximeta* package itself for demonstration of
+functionality in this vignette.
+
+```{r}
+indexDir <- file.path(dir, "Dm.BDGP6.22.98.plus_salmon-0.14.1")
+```
+
+Now we provide the location of the FASTA files and the GTF file for
+this transcriptome. 
+
+**Note:** the basename for the GTF file is used as a unique identifier
+for the cached versions of the *TxDb* and the transcript ranges, which
+are stored on the user's behalf via *BiocFileCache*. This is not an
+issue, as GENCODE, Ensembl, and RefSeq all provide GTF files which are
+uniquely identified by their filename,
+e.g. `Drosophila_melanogaster.BDGP6.22.98.gtf.gz`.
+
+The recommended usage of `tximeta` would be to specify a remote GTF
+source, as seen in the commented-out line below: 
+
+```{r}
+fastaFTP <- c("ftp://ftp.ensembl.org/pub/release-98/fasta/drosophila_melanogaster/cdna/Drosophila_melanogaster.BDGP6.22.cdna.all.fa.gz",
+              "ftp://ftp.ensembl.org/pub/release-98/fasta/drosophila_melanogaster/ncrna/Drosophila_melanogaster.BDGP6.22.ncrna.fa.gz",
+              "extra_transcript.fa.gz")
+#gtfFTP <- "ftp://path/to/custom/Drosophila_melanogaster.BDGP6.22.98.plus.gtf.gz"
+```
+
+Instead of the above commented-out FTP location for the GTF file, we
+specify a location within an R package. This step is just to avoid
+downloading from a remote FTP during vignette building. This use of
+`file.path` to point to a file in an R package is specific to this
+vignette and should not be used in a typical workflow. The following
+GTF file is a modified version of the release 98 from Ensembl, which
+includes description of a one transcript, one exon artificial gene
+which was inserted into the transcriptome (for demonstration purposes
+only). 
+
+```{r}
+gtfPath <- file.path(dir,"Drosophila_melanogaster.BDGP6.22.98.plus.gtf.gz")
+```
+
+Finally, we create a *linkedTxome*.  In this vignette, we point to a
+temporary directory for the JSON file, but a more typical workflow
+would write the JSON file to the same location as the *Salmon* index
+by not specifying `jsonFile`.
+
+`makeLinkedTxome` performs two operation: (1) it creates a new entry in
+an internal table that links the transcriptome used in the *Salmon*
+index to its sources, and (2) it creates a JSON file such that this
+*linkedTxome* can be shared.
+
+```{r}
+tmp <- tempdir()
+jsonFile <- file.path(tmp, paste0(basename(indexDir), ".json"))
+makeLinkedTxome(indexDir=indexDir,
+                source="Ensembl", organism="Drosophila melanogaster",
+                release="98", genome="BDGP6.22",
+                fasta=fastaFTP, gtf=gtfPath,
+                jsonFile=jsonFile)
+```
+
+After running `makeLinkedTxome`, the connection between this *Salmon*
+index (and its checksum) with the sources is saved for persistent
+usage. Note that because we added a single transcript of 960bp to the
+FASTA file used for quantification, `tximeta` could tell that this was
+not quantified against release 98 of the Ensembl transcripts for
+*Drosophila melanogaster*. Only when the correct set of transcripts
+were specified does `tximeta` recognize and import the correct
+metadata.
+
+With use of `tximeta` and a *linkedTxome*, the software
+figures out if the remote GTF has been accessed and compiled into a
+*TxDb* before, and on future calls, it will simply load the
+pre-computed metadata and transcript ranges.
+
+Note the warning that 5 of the transcripts are missing from the GTF
+file and so are dropped from the final output. This is a problem
+coming from the annotation source, and not easily avoided by
+`tximeta`. 
+
+```{r}
+se <- tximeta(coldata)
+```
+
+We can see that the appropriate metadata and transcript ranges are
+attached.
+
+```{r}
+rowRanges(se)
+seqinfo(se)
+```
+
+# Clear *linkedTxomes*
+
+The following code removes the entire table with information about the
+*linkedTxomes*. This is just for demonstration, so that we can show
+how to load a JSON file below.
+
+**Note:** Running this code will clear any information about
+*linkedTxomes*. Don't run this unless you really want to clear this
+table!
+
+```{r}
+library(BiocFileCache)
+if (interactive()) {
+  bfcloc <- getTximetaBFC()
+} else {
+  bfcloc <- tempdir()
+}
+bfc <- BiocFileCache(bfcloc)
+bfcinfo(bfc)
+bfcremove(bfc, bfcquery(bfc, "linkedTxomeTbl")$rid)
+bfcinfo(bfc)
+```
+
+# Loading *linkedTxome* JSON files
+
+If a collaborator or the Suppmentary Files for a publication shares a
+`linkedTxome` JSON file, we can likewise use `tximeta` to
+automatically assemble the relevant metadata and transcript
+ranges. This implies that the other person has used `tximeta` with the
+function `makeLinkedTxome` demonstrated above, pointing to their
+*Salmon* index and to the FASTA and GTF source(s).
+
+We point to the JSON file and use `loadLinkedTxome` and then the
+relevant metadata is saved for persistent usage. In this case, we
+saved the JSON file in a temporary directory.
+
+```{r}
+jsonFile <- file.path(tmp, paste0(basename(indexDir), ".json"))
+loadLinkedTxome(jsonFile)
+```
+
+Again, using `tximeta` figures out whether it needs to access the
+remote GTF or not, and assembles the appropriate object on the user's
+behalf.
+
+```{r}
+se <- tximeta(coldata)
+```
+
+# Clear *linkedTxomes*
+
+Finally, we clear the *linkedTxomes* table again so that the above
+examples will work. This is just for the vignette code and not part of
+a typical workflow.
+
+**Note:** Running this code will clear any information about
+*linkedTxomes*. Don't run this unless you really want to clear this
+table!
+
+```{r}
+if (interactive()) {
+  bfcloc <- getTximetaBFC()
+} else {
+  bfcloc <- tempdir()
+}
+bfc <- BiocFileCache(bfcloc)
+bfcinfo(bfc)
+bfcremove(bfc, bfcquery(bfc, "linkedTxomeTbl")$rid)
+bfcinfo(bfc)
+```
+
+# Other quantifiers
+
+`tximeta` can import the output from any quantifiers that are
+supported by `tximport`, and if these are not *Salmon*, *Alevin*, or
+*Sailfish* output, it will simply return a non-ranged
+*SummarizedExperiment*. 
+We are working to allow manually passing of the hash value of the
+transcriptome, the cDNA sequences of which can be hashed with
+[FastaDigest](https://github.com/COMBINE-lab/FastaDigest) 
+(can be installed with `pip install fasta_digest`).
+
+# Acknowledgments
+
+The development of *tximeta* has benefited from suggestions from these
+and other individuals in the community:
+
+* Vincent Carey
+* Lori Shepherd
+* Martin Morgan
+* Koen Van den Berge
+
+# Next steps
+
+**Integration with GA4GH / refget API**
+
+* We are collaborating and in communication with GA4GH working groups
+  to build out functionality to perform lookup on collections of
+  transcripts, i.e. transcriptomes, provided by Ensembl. This will
+  greatly expand the applicability of `tximeta`. The current version
+  of `tximeta` relies on hashing of common transcriptomes, which are
+  stored within the package's `extdata` directory in a CSV file, or
+  on the use of *linkedTxome* for any additional transcriptomes. 
+  However, with the GA4GH / `refget` API in place, `tximeta` will
+  be able to identify and access transcriptome metadata for vastly
+  more reference transcriptomes (collections of transcripts).
+
+**Facilitate plots and summaries**
+    
+* Basic plots across samples: abundances, mapping rates, rich bias model parameters
+* Time summaries: when quantified? when imported?
+
+**Extended functionality**
+
+* Facilitate functional annotation, either with vignettes/workflow or
+  with additional functionality. E.g.: 
+  housekeeping genes, arbitrary gene sets, genes expressed in GTEx tissues
+* `liftOver` is clunky and doesn't integrate with
+  *GenomeInfoDb*. It requires user input and there's a chance to
+  mis-annotate. Ideally this should all be automated.
+
+# Session info
+
+```{r}
+library(devtools)
+session_info()
+```
+
+# References

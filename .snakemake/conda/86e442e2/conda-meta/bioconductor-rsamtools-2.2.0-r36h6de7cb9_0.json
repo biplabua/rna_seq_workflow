@@ -1,0 +1,921 @@
+{
+  "build": "r36h6de7cb9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+    "bioconductor-biostrings >=2.54.0,<2.55.0",
+    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+    "bioconductor-iranges >=2.20.0,<2.21.0",
+    "bioconductor-rhtslib >=1.18.0,<1.19.0",
+    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+    "bioconductor-xvector >=0.26.0,<0.27.0",
+    "bioconductor-zlibbioc >=1.32.0,<1.33.0",
+    "libcxx >=4.0.1",
+    "r-base >=3.6,<3.7.0a0",
+    "r-bitops"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-rsamtools-2.2.0-r36h6de7cb9_0",
+  "features": "",
+  "files": [
+    "lib/R/library/Rsamtools/DESCRIPTION",
+    "lib/R/library/Rsamtools/INDEX",
+    "lib/R/library/Rsamtools/LICENSE",
+    "lib/R/library/Rsamtools/Meta/Rd.rds",
+    "lib/R/library/Rsamtools/Meta/features.rds",
+    "lib/R/library/Rsamtools/Meta/hsearch.rds",
+    "lib/R/library/Rsamtools/Meta/links.rds",
+    "lib/R/library/Rsamtools/Meta/nsInfo.rds",
+    "lib/R/library/Rsamtools/Meta/package.rds",
+    "lib/R/library/Rsamtools/Meta/vignette.rds",
+    "lib/R/library/Rsamtools/NAMESPACE",
+    "lib/R/library/Rsamtools/NEWS",
+    "lib/R/library/Rsamtools/R/Rsamtools",
+    "lib/R/library/Rsamtools/R/Rsamtools.rdb",
+    "lib/R/library/Rsamtools/R/Rsamtools.rdx",
+    "lib/R/library/Rsamtools/doc/Rsamtools-Overview.R",
+    "lib/R/library/Rsamtools/doc/Rsamtools-Overview.Rnw",
+    "lib/R/library/Rsamtools/doc/Rsamtools-Overview.pdf",
+    "lib/R/library/Rsamtools/doc/Rsamtools-UsingCLibraries.R",
+    "lib/R/library/Rsamtools/doc/Rsamtools-UsingCLibraries.Rnw",
+    "lib/R/library/Rsamtools/doc/Rsamtools-UsingCLibraries.pdf",
+    "lib/R/library/Rsamtools/doc/index.html",
+    "lib/R/library/Rsamtools/extdata/ce2dict1.fa",
+    "lib/R/library/Rsamtools/extdata/ce2dict1.fa.fai",
+    "lib/R/library/Rsamtools/extdata/ex1.bam",
+    "lib/R/library/Rsamtools/extdata/ex1.bam.bai",
+    "lib/R/library/Rsamtools/extdata/ex1.bcf.gz",
+    "lib/R/library/Rsamtools/extdata/ex1.bcf.gz.csi",
+    "lib/R/library/Rsamtools/extdata/ex1.sam",
+    "lib/R/library/Rsamtools/extdata/ex1.vcf.gz",
+    "lib/R/library/Rsamtools/extdata/ex1.vcf.gz.csi",
+    "lib/R/library/Rsamtools/extdata/example.gtf.gz",
+    "lib/R/library/Rsamtools/extdata/example.gtf.gz.tbi",
+    "lib/R/library/Rsamtools/extdata/example_from_SAM_Spec.bam",
+    "lib/R/library/Rsamtools/extdata/example_from_SAM_Spec.bam.bai",
+    "lib/R/library/Rsamtools/extdata/example_from_SAM_Spec.sam",
+    "lib/R/library/Rsamtools/extdata/no_which_buffered_pileup.bam",
+    "lib/R/library/Rsamtools/extdata/no_which_buffered_pileup.bam.bai",
+    "lib/R/library/Rsamtools/extdata/no_which_buffered_pileup.sam",
+    "lib/R/library/Rsamtools/extdata/no_which_whole_file.bam",
+    "lib/R/library/Rsamtools/extdata/no_which_whole_file.bam.bai",
+    "lib/R/library/Rsamtools/extdata/no_which_whole_file.sam",
+    "lib/R/library/Rsamtools/extdata/olaps.Rda",
+    "lib/R/library/Rsamtools/extdata/pileup.txt",
+    "lib/R/library/Rsamtools/extdata/querybins.bam",
+    "lib/R/library/Rsamtools/extdata/querybins.bam.bai",
+    "lib/R/library/Rsamtools/extdata/querybins.sam",
+    "lib/R/library/Rsamtools/extdata/revbins.bam",
+    "lib/R/library/Rsamtools/extdata/revbins.bam.bai",
+    "lib/R/library/Rsamtools/extdata/revbins.sam",
+    "lib/R/library/Rsamtools/extdata/samtools-github.txt",
+    "lib/R/library/Rsamtools/extdata/slxMaq09_urls.txt",
+    "lib/R/library/Rsamtools/extdata/tagfilter.bam",
+    "lib/R/library/Rsamtools/extdata/tagfilter.bam.bai",
+    "lib/R/library/Rsamtools/extdata/tagfilter.sam",
+    "lib/R/library/Rsamtools/extdata/tiny.bam",
+    "lib/R/library/Rsamtools/extdata/tiny.bam.bai",
+    "lib/R/library/Rsamtools/extdata/tiny.sam",
+    "lib/R/library/Rsamtools/extdata/tophat/README",
+    "lib/R/library/Rsamtools/extdata/tophat/accepted_hits.sam",
+    "lib/R/library/Rsamtools/extdata/tophat/coverage.wig",
+    "lib/R/library/Rsamtools/extdata/tophat/junctions.bed",
+    "lib/R/library/Rsamtools/help/AnIndex",
+    "lib/R/library/Rsamtools/help/Rsamtools.rdb",
+    "lib/R/library/Rsamtools/help/Rsamtools.rdx",
+    "lib/R/library/Rsamtools/help/aliases.rds",
+    "lib/R/library/Rsamtools/help/paths.rds",
+    "lib/R/library/Rsamtools/html/00Index.html",
+    "lib/R/library/Rsamtools/html/R.css",
+    "lib/R/library/Rsamtools/libs/Rsamtools.dylib",
+    "lib/R/library/Rsamtools/scripts/BamViews-1000g.R",
+    "lib/R/library/Rsamtools/scripts/features.R",
+    "lib/R/library/Rsamtools/scripts/remote_test.R",
+    "lib/R/library/Rsamtools/scripts/update-samtools.sh",
+    "lib/R/library/Rsamtools/unitTests/cases/ex1.sam.gz",
+    "lib/R/library/Rsamtools/unitTests/cases/ex1_noindex.bam",
+    "lib/R/library/Rsamtools/unitTests/cases/ex1_shuf1000.bam",
+    "lib/R/library/Rsamtools/unitTests/cases/ex1_shuf1000.bam.bai",
+    "lib/R/library/Rsamtools/unitTests/cases/ex1_unsort.bam",
+    "lib/R/library/Rsamtools/unitTests/cases/ex1_zero_index.bam.bai",
+    "lib/R/library/Rsamtools/unitTests/cases/no_SAMPLE_header.vcf.gz",
+    "lib/R/library/Rsamtools/unitTests/cases/no_header_line.vcf.gz",
+    "lib/R/library/Rsamtools/unitTests/cases/pileup-no-stars.txt",
+    "lib/R/library/Rsamtools/unitTests/cases/plp_refskip.bam",
+    "lib/R/library/Rsamtools/unitTests/cases/plp_refskip.bam.bai",
+    "lib/R/library/Rsamtools/unitTests/test_BamFile.R",
+    "lib/R/library/Rsamtools/unitTests/test_BamViews.R",
+    "lib/R/library/Rsamtools/unitTests/test_BcfFile.R",
+    "lib/R/library/Rsamtools/unitTests/test_FaFile.R",
+    "lib/R/library/Rsamtools/unitTests/test_RsamtoolsFile.R",
+    "lib/R/library/Rsamtools/unitTests/test_TabixFile.R",
+    "lib/R/library/Rsamtools/unitTests/test_applyPileups.R",
+    "lib/R/library/Rsamtools/unitTests/test_asBam.R",
+    "lib/R/library/Rsamtools/unitTests/test_bam.R",
+    "lib/R/library/Rsamtools/unitTests/test_bam_count.R",
+    "lib/R/library/Rsamtools/unitTests/test_bam_header.R",
+    "lib/R/library/Rsamtools/unitTests/test_compression.R",
+    "lib/R/library/Rsamtools/unitTests/test_mapqfilter.R",
+    "lib/R/library/Rsamtools/unitTests/test_phred2ASCIIOffset.R",
+    "lib/R/library/Rsamtools/unitTests/test_pileup_nowhich.R",
+    "lib/R/library/Rsamtools/unitTests/test_pileup_querybins.R",
+    "lib/R/library/Rsamtools/unitTests/test_pileup_revbins.R",
+    "lib/R/library/Rsamtools/unitTests/test_pileup_single_range.R",
+    "lib/R/library/Rsamtools/unitTests/test_readPileup.R",
+    "lib/R/library/Rsamtools/unitTests/test_scanBamFlag.R",
+    "lib/R/library/Rsamtools/unitTests/test_sortBam_test.R",
+    "lib/R/library/Rsamtools/unitTests/test_tagfilter.R",
+    "lib/R/library/Rsamtools/unitTests/test_testPairedEndBam.R",
+    "lib/R/library/Rsamtools/unitTests/test_utilities.R"
+  ],
+  "fn": "bioconductor-rsamtools-2.2.0-r36h6de7cb9_0.tar.bz2",
+  "license": "Artistic-2.0 | file LICENSE",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-rsamtools-2.2.0-r36h6de7cb9_0",
+    "type": 1
+  },
+  "md5": "dacfbc7bf355ed52a2e8f54b6949d4ee",
+  "name": "bioconductor-rsamtools",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-rsamtools-2.2.0-r36h6de7cb9_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/Rsamtools/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "89dd065d83bd480f970854798b2a51033ed11c3f3287a51a69197ed0e29648cc",
+        "sha256_in_prefix": "89dd065d83bd480f970854798b2a51033ed11c3f3287a51a69197ed0e29648cc",
+        "size_in_bytes": 1714
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/INDEX",
+        "path_type": "hardlink",
+        "sha256": "bd6b9b128a91c195d76c54046019e9dac9b050055d6441cc5693f84fbddfdbca",
+        "sha256_in_prefix": "bd6b9b128a91c195d76c54046019e9dac9b050055d6441cc5693f84fbddfdbca",
+        "size_in_bytes": 2303
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "905c119c57f9d9a001c67559839b930a21ce1b86340adcf7bff2c72c29691ccc",
+        "sha256_in_prefix": "905c119c57f9d9a001c67559839b930a21ce1b86340adcf7bff2c72c29691ccc",
+        "size_in_bytes": 1137
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "e072b7c1d01c28057a39c50f51a8b6011c3de6ae748074e63e51bec527218d9d",
+        "sha256_in_prefix": "e072b7c1d01c28057a39c50f51a8b6011c3de6ae748074e63e51bec527218d9d",
+        "size_in_bytes": 3286
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "sha256_in_prefix": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "05abdf4dc4f9ac49b0f49612ef1a547d48b4c24ea52b10435fd75801341a53bc",
+        "sha256_in_prefix": "05abdf4dc4f9ac49b0f49612ef1a547d48b4c24ea52b10435fd75801341a53bc",
+        "size_in_bytes": 3520
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "ec0efdf340daa9d0330419488d2b6f1c7edba2b45bcf87147489eda3e353dcdf",
+        "sha256_in_prefix": "ec0efdf340daa9d0330419488d2b6f1c7edba2b45bcf87147489eda3e353dcdf",
+        "size_in_bytes": 2511
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "6646b69981ee764dd6ed2735f4e7d8824fd8a23b39324e765974b593be9bb875",
+        "sha256_in_prefix": "6646b69981ee764dd6ed2735f4e7d8824fd8a23b39324e765974b593be9bb875",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "ce4b410dd18ac27b807cc6a3e9f58accaa7250fd8bd1d352567ddf177f7d4bb6",
+        "sha256_in_prefix": "ce4b410dd18ac27b807cc6a3e9f58accaa7250fd8bd1d352567ddf177f7d4bb6",
+        "size_in_bytes": 1681
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "8ef6655b0a4e82cef19171e3961bc004d21004bcadecaae3faaf44f06851a27e",
+        "sha256_in_prefix": "8ef6655b0a4e82cef19171e3961bc004d21004bcadecaae3faaf44f06851a27e",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "e84dec93fa7746d5be6796e8a642c5f8fe5c7f1b98b0ca72afc644992ddea25d",
+        "sha256_in_prefix": "e84dec93fa7746d5be6796e8a642c5f8fe5c7f1b98b0ca72afc644992ddea25d",
+        "size_in_bytes": 1431
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/NEWS",
+        "path_type": "hardlink",
+        "sha256": "f96c78b876276cfa96f35dc141175b218f19e462f2fa9077f34a71a883558757",
+        "sha256_in_prefix": "f96c78b876276cfa96f35dc141175b218f19e462f2fa9077f34a71a883558757",
+        "size_in_bytes": 15141
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/R/Rsamtools",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/R/Rsamtools.rdb",
+        "path_type": "hardlink",
+        "sha256": "77855269b8b465802979e5bf0f896680e0535fb394ffd064713df8e5ce56418d",
+        "sha256_in_prefix": "77855269b8b465802979e5bf0f896680e0535fb394ffd064713df8e5ce56418d",
+        "size_in_bytes": 791293
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/R/Rsamtools.rdx",
+        "path_type": "hardlink",
+        "sha256": "e03a96aa6dee5bcd88c2b9ba300acd4d38e8696c63b6ad399ff112880f26d25a",
+        "sha256_in_prefix": "e03a96aa6dee5bcd88c2b9ba300acd4d38e8696c63b6ad399ff112880f26d25a",
+        "size_in_bytes": 6633
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/doc/Rsamtools-Overview.R",
+        "path_type": "hardlink",
+        "sha256": "4592797078ec9d773ed8d340917f7929864cecbc8fe5207123a07f2cb4c7803f",
+        "sha256_in_prefix": "4592797078ec9d773ed8d340917f7929864cecbc8fe5207123a07f2cb4c7803f",
+        "size_in_bytes": 9648
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/doc/Rsamtools-Overview.Rnw",
+        "path_type": "hardlink",
+        "sha256": "0e0659d1b395402ab56cd42021edc02507129b85be90ac6ae87d24cf030d1bd5",
+        "sha256_in_prefix": "0e0659d1b395402ab56cd42021edc02507129b85be90ac6ae87d24cf030d1bd5",
+        "size_in_bytes": 19845
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/doc/Rsamtools-Overview.pdf",
+        "path_type": "hardlink",
+        "sha256": "4d3c1f93f5ea42e23ab9381afce804da0f7405974ab41bde35964f5c57b5835f",
+        "sha256_in_prefix": "4d3c1f93f5ea42e23ab9381afce804da0f7405974ab41bde35964f5c57b5835f",
+        "size_in_bytes": 180872
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/doc/Rsamtools-UsingCLibraries.R",
+        "path_type": "hardlink",
+        "sha256": "a60f4a714c48898e24c315e8cb028722c7eca9b18b24f089914850c246ea7a7c",
+        "sha256_in_prefix": "a60f4a714c48898e24c315e8cb028722c7eca9b18b24f089914850c246ea7a7c",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/doc/Rsamtools-UsingCLibraries.Rnw",
+        "path_type": "hardlink",
+        "sha256": "88df47813b7f11928e93c10df67e56d2657d53b115ca489a72ee6698afd29147",
+        "sha256_in_prefix": "88df47813b7f11928e93c10df67e56d2657d53b115ca489a72ee6698afd29147",
+        "size_in_bytes": 3855
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/doc/Rsamtools-UsingCLibraries.pdf",
+        "path_type": "hardlink",
+        "sha256": "a19c6b0807e6bcf8dca4f374bd842adfce45a8c5ce40c57844e6ec42179cde28",
+        "sha256_in_prefix": "a19c6b0807e6bcf8dca4f374bd842adfce45a8c5ce40c57844e6ec42179cde28",
+        "size_in_bytes": 125716
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "fc0c0dfa2a3e39b4e8becfc2b5205b29c04decb09a0cdf74491484d839c72a25",
+        "sha256_in_prefix": "fc0c0dfa2a3e39b4e8becfc2b5205b29c04decb09a0cdf74491484d839c72a25",
+        "size_in_bytes": 1976
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/ce2dict1.fa",
+        "path_type": "hardlink",
+        "sha256": "bc51935596227b21d2419fb8fb5a60e9e9801a87a22bcc58565d2b36602db8c9",
+        "sha256_in_prefix": "bc51935596227b21d2419fb8fb5a60e9e9801a87a22bcc58565d2b36602db8c9",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/ce2dict1.fa.fai",
+        "path_type": "hardlink",
+        "sha256": "463cf7c8ba6bb5c2f15b88c2d0b00656dc05ff71360f8247aaf42ed866850f2f",
+        "sha256_in_prefix": "463cf7c8ba6bb5c2f15b88c2d0b00656dc05ff71360f8247aaf42ed866850f2f",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/ex1.bam",
+        "path_type": "hardlink",
+        "sha256": "2faaad659823e28c459c96c7c89f44661e9f6a7100d411d0eac68e48a86085fb",
+        "sha256_in_prefix": "2faaad659823e28c459c96c7c89f44661e9f6a7100d411d0eac68e48a86085fb",
+        "size_in_bytes": 126539
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/ex1.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "5380fa2a107b43f402f01d4051a91289bf96a481a75d686515e18e8824d246e4",
+        "sha256_in_prefix": "5380fa2a107b43f402f01d4051a91289bf96a481a75d686515e18e8824d246e4",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/ex1.bcf.gz",
+        "path_type": "hardlink",
+        "sha256": "7c1f5cbdde785a14b037435fc30d0f36bb834cc03b90fd79eb0950940c5f6141",
+        "sha256_in_prefix": "7c1f5cbdde785a14b037435fc30d0f36bb834cc03b90fd79eb0950940c5f6141",
+        "size_in_bytes": 79176
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/ex1.bcf.gz.csi",
+        "path_type": "hardlink",
+        "sha256": "f751eeec06a76848bb7fefe331b755dd3044896f2274c301d712d5eb46fbe064",
+        "sha256_in_prefix": "f751eeec06a76848bb7fefe331b755dd3044896f2274c301d712d5eb46fbe064",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/ex1.sam",
+        "path_type": "hardlink",
+        "sha256": "470b462f4ae1d7bc1f777c76b10064c3e45bbaae1cdfbd4b7983198f0cb05c52",
+        "sha256_in_prefix": "470b462f4ae1d7bc1f777c76b10064c3e45bbaae1cdfbd4b7983198f0cb05c52",
+        "size_in_bytes": 559422
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/ex1.vcf.gz",
+        "path_type": "hardlink",
+        "sha256": "ff7e286b6894b87fa187487df87e8bc77feae68845e268ec6c486cb88b75955e",
+        "sha256_in_prefix": "ff7e286b6894b87fa187487df87e8bc77feae68845e268ec6c486cb88b75955e",
+        "size_in_bytes": 74987
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/ex1.vcf.gz.csi",
+        "path_type": "hardlink",
+        "sha256": "dd9c1b63c45f3bd9451cce85dbf368bcde8854848717035448a17d88e30203e7",
+        "sha256_in_prefix": "dd9c1b63c45f3bd9451cce85dbf368bcde8854848717035448a17d88e30203e7",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/example.gtf.gz",
+        "path_type": "hardlink",
+        "sha256": "63ffc923e600f0183841fe76c88179b6369be438df18b20748c038f69cb1cc76",
+        "sha256_in_prefix": "63ffc923e600f0183841fe76c88179b6369be438df18b20748c038f69cb1cc76",
+        "size_in_bytes": 3778
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/example.gtf.gz.tbi",
+        "path_type": "hardlink",
+        "sha256": "17ede01fdefa5adb85c6008e91e7099bbc4c41e54c00d4b8afc75dbee45d69bd",
+        "sha256_in_prefix": "17ede01fdefa5adb85c6008e91e7099bbc4c41e54c00d4b8afc75dbee45d69bd",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/example_from_SAM_Spec.bam",
+        "path_type": "hardlink",
+        "sha256": "13a13875e743fce7809dbcd3e8f01b353c1c89f44df73dd36944a69b6d2329da",
+        "sha256_in_prefix": "13a13875e743fce7809dbcd3e8f01b353c1c89f44df73dd36944a69b6d2329da",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/example_from_SAM_Spec.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "9f54a888129840034fe46fc353b4ee5aa2f959700a0026b18a2c35dbec0389a2",
+        "sha256_in_prefix": "9f54a888129840034fe46fc353b4ee5aa2f959700a0026b18a2c35dbec0389a2",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/example_from_SAM_Spec.sam",
+        "path_type": "hardlink",
+        "sha256": "7922c787b2ccda020e5a955a4a6712b593f0bc94670995d71b77a443fe591be3",
+        "sha256_in_prefix": "7922c787b2ccda020e5a955a4a6712b593f0bc94670995d71b77a443fe591be3",
+        "size_in_bytes": 368
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/no_which_buffered_pileup.bam",
+        "path_type": "hardlink",
+        "sha256": "b72c8d96dc4a7c77be6ee446167c410a1cd82fb848937ff7cf651d87dc964685",
+        "sha256_in_prefix": "b72c8d96dc4a7c77be6ee446167c410a1cd82fb848937ff7cf651d87dc964685",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/no_which_buffered_pileup.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "d6d7461a090ce38e73bd81c176439b513db8a70428e7af266d1b7f32877740c5",
+        "sha256_in_prefix": "d6d7461a090ce38e73bd81c176439b513db8a70428e7af266d1b7f32877740c5",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/no_which_buffered_pileup.sam",
+        "path_type": "hardlink",
+        "sha256": "503859787a62e47f3f7f14ed2fa937da7b27edfc440360795510e01e1f787c8e",
+        "sha256_in_prefix": "503859787a62e47f3f7f14ed2fa937da7b27edfc440360795510e01e1f787c8e",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/no_which_whole_file.bam",
+        "path_type": "hardlink",
+        "sha256": "f9e6d1d41babb7b1e1c26a0522748af14ccd5dac8e10b0f272c671aaf350d2f6",
+        "sha256_in_prefix": "f9e6d1d41babb7b1e1c26a0522748af14ccd5dac8e10b0f272c671aaf350d2f6",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/no_which_whole_file.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "8e3ef2385a923f8162dc184d36f36b058fad25c3ddcb4e99887ff1257695f2ae",
+        "sha256_in_prefix": "8e3ef2385a923f8162dc184d36f36b058fad25c3ddcb4e99887ff1257695f2ae",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/no_which_whole_file.sam",
+        "path_type": "hardlink",
+        "sha256": "820d232189575f0009a1d2ebfe191c9c9d396dd102e9628e1e7cbc11f37a072e",
+        "sha256_in_prefix": "820d232189575f0009a1d2ebfe191c9c9d396dd102e9628e1e7cbc11f37a072e",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/olaps.Rda",
+        "path_type": "hardlink",
+        "sha256": "f5d5b60db69f71fb79d5b73003fc5ea419d5457781b53331b56489093bf9c7ff",
+        "sha256_in_prefix": "f5d5b60db69f71fb79d5b73003fc5ea419d5457781b53331b56489093bf9c7ff",
+        "size_in_bytes": 1663363
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/pileup.txt",
+        "path_type": "hardlink",
+        "sha256": "31fc74fc400518253df0eabde34b2827b93ddf578f82ecbb9814cf61240f28ac",
+        "sha256_in_prefix": "31fc74fc400518253df0eabde34b2827b93ddf578f82ecbb9814cf61240f28ac",
+        "size_in_bytes": 138598
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/querybins.bam",
+        "path_type": "hardlink",
+        "sha256": "c8fb71a12a7909ef4db6d04026a6c596060795b0116a3a61e0563097186c9775",
+        "sha256_in_prefix": "c8fb71a12a7909ef4db6d04026a6c596060795b0116a3a61e0563097186c9775",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/querybins.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "6c20cda3729677b430e5d70ee9b54376fd1f08008c376fabe2c1ff2edb192ace",
+        "sha256_in_prefix": "6c20cda3729677b430e5d70ee9b54376fd1f08008c376fabe2c1ff2edb192ace",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/querybins.sam",
+        "path_type": "hardlink",
+        "sha256": "2c199280817fff746594d0b67cb762a0d6352c467957431becd761601e2f32b5",
+        "sha256_in_prefix": "2c199280817fff746594d0b67cb762a0d6352c467957431becd761601e2f32b5",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/revbins.bam",
+        "path_type": "hardlink",
+        "sha256": "964f25e49b1d7d5f657729efd6892d5fbd9342cfe0eebd65d735be7c51829581",
+        "sha256_in_prefix": "964f25e49b1d7d5f657729efd6892d5fbd9342cfe0eebd65d735be7c51829581",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/revbins.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "462da92798398c067bf0dbf9a44223164409d3c14e60cca6b3512c251a08252f",
+        "sha256_in_prefix": "462da92798398c067bf0dbf9a44223164409d3c14e60cca6b3512c251a08252f",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/revbins.sam",
+        "path_type": "hardlink",
+        "sha256": "21be6766e68ed52ca10bedd3f5ab914615f1ec709c3a386ebf85bfdb009cd967",
+        "sha256_in_prefix": "21be6766e68ed52ca10bedd3f5ab914615f1ec709c3a386ebf85bfdb009cd967",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/samtools-github.txt",
+        "path_type": "hardlink",
+        "sha256": "ab2a5b83e1d09e02901f66d680e969876b6eeee4d384e17dcab78618a0206fd9",
+        "sha256_in_prefix": "ab2a5b83e1d09e02901f66d680e969876b6eeee4d384e17dcab78618a0206fd9",
+        "size_in_bytes": 31
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/slxMaq09_urls.txt",
+        "path_type": "hardlink",
+        "sha256": "ff1cb86ee737ab683bcdb0916063885ba2f99b714a4c1f29dd20e0f68bfdfa38",
+        "sha256_in_prefix": "ff1cb86ee737ab683bcdb0916063885ba2f99b714a4c1f29dd20e0f68bfdfa38",
+        "size_in_bytes": 2808
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/tagfilter.bam",
+        "path_type": "hardlink",
+        "sha256": "aa9f875852bbfe93671ac18423bb63049053a8deb59c102a9a46f8030dd4f261",
+        "sha256_in_prefix": "aa9f875852bbfe93671ac18423bb63049053a8deb59c102a9a46f8030dd4f261",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/tagfilter.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "c92fb64448d17fdcb3c06771357ce9de4b3612daa4f9fc2be81ceb0f32248728",
+        "sha256_in_prefix": "c92fb64448d17fdcb3c06771357ce9de4b3612daa4f9fc2be81ceb0f32248728",
+        "size_in_bytes": 656
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/tagfilter.sam",
+        "path_type": "hardlink",
+        "sha256": "28c6f627400b731c1f34246dc0fa279794852dca17f0de3f988efd34d6b11d25",
+        "sha256_in_prefix": "28c6f627400b731c1f34246dc0fa279794852dca17f0de3f988efd34d6b11d25",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/tiny.bam",
+        "path_type": "hardlink",
+        "sha256": "c6b833d5dece7a00c26bae8f939bd353c340a77f8e121c731e663216d8ed0e47",
+        "sha256_in_prefix": "c6b833d5dece7a00c26bae8f939bd353c340a77f8e121c731e663216d8ed0e47",
+        "size_in_bytes": 1167
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/tiny.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "d39cd9436d05c65bdafd79ddc948b09d2fbdd2b0382a150d50f709504ea67523",
+        "sha256_in_prefix": "d39cd9436d05c65bdafd79ddc948b09d2fbdd2b0382a150d50f709504ea67523",
+        "size_in_bytes": 2336
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/tiny.sam",
+        "path_type": "hardlink",
+        "sha256": "d3d93932affe8946087c79d7793e1a68ef689d146dfc51a612b5c61264a0c3cc",
+        "sha256_in_prefix": "d3d93932affe8946087c79d7793e1a68ef689d146dfc51a612b5c61264a0c3cc",
+        "size_in_bytes": 4102
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/tophat/README",
+        "path_type": "hardlink",
+        "sha256": "0e5d179a66d2c09b1e2a5e27a54efd7dfcdd56c0a2736c721e8107956298605a",
+        "sha256_in_prefix": "0e5d179a66d2c09b1e2a5e27a54efd7dfcdd56c0a2736c721e8107956298605a",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/tophat/accepted_hits.sam",
+        "path_type": "hardlink",
+        "sha256": "7d70af2ca29da24f7fc2167eef07750e1847f15cb696661301b54e70802237d4",
+        "sha256_in_prefix": "7d70af2ca29da24f7fc2167eef07750e1847f15cb696661301b54e70802237d4",
+        "size_in_bytes": 36039
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/tophat/coverage.wig",
+        "path_type": "hardlink",
+        "sha256": "8179320f7101baf559da2c10c9a060824330b1912943ead6fbe77adbfe1d977d",
+        "sha256_in_prefix": "8179320f7101baf559da2c10c9a060824330b1912943ead6fbe77adbfe1d977d",
+        "size_in_bytes": 4381
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/extdata/tophat/junctions.bed",
+        "path_type": "hardlink",
+        "sha256": "ecbf232857aaf2c0e7ff4678a3fc6d4f1888c2c0b0f4795a51953f1548be8146",
+        "sha256_in_prefix": "ecbf232857aaf2c0e7ff4678a3fc6d4f1888c2c0b0f4795a51953f1548be8146",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "8d9b0dde8e13b3da3918840e755b5f1190ffda4584bbc9e7775a4ab851ae318a",
+        "sha256_in_prefix": "8d9b0dde8e13b3da3918840e755b5f1190ffda4584bbc9e7775a4ab851ae318a",
+        "size_in_bytes": 11579
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/help/Rsamtools.rdb",
+        "path_type": "hardlink",
+        "sha256": "8ab8194ce86cd6519afc1a88f2469805f067d49033e298db935cfad63f52e8f8",
+        "sha256_in_prefix": "8ab8194ce86cd6519afc1a88f2469805f067d49033e298db935cfad63f52e8f8",
+        "size_in_bytes": 177656
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/help/Rsamtools.rdx",
+        "path_type": "hardlink",
+        "sha256": "992842eadacf05d6bc27d80e490f49822684672822887e9aff9651c0864d5e61",
+        "sha256_in_prefix": "992842eadacf05d6bc27d80e490f49822684672822887e9aff9651c0864d5e61",
+        "size_in_bytes": 780
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "e62f49bd1b08b9473a7fe064a8c94ce76fd4fe7657f26f2b34a9ff15dd731222",
+        "sha256_in_prefix": "e62f49bd1b08b9473a7fe064a8c94ce76fd4fe7657f26f2b34a9ff15dd731222",
+        "size_in_bytes": 2559
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "8abcb1480ea291ee1e9118e7b6972e0e622dc954e6e7c559be3c5d7147f8b13e",
+        "sha256_in_prefix": "8abcb1480ea291ee1e9118e7b6972e0e622dc954e6e7c559be3c5d7147f8b13e",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "c21c4122b90d0dc49b7b3655c1fa101a2e39bef4f4182b429d7a7f8e3cdd4e7a",
+        "sha256_in_prefix": "c21c4122b90d0dc49b7b3655c1fa101a2e39bef4f4182b429d7a7f8e3cdd4e7a",
+        "size_in_bytes": 43017
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/libs/Rsamtools.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/bioconductor-rsamtools_1572617822199/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "a6caf7bfc88c19c7a0edb5cfbb58b1f20c5cc4cf1faae2a89991104fdbc5a627",
+        "sha256_in_prefix": "65c873fbea90b5e31c1a4530af260a4c1c09365df19a2c4e80358c9e888bdd0a",
+        "size_in_bytes": 844420
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/scripts/BamViews-1000g.R",
+        "path_type": "hardlink",
+        "sha256": "97f33830f5dfb379b3f6cc76450e7e5c321fe629f6671c5249c6dff22fff1f02",
+        "sha256_in_prefix": "97f33830f5dfb379b3f6cc76450e7e5c321fe629f6671c5249c6dff22fff1f02",
+        "size_in_bytes": 2984
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/scripts/features.R",
+        "path_type": "hardlink",
+        "sha256": "ad35136030038d3bd816f56ad6e16ce475bc88a7d297f5c660600175882d2ae1",
+        "sha256_in_prefix": "ad35136030038d3bd816f56ad6e16ce475bc88a7d297f5c660600175882d2ae1",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/scripts/remote_test.R",
+        "path_type": "hardlink",
+        "sha256": "e7ee12f07deaccdda35bb4625997ca4aead387a501fdabf16b9ec2a02374aa28",
+        "sha256_in_prefix": "e7ee12f07deaccdda35bb4625997ca4aead387a501fdabf16b9ec2a02374aa28",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/scripts/update-samtools.sh",
+        "path_type": "hardlink",
+        "sha256": "d58ace7edff22a316743e8ade725220f89f9cd344e4ddc31eeaf4145f78cfa24",
+        "sha256_in_prefix": "d58ace7edff22a316743e8ade725220f89f9cd344e4ddc31eeaf4145f78cfa24",
+        "size_in_bytes": 997
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/cases/ex1.sam.gz",
+        "path_type": "hardlink",
+        "sha256": "28a507fd237bc52c58273470acab42209b31e70b856b2553a65346a09ec75bcb",
+        "sha256_in_prefix": "28a507fd237bc52c58273470acab42209b31e70b856b2553a65346a09ec75bcb",
+        "size_in_bytes": 114590
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/cases/ex1_noindex.bam",
+        "path_type": "hardlink",
+        "sha256": "2faaad659823e28c459c96c7c89f44661e9f6a7100d411d0eac68e48a86085fb",
+        "sha256_in_prefix": "2faaad659823e28c459c96c7c89f44661e9f6a7100d411d0eac68e48a86085fb",
+        "size_in_bytes": 126539
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/cases/ex1_shuf1000.bam",
+        "path_type": "hardlink",
+        "sha256": "728148ef8d01b6426454f324b63ca706d26cd44ace143b7aa578b9ccd5a19965",
+        "sha256_in_prefix": "728148ef8d01b6426454f324b63ca706d26cd44ace143b7aa578b9ccd5a19965",
+        "size_in_bytes": 42031
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/cases/ex1_shuf1000.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "7e0bf3962f904ec81e4655a2551fcd55557f7dd9190812055dc07f3ff3523aed",
+        "sha256_in_prefix": "7e0bf3962f904ec81e4655a2551fcd55557f7dd9190812055dc07f3ff3523aed",
+        "size_in_bytes": 72
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/cases/ex1_unsort.bam",
+        "path_type": "hardlink",
+        "sha256": "089a742cf2fa87fcf0ae405ad44aad23ad36ba8acb2b51bfa37b20e59c3f4597",
+        "sha256_in_prefix": "089a742cf2fa87fcf0ae405ad44aad23ad36ba8acb2b51bfa37b20e59c3f4597",
+        "size_in_bytes": 155405
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/cases/ex1_zero_index.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/cases/no_SAMPLE_header.vcf.gz",
+        "path_type": "hardlink",
+        "sha256": "56a2d9b476c6f2d5128bd54f4baed4ea2cad0c880972617ec319623785a31338",
+        "sha256_in_prefix": "56a2d9b476c6f2d5128bd54f4baed4ea2cad0c880972617ec319623785a31338",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/cases/no_header_line.vcf.gz",
+        "path_type": "hardlink",
+        "sha256": "fa4f0699206b480c78b29a327397f5d24c22e320008ba9e3815767bce8279852",
+        "sha256_in_prefix": "fa4f0699206b480c78b29a327397f5d24c22e320008ba9e3815767bce8279852",
+        "size_in_bytes": 413
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/cases/pileup-no-stars.txt",
+        "path_type": "hardlink",
+        "sha256": "05b7c93c1fc18c34e6ce24b05f38671ab43a74c0eb22715a16390158e37b0f42",
+        "sha256_in_prefix": "05b7c93c1fc18c34e6ce24b05f38671ab43a74c0eb22715a16390158e37b0f42",
+        "size_in_bytes": 1608
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/cases/plp_refskip.bam",
+        "path_type": "hardlink",
+        "sha256": "61c93a3e37cbe72c1990051fb1a1fd0bbbc0cfe606a30ba0ded4cd3c313dd8ed",
+        "sha256_in_prefix": "61c93a3e37cbe72c1990051fb1a1fd0bbbc0cfe606a30ba0ded4cd3c313dd8ed",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/cases/plp_refskip.bam.bai",
+        "path_type": "hardlink",
+        "sha256": "eeffededda08e91da010ca45d0e2b97f2eb053b2490ac4e3c456fc07c93943e1",
+        "sha256_in_prefix": "eeffededda08e91da010ca45d0e2b97f2eb053b2490ac4e3c456fc07c93943e1",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_BamFile.R",
+        "path_type": "hardlink",
+        "sha256": "7b85f205bb36cb2069c64c0cee503c4e71760798ca2a514dc7d3a1c66cf8338e",
+        "sha256_in_prefix": "7b85f205bb36cb2069c64c0cee503c4e71760798ca2a514dc7d3a1c66cf8338e",
+        "size_in_bytes": 12467
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_BamViews.R",
+        "path_type": "hardlink",
+        "sha256": "822159f9e9c21ba8f040d1131851de5487d7b2beb82bf9fdcf7a7c2db9971c41",
+        "sha256_in_prefix": "822159f9e9c21ba8f040d1131851de5487d7b2beb82bf9fdcf7a7c2db9971c41",
+        "size_in_bytes": 5825
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_BcfFile.R",
+        "path_type": "hardlink",
+        "sha256": "a648a46138e899a24ad936ee6054ae8773771e0c4b9bb9b6ab26b3fbe9f22e7d",
+        "sha256_in_prefix": "a648a46138e899a24ad936ee6054ae8773771e0c4b9bb9b6ab26b3fbe9f22e7d",
+        "size_in_bytes": 4123
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_FaFile.R",
+        "path_type": "hardlink",
+        "sha256": "a72bac0355770910ae9bc458c40816ff7315f1f30ccafe541450f46abb145edc",
+        "sha256_in_prefix": "a72bac0355770910ae9bc458c40816ff7315f1f30ccafe541450f46abb145edc",
+        "size_in_bytes": 2823
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_RsamtoolsFile.R",
+        "path_type": "hardlink",
+        "sha256": "d8effb4b6185c3353096d18dfb05d32ed2906f8d857a51b60131fe8c9c734d53",
+        "sha256_in_prefix": "d8effb4b6185c3353096d18dfb05d32ed2906f8d857a51b60131fe8c9c734d53",
+        "size_in_bytes": 1677
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_TabixFile.R",
+        "path_type": "hardlink",
+        "sha256": "0ac8051372b35debbf93436b4a6a5558584e27e68c3f1c725b9f8ba9d112d776",
+        "sha256_in_prefix": "0ac8051372b35debbf93436b4a6a5558584e27e68c3f1c725b9f8ba9d112d776",
+        "size_in_bytes": 3106
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_applyPileups.R",
+        "path_type": "hardlink",
+        "sha256": "45165aa4288302e3e97952843b0e5d011f6ac69110cbb81f31cf164989163094",
+        "sha256_in_prefix": "45165aa4288302e3e97952843b0e5d011f6ac69110cbb81f31cf164989163094",
+        "size_in_bytes": 7314
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_asBam.R",
+        "path_type": "hardlink",
+        "sha256": "32c9beb0908276c6606226c9288787cd0258c49f830d0be842c50e1520a03fad",
+        "sha256_in_prefix": "32c9beb0908276c6606226c9288787cd0258c49f830d0be842c50e1520a03fad",
+        "size_in_bytes": 881
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_bam.R",
+        "path_type": "hardlink",
+        "sha256": "af060b3b7f0bea4d1bfece5b11b7a6ef96b45faadcced63529f8b083e7619791",
+        "sha256_in_prefix": "af060b3b7f0bea4d1bfece5b11b7a6ef96b45faadcced63529f8b083e7619791",
+        "size_in_bytes": 11568
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_bam_count.R",
+        "path_type": "hardlink",
+        "sha256": "6aee59047993da706ae92430911beab1cdbe425442562a38f39668e65b1ffa90",
+        "sha256_in_prefix": "6aee59047993da706ae92430911beab1cdbe425442562a38f39668e65b1ffa90",
+        "size_in_bytes": 2427
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_bam_header.R",
+        "path_type": "hardlink",
+        "sha256": "c1bc13753beeef48bfc2ef294ae91504fe28a98fe36d0080622019efd7503240",
+        "sha256_in_prefix": "c1bc13753beeef48bfc2ef294ae91504fe28a98fe36d0080622019efd7503240",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_compression.R",
+        "path_type": "hardlink",
+        "sha256": "b8ed82079556438ed66d9c89e9691d182d2425de58fe9e293322cdabbda88456",
+        "sha256_in_prefix": "b8ed82079556438ed66d9c89e9691d182d2425de58fe9e293322cdabbda88456",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_mapqfilter.R",
+        "path_type": "hardlink",
+        "sha256": "608ae41584681729428cea17c0b26dda17383cf6874ac5f231e1c44ba667b97b",
+        "sha256_in_prefix": "608ae41584681729428cea17c0b26dda17383cf6874ac5f231e1c44ba667b97b",
+        "size_in_bytes": 832
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_phred2ASCIIOffset.R",
+        "path_type": "hardlink",
+        "sha256": "232c03c38c83622784c6c5305bfa22f310bcd7526ff09a9e2fabcdc002cf148c",
+        "sha256_in_prefix": "232c03c38c83622784c6c5305bfa22f310bcd7526ff09a9e2fabcdc002cf148c",
+        "size_in_bytes": 1238
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_pileup_nowhich.R",
+        "path_type": "hardlink",
+        "sha256": "8785e078848d0003091cdea666d6a88b116d521b6832ea11e7b4313ce82e57f2",
+        "sha256_in_prefix": "8785e078848d0003091cdea666d6a88b116d521b6832ea11e7b4313ce82e57f2",
+        "size_in_bytes": 5692
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_pileup_querybins.R",
+        "path_type": "hardlink",
+        "sha256": "ac72f418651c42e4ce6ef5d5ead2c65d969f5b65570c89829e127fe8b8c50610",
+        "sha256_in_prefix": "ac72f418651c42e4ce6ef5d5ead2c65d969f5b65570c89829e127fe8b8c50610",
+        "size_in_bytes": 14882
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_pileup_revbins.R",
+        "path_type": "hardlink",
+        "sha256": "5d4264592f78c3ca8157dc5dcb8bd1e3f59d53a686f0b1b1db3109afe83173a9",
+        "sha256_in_prefix": "5d4264592f78c3ca8157dc5dcb8bd1e3f59d53a686f0b1b1db3109afe83173a9",
+        "size_in_bytes": 18698
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_pileup_single_range.R",
+        "path_type": "hardlink",
+        "sha256": "bde7777d343730bd4f60f8508366dfc390405ab58aefb2eeebffe9228e1c54e3",
+        "sha256_in_prefix": "bde7777d343730bd4f60f8508366dfc390405ab58aefb2eeebffe9228e1c54e3",
+        "size_in_bytes": 52865
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_readPileup.R",
+        "path_type": "hardlink",
+        "sha256": "f05de47a96d0ad1695b9b2c3949f09b7073418ed41604c60a01b2b5baf59b6bf",
+        "sha256_in_prefix": "f05de47a96d0ad1695b9b2c3949f09b7073418ed41604c60a01b2b5baf59b6bf",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_scanBamFlag.R",
+        "path_type": "hardlink",
+        "sha256": "65ef4ddd846529f74763a9cdb752201de4eee8010ac131220a344917dc08b83f",
+        "sha256_in_prefix": "65ef4ddd846529f74763a9cdb752201de4eee8010ac131220a344917dc08b83f",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_sortBam_test.R",
+        "path_type": "hardlink",
+        "sha256": "8a140077f4385209504c646885cf143cc015c16222eb6c377aa1a20745adf3bd",
+        "sha256_in_prefix": "8a140077f4385209504c646885cf143cc015c16222eb6c377aa1a20745adf3bd",
+        "size_in_bytes": 710
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_tagfilter.R",
+        "path_type": "hardlink",
+        "sha256": "30192e4deacbf97bbe9e6a44d9fe4f1b754af2d98243147aaedfdfeecc967ca7",
+        "sha256_in_prefix": "30192e4deacbf97bbe9e6a44d9fe4f1b754af2d98243147aaedfdfeecc967ca7",
+        "size_in_bytes": 3569
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_testPairedEndBam.R",
+        "path_type": "hardlink",
+        "sha256": "d6e32111ab9328a6e18d9e364bf5cbf07bf3983f4bbab09d63ba41570cd2f058",
+        "sha256_in_prefix": "d6e32111ab9328a6e18d9e364bf5cbf07bf3983f4bbab09d63ba41570cd2f058",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "lib/R/library/Rsamtools/unitTests/test_utilities.R",
+        "path_type": "hardlink",
+        "sha256": "058b74eb1fb11781b403e0b014dceb5307e883c240cf65b35e8ba74ab7c120fc",
+        "sha256_in_prefix": "058b74eb1fb11781b403e0b014dceb5307e883c240cf65b35e8ba74ab7c120fc",
+        "size_in_bytes": 1321
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0863cd829aba449d6c154883d1a3788cbd6a2a9bc36e0dc4e568a5e2dcd99838",
+  "size": 4028012,
+  "subdir": "osx-64",
+  "timestamp": 1572617948634,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/bioconductor-rsamtools-2.2.0-r36h6de7cb9_0.tar.bz2",
+  "version": "2.2.0"
+}

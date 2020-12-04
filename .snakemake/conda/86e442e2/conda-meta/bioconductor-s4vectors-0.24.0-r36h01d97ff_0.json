@@ -1,0 +1,454 @@
+{
+  "build": "r36h01d97ff_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-s4vectors-0.24.0-r36h01d97ff_0",
+  "features": "",
+  "files": [
+    "lib/R/library/S4Vectors/DESCRIPTION",
+    "lib/R/library/S4Vectors/INDEX",
+    "lib/R/library/S4Vectors/Meta/Rd.rds",
+    "lib/R/library/S4Vectors/Meta/features.rds",
+    "lib/R/library/S4Vectors/Meta/hsearch.rds",
+    "lib/R/library/S4Vectors/Meta/links.rds",
+    "lib/R/library/S4Vectors/Meta/nsInfo.rds",
+    "lib/R/library/S4Vectors/Meta/package.rds",
+    "lib/R/library/S4Vectors/Meta/vignette.rds",
+    "lib/R/library/S4Vectors/NAMESPACE",
+    "lib/R/library/S4Vectors/NEWS",
+    "lib/R/library/S4Vectors/R/S4Vectors",
+    "lib/R/library/S4Vectors/R/S4Vectors.rdb",
+    "lib/R/library/S4Vectors/R/S4Vectors.rdx",
+    "lib/R/library/S4Vectors/doc/HTS_core_package_stack.txt",
+    "lib/R/library/S4Vectors/doc/RleTricks.R",
+    "lib/R/library/S4Vectors/doc/RleTricks.Rnw",
+    "lib/R/library/S4Vectors/doc/RleTricks.pdf",
+    "lib/R/library/S4Vectors/doc/S4QuickOverview.R",
+    "lib/R/library/S4Vectors/doc/S4QuickOverview.Rnw",
+    "lib/R/library/S4Vectors/doc/S4QuickOverview.pdf",
+    "lib/R/library/S4Vectors/doc/S4VectorsOverview.R",
+    "lib/R/library/S4Vectors/doc/S4VectorsOverview.Rnw",
+    "lib/R/library/S4Vectors/doc/S4VectorsOverview.pdf",
+    "lib/R/library/S4Vectors/doc/index.html",
+    "lib/R/library/S4Vectors/help/AnIndex",
+    "lib/R/library/S4Vectors/help/S4Vectors.rdb",
+    "lib/R/library/S4Vectors/help/S4Vectors.rdx",
+    "lib/R/library/S4Vectors/help/aliases.rds",
+    "lib/R/library/S4Vectors/help/paths.rds",
+    "lib/R/library/S4Vectors/html/00Index.html",
+    "lib/R/library/S4Vectors/html/R.css",
+    "lib/R/library/S4Vectors/include/S4Vectors_defines.h",
+    "lib/R/library/S4Vectors/include/S4Vectors_interface.h",
+    "lib/R/library/S4Vectors/include/_S4Vectors_stubs.c",
+    "lib/R/library/S4Vectors/libs/S4Vectors.dylib",
+    "lib/R/library/S4Vectors/unitTests/test_DataFrame-class.R",
+    "lib/R/library/S4Vectors/unitTests/test_DataFrame-comparison.R",
+    "lib/R/library/S4Vectors/unitTests/test_DataTable-class.R",
+    "lib/R/library/S4Vectors/unitTests/test_FilterRules.R",
+    "lib/R/library/S4Vectors/unitTests/test_Hits-class.R",
+    "lib/R/library/S4Vectors/unitTests/test_List-class.R",
+    "lib/R/library/S4Vectors/unitTests/test_List-utils.R",
+    "lib/R/library/S4Vectors/unitTests/test_Pairs-class.R",
+    "lib/R/library/S4Vectors/unitTests/test_Rle-class.R",
+    "lib/R/library/S4Vectors/unitTests/test_Rle-utils.R",
+    "lib/R/library/S4Vectors/unitTests/test_Vector-comparison.R",
+    "lib/R/library/S4Vectors/unitTests/test_Vector-merge.R",
+    "lib/R/library/S4Vectors/unitTests/test_expand-methods.R",
+    "lib/R/library/S4Vectors/unitTests/test_map_ranges_to_runs.R",
+    "lib/R/library/S4Vectors/unitTests/test_raw-utils.R",
+    "lib/R/library/S4Vectors/unitTests/test_subsetting-utils.R"
+  ],
+  "fn": "bioconductor-s4vectors-0.24.0-r36h01d97ff_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-s4vectors-0.24.0-r36h01d97ff_0",
+    "type": 1
+  },
+  "md5": "0f2654444f4eecc5b81ee14caaab31dc",
+  "name": "bioconductor-s4vectors",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-s4vectors-0.24.0-r36h01d97ff_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/S4Vectors/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "fd1450ffdfa5f8ee2701797a29e004d8e913d590a0b18784d813f6d85a978778",
+        "sha256_in_prefix": "fd1450ffdfa5f8ee2701797a29e004d8e913d590a0b18784d813f6d85a978778",
+        "size_in_bytes": 2089
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/INDEX",
+        "path_type": "hardlink",
+        "sha256": "2553476892c2cdd2bfb499ce78b84f40c487cf682ae1d64c97aaf39ad807d139",
+        "sha256_in_prefix": "2553476892c2cdd2bfb499ce78b84f40c487cf682ae1d64c97aaf39ad807d139",
+        "size_in_bytes": 1896
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "543ca28828e7da99bf3aa3afeb71da23b70a6279f983d425ae8b6fb2bcf20ca9",
+        "sha256_in_prefix": "543ca28828e7da99bf3aa3afeb71da23b70a6279f983d425ae8b6fb2bcf20ca9",
+        "size_in_bytes": 5633
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "sha256_in_prefix": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "1fb3a0fd72bc51f1ae4ddc6f0dcf45bef8ae214358d5d259e0097705c84ac8c4",
+        "sha256_in_prefix": "1fb3a0fd72bc51f1ae4ddc6f0dcf45bef8ae214358d5d259e0097705c84ac8c4",
+        "size_in_bytes": 6028
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "8be7a63b3e74cc0964a67596f0710ff10089dd3eaf63f975740b75b9482e1f71",
+        "sha256_in_prefix": "8be7a63b3e74cc0964a67596f0710ff10089dd3eaf63f975740b75b9482e1f71",
+        "size_in_bytes": 5234
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "7888f91c8f0ef188c333c4147567af635ef0dc69d663285d01c0d35c5cfb351e",
+        "sha256_in_prefix": "7888f91c8f0ef188c333c4147567af635ef0dc69d663285d01c0d35c5cfb351e",
+        "size_in_bytes": 2418
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "b417ac94b2dc8eb2b6097daf5289f3b13b523b13a7faa1c4e3410b9b335f3f02",
+        "sha256_in_prefix": "b417ac94b2dc8eb2b6097daf5289f3b13b523b13a7faa1c4e3410b9b335f3f02",
+        "size_in_bytes": 1540
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "53d1018cc4a6b83653b021801a305062d96cc335799bd31e3663ab9b99d5d096",
+        "sha256_in_prefix": "53d1018cc4a6b83653b021801a305062d96cc335799bd31e3663ab9b99d5d096",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "66307ac49631f8f38c370fd3d4dab9d941ae3202aa33b2c831e10f86b15efe34",
+        "sha256_in_prefix": "66307ac49631f8f38c370fd3d4dab9d941ae3202aa33b2c831e10f86b15efe34",
+        "size_in_bytes": 9516
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/NEWS",
+        "path_type": "hardlink",
+        "sha256": "f0b2fe956afa2f9b7eb5547be087151b0ca15e19bf985e0ed15ebd87a3941d0e",
+        "sha256_in_prefix": "f0b2fe956afa2f9b7eb5547be087151b0ca15e19bf985e0ed15ebd87a3941d0e",
+        "size_in_bytes": 21419
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/R/S4Vectors",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/R/S4Vectors.rdb",
+        "path_type": "hardlink",
+        "sha256": "e72551da6589d38e3b322ed6514b941b6ec987bacdcaffbd0e4358f00d40a262",
+        "sha256_in_prefix": "e72551da6589d38e3b322ed6514b941b6ec987bacdcaffbd0e4358f00d40a262",
+        "size_in_bytes": 1697129
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/R/S4Vectors.rdx",
+        "path_type": "hardlink",
+        "sha256": "b5e20c3e126362bee85edf74654bf75478bbcb73a647390cecd5c6d4de3e8f6e",
+        "sha256_in_prefix": "b5e20c3e126362bee85edf74654bf75478bbcb73a647390cecd5c6d4de3e8f6e",
+        "size_in_bytes": 18090
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/doc/HTS_core_package_stack.txt",
+        "path_type": "hardlink",
+        "sha256": "d0a61be83b4328ca133ebe379b46d429c46b2c1281ed2cc4171b9a0441744958",
+        "sha256_in_prefix": "d0a61be83b4328ca133ebe379b46d429c46b2c1281ed2cc4171b9a0441744958",
+        "size_in_bytes": 924
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/doc/RleTricks.R",
+        "path_type": "hardlink",
+        "sha256": "00a35b4d08283fe48191c2d03e93ac1023027ae225bc3f7d6e012d3dcf0f07cf",
+        "sha256_in_prefix": "00a35b4d08283fe48191c2d03e93ac1023027ae225bc3f7d6e012d3dcf0f07cf",
+        "size_in_bytes": 1987
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/doc/RleTricks.Rnw",
+        "path_type": "hardlink",
+        "sha256": "b3293ea9aa3122d8bac298a612425bf0d08fda510909b3eae3b1915024829ed6",
+        "sha256_in_prefix": "b3293ea9aa3122d8bac298a612425bf0d08fda510909b3eae3b1915024829ed6",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/doc/RleTricks.pdf",
+        "path_type": "hardlink",
+        "sha256": "b5e9c01161db7dd247c7de73a498258f67a290342e9cdf52e71438b3c2c06d96",
+        "sha256_in_prefix": "b5e9c01161db7dd247c7de73a498258f67a290342e9cdf52e71438b3c2c06d96",
+        "size_in_bytes": 42960
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/doc/S4QuickOverview.R",
+        "path_type": "hardlink",
+        "sha256": "a82dfafc533f911c81b0542211614606cd68be39e6e10cc18904f03c8c8ba997",
+        "sha256_in_prefix": "a82dfafc533f911c81b0542211614606cd68be39e6e10cc18904f03c8c8ba997",
+        "size_in_bytes": 9286
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/doc/S4QuickOverview.Rnw",
+        "path_type": "hardlink",
+        "sha256": "4a8bbb118eb7c749cda5af9407014a6f125d697508f3ec1d51c89357e06d5723",
+        "sha256_in_prefix": "4a8bbb118eb7c749cda5af9407014a6f125d697508f3ec1d51c89357e06d5723",
+        "size_in_bytes": 16545
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/doc/S4QuickOverview.pdf",
+        "path_type": "hardlink",
+        "sha256": "9498aaffb5f0b6a4c56cf97ca0742040513ca5a8dc67531eb35c9ea4815f5eb9",
+        "sha256_in_prefix": "9498aaffb5f0b6a4c56cf97ca0742040513ca5a8dc67531eb35c9ea4815f5eb9",
+        "size_in_bytes": 175802
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/doc/S4VectorsOverview.R",
+        "path_type": "hardlink",
+        "sha256": "e5d2c90697e8e4f1c7fe7546f50c0ef4be5e167eb397b40c0c33316fa372aae3",
+        "sha256_in_prefix": "e5d2c90697e8e4f1c7fe7546f50c0ef4be5e167eb397b40c0c33316fa372aae3",
+        "size_in_bytes": 4473
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/doc/S4VectorsOverview.Rnw",
+        "path_type": "hardlink",
+        "sha256": "b5967ee0bd17e91ae28f6d96b9c2305fb97adeedf78e7110eff123344dd6dabd",
+        "sha256_in_prefix": "b5967ee0bd17e91ae28f6d96b9c2305fb97adeedf78e7110eff123344dd6dabd",
+        "size_in_bytes": 13436
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/doc/S4VectorsOverview.pdf",
+        "path_type": "hardlink",
+        "sha256": "16af93c2ab7f20d4325009fdcce96e85579ac97195746fc540cf4d4904efe57b",
+        "sha256_in_prefix": "16af93c2ab7f20d4325009fdcce96e85579ac97195746fc540cf4d4904efe57b",
+        "size_in_bytes": 175042
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "518bd080f9802f4b5e89277833183cb96ac0b8a7eb832033dbebcce872731d24",
+        "sha256_in_prefix": "518bd080f9802f4b5e89277833183cb96ac0b8a7eb832033dbebcce872731d24",
+        "size_in_bytes": 2729
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "c4f591247b9af03f1a17a66d732e78e8edafa40cb94d77f3f41bf955e143bbb6",
+        "sha256_in_prefix": "c4f591247b9af03f1a17a66d732e78e8edafa40cb94d77f3f41bf955e143bbb6",
+        "size_in_bytes": 27046
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/help/S4Vectors.rdb",
+        "path_type": "hardlink",
+        "sha256": "cb890a7740166c374153b130c5df985d0550c9f660e1afbfb0153c333336fa5b",
+        "sha256_in_prefix": "cb890a7740166c374153b130c5df985d0550c9f660e1afbfb0153c333336fa5b",
+        "size_in_bytes": 247312
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/help/S4Vectors.rdx",
+        "path_type": "hardlink",
+        "sha256": "19cdb328ef4deb6ff410162a22b0c3175704e86f5f435ed81e86799762efaaf7",
+        "sha256_in_prefix": "19cdb328ef4deb6ff410162a22b0c3175704e86f5f435ed81e86799762efaaf7",
+        "size_in_bytes": 927
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "0ad38114631512ee796e752d28a5e3a978fcf2b69c599119c3d0e4d798baf26b",
+        "sha256_in_prefix": "0ad38114631512ee796e752d28a5e3a978fcf2b69c599119c3d0e4d798baf26b",
+        "size_in_bytes": 5700
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "8d52b787e4ec4f1ab5bc6523c7f6a5958c580bf1885f050b8623ec8bc72c99ef",
+        "sha256_in_prefix": "8d52b787e4ec4f1ab5bc6523c7f6a5958c580bf1885f050b8623ec8bc72c99ef",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "df4bd7d7155c7d7f266030224623c8e35d3f689f324824983efe2c2f721ecbf1",
+        "sha256_in_prefix": "df4bd7d7155c7d7f266030224623c8e35d3f689f324824983efe2c2f721ecbf1",
+        "size_in_bytes": 76633
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/include/S4Vectors_defines.h",
+        "path_type": "hardlink",
+        "sha256": "acbf97e7042dc3a0a9b8c5450153b0b6fc01d02464e62260930739f92cfb459e",
+        "sha256_in_prefix": "acbf97e7042dc3a0a9b8c5450153b0b6fc01d02464e62260930739f92cfb459e",
+        "size_in_bytes": 3705
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/include/S4Vectors_interface.h",
+        "path_type": "hardlink",
+        "sha256": "d04fa758691a50398d511f2c2eec257a1842137728c0004925416fdfdd318c31",
+        "sha256_in_prefix": "d04fa758691a50398d511f2c2eec257a1842137728c0004925416fdfdd318c31",
+        "size_in_bytes": 9468
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/include/_S4Vectors_stubs.c",
+        "path_type": "hardlink",
+        "sha256": "c5e3dc423943bad64df106dddf09e4a8c04d6b75840fe4f08791cec80dcfb6c5",
+        "sha256_in_prefix": "c5e3dc423943bad64df106dddf09e4a8c04d6b75840fe4f08791cec80dcfb6c5",
+        "size_in_bytes": 17554
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/libs/S4Vectors.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/bioconductor-s4vectors_1572636466199/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "43a107b9374982bff89462025fad7e7350e10e1c463ff9f97840be382b652ac0",
+        "sha256_in_prefix": "d1d838cc25de670a52d74ccc273c35d8926919cb1b66df0a1384e4b315cca3e6",
+        "size_in_bytes": 147156
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_DataFrame-class.R",
+        "path_type": "hardlink",
+        "sha256": "d1e22c0ab9e93a2df5b28377ced9874be95a0ae466584f15f81462d1b6f65f67",
+        "sha256_in_prefix": "d1e22c0ab9e93a2df5b28377ced9874be95a0ae466584f15f81462d1b6f65f67",
+        "size_in_bytes": 15700
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_DataFrame-comparison.R",
+        "path_type": "hardlink",
+        "sha256": "4a368e44030374e717a0d5bfa9cce3da9a6866dd1c65cd527ed6effa9fdbd5d8",
+        "sha256_in_prefix": "4a368e44030374e717a0d5bfa9cce3da9a6866dd1c65cd527ed6effa9fdbd5d8",
+        "size_in_bytes": 1562
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_DataTable-class.R",
+        "path_type": "hardlink",
+        "sha256": "29e8084af6153699c180282b3e262dcbf41c9b81641ed8845e076508d7652276",
+        "sha256_in_prefix": "29e8084af6153699c180282b3e262dcbf41c9b81641ed8845e076508d7652276",
+        "size_in_bytes": 1012
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_FilterRules.R",
+        "path_type": "hardlink",
+        "sha256": "d18465537fc6017bff049238c87fbc192821ec47dfdfd03a5a09d859b8071e7d",
+        "sha256_in_prefix": "d18465537fc6017bff049238c87fbc192821ec47dfdfd03a5a09d859b8071e7d",
+        "size_in_bytes": 5120
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_Hits-class.R",
+        "path_type": "hardlink",
+        "sha256": "f0f9ae92de11013aff0ce7f9553c9a6d829d0d43508b024a4a6eeef26b0c8dec",
+        "sha256_in_prefix": "f0f9ae92de11013aff0ce7f9553c9a6d829d0d43508b024a4a6eeef26b0c8dec",
+        "size_in_bytes": 9232
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_List-class.R",
+        "path_type": "hardlink",
+        "sha256": "1bbc1d186b052658dfcf3d4f9631f6819286b3a502a193fd47a99fb77ba93ecd",
+        "sha256_in_prefix": "1bbc1d186b052658dfcf3d4f9631f6819286b3a502a193fd47a99fb77ba93ecd",
+        "size_in_bytes": 11966
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_List-utils.R",
+        "path_type": "hardlink",
+        "sha256": "3b06ff07e960318c77086245e2726aee3d78384640f0724003f637659198ba6e",
+        "sha256_in_prefix": "3b06ff07e960318c77086245e2726aee3d78384640f0724003f637659198ba6e",
+        "size_in_bytes": 1150
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_Pairs-class.R",
+        "path_type": "hardlink",
+        "sha256": "20ac8fcfc8d227085fb388b1f97b911e7b60ca91702db4e86b5256daa776c242",
+        "sha256_in_prefix": "20ac8fcfc8d227085fb388b1f97b911e7b60ca91702db4e86b5256daa776c242",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_Rle-class.R",
+        "path_type": "hardlink",
+        "sha256": "1d517a98531020a498e2dfcbbd3fb69532a4d2e4274e9233addb653cbc68f57f",
+        "sha256_in_prefix": "1d517a98531020a498e2dfcbbd3fb69532a4d2e4274e9233addb653cbc68f57f",
+        "size_in_bytes": 9733
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_Rle-utils.R",
+        "path_type": "hardlink",
+        "sha256": "51d601791c4a1ef5515086ae9fef400b6a054040eddc6cd7f845006a06fbd94b",
+        "sha256_in_prefix": "51d601791c4a1ef5515086ae9fef400b6a054040eddc6cd7f845006a06fbd94b",
+        "size_in_bytes": 24467
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_Vector-comparison.R",
+        "path_type": "hardlink",
+        "sha256": "02769b946bf0a76e93daee4982c643eaa7c1d84c018dcf9678a257c6a8c73315",
+        "sha256_in_prefix": "02769b946bf0a76e93daee4982c643eaa7c1d84c018dcf9678a257c6a8c73315",
+        "size_in_bytes": 2658
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_Vector-merge.R",
+        "path_type": "hardlink",
+        "sha256": "5d9dc14fa7dbe44c2b58d7e6388b9c5b96796ca66f09a46cda03d63f06b783a9",
+        "sha256_in_prefix": "5d9dc14fa7dbe44c2b58d7e6388b9c5b96796ca66f09a46cda03d63f06b783a9",
+        "size_in_bytes": 2490
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_expand-methods.R",
+        "path_type": "hardlink",
+        "sha256": "57d7898d23f4819ce6ce7fd60019e9d75f62043c418ebef03be5c05439f692a3",
+        "sha256_in_prefix": "57d7898d23f4819ce6ce7fd60019e9d75f62043c418ebef03be5c05439f692a3",
+        "size_in_bytes": 2015
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_map_ranges_to_runs.R",
+        "path_type": "hardlink",
+        "sha256": "bf5825b2467b6ae2ba1365741f71033b628a13cf86912ffc69ff9f41121770d7",
+        "sha256_in_prefix": "bf5825b2467b6ae2ba1365741f71033b628a13cf86912ffc69ff9f41121770d7",
+        "size_in_bytes": 2842
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_raw-utils.R",
+        "path_type": "hardlink",
+        "sha256": "08a17b06cdd84b2c0b9246d4a43d05ad5698bf685c960134ab0c35aac91eb46e",
+        "sha256_in_prefix": "08a17b06cdd84b2c0b9246d4a43d05ad5698bf685c960134ab0c35aac91eb46e",
+        "size_in_bytes": 6984
+      },
+      {
+        "_path": "lib/R/library/S4Vectors/unitTests/test_subsetting-utils.R",
+        "path_type": "hardlink",
+        "sha256": "17c467f6fbcbcc3950280655eb3a263d1b21a45564a41f24b1c1d29cf13643af",
+        "sha256_in_prefix": "17c467f6fbcbcc3950280655eb3a263d1b21a45564a41f24b1c1d29cf13643af",
+        "size_in_bytes": 20790
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6898f343cb8ebaf90d5a9c7eec944921a669749be47f6eec34b6dd03e1cb2f4d",
+  "size": 2180471,
+  "subdir": "osx-64",
+  "timestamp": 1572636584439,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/bioconductor-s4vectors-0.24.0-r36h01d97ff_0.tar.bz2",
+  "version": "0.24.0"
+}

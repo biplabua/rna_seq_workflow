@@ -1,0 +1,246 @@
+{
+  "build": "r36h6115d3f_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-zeallot-0.1.0-r36h6115d3f_1002",
+  "features": "",
+  "files": [
+    "lib/R/library/zeallot/DESCRIPTION",
+    "lib/R/library/zeallot/INDEX",
+    "lib/R/library/zeallot/LICENSE",
+    "lib/R/library/zeallot/Meta/Rd.rds",
+    "lib/R/library/zeallot/Meta/features.rds",
+    "lib/R/library/zeallot/Meta/hsearch.rds",
+    "lib/R/library/zeallot/Meta/links.rds",
+    "lib/R/library/zeallot/Meta/nsInfo.rds",
+    "lib/R/library/zeallot/Meta/package.rds",
+    "lib/R/library/zeallot/Meta/vignette.rds",
+    "lib/R/library/zeallot/NAMESPACE",
+    "lib/R/library/zeallot/NEWS.md",
+    "lib/R/library/zeallot/R/zeallot",
+    "lib/R/library/zeallot/R/zeallot.rdb",
+    "lib/R/library/zeallot/R/zeallot.rdx",
+    "lib/R/library/zeallot/doc/index.html",
+    "lib/R/library/zeallot/doc/unpacking-assignment.R",
+    "lib/R/library/zeallot/doc/unpacking-assignment.Rmd",
+    "lib/R/library/zeallot/doc/unpacking-assignment.html",
+    "lib/R/library/zeallot/help/AnIndex",
+    "lib/R/library/zeallot/help/aliases.rds",
+    "lib/R/library/zeallot/help/paths.rds",
+    "lib/R/library/zeallot/help/zeallot.rdb",
+    "lib/R/library/zeallot/help/zeallot.rdx",
+    "lib/R/library/zeallot/html/00Index.html",
+    "lib/R/library/zeallot/html/R.css"
+  ],
+  "fn": "r-zeallot-0.1.0-r36h6115d3f_1002.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-zeallot-0.1.0-r36h6115d3f_1002",
+    "type": 1
+  },
+  "md5": "12fd0aa909c5641bf8ae36ab462a8ccc",
+  "name": "r-zeallot",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-zeallot-0.1.0-r36h6115d3f_1002.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/zeallot/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "e379aef626209f03b9fac2aa724c7b76fc24f2961a8d8f4a383e4946853d70a7",
+        "sha256_in_prefix": "e379aef626209f03b9fac2aa724c7b76fc24f2961a8d8f4a383e4946853d70a7",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "lib/R/library/zeallot/INDEX",
+        "path_type": "hardlink",
+        "sha256": "40527c95b9a4f63e6459ed58cb3b938ab6bd73becf79c078192a457bc311168a",
+        "sha256_in_prefix": "40527c95b9a4f63e6459ed58cb3b938ab6bd73becf79c078192a457bc311168a",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "lib/R/library/zeallot/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "65d320f227185a80093be0ca58e0ce0bfab46db44792f6ed835d24524c2ce2b3",
+        "sha256_in_prefix": "65d320f227185a80093be0ca58e0ce0bfab46db44792f6ed835d24524c2ce2b3",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "lib/R/library/zeallot/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "d2a4bb70e285123f075be42d23e50b2f588df0b693f4bea6c59be21ae17cb288",
+        "sha256_in_prefix": "d2a4bb70e285123f075be42d23e50b2f588df0b693f4bea6c59be21ae17cb288",
+        "size_in_bytes": 450
+      },
+      {
+        "_path": "lib/R/library/zeallot/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/zeallot/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "8e4508d944e83e76972c6599a9e2b7ee8c9916c087b82004bd96e611b91751b2",
+        "sha256_in_prefix": "8e4508d944e83e76972c6599a9e2b7ee8c9916c087b82004bd96e611b91751b2",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "lib/R/library/zeallot/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "173fcfd95b2d47ca59e23dddd9e6603d7a2c94b20df91764d8f655d55abdc7de",
+        "sha256_in_prefix": "173fcfd95b2d47ca59e23dddd9e6603d7a2c94b20df91764d8f655d55abdc7de",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/zeallot/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "07fabbbc429e3eeba40011156e3bc0b624937a9d49af1e82fdd383bcfefeaaf9",
+        "sha256_in_prefix": "07fabbbc429e3eeba40011156e3bc0b624937a9d49af1e82fdd383bcfefeaaf9",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "lib/R/library/zeallot/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "278074870985263eba0e8948e1db56305a953c2e92e3e365f37f16be17d9a5f0",
+        "sha256_in_prefix": "278074870985263eba0e8948e1db56305a953c2e92e3e365f37f16be17d9a5f0",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "lib/R/library/zeallot/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "17d3da0bd51a482b1ab7855a779f7981208148521ae4d3796703bdd8229df802",
+        "sha256_in_prefix": "17d3da0bd51a482b1ab7855a779f7981208148521ae4d3796703bdd8229df802",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "lib/R/library/zeallot/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "bbb4991de80c420c9f06bafca41f9c1cb87c4af8e9720abba591869b11bc8e07",
+        "sha256_in_prefix": "bbb4991de80c420c9f06bafca41f9c1cb87c4af8e9720abba591869b11bc8e07",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "lib/R/library/zeallot/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "ee92bc55b9e3fbde5ee5dffb916628417b42c127e91eccb1c7f1a8138044e683",
+        "sha256_in_prefix": "ee92bc55b9e3fbde5ee5dffb916628417b42c127e91eccb1c7f1a8138044e683",
+        "size_in_bytes": 2778
+      },
+      {
+        "_path": "lib/R/library/zeallot/R/zeallot",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/zeallot/R/zeallot.rdb",
+        "path_type": "hardlink",
+        "sha256": "67c98ea2d14f0989e3a80639cdb7de163c213f93b4be93825589416f99fc2ea1",
+        "sha256_in_prefix": "67c98ea2d14f0989e3a80639cdb7de163c213f93b4be93825589416f99fc2ea1",
+        "size_in_bytes": 22399
+      },
+      {
+        "_path": "lib/R/library/zeallot/R/zeallot.rdx",
+        "path_type": "hardlink",
+        "sha256": "b9766bbabd5a4544e0b52aeead925429376bb047315c24a6c91c242a6b64d7df",
+        "sha256_in_prefix": "b9766bbabd5a4544e0b52aeead925429376bb047315c24a6c91c242a6b64d7df",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "lib/R/library/zeallot/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "07e730d1c54a66f42b3e73212cd02ee68425b4bf0d7628d6be3c82dad7324490",
+        "sha256_in_prefix": "07e730d1c54a66f42b3e73212cd02ee68425b4bf0d7628d6be3c82dad7324490",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "lib/R/library/zeallot/doc/unpacking-assignment.R",
+        "path_type": "hardlink",
+        "sha256": "d7df925cc36a2e0725afc32ae83f51f2e1b053ff82b309ee6f8a2af9b171fc79",
+        "sha256_in_prefix": "d7df925cc36a2e0725afc32ae83f51f2e1b053ff82b309ee6f8a2af9b171fc79",
+        "size_in_bytes": 5050
+      },
+      {
+        "_path": "lib/R/library/zeallot/doc/unpacking-assignment.Rmd",
+        "path_type": "hardlink",
+        "sha256": "71245ebe7ff0d31ceb59ef67571646039509d3e0d67a209496da209c027b8eff",
+        "sha256_in_prefix": "71245ebe7ff0d31ceb59ef67571646039509d3e0d67a209496da209c027b8eff",
+        "size_in_bytes": 9193
+      },
+      {
+        "_path": "lib/R/library/zeallot/doc/unpacking-assignment.html",
+        "path_type": "hardlink",
+        "sha256": "5c3032bc6ac8de29dd3876268ce5d4c44b821caa9cd6db5a42e42d6379fa7fc3",
+        "sha256_in_prefix": "5c3032bc6ac8de29dd3876268ce5d4c44b821caa9cd6db5a42e42d6379fa7fc3",
+        "size_in_bytes": 55355
+      },
+      {
+        "_path": "lib/R/library/zeallot/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "d6f82f4ee33ca1257018feda492210ed6f9754aa9b20d1ea00fb9080be3e5e61",
+        "sha256_in_prefix": "d6f82f4ee33ca1257018feda492210ed6f9754aa9b20d1ea00fb9080be3e5e61",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "lib/R/library/zeallot/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "a417a9cfa690b969c7ba30e52c19936eac61ff30770436b3ecf7501fef426682",
+        "sha256_in_prefix": "a417a9cfa690b969c7ba30e52c19936eac61ff30770436b3ecf7501fef426682",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/R/library/zeallot/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "575c8421495f195d2ca686ba6fc8aca61cb7af3eff544a0c0e78975374f898d5",
+        "sha256_in_prefix": "575c8421495f195d2ca686ba6fc8aca61cb7af3eff544a0c0e78975374f898d5",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "lib/R/library/zeallot/help/zeallot.rdb",
+        "path_type": "hardlink",
+        "sha256": "210e007af9f09ed32d103110607f352374753341078d57316c01ada72424793a",
+        "sha256_in_prefix": "210e007af9f09ed32d103110607f352374753341078d57316c01ada72424793a",
+        "size_in_bytes": 12862
+      },
+      {
+        "_path": "lib/R/library/zeallot/help/zeallot.rdx",
+        "path_type": "hardlink",
+        "sha256": "498fbe33c5a1869f54dd9e5fbcd02b143a6747c48db08906cf301b525cdf8429",
+        "sha256_in_prefix": "498fbe33c5a1869f54dd9e5fbcd02b143a6747c48db08906cf301b525cdf8429",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "lib/R/library/zeallot/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "83ace98fc9ced12da0b75b469af6215dc4504e8db16186e93c4bc8bb535ef739",
+        "sha256_in_prefix": "83ace98fc9ced12da0b75b469af6215dc4504e8db16186e93c4bc8bb535ef739",
+        "size_in_bytes": 1804
+      },
+      {
+        "_path": "lib/R/library/zeallot/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c9337e45ceed0de7d6cb3e6693d97c472c5e208d43f5b9dc7723b95cd4ccff7d",
+  "size": 63661,
+  "subdir": "noarch",
+  "timestamp": 1588382667132,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-zeallot-0.1.0-r36h6115d3f_1002.tar.bz2",
+  "version": "0.1.0"
+}

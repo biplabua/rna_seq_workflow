@@ -1,0 +1,83 @@
+Building DAG of jobs...
+Creating conda environment dge.yaml...
+Downloading and installing remote packages.
+Environment for dge.yaml created (location: .snakemake/conda/86e442e2)
+Creating conda environment environment.yaml...
+Downloading and installing remote packages.
+Environment for environment.yaml created (location: .snakemake/conda/c5b7b2c8)
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	dge_deseq2
+	4	download_reads
+	1	download_transcriptome
+	1	make_salmon_index
+	4	salmon_count_se
+	12
+
+[Fri Dec  4 13:35:19 2020]
+rule download_reads:
+    output: raw_data/SRR1761159.fq.gz
+    jobid: 3
+    wildcards: sample=SRR1761159
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Fri Dec  4 13:41:55 2020]
+Finished job 3.
+1 of 12 steps (8%) done
+
+[Fri Dec  4 13:41:55 2020]
+rule download_reads:
+    output: raw_data/SRR1761162.fq.gz
+    jobid: 4
+    wildcards: sample=SRR1761162
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Fri Dec  4 13:47:55 2020]
+Finished job 4.
+2 of 12 steps (17%) done
+
+[Fri Dec  4 13:47:55 2020]
+rule download_reads:
+    output: raw_data/SRR1761161.fq.gz
+    jobid: 2
+    wildcards: sample=SRR1761161
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Fri Dec  4 13:56:13 2020]
+Finished job 2.
+3 of 12 steps (25%) done
+
+[Fri Dec  4 13:56:14 2020]
+rule download_transcriptome:
+    output: rna_coding.fasta.gz
+    jobid: 5
+
+[Fri Dec  4 13:56:16 2020]
+Finished job 5.
+4 of 12 steps (33%) done
+
+[Fri Dec  4 13:56:16 2020]
+rule download_reads:
+    output: raw_data/SRR1761158.fq.gz
+    jobid: 1
+    wildcards: sample=SRR1761158
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Fri Dec  4 14:02:38 2020]
+Error in rule download_reads:
+    jobid: 1
+    output: raw_data/SRR1761158.fq.gz
+    conda-env: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+    shell:
+        fastq-dump -Z --gzip SRR1761158 > raw_data/SRR1761158.fq.gz
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job download_reads since they might be corrupted:
+raw_data/SRR1761158.fq.gz
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/biplab/Documents/rna_seq_workflow/.snakemake/log/2020-12-04T133053.044409.snakemake.log

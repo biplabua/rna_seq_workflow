@@ -1,0 +1,332 @@
+{
+  "build": "r36h6de7cb9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biobase >=2.46.0,<2.47.0",
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+    "bioconductor-genefilter >=1.68.0,<1.69.0",
+    "bioconductor-geneplotter >=1.64.0,<1.65.0",
+    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+    "bioconductor-iranges >=2.20.0,<2.21.0",
+    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+    "libcxx >=4.0.1",
+    "r-base >=3.6,<3.7.0a0",
+    "r-ggplot2",
+    "r-hmisc",
+    "r-locfit",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-deseq2-1.26.0-r36h6de7cb9_0",
+  "features": "",
+  "files": [
+    "lib/R/library/DESeq2/CITATION",
+    "lib/R/library/DESeq2/DESCRIPTION",
+    "lib/R/library/DESeq2/INDEX",
+    "lib/R/library/DESeq2/Meta/Rd.rds",
+    "lib/R/library/DESeq2/Meta/features.rds",
+    "lib/R/library/DESeq2/Meta/hsearch.rds",
+    "lib/R/library/DESeq2/Meta/links.rds",
+    "lib/R/library/DESeq2/Meta/nsInfo.rds",
+    "lib/R/library/DESeq2/Meta/package.rds",
+    "lib/R/library/DESeq2/Meta/vignette.rds",
+    "lib/R/library/DESeq2/NAMESPACE",
+    "lib/R/library/DESeq2/NEWS",
+    "lib/R/library/DESeq2/R/DESeq2",
+    "lib/R/library/DESeq2/R/DESeq2.rdb",
+    "lib/R/library/DESeq2/R/DESeq2.rdx",
+    "lib/R/library/DESeq2/doc/DESeq2.R",
+    "lib/R/library/DESeq2/doc/DESeq2.Rmd",
+    "lib/R/library/DESeq2/doc/DESeq2.html",
+    "lib/R/library/DESeq2/doc/index.html",
+    "lib/R/library/DESeq2/help/AnIndex",
+    "lib/R/library/DESeq2/help/DESeq2.rdb",
+    "lib/R/library/DESeq2/help/DESeq2.rdx",
+    "lib/R/library/DESeq2/help/aliases.rds",
+    "lib/R/library/DESeq2/help/paths.rds",
+    "lib/R/library/DESeq2/html/00Index.html",
+    "lib/R/library/DESeq2/html/R.css",
+    "lib/R/library/DESeq2/libs/DESeq2.dylib",
+    "lib/R/library/DESeq2/script/icobra.png",
+    "lib/R/library/DESeq2/script/icobra_benchmarks.R",
+    "lib/R/library/DESeq2/script/icobra_pkg_versions.txt",
+    "lib/R/library/DESeq2/script/makeSim.R",
+    "lib/R/library/DESeq2/script/runScripts.R",
+    "lib/R/library/DESeq2/script/testsuite.Rmd",
+    "lib/R/library/DESeq2/script/vst.nb",
+    "lib/R/library/DESeq2/script/vst.pdf"
+  ],
+  "fn": "bioconductor-deseq2-1.26.0-r36h6de7cb9_0.tar.bz2",
+  "license": "LGPL (>= 3)",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-deseq2-1.26.0-r36h6de7cb9_0",
+    "type": 1
+  },
+  "md5": "d68785b8a96c15f0436c086d38d270d7",
+  "name": "bioconductor-deseq2",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-deseq2-1.26.0-r36h6de7cb9_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/DESeq2/CITATION",
+        "path_type": "hardlink",
+        "sha256": "9ad06a985d8f52edaeb0186c595b6fd5fd196a6a11a345036e87b3367e3394c7",
+        "sha256_in_prefix": "9ad06a985d8f52edaeb0186c595b6fd5fd196a6a11a345036e87b3367e3394c7",
+        "size_in_bytes": 701
+      },
+      {
+        "_path": "lib/R/library/DESeq2/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "58c00f241a103e3a04b744307e91d6650a315c429cfe27ee6a9ed128158a7b0f",
+        "sha256_in_prefix": "58c00f241a103e3a04b744307e91d6650a315c429cfe27ee6a9ed128158a7b0f",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "lib/R/library/DESeq2/INDEX",
+        "path_type": "hardlink",
+        "sha256": "c27e6e356488eee7e3e6bb0fe9131ea8a0212dba563c91f2de08d29080826929",
+        "sha256_in_prefix": "c27e6e356488eee7e3e6bb0fe9131ea8a0212dba563c91f2de08d29080826929",
+        "size_in_bytes": 3480
+      },
+      {
+        "_path": "lib/R/library/DESeq2/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "f1b57696f46ef8050b626ac1a0fa04702e8d430d22a2b041fa071233e3c1138e",
+        "sha256_in_prefix": "f1b57696f46ef8050b626ac1a0fa04702e8d430d22a2b041fa071233e3c1138e",
+        "size_in_bytes": 2048
+      },
+      {
+        "_path": "lib/R/library/DESeq2/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "sha256_in_prefix": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/R/library/DESeq2/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "671e68dcecb471c75b5fbf6136df967a94423a66e257ac4215c77ad82d475092",
+        "sha256_in_prefix": "671e68dcecb471c75b5fbf6136df967a94423a66e257ac4215c77ad82d475092",
+        "size_in_bytes": 2049
+      },
+      {
+        "_path": "lib/R/library/DESeq2/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "adf7df852964c478d3dd08375537ff52d75d3718cc2d0a3d14529ea53e41967e",
+        "sha256_in_prefix": "adf7df852964c478d3dd08375537ff52d75d3718cc2d0a3d14529ea53e41967e",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "lib/R/library/DESeq2/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "680f6835c11094e2e54af23c9f5b8d4d308fb510357dcd14d569da66da1a28f5",
+        "sha256_in_prefix": "680f6835c11094e2e54af23c9f5b8d4d308fb510357dcd14d569da66da1a28f5",
+        "size_in_bytes": 1180
+      },
+      {
+        "_path": "lib/R/library/DESeq2/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "5a8364bfae2917934ea1fd3edccc965f6e8c73f34d1d8f35b669159f4af1bb64",
+        "sha256_in_prefix": "5a8364bfae2917934ea1fd3edccc965f6e8c73f34d1d8f35b669159f4af1bb64",
+        "size_in_bytes": 1746
+      },
+      {
+        "_path": "lib/R/library/DESeq2/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "7a0535afb94cc60e23fa3871abff026c385dd4e1608f0250fcb42bb4ec5b92d7",
+        "sha256_in_prefix": "7a0535afb94cc60e23fa3871abff026c385dd4e1608f0250fcb42bb4ec5b92d7",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "lib/R/library/DESeq2/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "0fb309c45c97423026119ee0e5657d16073c85af0320a870be6946a8e173b266",
+        "sha256_in_prefix": "0fb309c45c97423026119ee0e5657d16073c85af0320a870be6946a8e173b266",
+        "size_in_bytes": 3314
+      },
+      {
+        "_path": "lib/R/library/DESeq2/NEWS",
+        "path_type": "hardlink",
+        "sha256": "c29ae0dd84698e55973d4acd8ae7b201694e065e485bd8b348fdf1009a39897b",
+        "sha256_in_prefix": "c29ae0dd84698e55973d4acd8ae7b201694e065e485bd8b348fdf1009a39897b",
+        "size_in_bytes": 26252
+      },
+      {
+        "_path": "lib/R/library/DESeq2/R/DESeq2",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/DESeq2/R/DESeq2.rdb",
+        "path_type": "hardlink",
+        "sha256": "0fe338451d64cb2ea9a3afaad908f8ddd14eea1cfc40aa6cc04ba604896ea168",
+        "sha256_in_prefix": "0fe338451d64cb2ea9a3afaad908f8ddd14eea1cfc40aa6cc04ba604896ea168",
+        "size_in_bytes": 517525
+      },
+      {
+        "_path": "lib/R/library/DESeq2/R/DESeq2.rdx",
+        "path_type": "hardlink",
+        "sha256": "9e1605370ecc2cbf3279b8a948ab9b2bcaaf59091d2ceb4959ee4bb0b55cca11",
+        "sha256_in_prefix": "9e1605370ecc2cbf3279b8a948ab9b2bcaaf59091d2ceb4959ee4bb0b55cca11",
+        "size_in_bytes": 3360
+      },
+      {
+        "_path": "lib/R/library/DESeq2/doc/DESeq2.R",
+        "path_type": "hardlink",
+        "sha256": "ea143ee8d89256206be8f6b979bdcdc0f9c87813ad8dca6369c9b16d769860f6",
+        "sha256_in_prefix": "ea143ee8d89256206be8f6b979bdcdc0f9c87813ad8dca6369c9b16d769860f6",
+        "size_in_bytes": 21953
+      },
+      {
+        "_path": "lib/R/library/DESeq2/doc/DESeq2.Rmd",
+        "path_type": "hardlink",
+        "sha256": "e115af8b4eed887858c7bf85980b9b69f291b05b984528d3372743279b9d7b8f",
+        "sha256_in_prefix": "e115af8b4eed887858c7bf85980b9b69f291b05b984528d3372743279b9d7b8f",
+        "size_in_bytes": 117436
+      },
+      {
+        "_path": "lib/R/library/DESeq2/doc/DESeq2.html",
+        "path_type": "hardlink",
+        "sha256": "1b80cdc4d6531ad219d862857dd7d613b057741fec1785166456b6365f59570d",
+        "sha256_in_prefix": "1b80cdc4d6531ad219d862857dd7d613b057741fec1785166456b6365f59570d",
+        "size_in_bytes": 2394055
+      },
+      {
+        "_path": "lib/R/library/DESeq2/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "1c68e3b9d1e71837b60b65f1fd8b87861bf37c942f4b3002df223189fa21bd11",
+        "sha256_in_prefix": "1c68e3b9d1e71837b60b65f1fd8b87861bf37c942f4b3002df223189fa21bd11",
+        "size_in_bytes": 1336
+      },
+      {
+        "_path": "lib/R/library/DESeq2/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "1001a6d57ef7cc87c356d2abb2ebfd8ebb7d821d7b5f7a0b418b54bebe6c8028",
+        "sha256_in_prefix": "1001a6d57ef7cc87c356d2abb2ebfd8ebb7d821d7b5f7a0b418b54bebe6c8028",
+        "size_in_bytes": 2887
+      },
+      {
+        "_path": "lib/R/library/DESeq2/help/DESeq2.rdb",
+        "path_type": "hardlink",
+        "sha256": "8d211bc44dd17991aed7fd12dde16ccad2ba08bc5a375b0f8a2c7f0a7439d34c",
+        "sha256_in_prefix": "8d211bc44dd17991aed7fd12dde16ccad2ba08bc5a375b0f8a2c7f0a7439d34c",
+        "size_in_bytes": 140471
+      },
+      {
+        "_path": "lib/R/library/DESeq2/help/DESeq2.rdx",
+        "path_type": "hardlink",
+        "sha256": "e455a418bd4c2611157c73a8fc874fa332c5ec797ccecf316fcf2258e50cb16a",
+        "sha256_in_prefix": "e455a418bd4c2611157c73a8fc874fa332c5ec797ccecf316fcf2258e50cb16a",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "lib/R/library/DESeq2/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "4f252ffaea02388805fea8705d28b84832c9316d63ae4c68aded42654328a10f",
+        "sha256_in_prefix": "4f252ffaea02388805fea8705d28b84832c9316d63ae4c68aded42654328a10f",
+        "size_in_bytes": 873
+      },
+      {
+        "_path": "lib/R/library/DESeq2/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "97ffd056b1deb5c1106950fe1011c5771497a6decd762ba2d23fb2e767e286e6",
+        "sha256_in_prefix": "97ffd056b1deb5c1106950fe1011c5771497a6decd762ba2d23fb2e767e286e6",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "lib/R/library/DESeq2/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "b6898a6c00ccc0f4d720bffc4af892c264ef8a60c828b4bf88c22622188b04c5",
+        "sha256_in_prefix": "b6898a6c00ccc0f4d720bffc4af892c264ef8a60c828b4bf88c22622188b04c5",
+        "size_in_bytes": 13191
+      },
+      {
+        "_path": "lib/R/library/DESeq2/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/DESeq2/libs/DESeq2.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/bioconductor-deseq2_1572605845347/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "380066eeeb5b7bc41a4c67bf008229a906724b6a796c0adf84a7bd53018ec9fc",
+        "sha256_in_prefix": "5eefd202b2057d5e43965e21558859693d0cc0a92f890325aeaf56214c9d3108",
+        "size_in_bytes": 288648
+      },
+      {
+        "_path": "lib/R/library/DESeq2/script/icobra.png",
+        "path_type": "hardlink",
+        "sha256": "ade78e8e562c1764605167aef70ab60bb18c616e2589d270ce7eb4fe09f7089a",
+        "sha256_in_prefix": "ade78e8e562c1764605167aef70ab60bb18c616e2589d270ce7eb4fe09f7089a",
+        "size_in_bytes": 253835
+      },
+      {
+        "_path": "lib/R/library/DESeq2/script/icobra_benchmarks.R",
+        "path_type": "hardlink",
+        "sha256": "d8100b9414d38cba25b78146fd7539dce137149fed4ea85655d3bc753bddf653",
+        "sha256_in_prefix": "d8100b9414d38cba25b78146fd7539dce137149fed4ea85655d3bc753bddf653",
+        "size_in_bytes": 3391
+      },
+      {
+        "_path": "lib/R/library/DESeq2/script/icobra_pkg_versions.txt",
+        "path_type": "hardlink",
+        "sha256": "afa46d3d84941617e2faa8be7cf7adc2fd1e5908b1c324cebb7afdd2c91031f9",
+        "sha256_in_prefix": "afa46d3d84941617e2faa8be7cf7adc2fd1e5908b1c324cebb7afdd2c91031f9",
+        "size_in_bytes": 4983
+      },
+      {
+        "_path": "lib/R/library/DESeq2/script/makeSim.R",
+        "path_type": "hardlink",
+        "sha256": "b96af06127787135c9e097162c4a56a436bb985808ba2854e58ec26f0e37ba0d",
+        "sha256_in_prefix": "b96af06127787135c9e097162c4a56a436bb985808ba2854e58ec26f0e37ba0d",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/R/library/DESeq2/script/runScripts.R",
+        "path_type": "hardlink",
+        "sha256": "a747252762aa44205fb46163fce31a02ec9c8d5d90a657a97d4d6b69c6e1203c",
+        "sha256_in_prefix": "a747252762aa44205fb46163fce31a02ec9c8d5d90a657a97d4d6b69c6e1203c",
+        "size_in_bytes": 5911
+      },
+      {
+        "_path": "lib/R/library/DESeq2/script/testsuite.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5cea32e544f58c545e640213619c4d70d447cc8a1faceffa2c93fb32c69f91b7",
+        "sha256_in_prefix": "5cea32e544f58c545e640213619c4d70d447cc8a1faceffa2c93fb32c69f91b7",
+        "size_in_bytes": 5015
+      },
+      {
+        "_path": "lib/R/library/DESeq2/script/vst.nb",
+        "path_type": "hardlink",
+        "sha256": "177fea7b5bb179f3903f60a7488f6dbfe16b05861fb39b14fb490fb0e24d7998",
+        "sha256_in_prefix": "177fea7b5bb179f3903f60a7488f6dbfe16b05861fb39b14fb490fb0e24d7998",
+        "size_in_bytes": 35310
+      },
+      {
+        "_path": "lib/R/library/DESeq2/script/vst.pdf",
+        "path_type": "hardlink",
+        "sha256": "ffee3074b33f2393a34b92b27c82f999fc21b7b1bfbc4dc5866ca1f4cd28da73",
+        "sha256_in_prefix": "ffee3074b33f2393a34b92b27c82f999fc21b7b1bfbc4dc5866ca1f4cd28da73",
+        "size_in_bytes": 186353
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconductor-deseq2=1.26.0",
+  "sha256": "96a4a5749acf927b181364cf453af1d4930e177c6607722fc8a2e3fe2f23aae2",
+  "size": 2670662,
+  "subdir": "osx-64",
+  "timestamp": 1572605992136,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/bioconductor-deseq2-1.26.0-r36h6de7cb9_0.tar.bz2",
+  "version": "1.26.0"
+}

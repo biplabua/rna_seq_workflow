@@ -1,0 +1,67 @@
+{
+  "build": "hf85e3d2_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/libllvm11-11.0.0-hf85e3d2_0",
+  "features": "",
+  "files": [
+    "lib/libLLVM-11.dylib",
+    "lib/libLTO.11.dylib",
+    "lib/libRemarks.11.dylib"
+  ],
+  "fn": "libllvm11-11.0.0-hf85e3d2_0.tar.bz2",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/libllvm11-11.0.0-hf85e3d2_0",
+    "type": 1
+  },
+  "md5": "88d0aa173ace1b8651b1167b4925b8a1",
+  "name": "libllvm11",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/libllvm11-11.0.0-hf85e3d2_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libLLVM-11.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "7da6899addc62baa784c8d283c39bbcb7721cdca9f1e08b81e73d389a4f0489a",
+        "sha256_in_prefix": "294d5cac96d2116ef7d98b9d79468e2cad1b71d244485eb6b1c4dc12530efd9e",
+        "size_in_bytes": 84796780
+      },
+      {
+        "_path": "lib/libLTO.11.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c740cc420ac37cd40ff8520f28577cc4b57f78a85fc466adf8e47cea5aa4a9f0",
+        "sha256_in_prefix": "5f2becb1ddb98a85485bbcafc1efd77fd87f132c6c3e8a601ceb7b78d50547e8",
+        "size_in_bytes": 76664
+      },
+      {
+        "_path": "lib/libRemarks.11.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "708bb73efc3b5f503e78b4fde621e52b54395fd895935539b26fcd91a18e194b",
+        "sha256_in_prefix": "12243a08de86eb8691b3c452c2c615210b0bc4c255d4977669bc474e69cea5a1",
+        "size_in_bytes": 10864
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0908f17b9306705e743d4c839c2b02e9d90740ba070b97346ca6c975f6e55207",
+  "size": 23588115,
+  "subdir": "osx-64",
+  "timestamp": 1602650873989,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libllvm11-11.0.0-hf85e3d2_0.tar.bz2",
+  "version": "11.0.0"
+}

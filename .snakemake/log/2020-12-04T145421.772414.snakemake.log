@@ -1,0 +1,57 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	dge_deseq2
+	1	make_salmon_index
+	4	salmon_count_se
+	7
+
+[Fri Dec  4 14:54:22 2020]
+rule make_salmon_index:
+    input: rna_coding.fasta.gz
+    output: rna_coding_index
+    jobid: 6
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Fri Dec  4 14:54:37 2020]
+Finished job 6.
+1 of 7 steps (14%) done
+
+[Fri Dec  4 14:54:37 2020]
+rule salmon_count_se:
+    input: raw_data/SRR1761161.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761161
+    jobid: 8
+    wildcards: sample=SRR1761161
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Fri Dec  4 14:56:47 2020]
+Finished job 8.
+2 of 7 steps (29%) done
+
+[Fri Dec  4 14:56:47 2020]
+rule salmon_count_se:
+    input: raw_data/SRR1761158.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761158
+    jobid: 7
+    wildcards: sample=SRR1761158
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Fri Dec  4 14:56:49 2020]
+Error in rule salmon_count_se:
+    jobid: 7
+    output: out_salmon/SRR1761158
+    conda-env: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+    shell:
+        salmon quant -i rna_coding_index -l A -r raw_data/SRR1761158.fq.gz --validateMappings -o out_salmon/SRR1761158
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job salmon_count_se since they might be corrupted:
+out_salmon/SRR1761158
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/biplab/Documents/rna_seq_workflow/.snakemake/log/2020-12-04T145421.772414.snakemake.log

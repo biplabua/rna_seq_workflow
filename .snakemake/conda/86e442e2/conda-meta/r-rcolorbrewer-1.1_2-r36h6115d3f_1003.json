@@ -1,0 +1,198 @@
+{
+  "build": "r36h6115d3f_1003",
+  "build_number": 1003,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-rcolorbrewer-1.1_2-r36h6115d3f_1003",
+  "features": "",
+  "files": [
+    "lib/R/library/RColorBrewer/COPYING",
+    "lib/R/library/RColorBrewer/DESCRIPTION",
+    "lib/R/library/RColorBrewer/INDEX",
+    "lib/R/library/RColorBrewer/Meta/Rd.rds",
+    "lib/R/library/RColorBrewer/Meta/features.rds",
+    "lib/R/library/RColorBrewer/Meta/hsearch.rds",
+    "lib/R/library/RColorBrewer/Meta/links.rds",
+    "lib/R/library/RColorBrewer/Meta/nsInfo.rds",
+    "lib/R/library/RColorBrewer/Meta/package.rds",
+    "lib/R/library/RColorBrewer/NAMESPACE",
+    "lib/R/library/RColorBrewer/R/RColorBrewer",
+    "lib/R/library/RColorBrewer/R/RColorBrewer.rdb",
+    "lib/R/library/RColorBrewer/R/RColorBrewer.rdx",
+    "lib/R/library/RColorBrewer/help/AnIndex",
+    "lib/R/library/RColorBrewer/help/RColorBrewer.rdb",
+    "lib/R/library/RColorBrewer/help/RColorBrewer.rdx",
+    "lib/R/library/RColorBrewer/help/aliases.rds",
+    "lib/R/library/RColorBrewer/help/paths.rds",
+    "lib/R/library/RColorBrewer/html/00Index.html",
+    "lib/R/library/RColorBrewer/html/R.css"
+  ],
+  "fn": "r-rcolorbrewer-1.1_2-r36h6115d3f_1003.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-rcolorbrewer-1.1_2-r36h6115d3f_1003",
+    "type": 1
+  },
+  "md5": "2ba73e5efd87bf6c2e483f6cdedeae91",
+  "name": "r-rcolorbrewer",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-rcolorbrewer-1.1_2-r36h6115d3f_1003.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/RColorBrewer/COPYING",
+        "path_type": "hardlink",
+        "sha256": "7c099f4fea951e648742c4e8bbfc6e87b5ddf79aabdf793cd9e4474ec50f671f",
+        "sha256_in_prefix": "7c099f4fea951e648742c4e8bbfc6e87b5ddf79aabdf793cd9e4474ec50f671f",
+        "size_in_bytes": 2122
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "969b879b7b08dcdf8eaff77049449f3531fd16af17f81fdf217c4af61f5dc0dc",
+        "sha256_in_prefix": "969b879b7b08dcdf8eaff77049449f3531fd16af17f81fdf217c4af61f5dc0dc",
+        "size_in_bytes": 662
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/INDEX",
+        "path_type": "hardlink",
+        "sha256": "f4fdf4e1e825768d85a489123a8cfbc5408f96d5e306bc087aee8f145bad00b8",
+        "sha256_in_prefix": "f4fdf4e1e825768d85a489123a8cfbc5408f96d5e306bc087aee8f145bad00b8",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "071d1cb9139986735c9f7cbfe2cdffcff4741682f59705747d696cfad2978719",
+        "sha256_in_prefix": "071d1cb9139986735c9f7cbfe2cdffcff4741682f59705747d696cfad2978719",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "f5499b50eeed56e65c8ff223599c0d61c203d7da45c8dba599f03684ae8d55e8",
+        "sha256_in_prefix": "f5499b50eeed56e65c8ff223599c0d61c203d7da45c8dba599f03684ae8d55e8",
+        "size_in_bytes": 365
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "00226ce8e0c94992338e19ba210912435b4aea27b2ce9c0c24c0228bc6391dea",
+        "sha256_in_prefix": "00226ce8e0c94992338e19ba210912435b4aea27b2ce9c0c24c0228bc6391dea",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "acf178a25ea4d3fa4d39e2f4ad3f549e8cc4111f0a9220ce52738932b6f034ec",
+        "sha256_in_prefix": "acf178a25ea4d3fa4d39e2f4ad3f549e8cc4111f0a9220ce52738932b6f034ec",
+        "size_in_bytes": 226
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "8d5319440192bf2d3464ce5d33fae09fdcd131624369fbb158e83351c6f3436c",
+        "sha256_in_prefix": "8d5319440192bf2d3464ce5d33fae09fdcd131624369fbb158e83351c6f3436c",
+        "size_in_bytes": 769
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "a849cfcc7ae268869aaafcc90d094e6dafd4ee6f414f210764194830fbdc47c5",
+        "sha256_in_prefix": "a849cfcc7ae268869aaafcc90d094e6dafd4ee6f414f210764194830fbdc47c5",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/R/RColorBrewer",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/R/RColorBrewer.rdb",
+        "path_type": "hardlink",
+        "sha256": "f89e203d14886f66db535b43549ca3a587447f4040a0ed4f65d940179f2da211",
+        "sha256_in_prefix": "f89e203d14886f66db535b43549ca3a587447f4040a0ed4f65d940179f2da211",
+        "size_in_bytes": 42869
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/R/RColorBrewer.rdx",
+        "path_type": "hardlink",
+        "sha256": "93fa13fbaab923a7769906eceb98f3133ceb73a2aea9b710f46804818e58a0e0",
+        "sha256_in_prefix": "93fa13fbaab923a7769906eceb98f3133ceb73a2aea9b710f46804818e58a0e0",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "731ace83c4f14ce0503005dfafe9067b8db809fafc89b25c4d787ab50c529056",
+        "sha256_in_prefix": "731ace83c4f14ce0503005dfafe9067b8db809fafc89b25c4d787ab50c529056",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/help/RColorBrewer.rdb",
+        "path_type": "hardlink",
+        "sha256": "445d96e04085213ce2488187d30c5ff082551151a8db3fa8cae9c372a9d0b331",
+        "sha256_in_prefix": "445d96e04085213ce2488187d30c5ff082551151a8db3fa8cae9c372a9d0b331",
+        "size_in_bytes": 5535
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/help/RColorBrewer.rdx",
+        "path_type": "hardlink",
+        "sha256": "b5e705544946ebe626aa79cdff82b701726fd2d6fa9a90dcd7aa056cdf66fa15",
+        "sha256_in_prefix": "b5e705544946ebe626aa79cdff82b701726fd2d6fa9a90dcd7aa056cdf66fa15",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "6f7b2067b16f9d5033b10fd4f4dbee2c003080645b020dc209d74a6af2465696",
+        "sha256_in_prefix": "6f7b2067b16f9d5033b10fd4f4dbee2c003080645b020dc209d74a6af2465696",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "d7b6fc75c8bfae63d653fe975f5849f750f311ffeef26ce5cd8349b45559eec5",
+        "sha256_in_prefix": "d7b6fc75c8bfae63d653fe975f5849f750f311ffeef26ce5cd8349b45559eec5",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "bf42b303f93965dfa1f397413ce0b085af4d01d32abce0623e2ec4da33709594",
+        "sha256_in_prefix": "bf42b303f93965dfa1f397413ce0b085af4d01d32abce0623e2ec4da33709594",
+        "size_in_bytes": 1926
+      },
+      {
+        "_path": "lib/R/library/RColorBrewer/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "502959e79aca8c766dde0949d0977075d2dcd85ec8c9231f90b67e0ea169c5f0",
+  "size": 60330,
+  "subdir": "noarch",
+  "timestamp": 1588495508347,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-rcolorbrewer-1.1_2-r36h6115d3f_1003.tar.bz2",
+  "version": "1.1_2"
+}

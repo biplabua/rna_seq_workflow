@@ -1,0 +1,115 @@
+{
+  "build": "hb1e8313_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/jemalloc-5.2.1-hb1e8313_4",
+  "features": "",
+  "files": [
+    "bin/jemalloc-config",
+    "bin/jemalloc.sh",
+    "bin/jeprof",
+    "include/jemalloc/jemalloc.h",
+    "lib/libjemalloc.2.dylib",
+    "lib/libjemalloc.dylib",
+    "lib/pkgconfig/jemalloc.pc",
+    "share/doc/jemalloc/jemalloc.html",
+    "share/man/man3/jemalloc.3"
+  ],
+  "fn": "jemalloc-5.2.1-hb1e8313_4.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/jemalloc-5.2.1-hb1e8313_4",
+    "type": 1
+  },
+  "md5": "1c887db9222a855628e1c57cd78863d7",
+  "name": "jemalloc",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/jemalloc-5.2.1-hb1e8313_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/jemalloc-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/jemalloc_1595331940797/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "04a209d90247e7bd524e90ede20038ee26f297d9e2feee0b35e693b353f557f9",
+        "sha256_in_prefix": "1cc06a09eefb8d408e33416860b9a71a2d0267b08779a910da99206c5c0aa0fa",
+        "size_in_bytes": 9568
+      },
+      {
+        "_path": "bin/jemalloc.sh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/jemalloc_1595331940797/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "268687b4be19738ec1b661587de2f324b1ce23218490a2398cbf17a1c8b195d3",
+        "sha256_in_prefix": "707d4a106ab67c0e65b1f17962d2958684e3ec27b2c46849e68c0f2c88dcbc14",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "bin/jeprof",
+        "path_type": "hardlink",
+        "sha256": "dfb3e4f4eaf4c3ff7e2f02281329b31ffd810e39606560ba58af2c36825ff7d9",
+        "sha256_in_prefix": "dfb3e4f4eaf4c3ff7e2f02281329b31ffd810e39606560ba58af2c36825ff7d9",
+        "size_in_bytes": 179224
+      },
+      {
+        "_path": "include/jemalloc/jemalloc.h",
+        "path_type": "hardlink",
+        "sha256": "d79a10b834f8bcc295febeb447a2043f2dd9d343bd53b8a3e30f8b7a4ea442cd",
+        "sha256_in_prefix": "d79a10b834f8bcc295febeb447a2043f2dd9d343bd53b8a3e30f8b7a4ea442cd",
+        "size_in_bytes": 14541
+      },
+      {
+        "_path": "lib/libjemalloc.2.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/jemalloc_1595331940797/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "e121369d19b41fc178523e2369c80f5fca39e21fdf9ef3e7a565e972c14dc512",
+        "sha256_in_prefix": "b4710d9876ed3eece75dd45ecf8c700af61f7dfcbb9ad56af749fc1ecf6c6bc8",
+        "size_in_bytes": 532296
+      },
+      {
+        "_path": "lib/libjemalloc.dylib",
+        "path_type": "softlink",
+        "sha256": "e121369d19b41fc178523e2369c80f5fca39e21fdf9ef3e7a565e972c14dc512",
+        "size_in_bytes": 532296
+      },
+      {
+        "_path": "lib/pkgconfig/jemalloc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/jemalloc_1595331940797/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "fbc3eae2dba226155dc5e3552db0a20360cf26115e743e8077dfc326860c3a81",
+        "sha256_in_prefix": "bbfbf53c251e53ba46b141586fb545bbbb7bc0afe6c9308d5347d589f7f37bc6",
+        "size_in_bytes": 861
+      },
+      {
+        "_path": "share/doc/jemalloc/jemalloc.html",
+        "path_type": "hardlink",
+        "sha256": "7f13cb0b2a6018f744dacc47d1932ebefbcd5f52bb8d14853e1565c79cc7aea8",
+        "sha256_in_prefix": "7f13cb0b2a6018f744dacc47d1932ebefbcd5f52bb8d14853e1565c79cc7aea8",
+        "size_in_bytes": 169730
+      },
+      {
+        "_path": "share/man/man3/jemalloc.3",
+        "path_type": "hardlink",
+        "sha256": "a247fc433f5dd1eebe559d8fd200e7f07d39887930fab91d97aa13093d46742b",
+        "sha256_in_prefix": "a247fc433f5dd1eebe559d8fd200e7f07d39887930fab91d97aa13093d46742b",
+        "size_in_bytes": 88262
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "61c0e9a39124680e98f11da4b19a2c40ca15af4ef35d03062cd9c4eefcf8707f",
+  "size": 277784,
+  "subdir": "osx-64",
+  "timestamp": 1595332127345,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/jemalloc-5.2.1-hb1e8313_4.tar.bz2",
+  "version": "5.2.1"
+}

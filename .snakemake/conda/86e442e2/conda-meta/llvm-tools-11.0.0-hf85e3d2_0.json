@@ -1,0 +1,760 @@
+{
+  "build": "hf85e3d2_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "llvmdev   11.0.0",
+    "libclang 11.0.0.*",
+    "clang 11.0.0.*",
+    "clang-tools 11.0.0.*",
+    "llvm 11.0.0.*"
+  ],
+  "depends": [
+    "libllvm11 11.0.0 hf85e3d2_0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/llvm-tools-11.0.0-hf85e3d2_0",
+  "features": "",
+  "files": [
+    "bin/bugpoint",
+    "bin/dsymutil",
+    "bin/llc",
+    "bin/lli",
+    "bin/llvm-addr2line",
+    "bin/llvm-ar",
+    "bin/llvm-as",
+    "bin/llvm-bcanalyzer",
+    "bin/llvm-c-test",
+    "bin/llvm-cat",
+    "bin/llvm-cfi-verify",
+    "bin/llvm-cov",
+    "bin/llvm-cvtres",
+    "bin/llvm-cxxdump",
+    "bin/llvm-cxxfilt",
+    "bin/llvm-cxxmap",
+    "bin/llvm-diff",
+    "bin/llvm-dis",
+    "bin/llvm-dlltool",
+    "bin/llvm-dwarfdump",
+    "bin/llvm-dwp",
+    "bin/llvm-elfabi",
+    "bin/llvm-exegesis",
+    "bin/llvm-extract",
+    "bin/llvm-gsymutil",
+    "bin/llvm-ifs",
+    "bin/llvm-install-name-tool",
+    "bin/llvm-jitlink",
+    "bin/llvm-lib",
+    "bin/llvm-link",
+    "bin/llvm-lipo",
+    "bin/llvm-lto",
+    "bin/llvm-lto2",
+    "bin/llvm-mc",
+    "bin/llvm-mca",
+    "bin/llvm-ml",
+    "bin/llvm-modextract",
+    "bin/llvm-mt",
+    "bin/llvm-nm",
+    "bin/llvm-objcopy",
+    "bin/llvm-objdump",
+    "bin/llvm-opt-report",
+    "bin/llvm-pdbutil",
+    "bin/llvm-profdata",
+    "bin/llvm-ranlib",
+    "bin/llvm-rc",
+    "bin/llvm-readelf",
+    "bin/llvm-readobj",
+    "bin/llvm-reduce",
+    "bin/llvm-rtdyld",
+    "bin/llvm-size",
+    "bin/llvm-split",
+    "bin/llvm-stress",
+    "bin/llvm-strings",
+    "bin/llvm-strip",
+    "bin/llvm-symbolizer",
+    "bin/llvm-tblgen",
+    "bin/llvm-undname",
+    "bin/llvm-xray",
+    "bin/obj2yaml",
+    "bin/opt",
+    "bin/sancov",
+    "bin/sanstats",
+    "bin/verify-uselistorder",
+    "bin/yaml2obj",
+    "share/opt-viewer/__pycache__/opt-diff.cpython-39.pyc",
+    "share/opt-viewer/__pycache__/opt-stats.cpython-39.pyc",
+    "share/opt-viewer/__pycache__/opt-viewer.cpython-39.pyc",
+    "share/opt-viewer/__pycache__/optpmap.cpython-39.pyc",
+    "share/opt-viewer/__pycache__/optrecord.cpython-39.pyc",
+    "share/opt-viewer/opt-diff.py",
+    "share/opt-viewer/opt-stats.py",
+    "share/opt-viewer/opt-viewer.py",
+    "share/opt-viewer/optpmap.py",
+    "share/opt-viewer/optrecord.py",
+    "share/opt-viewer/style.css"
+  ],
+  "fn": "llvm-tools-11.0.0-hf85e3d2_0.tar.bz2",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/llvm-tools-11.0.0-hf85e3d2_0",
+    "type": 1
+  },
+  "md5": "7098969c6334691b9793abcf16f0533a",
+  "name": "llvm-tools",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/llvm-tools-11.0.0-hf85e3d2_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/bugpoint",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "226f27e0d7974ac0feaca798aac962ccb999c18367c2599a27ac3b493e0f3500",
+        "sha256_in_prefix": "2653205c4abcd679d18c427a7862d43dd57ac6d295c6617cf7b9062185b83d23",
+        "size_in_bytes": 487652
+      },
+      {
+        "_path": "bin/dsymutil",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c17cac627a15652241d9ac63ffd6b19824969c643bd9794c376e50a634607ea1",
+        "sha256_in_prefix": "e755625b32ed13f7cb9c0571b0072c5c988bd40a76e10c797e01d9d35f6ce860",
+        "size_in_bytes": 310540
+      },
+      {
+        "_path": "bin/llc",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "b06e2ea9720002d040c51873b51fc5ff3d282e29494a7a034ebfab06a28173e8",
+        "sha256_in_prefix": "b5b64a32eb17ad53280c3afc83166b8ce49e3ad05226693936e8a785dba72c4f",
+        "size_in_bytes": 140528
+      },
+      {
+        "_path": "bin/lli",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e6e975bbf7f7fc094cbaed742bf8e6ddb06cda77b4128cc2f3f0e038d529acd0",
+        "sha256_in_prefix": "a2a0b1ec6aadb7bc48a26cdb5fbd31dcc6bdd56d979189c52d1a4cfe0fe81c0b",
+        "size_in_bytes": 360108
+      },
+      {
+        "_path": "bin/llvm-addr2line",
+        "path_type": "softlink",
+        "sha256": "bca0657b54fc638b6ffe329683d5d08d6e293e03aec70ff2a658f86c83e76c8e",
+        "size_in_bytes": 102656
+      },
+      {
+        "_path": "bin/llvm-ar",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "21a9dde23dfcab08160f9d222c5805027d603f47a9ee0f83a569f92f29413042",
+        "sha256_in_prefix": "00be7df498a6b0799ab16f9011fd54b80a2e7d44143ab998e4869fc3bc37fcbe",
+        "size_in_bytes": 84024
+      },
+      {
+        "_path": "bin/llvm-as",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1b666feba3bf3fb828b2081584e0df790f5dcad32258a594342579195ec820cd",
+        "sha256_in_prefix": "b68b6766c0bc587e46fc15b00895827c792d4396301689bf485343e9caec49db",
+        "size_in_bytes": 45592
+      },
+      {
+        "_path": "bin/llvm-bcanalyzer",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "550a07e86a119393ca7dc6fb91c32f372d608b34bbb57df3921ac7c8e425c803",
+        "sha256_in_prefix": "34fd49adea2236fce8c45c47b83559bba53aa8b2e15e9c0e57160a956575a687",
+        "size_in_bytes": 37776
+      },
+      {
+        "_path": "bin/llvm-c-test",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "3575a15abd40b360acddb0e3d6154f4d5de714c2edc55e40305727cca41c1bc7",
+        "sha256_in_prefix": "2b4be2cbbf542ae91ed7c556435e4b0efefc63f8dca600c34508cd0101cb4410",
+        "size_in_bytes": 93668
+      },
+      {
+        "_path": "bin/llvm-cat",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "db4bc2d0cac86733e768c8fe8cf8129ed31dfb6d098aee27b73699b389fe64f3",
+        "sha256_in_prefix": "b953d9515b25b69d17ee45fbb3572d2202393ba98bd5a8329babcfedebc3960e",
+        "size_in_bytes": 50932
+      },
+      {
+        "_path": "bin/llvm-cfi-verify",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ed8b0eeaca09d98e9c69d9f18bd1c0ddba32acbf993bb80e599c2047c2c3c3c6",
+        "sha256_in_prefix": "fce6082ac4ccfded4a868152aa861fdc4f77dd252aee9c84cd4da414e595d3fc",
+        "size_in_bytes": 135084
+      },
+      {
+        "_path": "bin/llvm-cov",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "f405f45c83b0e77fa05709e5cf50dfe2be3839cdac35ef6ff3100eeff5cbd0b1",
+        "sha256_in_prefix": "b87e5d32eefc9ab57badbaba4f5f86591543fbe06a27421b3a5d243ca1faa50c",
+        "size_in_bytes": 361068
+      },
+      {
+        "_path": "bin/llvm-cvtres",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "fae05e19a105053628c091b77d7c1ad721f28a7655225a852a4980ca9449c6d9",
+        "sha256_in_prefix": "051df47c5fcfb5c4e86fbd4f46c809fd2d4221ed5560fde7da6be59b37e334d4",
+        "size_in_bytes": 33876
+      },
+      {
+        "_path": "bin/llvm-cxxdump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "32be2abd1fe154da9328c736d3a76cd3373e74ddcf75b89059a62173490a1056",
+        "sha256_in_prefix": "592f83ef8a84281271af4306f9158d7684086269c34a1ebbfd6b45dfe1e7842a",
+        "size_in_bytes": 75640
+      },
+      {
+        "_path": "bin/llvm-cxxfilt",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "83849612dcfe652766c84b97d8025faffa72fc1e2aee0f99f7cc85f6b77187fd",
+        "sha256_in_prefix": "e7c76bc21663024ebf1ac78973d125a2aef57098e32b9dec5e1418f3ee4eb859",
+        "size_in_bytes": 49564
+      },
+      {
+        "_path": "bin/llvm-cxxmap",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "939f7eec0c27869295831c689a68b0c4ff9229b544565ce33e47a09ed93e5a05",
+        "sha256_in_prefix": "22e18c730eaade32125495c978869060be0d3f5036480eb76c98fff562526a31",
+        "size_in_bytes": 47944
+      },
+      {
+        "_path": "bin/llvm-diff",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "3bd3ccfdd734060d73f57dcdd9d377174146adb03d6c1bf9dd757e2937a9b855",
+        "sha256_in_prefix": "e37acea1bb20cce45ae6b1d0572f33457dd0a9b91409d5fb51a061a87f806f45",
+        "size_in_bytes": 74904
+      },
+      {
+        "_path": "bin/llvm-dis",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "21551964fc4180aef8ad351499608f80df93521ea44e9dbbf218e826eab01b2f",
+        "sha256_in_prefix": "b04b6c618519b29f5db366c932828a873b497326928f6668d9bf859e514d746c",
+        "size_in_bytes": 49276
+      },
+      {
+        "_path": "bin/llvm-dlltool",
+        "path_type": "softlink",
+        "sha256": "21a9dde23dfcab08160f9d222c5805027d603f47a9ee0f83a569f92f29413042",
+        "size_in_bytes": 84024
+      },
+      {
+        "_path": "bin/llvm-dwarfdump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "0a5ad60d3487fdcedd466f3aaf77b500feedf53ee0eecc88108d74d715286a4f",
+        "sha256_in_prefix": "1aef7a07a857281918787b1a6a289f6607e171f0c35235e2af940057f36e7de5",
+        "size_in_bytes": 198812
+      },
+      {
+        "_path": "bin/llvm-dwp",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "8805479b4cd6a8ac1b587f4b6a495dfc1add2ea4de40cc14aa855ee9fc51851b",
+        "sha256_in_prefix": "4e3747dbaae5e7eafd3f5798aee35ab3c195e5448fc60cb57d1505a288dc0988",
+        "size_in_bytes": 103808
+      },
+      {
+        "_path": "bin/llvm-elfabi",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "827ae833f2ef24f30b5d09dcaf8376a54133e90c83703995b8654ac8bcfbb505",
+        "sha256_in_prefix": "3432289882fb6095c214bd743552b2ad79064add9f1cc1ec454a391ea40de479",
+        "size_in_bytes": 76868
+      },
+      {
+        "_path": "bin/llvm-exegesis",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "35d1c1da6a8320074b047114cc11dc80f8ee14d08cb14c3279965c2601f1c11f",
+        "sha256_in_prefix": "599e94503e97c0411f98544b8be491c72f41fae29a24a7af7e7ed470612d5153",
+        "size_in_bytes": 24244080
+      },
+      {
+        "_path": "bin/llvm-extract",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1704e36eb1661dc9356504439a6c2e87144a90a7cd7a5ca751549750c10751d5",
+        "sha256_in_prefix": "5a385b0df06efd882026650c1580ea64e9779f6eb14fd6b5702a7fc74caecd38",
+        "size_in_bytes": 72004
+      },
+      {
+        "_path": "bin/llvm-gsymutil",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e5fa73acc7cc68bd96bc851089c6446cfd1ed229120e5dbb2d56d6e8c7e9bb30",
+        "sha256_in_prefix": "979e6aa3844f385086e44316536bd6ef0c48317f2c210a41aaf8ef8964125e70",
+        "size_in_bytes": 98300
+      },
+      {
+        "_path": "bin/llvm-ifs",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ccd22f9432c76b5f1e9e1f990dc5491d84120d1abb1111ce4d79fc664f60990c",
+        "sha256_in_prefix": "66a90e44720f1fd7c472a4bb5ec9624e9e430054f8c4230762ebd21903822ce8",
+        "size_in_bytes": 73424
+      },
+      {
+        "_path": "bin/llvm-install-name-tool",
+        "path_type": "softlink",
+        "sha256": "9f4246043476cb909205d5fd8f5fbe6c5ce43c0eb157c665033dc433111ac604",
+        "size_in_bytes": 798300
+      },
+      {
+        "_path": "bin/llvm-jitlink",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "97f154a6ef3d51672f80b05b5251f4d2080bd740f1907248d9f7c148c914d223",
+        "sha256_in_prefix": "3f2b88e3ffa5c3e49b6f08ff7c45ce2d764a0f11f4fc4311f81658298b963719",
+        "size_in_bytes": 185920
+      },
+      {
+        "_path": "bin/llvm-lib",
+        "path_type": "softlink",
+        "sha256": "21a9dde23dfcab08160f9d222c5805027d603f47a9ee0f83a569f92f29413042",
+        "size_in_bytes": 84024
+      },
+      {
+        "_path": "bin/llvm-link",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "02a4c65b235b795063b37ee0c622208c92509b7d1e68000e6c47dff44d12d0cf",
+        "sha256_in_prefix": "8e6550fe39260c41749c2032718bbb9e682b8de2fb9f63dfbcdf504459e51d1a",
+        "size_in_bytes": 98576
+      },
+      {
+        "_path": "bin/llvm-lipo",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "d6cc636d6721323b88eb0dbe46803c8e5ddef40bb7f2c635cc852f0611cdd0db",
+        "sha256_in_prefix": "08409a1af01ce65625512b1b065c1f4c2ea4364d659d8fa297ceb19b2b56bb7a",
+        "size_in_bytes": 74264
+      },
+      {
+        "_path": "bin/llvm-lto",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "179b09a56fc0b7e1757e0497488fe845bd58d6c93502245b735ed614c88edecd",
+        "sha256_in_prefix": "b58e6d09a4077e4311bd46aece57e4d0d492089f165643f481b32ac992e0c493",
+        "size_in_bytes": 173108
+      },
+      {
+        "_path": "bin/llvm-lto2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c009c5297f93475d8deb6cec987427875aaaec75c28f5bedb4716197b25544b9",
+        "sha256_in_prefix": "d01d40dd7265377aa3b57a7d0ede72a9f4675f3d9171493cbb430f98f7b9d606",
+        "size_in_bytes": 117880
+      },
+      {
+        "_path": "bin/llvm-mc",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "27b6a3c389d0fa3cc4cfd251d473a3456305f927253116cfd3461b1ae5d3d07b",
+        "sha256_in_prefix": "479962cf18162be1b72befcebada067e98ce44ef3ea675564bd857422188d36e",
+        "size_in_bytes": 133500
+      },
+      {
+        "_path": "bin/llvm-mca",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e60e3a974bdb485baf66ac6d812fe845d70dac316a17cba6d994cdd679f52e8e",
+        "sha256_in_prefix": "748c30ae8431bf0744276c683febf2a9bbea14eca5d5c26064c8c97df6a390b5",
+        "size_in_bytes": 207472
+      },
+      {
+        "_path": "bin/llvm-ml",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "deef4b2b6b79b03647366b2d5b1448e4f115b9639898c079626949e741fc008c",
+        "sha256_in_prefix": "5d43e83e424b6d656bc3487c716be44e80cc1840ce64f63b4c8674ffd7e838de",
+        "size_in_bytes": 118648
+      },
+      {
+        "_path": "bin/llvm-modextract",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "06e6bd8acc274bb328b9483f777aada2040968148ea4042bad3dc1d3f5a77890",
+        "sha256_in_prefix": "0bd8067c1761fd839c57532cda683102fbe0c2e9de7940e647d535cd48bd3ce5",
+        "size_in_bytes": 42032
+      },
+      {
+        "_path": "bin/llvm-mt",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9e6b86ff573b40a7144b0bf2957e1caf32ee7d1c738ced2cb1cd6cc87e613d54",
+        "sha256_in_prefix": "34ec3ecf77d117ddd65a869930dae7e8b0bc8b636222f4451245e9546a954be6",
+        "size_in_bytes": 27916
+      },
+      {
+        "_path": "bin/llvm-nm",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "51fbf1a94be83f2e6290510c1d5a0ce9b179cd934605f5700e9475a4bbcdedf4",
+        "sha256_in_prefix": "6d92070d7ce98946d6399db9e132f1dcb70df7b73bc04b8a9493de6e5f0c4d1b",
+        "size_in_bytes": 180308
+      },
+      {
+        "_path": "bin/llvm-objcopy",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9f4246043476cb909205d5fd8f5fbe6c5ce43c0eb157c665033dc433111ac604",
+        "sha256_in_prefix": "0a62052620cb890ca4d6baf4e92c130c345d1ab41ec1144be678d4cbfc4112d4",
+        "size_in_bytes": 798300
+      },
+      {
+        "_path": "bin/llvm-objdump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c8725a23e3beaee031aba7ecf308c827cb6dbbcca40335815fdccb930cbd5497",
+        "sha256_in_prefix": "b1aa9dbe39764eb4dc1b5e27cd6d3118549659252aacc2ab4aa3de450b982a65",
+        "size_in_bytes": 808972
+      },
+      {
+        "_path": "bin/llvm-opt-report",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "4e3396858850ce82f2eec108d66c6b56a77447eb4b7d180780f1c00db2a26dab",
+        "sha256_in_prefix": "7ebfa79c399ac0cb7a8534911caea1de0d4266196859f502d8615c5b0564e419",
+        "size_in_bytes": 66960
+      },
+      {
+        "_path": "bin/llvm-pdbutil",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "68d0145258e89c89a9b47fd5b9fb26f7acd92293640c3fdc2b10589476601837",
+        "sha256_in_prefix": "c65b132518e804357915904391c1e68f3bb59edc443781e06ffac046f2a5f804",
+        "size_in_bytes": 1074736
+      },
+      {
+        "_path": "bin/llvm-profdata",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "72f1b54a2c04febdf7889c65ed068c188a28cf100b336910c2d0e98b3ab0e185",
+        "sha256_in_prefix": "67e6b873aea76ec0b91d83a78482efea71dd5f2daf9ee1929fffe1d617566050",
+        "size_in_bytes": 233708
+      },
+      {
+        "_path": "bin/llvm-ranlib",
+        "path_type": "softlink",
+        "sha256": "21a9dde23dfcab08160f9d222c5805027d603f47a9ee0f83a569f92f29413042",
+        "size_in_bytes": 84024
+      },
+      {
+        "_path": "bin/llvm-rc",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "576e0ff128ffba8633c6d230ba56ebe186494b92d6488a295a8d8d6ceff37c96",
+        "sha256_in_prefix": "6c2a2aa27f706d7f63242faa0116ba6d9d8291813b172f71cbe2b691f49484df",
+        "size_in_bytes": 181516
+      },
+      {
+        "_path": "bin/llvm-readelf",
+        "path_type": "softlink",
+        "sha256": "763d88c33d79cb4dbddd8986f5e506c7714f9400a13212d5c1d3b34fe283e027",
+        "size_in_bytes": 1701464
+      },
+      {
+        "_path": "bin/llvm-readobj",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "763d88c33d79cb4dbddd8986f5e506c7714f9400a13212d5c1d3b34fe283e027",
+        "sha256_in_prefix": "d0db4f52e67fd191d09094958a222a78491a1d04ffd2825714debfe59c3b97c6",
+        "size_in_bytes": 1701464
+      },
+      {
+        "_path": "bin/llvm-reduce",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "b13b302acb8c9d69165a4e60a2212b507b5d77b5c5b42977dbd745f0c58ca727",
+        "sha256_in_prefix": "dd0f7f0f0440325a3d5fba6ea9e3e5838f40c277eb96493e66fb509ede9b563f",
+        "size_in_bytes": 159132
+      },
+      {
+        "_path": "bin/llvm-rtdyld",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "3a20120b2730dfbd5ada8a690cdb1efa9e069c715d961db2de5824774da3bfbc",
+        "sha256_in_prefix": "1dab859df193c2e492fc7f7e8c3b07c221df6a8231934fe91ad381add758a2e0",
+        "size_in_bytes": 154892
+      },
+      {
+        "_path": "bin/llvm-size",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ed32f53e0432ee17ffc0e4b1cb50f194f39365cca8dbb3bfb3146b64c5a2b5a3",
+        "sha256_in_prefix": "e2425d1c1964cf8001e97599ac2b892d9c8a2de768f55ffd159681e04adfe3b0",
+        "size_in_bytes": 115204
+      },
+      {
+        "_path": "bin/llvm-split",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9c12b3f2f2cef532d9ad66b102a8c5cdf9bf1475e0598cd9d19aa257008b3c78",
+        "sha256_in_prefix": "7d27092298bee240e02f0ab0afcf7514753f6c30c86cc4417f334235e387d467",
+        "size_in_bytes": 35304
+      },
+      {
+        "_path": "bin/llvm-stress",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "8cfeb826b183aeb9d43d2c9b9eda3e85df4a10e3e1b0b59181b9a1c8dada0adc",
+        "sha256_in_prefix": "7d4b172d62500a7242556604b9acfca3373c8add6777218b62c772671fcd12ea",
+        "size_in_bytes": 83316
+      },
+      {
+        "_path": "bin/llvm-strings",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a8b56c163d0e3c09ffea56a2cdd4f90239afbe15b4b1258285542d6e9f48d44c",
+        "sha256_in_prefix": "91ca42b1bec64671fd848e3a32937258aa8e97fd8072dbbdd67dffa650f786f4",
+        "size_in_bytes": 52500
+      },
+      {
+        "_path": "bin/llvm-strip",
+        "path_type": "softlink",
+        "sha256": "9f4246043476cb909205d5fd8f5fbe6c5ce43c0eb157c665033dc433111ac604",
+        "size_in_bytes": 798300
+      },
+      {
+        "_path": "bin/llvm-symbolizer",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "bca0657b54fc638b6ffe329683d5d08d6e293e03aec70ff2a658f86c83e76c8e",
+        "sha256_in_prefix": "daa54d5fd89637167f04080b09b08a1ca69ba4783c9be7a8dc5d6d635519400b",
+        "size_in_bytes": 102656
+      },
+      {
+        "_path": "bin/llvm-tblgen",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "f9a15441f1691d8fd3e88b43ca22e1fd6ab43f0a671fca133619a09a2bc95fed",
+        "sha256_in_prefix": "4597f115eb53b6806d2cd244d8d7addf86633ad0c6ca3c7ff4fee087d13c2aa7",
+        "size_in_bytes": 3807916
+      },
+      {
+        "_path": "bin/llvm-undname",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1439aeba06085516d6a16bdc803c4e16efc7347e0dba7959bbdea81601318397",
+        "sha256_in_prefix": "ae3b3fdb113b3d0be44e0cffb590bf893c7c30710f274d6df2ca4a657f1f25e2",
+        "size_in_bytes": 46760
+      },
+      {
+        "_path": "bin/llvm-xray",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "2c46dc4e9edd2021d753eb1aa3889d8a42461ed5ebe3f8c196e4d85d912a0231",
+        "sha256_in_prefix": "9c95726c047c1429ddd324ca4056ef2340af0039e2e2e4e91636a23e945a6dd9",
+        "size_in_bytes": 518032
+      },
+      {
+        "_path": "bin/obj2yaml",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1fe4a6de527db56f9704d6ceb8e5ffbacc83fcaac4be13093bda98bdd67166e1",
+        "sha256_in_prefix": "f1b3dc89cca4aa83358f1caf087384366834d186bcba04da471f684b5b970288",
+        "size_in_bytes": 769120
+      },
+      {
+        "_path": "bin/opt",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ff7f33e42562eb205467e1a671e9c272a131b21ab88e07368ba548e165f70e3b",
+        "sha256_in_prefix": "8ec27b3900ccaa9762e0ac440533ec47dd220e38c527c2677ffe5a88c23c5e9b",
+        "size_in_bytes": 358084
+      },
+      {
+        "_path": "bin/sancov",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "0379d74e5dd61db051eecc7a821873c4f272834bc4c9b44e80a531ce5d59a0a6",
+        "sha256_in_prefix": "30518dd4262f790f42981fc60bf67565e0433d4547d943789bd58a8a59cfba43",
+        "size_in_bytes": 136528
+      },
+      {
+        "_path": "bin/sanstats",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "4303302687a00558043aeeaa417a1becad5eda93fc09353a282d99014ebe36e4",
+        "sha256_in_prefix": "545d0efc4af81d2d09c3fc467dc1e4d72c4069b68f27dd4328267f51bbcbd736",
+        "size_in_bytes": 36000
+      },
+      {
+        "_path": "bin/verify-uselistorder",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "94310e97aad66983c6213cc6dee63e1b414f4a03436bf085c021d46fe1fbc744",
+        "sha256_in_prefix": "57e8d03418cbb512e9a16d77b1023ec8bddb06360fb59243971a560ab4ceec6b",
+        "size_in_bytes": 60652
+      },
+      {
+        "_path": "bin/yaml2obj",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/llvm-package_1602640959788/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "f4b01268338a0078777a255fefc8c590b310d4daf36eecf19409bd05705a6d4d",
+        "sha256_in_prefix": "8cbb4c8276f72ab694e95f97ce5728f264372f0df0052ca8e0840447857c36e6",
+        "size_in_bytes": 54052
+      },
+      {
+        "_path": "share/opt-viewer/__pycache__/opt-diff.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6e144e9fd19692229b322486c0233800d894547039b4d58f6903307fb6c7e40",
+        "sha256_in_prefix": "e6e144e9fd19692229b322486c0233800d894547039b4d58f6903307fb6c7e40",
+        "size_in_bytes": 2211
+      },
+      {
+        "_path": "share/opt-viewer/__pycache__/opt-stats.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac9fd4eeacc1d8b6e62ba11190f2c274c7d9785952aceba5f885d099931bc44f",
+        "sha256_in_prefix": "ac9fd4eeacc1d8b6e62ba11190f2c274c7d9785952aceba5f885d099931bc44f",
+        "size_in_bytes": 2213
+      },
+      {
+        "_path": "share/opt-viewer/__pycache__/opt-viewer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9b9f645eed7e6abad7827270ac48543881b24c1f6cb5d2f554c96a809b22624",
+        "sha256_in_prefix": "d9b9f645eed7e6abad7827270ac48543881b24c1f6cb5d2f554c96a809b22624",
+        "size_in_bytes": 10562
+      },
+      {
+        "_path": "share/opt-viewer/__pycache__/optpmap.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dfa9d7ce1319a1a438b81abb055e68ba1bc6508977affe975ddee80e75d442c6",
+        "sha256_in_prefix": "dfa9d7ce1319a1a438b81abb055e68ba1bc6508977affe975ddee80e75d442c6",
+        "size_in_bytes": 1747
+      },
+      {
+        "_path": "share/opt-viewer/__pycache__/optrecord.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "981839d414af48615f2b3a81023c61de0c8d45e4ab5da3b54225af9615558752",
+        "sha256_in_prefix": "981839d414af48615f2b3a81023c61de0c8d45e4ab5da3b54225af9615558752",
+        "size_in_bytes": 10374
+      },
+      {
+        "_path": "share/opt-viewer/opt-diff.py",
+        "path_type": "hardlink",
+        "sha256": "ea78f43cf73e983a4af495f6b06aba8e89d7c7c3142c3235cfacb3e295735697",
+        "sha256_in_prefix": "ea78f43cf73e983a4af495f6b06aba8e89d7c7c3142c3235cfacb3e295735697",
+        "size_in_bytes": 2570
+      },
+      {
+        "_path": "share/opt-viewer/opt-stats.py",
+        "path_type": "hardlink",
+        "sha256": "fafc5ad75e9e57695d698cc401e29abfd5b298147a3527c8cf21dde0fb6d0478",
+        "sha256_in_prefix": "fafc5ad75e9e57695d698cc401e29abfd5b298147a3527c8cf21dde0fb6d0478",
+        "size_in_bytes": 2529
+      },
+      {
+        "_path": "share/opt-viewer/opt-viewer.py",
+        "path_type": "hardlink",
+        "sha256": "f6d8147b716fb043c8250886a5071eabbcc86db1be5c9ce6b944525f068627d1",
+        "sha256_in_prefix": "f6d8147b716fb043c8250886a5071eabbcc86db1be5c9ce6b944525f068627d1",
+        "size_in_bytes": 12986
+      },
+      {
+        "_path": "share/opt-viewer/optpmap.py",
+        "path_type": "hardlink",
+        "sha256": "6e59db13286ffb2d30c3042892be58dc02cf8c3c5df4d472ea29b31a62efbbf8",
+        "sha256_in_prefix": "6e59db13286ffb2d30c3042892be58dc02cf8c3c5df4d472ea29b31a62efbbf8",
+        "size_in_bytes": 1743
+      },
+      {
+        "_path": "share/opt-viewer/optrecord.py",
+        "path_type": "hardlink",
+        "sha256": "aedb98a30c3073714cee32c3bf982d0d776d203ce77b9c407912c9e262b7c2b7",
+        "sha256_in_prefix": "aedb98a30c3073714cee32c3bf982d0d776d203ce77b9c407912c9e262b7c2b7",
+        "size_in_bytes": 10277
+      },
+      {
+        "_path": "share/opt-viewer/style.css",
+        "path_type": "hardlink",
+        "sha256": "e342f6eba63176ed9e25b0a619811517c8b99562276eff2bcc71f9e59cd0c598",
+        "sha256_in_prefix": "e342f6eba63176ed9e25b0a619811517c8b99562276eff2bcc71f9e59cd0c598",
+        "size_in_bytes": 6386
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "784d14047a528fafefc64c66b9cbd88db28f4711cabe63646d983f76b14fe0f1",
+  "size": 12288066,
+  "subdir": "osx-64",
+  "timestamp": 1602651019283,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/llvm-tools-11.0.0-hf85e3d2_0.tar.bz2",
+  "version": "11.0.0"
+}

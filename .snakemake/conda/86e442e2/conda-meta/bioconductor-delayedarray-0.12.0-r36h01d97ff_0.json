@@ -1,0 +1,363 @@
+{
+  "build": "r36h01d97ff_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+    "bioconductor-iranges >=2.20.0,<2.21.0",
+    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-matrix",
+    "r-matrixstats"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-delayedarray-0.12.0-r36h01d97ff_0",
+  "features": "",
+  "files": [
+    "lib/R/library/DelayedArray/DESCRIPTION",
+    "lib/R/library/DelayedArray/INDEX",
+    "lib/R/library/DelayedArray/Meta/Rd.rds",
+    "lib/R/library/DelayedArray/Meta/features.rds",
+    "lib/R/library/DelayedArray/Meta/hsearch.rds",
+    "lib/R/library/DelayedArray/Meta/links.rds",
+    "lib/R/library/DelayedArray/Meta/nsInfo.rds",
+    "lib/R/library/DelayedArray/Meta/package.rds",
+    "lib/R/library/DelayedArray/Meta/vignette.rds",
+    "lib/R/library/DelayedArray/NAMESPACE",
+    "lib/R/library/DelayedArray/NEWS",
+    "lib/R/library/DelayedArray/R/DelayedArray",
+    "lib/R/library/DelayedArray/R/DelayedArray.rdb",
+    "lib/R/library/DelayedArray/R/DelayedArray.rdx",
+    "lib/R/library/DelayedArray/doc/01-Working_with_large_arrays.R",
+    "lib/R/library/DelayedArray/doc/01-Working_with_large_arrays.Rnw",
+    "lib/R/library/DelayedArray/doc/01-Working_with_large_arrays.pdf",
+    "lib/R/library/DelayedArray/doc/02-Implementing_a_backend.Rmd",
+    "lib/R/library/DelayedArray/doc/02-Implementing_a_backend.html",
+    "lib/R/library/DelayedArray/doc/index.html",
+    "lib/R/library/DelayedArray/help/AnIndex",
+    "lib/R/library/DelayedArray/help/DelayedArray.rdb",
+    "lib/R/library/DelayedArray/help/DelayedArray.rdx",
+    "lib/R/library/DelayedArray/help/aliases.rds",
+    "lib/R/library/DelayedArray/help/paths.rds",
+    "lib/R/library/DelayedArray/html/00Index.html",
+    "lib/R/library/DelayedArray/html/R.css",
+    "lib/R/library/DelayedArray/libs/DelayedArray.dylib",
+    "lib/R/library/DelayedArray/unitTests/test_DelayedArray-class.R",
+    "lib/R/library/DelayedArray/unitTests/test_DelayedArray-utils.R",
+    "lib/R/library/DelayedArray/unitTests/test_DelayedMatrix-stats.R",
+    "lib/R/library/DelayedArray/unitTests/test_DelayedMatrix-utils.R",
+    "lib/R/library/DelayedArray/unitTests/test_DelayedOp-class.R",
+    "lib/R/library/DelayedArray/unitTests/test_RleArray-class.R",
+    "lib/R/library/DelayedArray/unitTests/test_SparseArraySeed-class.R",
+    "lib/R/library/DelayedArray/unitTests/test_aperm2.R",
+    "lib/R/library/DelayedArray/unitTests/test_bind-arrays.R",
+    "lib/R/library/DelayedArray/unitTests/test_block_processing.R",
+    "lib/R/library/DelayedArray/unitTests/test_cbind-methods.R",
+    "lib/R/library/DelayedArray/unitTests/test_makeCappedVolumeBox.R"
+  ],
+  "fn": "bioconductor-delayedarray-0.12.0-r36h01d97ff_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-delayedarray-0.12.0-r36h01d97ff_0",
+    "type": 1
+  },
+  "md5": "09ae181a8f3771ead2833333be37a77a",
+  "name": "bioconductor-delayedarray",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-delayedarray-0.12.0-r36h01d97ff_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/DelayedArray/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "f4960d8445fd741ecf47fb33c355bc42fa1023d6cffc9a3c252138e19c83349e",
+        "sha256_in_prefix": "f4960d8445fd741ecf47fb33c355bc42fa1023d6cffc9a3c252138e19c83349e",
+        "size_in_bytes": 2234
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/INDEX",
+        "path_type": "hardlink",
+        "sha256": "009c332de5079aeb8076558d1ca3ab68c511ed51d5d98ea9d0bb032130f2f042",
+        "sha256_in_prefix": "009c332de5079aeb8076558d1ca3ab68c511ed51d5d98ea9d0bb032130f2f042",
+        "size_in_bytes": 1239
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "16615e07b611d1ff29d5f4bf4ea92bc83175deeb4dc8265e783f625c6b1c0085",
+        "sha256_in_prefix": "16615e07b611d1ff29d5f4bf4ea92bc83175deeb4dc8265e783f625c6b1c0085",
+        "size_in_bytes": 3767
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "sha256_in_prefix": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "ba8f8166e5ce135f8fc748db2567e3c3595bbe1e119516f4a0388ce8e97081a8",
+        "sha256_in_prefix": "ba8f8166e5ce135f8fc748db2567e3c3595bbe1e119516f4a0388ce8e97081a8",
+        "size_in_bytes": 4036
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "19be5d5fe8099186b1b07af1c8361c60973d9ee56433d9480595871c7d157e04",
+        "sha256_in_prefix": "19be5d5fe8099186b1b07af1c8361c60973d9ee56433d9480595871c7d157e04",
+        "size_in_bytes": 3392
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "e1e90ecf981ac744a924e5ebeb6dc711eeca4d65a80f7daaf4b99733149a49f9",
+        "sha256_in_prefix": "e1e90ecf981ac744a924e5ebeb6dc711eeca4d65a80f7daaf4b99733149a49f9",
+        "size_in_bytes": 1851
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "b1744e3ff4cce06a84dece594698e04ad26f758730eff220e2e97d87bdfe751c",
+        "sha256_in_prefix": "b1744e3ff4cce06a84dece594698e04ad26f758730eff220e2e97d87bdfe751c",
+        "size_in_bytes": 1747
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "ed24d8dd41f00c35950fed1cafc3061152d77bb21442c9b34575fdbc2c65b810",
+        "sha256_in_prefix": "ed24d8dd41f00c35950fed1cafc3061152d77bb21442c9b34575fdbc2c65b810",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "ab10161bf74e1e2a80e411d6177ee2d7149ceee81726285d019097471cee2104",
+        "sha256_in_prefix": "ab10161bf74e1e2a80e411d6177ee2d7149ceee81726285d019097471cee2104",
+        "size_in_bytes": 8018
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/NEWS",
+        "path_type": "hardlink",
+        "sha256": "a0cae584c793eb01ee9e23db3ce81ebe69d8f55e89bb988c922aa84e8832d07f",
+        "sha256_in_prefix": "a0cae584c793eb01ee9e23db3ce81ebe69d8f55e89bb988c922aa84e8832d07f",
+        "size_in_bytes": 7829
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/R/DelayedArray",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/R/DelayedArray.rdb",
+        "path_type": "hardlink",
+        "sha256": "5041681ea8fd3b9003ae03e16da3f3ee416033cdc530c6ac7760c03c52a94a32",
+        "sha256_in_prefix": "5041681ea8fd3b9003ae03e16da3f3ee416033cdc530c6ac7760c03c52a94a32",
+        "size_in_bytes": 2073735
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/R/DelayedArray.rdx",
+        "path_type": "hardlink",
+        "sha256": "76298228525371c8196dcfa87fb4295d7787d2371ef45499fa3974db7e731a6c",
+        "sha256_in_prefix": "76298228525371c8196dcfa87fb4295d7787d2371ef45499fa3974db7e731a6c",
+        "size_in_bytes": 14054
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/doc/01-Working_with_large_arrays.R",
+        "path_type": "hardlink",
+        "sha256": "e26879f28e0037720a99c78931345fcf4cf456c9e237b847d4b3350389a6f278",
+        "sha256_in_prefix": "e26879f28e0037720a99c78931345fcf4cf456c9e237b847d4b3350389a6f278",
+        "size_in_bytes": 3303
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/doc/01-Working_with_large_arrays.Rnw",
+        "path_type": "hardlink",
+        "sha256": "68ccf3d1336c82e047d1240a90d7f055bb62b2e2103ce441d91f71ce6c919380",
+        "sha256_in_prefix": "68ccf3d1336c82e047d1240a90d7f055bb62b2e2103ce441d91f71ce6c919380",
+        "size_in_bytes": 18782
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/doc/01-Working_with_large_arrays.pdf",
+        "path_type": "hardlink",
+        "sha256": "38e263c033245a40a9b9a5d5e34a231d0f517d0a2aa979f74c2012ccd4e64635",
+        "sha256_in_prefix": "38e263c033245a40a9b9a5d5e34a231d0f517d0a2aa979f74c2012ccd4e64635",
+        "size_in_bytes": 182712
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/doc/02-Implementing_a_backend.Rmd",
+        "path_type": "hardlink",
+        "sha256": "1b39f3f4987781c90cdbfa4142f4f9b0c9475f97c39c040d99af7e27a9602b7e",
+        "sha256_in_prefix": "1b39f3f4987781c90cdbfa4142f4f9b0c9475f97c39c040d99af7e27a9602b7e",
+        "size_in_bytes": 14159
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/doc/02-Implementing_a_backend.html",
+        "path_type": "hardlink",
+        "sha256": "5b0337eb17d3094aa4bc5710bbf26339c22fe5ac66a74ccd6f7f861a832b9977",
+        "sha256_in_prefix": "5b0337eb17d3094aa4bc5710bbf26339c22fe5ac66a74ccd6f7f861a832b9977",
+        "size_in_bytes": 654354
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "9c8290a2109a995310f1d74f2dc0beba0b195a6d5c409da38ca2e696eb406788",
+        "sha256_in_prefix": "9c8290a2109a995310f1d74f2dc0beba0b195a6d5c409da38ca2e696eb406788",
+        "size_in_bytes": 1991
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "e18891f223ed75793fde45ddfd7ef983beac5925c58580e284e7a4a2fa6e59b6",
+        "sha256_in_prefix": "e18891f223ed75793fde45ddfd7ef983beac5925c58580e284e7a4a2fa6e59b6",
+        "size_in_bytes": 20109
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/help/DelayedArray.rdb",
+        "path_type": "hardlink",
+        "sha256": "fc1960b7a338731e329ae9be87b48140a970062696229ff1dcfc923c6c1b06ec",
+        "sha256_in_prefix": "fc1960b7a338731e329ae9be87b48140a970062696229ff1dcfc923c6c1b06ec",
+        "size_in_bytes": 130461
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/help/DelayedArray.rdx",
+        "path_type": "hardlink",
+        "sha256": "17173ec715b8c0fe134c13d6f577408251dd0ee4f87f5562d457bf9ab7fad2bf",
+        "sha256_in_prefix": "17173ec715b8c0fe134c13d6f577408251dd0ee4f87f5562d457bf9ab7fad2bf",
+        "size_in_bytes": 725
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "1b89a138910d0d561c776adfb5002b5bf740682ffb0775ac99573e521aaf3a47",
+        "sha256_in_prefix": "1b89a138910d0d561c776adfb5002b5bf740682ffb0775ac99573e521aaf3a47",
+        "size_in_bytes": 3651
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "3e5f4e55452c479538fdfdfb1a2fdecdcb3bca681d8c5cc8ce1dec58613db71e",
+        "sha256_in_prefix": "3e5f4e55452c479538fdfdfb1a2fdecdcb3bca681d8c5cc8ce1dec58613db71e",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "d9cc781a8bd06b04d68a3eb8133629013b3b8130756471e21d5de1076bec3a32",
+        "sha256_in_prefix": "d9cc781a8bd06b04d68a3eb8133629013b3b8130756471e21d5de1076bec3a32",
+        "size_in_bytes": 48044
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/libs/DelayedArray.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/bioconductor-delayedarray_1572604617538/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "dce9e667f521511760c0f7035955ffd366d936644de93a43359f0cc494c4d1d5",
+        "sha256_in_prefix": "b7f0f109fb0828c35c7df6ac98d7d6292b03dcd2b25944a00f297b557e445407",
+        "size_in_bytes": 36960
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_DelayedArray-class.R",
+        "path_type": "hardlink",
+        "sha256": "a6f40b19ccc64731225b78242f5ed6a547cdab60a2372ad95b83dff925ca6014",
+        "sha256_in_prefix": "a6f40b19ccc64731225b78242f5ed6a547cdab60a2372ad95b83dff925ca6014",
+        "size_in_bytes": 9501
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_DelayedArray-utils.R",
+        "path_type": "hardlink",
+        "sha256": "89a0094b7564d9331d09101b90d01714d01bf7055bbae16007f3b2cc0d83c09f",
+        "sha256_in_prefix": "89a0094b7564d9331d09101b90d01714d01bf7055bbae16007f3b2cc0d83c09f",
+        "size_in_bytes": 10134
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_DelayedMatrix-stats.R",
+        "path_type": "hardlink",
+        "sha256": "b0ac635e8fcadee35a14773be58c66ad687432a25e5ef697e7635492cae3739c",
+        "sha256_in_prefix": "b0ac635e8fcadee35a14773be58c66ad687432a25e5ef697e7635492cae3739c",
+        "size_in_bytes": 2115
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_DelayedMatrix-utils.R",
+        "path_type": "hardlink",
+        "sha256": "8571848399f295e7cc7676d290506c92f11086d01d6221c41938745dfc454f6c",
+        "sha256_in_prefix": "8571848399f295e7cc7676d290506c92f11086d01d6221c41938745dfc454f6c",
+        "size_in_bytes": 4026
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_DelayedOp-class.R",
+        "path_type": "hardlink",
+        "sha256": "448ca52be7999d4d1ad4995880646a8b1e1b6823c094df01486a43378e44f8eb",
+        "sha256_in_prefix": "448ca52be7999d4d1ad4995880646a8b1e1b6823c094df01486a43378e44f8eb",
+        "size_in_bytes": 32296
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_RleArray-class.R",
+        "path_type": "hardlink",
+        "sha256": "95b6c1ae929efe9ebd3a59fd87d827ff6a05cbd06d640d13f4c96d4c35582e2a",
+        "sha256_in_prefix": "95b6c1ae929efe9ebd3a59fd87d827ff6a05cbd06d640d13f4c96d4c35582e2a",
+        "size_in_bytes": 1969
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_SparseArraySeed-class.R",
+        "path_type": "hardlink",
+        "sha256": "9b6150bfccecb03047803c68e385061935b98fcbde1abbc766edcaf87b95c7ce",
+        "sha256_in_prefix": "9b6150bfccecb03047803c68e385061935b98fcbde1abbc766edcaf87b95c7ce",
+        "size_in_bytes": 717
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_aperm2.R",
+        "path_type": "hardlink",
+        "sha256": "1a7d5f44b7517f737cd5054e4a72398abd03db5d4d06d63fcb30bcc182055eff",
+        "sha256_in_prefix": "1a7d5f44b7517f737cd5054e4a72398abd03db5d4d06d63fcb30bcc182055eff",
+        "size_in_bytes": 980
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_bind-arrays.R",
+        "path_type": "hardlink",
+        "sha256": "c18eff555d4f9b9a8ac5ac2e0367beb0f8d40e018c4986ee8308ef7802796e2b",
+        "sha256_in_prefix": "c18eff555d4f9b9a8ac5ac2e0367beb0f8d40e018c4986ee8308ef7802796e2b",
+        "size_in_bytes": 5435
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_block_processing.R",
+        "path_type": "hardlink",
+        "sha256": "c30fd105b76c124535cf97a1c7ac3c04f306d96e3ad94b75130e0de42a22e4c9",
+        "sha256_in_prefix": "c30fd105b76c124535cf97a1c7ac3c04f306d96e3ad94b75130e0de42a22e4c9",
+        "size_in_bytes": 2512
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_cbind-methods.R",
+        "path_type": "hardlink",
+        "sha256": "2beca8b532525f545185e9ace9ef091daf281eda65c4b5b0ed21f465bfa35fd2",
+        "sha256_in_prefix": "2beca8b532525f545185e9ace9ef091daf281eda65c4b5b0ed21f465bfa35fd2",
+        "size_in_bytes": 7114
+      },
+      {
+        "_path": "lib/R/library/DelayedArray/unitTests/test_makeCappedVolumeBox.R",
+        "path_type": "hardlink",
+        "sha256": "8d611faafc1e1ab6c03f7e2124c77f04e6f2e95caabadf57bfd09dc0a10773a3",
+        "sha256_in_prefix": "8d611faafc1e1ab6c03f7e2124c77f04e6f2e95caabadf57bfd09dc0a10773a3",
+        "size_in_bytes": 7711
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "77d4f8ee8af778eb7e9fc057c80e17419e70650c06b755aec9528804792f6100",
+  "size": 2195083,
+  "subdir": "osx-64",
+  "timestamp": 1572604742354,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/bioconductor-delayedarray-0.12.0-r36h01d97ff_0.tar.bz2",
+  "version": "0.12.0"
+}

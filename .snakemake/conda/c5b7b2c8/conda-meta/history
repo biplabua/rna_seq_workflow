@@ -1,0 +1,43 @@
+==> 2020-12-04 13:35:16 <==
+# cmd: /Users/biplab/miniconda3/bin/conda-env create --quiet --file /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8.yaml --prefix /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+# conda version: 4.9.2
++bioconda/noarch::perl-xml-sax-1.02-pl526_0
++bioconda/osx-64::ncbi-ngs-sdk-2.10.4-hc0cdd1b_1
++bioconda/osx-64::perl-app-cpanminus-1.7044-pl526_1
++bioconda/osx-64::perl-business-isbn-3.004-pl526_0
++bioconda/osx-64::perl-business-isbn-data-20140910.003-pl526_0
++bioconda/osx-64::perl-carp-1.38-pl526_3
++bioconda/osx-64::perl-constant-1.33-pl526_1
++bioconda/osx-64::perl-data-dumper-2.173-pl526_0
++bioconda/osx-64::perl-encode-2.88-pl526_1
++bioconda/osx-64::perl-exporter-5.72-pl526_1
++bioconda/osx-64::perl-extutils-makemaker-7.36-pl526_1
++bioconda/osx-64::perl-file-path-2.16-pl526_0
++bioconda/osx-64::perl-file-temp-0.2304-pl526_2
++bioconda/osx-64::perl-mime-base64-3.15-pl526_1
++bioconda/osx-64::perl-parent-0.236-pl526_1
++bioconda/osx-64::perl-uri-1.76-pl526_0
++bioconda/osx-64::perl-xml-libxml-2.0132-pl526h08abf6f_1
++bioconda/osx-64::perl-xml-namespacesupport-1.12-pl526_0
++bioconda/osx-64::perl-xml-sax-base-1.09-pl526_0
++bioconda/osx-64::perl-xsloader-0.24-pl526_0
++bioconda/osx-64::salmon-0.12.0-heb0d2e1_1
++bioconda/osx-64::sra-tools-2.10.1-pl526h9f37e31_0
++conda-forge/osx-64::bzip2-1.0.8-hc929b4f_4
++conda-forge/osx-64::hdf5-1.10.5-nompi_hbfad9c3_1112
++conda-forge/osx-64::icu-58.2-h0a44026_1000
++conda-forge/osx-64::jemalloc-5.2.1-hb1e8313_4
++conda-forge/osx-64::libcxx-11.0.0-h4c3b8ed_1
++conda-forge/osx-64::libgfortran-5.0.0-h7cc5361_13
++conda-forge/osx-64::libgfortran5-9.3.0-h7cc5361_13
++conda-forge/osx-64::libiconv-1.16-haf1e3a3_0
++conda-forge/osx-64::llvm-openmp-11.0.0-h73239a0_1
++conda-forge/osx-64::lz4-c-1.9.2-hb1e8313_3
++conda-forge/osx-64::perl-5.26.2-hbcb3906_1008
++conda-forge/osx-64::tbb-2019.9-ha1b3eb9_1
++conda-forge/osx-64::xz-5.2.5-haf1e3a3_1
++conda-forge/osx-64::zlib-1.2.11-h7795811_1010
++conda-forge/osx-64::zstd-1.4.5-h289c70a_2
++defaults/osx-64::libboost-1.73.0-h0a44026_10
++defaults/osx-64::libxml2-2.9.10-h7cdb67c_3
+# update specs: ['salmon=0.12.0', 'sra-tools=2.10.1']

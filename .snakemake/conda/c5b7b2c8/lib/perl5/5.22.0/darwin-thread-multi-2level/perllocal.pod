@@ -1,0 +1,22 @@
+=head2 Sat Jun 23 20:11:42 2018: C<Module> L<parent|parent>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib/perl5/site_perl/5.22.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.236>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

@@ -1,0 +1,34 @@
+{
+  "build": "h7cc5361_13",
+  "build_number": 13,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libgfortran5"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/libgfortran-5.0.0-h7cc5361_13",
+  "features": "",
+  "files": [],
+  "fn": "libgfortran-5.0.0-h7cc5361_13.tar.bz2",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/libgfortran-5.0.0-h7cc5361_13",
+    "type": 1
+  },
+  "md5": "d439af12d04584f443d4f69c6147a661",
+  "name": "libgfortran",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/libgfortran-5.0.0-h7cc5361_13.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "73e2a96af62fa22c67cdcb48979df4ebf36adbb233c8fb4b89b1f03135c4af52",
+  "size": 18505,
+  "subdir": "osx-64",
+  "timestamp": 1603003684098,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libgfortran-5.0.0-h7cc5361_13.tar.bz2",
+  "version": "5.0.0"
+}

@@ -1,0 +1,337 @@
+{
+  "build": "r36h1019320_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=11.0.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-rcpp",
+    "r-testthat"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-isoband-0.2.3-r36h1019320_0",
+  "features": "",
+  "files": [
+    "lib/R/library/isoband/DESCRIPTION",
+    "lib/R/library/isoband/INDEX",
+    "lib/R/library/isoband/LICENSE",
+    "lib/R/library/isoband/Meta/Rd.rds",
+    "lib/R/library/isoband/Meta/features.rds",
+    "lib/R/library/isoband/Meta/hsearch.rds",
+    "lib/R/library/isoband/Meta/links.rds",
+    "lib/R/library/isoband/Meta/nsInfo.rds",
+    "lib/R/library/isoband/Meta/package.rds",
+    "lib/R/library/isoband/Meta/vignette.rds",
+    "lib/R/library/isoband/NAMESPACE",
+    "lib/R/library/isoband/NEWS.md",
+    "lib/R/library/isoband/R/isoband",
+    "lib/R/library/isoband/R/isoband.rdb",
+    "lib/R/library/isoband/R/isoband.rdx",
+    "lib/R/library/isoband/doc/index.html",
+    "lib/R/library/isoband/doc/isoband1.R",
+    "lib/R/library/isoband/doc/isoband1.Rmd",
+    "lib/R/library/isoband/doc/isoband1.html",
+    "lib/R/library/isoband/doc/isoband2.R",
+    "lib/R/library/isoband/doc/isoband2.Rmd",
+    "lib/R/library/isoband/doc/isoband2.html",
+    "lib/R/library/isoband/doc/isoband3.R",
+    "lib/R/library/isoband/doc/isoband3.Rmd",
+    "lib/R/library/isoband/doc/isoband3.html",
+    "lib/R/library/isoband/extdata/ocean-cat.jpg",
+    "lib/R/library/isoband/help/AnIndex",
+    "lib/R/library/isoband/help/aliases.rds",
+    "lib/R/library/isoband/help/figures/README-basic-example-plot-1.png",
+    "lib/R/library/isoband/help/figures/README-volcano-1.png",
+    "lib/R/library/isoband/help/figures/isoband-logo.png",
+    "lib/R/library/isoband/help/isoband.rdb",
+    "lib/R/library/isoband/help/isoband.rdx",
+    "lib/R/library/isoband/help/paths.rds",
+    "lib/R/library/isoband/html/00Index.html",
+    "lib/R/library/isoband/html/R.css",
+    "lib/R/library/isoband/libs/isoband.dylib"
+  ],
+  "fn": "r-isoband-0.2.3-r36h1019320_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-isoband-0.2.3-r36h1019320_0",
+    "type": 1
+  },
+  "md5": "0e6e28fe395220c1c945d06fa379fab3",
+  "name": "r-isoband",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-isoband-0.2.3-r36h1019320_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/isoband/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "ede9e8fe71c055b6193e062d28f39611d1d7ea69dc35464d1b97eeba96e5abd9",
+        "sha256_in_prefix": "ede9e8fe71c055b6193e062d28f39611d1d7ea69dc35464d1b97eeba96e5abd9",
+        "size_in_bytes": 1483
+      },
+      {
+        "_path": "lib/R/library/isoband/INDEX",
+        "path_type": "hardlink",
+        "sha256": "82791bb7e075c2aea7debe2f03d5145256ed09d33033ff2efe877974ced33d8f",
+        "sha256_in_prefix": "82791bb7e075c2aea7debe2f03d5145256ed09d33033ff2efe877974ced33d8f",
+        "size_in_bytes": 676
+      },
+      {
+        "_path": "lib/R/library/isoband/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7568d04376ef5aea0b3b2278ea4df1c48bf7345d7d7756da9293a1dfc648a76a",
+        "sha256_in_prefix": "7568d04376ef5aea0b3b2278ea4df1c48bf7345d7d7756da9293a1dfc648a76a",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/R/library/isoband/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "fd81d3df568e6347b14743ebebce8cc9a62633796f2fd3768bea6fd219c786c4",
+        "sha256_in_prefix": "fd81d3df568e6347b14743ebebce8cc9a62633796f2fd3768bea6fd219c786c4",
+        "size_in_bytes": 681
+      },
+      {
+        "_path": "lib/R/library/isoband/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "sha256_in_prefix": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/R/library/isoband/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "45ddbb2b8c2b686d72582d31588e92c143df92106beb4a6eac9ff19574d64c9f",
+        "sha256_in_prefix": "45ddbb2b8c2b686d72582d31588e92c143df92106beb4a6eac9ff19574d64c9f",
+        "size_in_bytes": 750
+      },
+      {
+        "_path": "lib/R/library/isoband/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "23b06e028cee48efacf5077cda8b487772cd5481ee8eba6f22e42f1e28b49032",
+        "sha256_in_prefix": "23b06e028cee48efacf5077cda8b487772cd5481ee8eba6f22e42f1e28b49032",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/R/library/isoband/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "13d146fe1f157b36752756e39a9ada918f86e9d81b7135fa636c35f3bd82c345",
+        "sha256_in_prefix": "13d146fe1f157b36752756e39a9ada918f86e9d81b7135fa636c35f3bd82c345",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "lib/R/library/isoband/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "bb82c0be05428c14f310579c676d98531447efe434c2c308f30e6d176553e265",
+        "sha256_in_prefix": "bb82c0be05428c14f310579c676d98531447efe434c2c308f30e6d176553e265",
+        "size_in_bytes": 1219
+      },
+      {
+        "_path": "lib/R/library/isoband/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "d1ee8b1a3f7325adfef0571a7af7d3156c2fa69fb1a3f0b234e067501b56b0f5",
+        "sha256_in_prefix": "d1ee8b1a3f7325adfef0571a7af7d3156c2fa69fb1a3f0b234e067501b56b0f5",
+        "size_in_bytes": 267
+      },
+      {
+        "_path": "lib/R/library/isoband/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "21401143b2143cfd3af00a7dbe1b2ae7c12abc6939cdff14411bcca1abc20def",
+        "sha256_in_prefix": "21401143b2143cfd3af00a7dbe1b2ae7c12abc6939cdff14411bcca1abc20def",
+        "size_in_bytes": 675
+      },
+      {
+        "_path": "lib/R/library/isoband/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "d772853f9fc4ca6a23f0c0850342238597425ecc1c45a78ebba30cf19b9fd97c",
+        "sha256_in_prefix": "d772853f9fc4ca6a23f0c0850342238597425ecc1c45a78ebba30cf19b9fd97c",
+        "size_in_bytes": 678
+      },
+      {
+        "_path": "lib/R/library/isoband/R/isoband",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/isoband/R/isoband.rdb",
+        "path_type": "hardlink",
+        "sha256": "9084cde8ae57355ce9587db041f76dd79e718349c83cbe7752f39b553d20e11e",
+        "sha256_in_prefix": "9084cde8ae57355ce9587db041f76dd79e718349c83cbe7752f39b553d20e11e",
+        "size_in_bytes": 31752
+      },
+      {
+        "_path": "lib/R/library/isoband/R/isoband.rdx",
+        "path_type": "hardlink",
+        "sha256": "29237ac4d20fad4a8f7a408e7c10fa64ea55047071806e413cc95621c6ea5ddd",
+        "sha256_in_prefix": "29237ac4d20fad4a8f7a408e7c10fa64ea55047071806e413cc95621c6ea5ddd",
+        "size_in_bytes": 712
+      },
+      {
+        "_path": "lib/R/library/isoband/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "abda2300b1cf9397320b41c3dc15c90ef283d376df6bcbab293b6788acbf8ca3",
+        "sha256_in_prefix": "abda2300b1cf9397320b41c3dc15c90ef283d376df6bcbab293b6788acbf8ca3",
+        "size_in_bytes": 2296
+      },
+      {
+        "_path": "lib/R/library/isoband/doc/isoband1.R",
+        "path_type": "hardlink",
+        "sha256": "4d6a19c62c477eaa3cb8d6a2c009e4f1e4a956dcb3fd2060e66402efadf94851",
+        "sha256_in_prefix": "4d6a19c62c477eaa3cb8d6a2c009e4f1e4a956dcb3fd2060e66402efadf94851",
+        "size_in_bytes": 1962
+      },
+      {
+        "_path": "lib/R/library/isoband/doc/isoband1.Rmd",
+        "path_type": "hardlink",
+        "sha256": "4bba168af53386082acdcc4729d5495f4fad2736936def4a827bee312edb6405",
+        "sha256_in_prefix": "4bba168af53386082acdcc4729d5495f4fad2736936def4a827bee312edb6405",
+        "size_in_bytes": 4708
+      },
+      {
+        "_path": "lib/R/library/isoband/doc/isoband1.html",
+        "path_type": "hardlink",
+        "sha256": "e35fc196bb8d5d0ce68e21e17aba69959364d51d9fb08386953fbcb06cf4a435",
+        "sha256_in_prefix": "e35fc196bb8d5d0ce68e21e17aba69959364d51d9fb08386953fbcb06cf4a435",
+        "size_in_bytes": 86322
+      },
+      {
+        "_path": "lib/R/library/isoband/doc/isoband2.R",
+        "path_type": "hardlink",
+        "sha256": "83ac9ef89a2be8464f0c4fbc4201e7fe4180b608b782df2a1f8d7a5b1556faa6",
+        "sha256_in_prefix": "83ac9ef89a2be8464f0c4fbc4201e7fe4180b608b782df2a1f8d7a5b1556faa6",
+        "size_in_bytes": 3704
+      },
+      {
+        "_path": "lib/R/library/isoband/doc/isoband2.Rmd",
+        "path_type": "hardlink",
+        "sha256": "56638ac4707c674678f540ef6f3d23cabe74347213beaa13dc07f662bb3efc37",
+        "sha256_in_prefix": "56638ac4707c674678f540ef6f3d23cabe74347213beaa13dc07f662bb3efc37",
+        "size_in_bytes": 5269
+      },
+      {
+        "_path": "lib/R/library/isoband/doc/isoband2.html",
+        "path_type": "hardlink",
+        "sha256": "79d886b6d1cd9e272836f79c949759110b488b3619d81519c8c2de5f5bdcad2a",
+        "sha256_in_prefix": "79d886b6d1cd9e272836f79c949759110b488b3619d81519c8c2de5f5bdcad2a",
+        "size_in_bytes": 445240
+      },
+      {
+        "_path": "lib/R/library/isoband/doc/isoband3.R",
+        "path_type": "hardlink",
+        "sha256": "8300e6525009eb01f24721985f1b8fb5fd3f8c2de828b889e045bb86321bd2b6",
+        "sha256_in_prefix": "8300e6525009eb01f24721985f1b8fb5fd3f8c2de828b889e045bb86321bd2b6",
+        "size_in_bytes": 2710
+      },
+      {
+        "_path": "lib/R/library/isoband/doc/isoband3.Rmd",
+        "path_type": "hardlink",
+        "sha256": "4343e26db26ead035a33052d4bf0da16026862b27687c61af2fc55b3957881a3",
+        "sha256_in_prefix": "4343e26db26ead035a33052d4bf0da16026862b27687c61af2fc55b3957881a3",
+        "size_in_bytes": 3893
+      },
+      {
+        "_path": "lib/R/library/isoband/doc/isoband3.html",
+        "path_type": "hardlink",
+        "sha256": "9c390a5024d92886e31a46c0182324745b974e637b50391f98c569a2660a4dbb",
+        "sha256_in_prefix": "9c390a5024d92886e31a46c0182324745b974e637b50391f98c569a2660a4dbb",
+        "size_in_bytes": 597285
+      },
+      {
+        "_path": "lib/R/library/isoband/extdata/ocean-cat.jpg",
+        "path_type": "hardlink",
+        "sha256": "31049a282c840451af3efaa3a859d0ab7994b24a613d63408128cbd0be867f46",
+        "sha256_in_prefix": "31049a282c840451af3efaa3a859d0ab7994b24a613d63408128cbd0be867f46",
+        "size_in_bytes": 719873
+      },
+      {
+        "_path": "lib/R/library/isoband/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "7312dcb4eaf466260bc3cb34bd46be179579c17c1cf6a99508383fc08663baae",
+        "sha256_in_prefix": "7312dcb4eaf466260bc3cb34bd46be179579c17c1cf6a99508383fc08663baae",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "lib/R/library/isoband/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "a74e19b07c6c9fe4983f2b2f2e594b31d7d1c4e286f37fd965954fd376da7688",
+        "sha256_in_prefix": "a74e19b07c6c9fe4983f2b2f2e594b31d7d1c4e286f37fd965954fd376da7688",
+        "size_in_bytes": 253
+      },
+      {
+        "_path": "lib/R/library/isoband/help/figures/README-basic-example-plot-1.png",
+        "path_type": "hardlink",
+        "sha256": "c4c8d661d871aa394ab5d41545abd1211ec3eb1195f7eda1fc5cf119d22de44e",
+        "sha256_in_prefix": "c4c8d661d871aa394ab5d41545abd1211ec3eb1195f7eda1fc5cf119d22de44e",
+        "size_in_bytes": 42392
+      },
+      {
+        "_path": "lib/R/library/isoband/help/figures/README-volcano-1.png",
+        "path_type": "hardlink",
+        "sha256": "10528bd0516e52669454325180121691df3032f6041fc4c95d79294b0298c52a",
+        "sha256_in_prefix": "10528bd0516e52669454325180121691df3032f6041fc4c95d79294b0298c52a",
+        "size_in_bytes": 270949
+      },
+      {
+        "_path": "lib/R/library/isoband/help/figures/isoband-logo.png",
+        "path_type": "hardlink",
+        "sha256": "15678fe2ae1921e4c5db98b63435a2aa3dba26f984bf6cab33f6b192e4c3a119",
+        "sha256_in_prefix": "15678fe2ae1921e4c5db98b63435a2aa3dba26f984bf6cab33f6b192e4c3a119",
+        "size_in_bytes": 38260
+      },
+      {
+        "_path": "lib/R/library/isoband/help/isoband.rdb",
+        "path_type": "hardlink",
+        "sha256": "26af99c87bc424e380160c34eaf990d110630572c40d6e7490c19f8749517b7c",
+        "sha256_in_prefix": "26af99c87bc424e380160c34eaf990d110630572c40d6e7490c19f8749517b7c",
+        "size_in_bytes": 22816
+      },
+      {
+        "_path": "lib/R/library/isoband/help/isoband.rdx",
+        "path_type": "hardlink",
+        "sha256": "fb40cb2269a726f877f04ab084785e5279ff40dcff901e224de820dbf4208c03",
+        "sha256_in_prefix": "fb40cb2269a726f877f04ab084785e5279ff40dcff901e224de820dbf4208c03",
+        "size_in_bytes": 403
+      },
+      {
+        "_path": "lib/R/library/isoband/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "a76fda50d8aa2aeae7a12a380215e5f5b22efb522f7cf2b18a5f1a221446ad7f",
+        "sha256_in_prefix": "a76fda50d8aa2aeae7a12a380215e5f5b22efb522f7cf2b18a5f1a221446ad7f",
+        "size_in_bytes": 253
+      },
+      {
+        "_path": "lib/R/library/isoband/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "e9a898b30e8880c143354f02bba429ef30809db67cffe6da4f2b9d08e7ba1e60",
+        "sha256_in_prefix": "e9a898b30e8880c143354f02bba429ef30809db67cffe6da4f2b9d08e7ba1e60",
+        "size_in_bytes": 3293
+      },
+      {
+        "_path": "lib/R/library/isoband/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/isoband/libs/isoband.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/r-isoband_1606823586812/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "3e20902aa293173e096e43d02831e5a9f67a6cd0fcf984379b2c460dcaeae34e",
+        "sha256_in_prefix": "a1e0694fb5a116990c8bab30d7e189bc3449183d7302e17eb165aa66ac7d0a45",
+        "size_in_bytes": 675788
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d44f16443fd1e1096810bf76ea42ababd2a1da382949ce55ebda12c3f9df7004",
+  "size": 2219918,
+  "subdir": "osx-64",
+  "timestamp": 1606823889010,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-isoband-0.2.3-r36h1019320_0.tar.bz2",
+  "version": "0.2.3"
+}

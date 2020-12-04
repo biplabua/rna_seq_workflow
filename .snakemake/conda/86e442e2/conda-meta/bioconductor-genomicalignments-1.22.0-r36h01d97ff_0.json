@@ -1,0 +1,430 @@
+{
+  "build": "r36h01d97ff_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "bioconductor-biocparallel >=1.20.0,<1.21.0",
+    "bioconductor-biostrings >=2.54.0,<2.55.0",
+    "bioconductor-genomeinfodb >=1.22.0,<1.23.0",
+    "bioconductor-genomicranges >=1.38.0,<1.39.0",
+    "bioconductor-iranges >=2.20.0,<2.21.0",
+    "bioconductor-rsamtools >=2.2.0,<2.3.0",
+    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/bioconductor-genomicalignments-1.22.0-r36h01d97ff_0",
+  "features": "",
+  "files": [
+    "lib/R/library/GenomicAlignments/CITATION",
+    "lib/R/library/GenomicAlignments/DESCRIPTION",
+    "lib/R/library/GenomicAlignments/INDEX",
+    "lib/R/library/GenomicAlignments/Meta/Rd.rds",
+    "lib/R/library/GenomicAlignments/Meta/features.rds",
+    "lib/R/library/GenomicAlignments/Meta/hsearch.rds",
+    "lib/R/library/GenomicAlignments/Meta/links.rds",
+    "lib/R/library/GenomicAlignments/Meta/nsInfo.rds",
+    "lib/R/library/GenomicAlignments/Meta/package.rds",
+    "lib/R/library/GenomicAlignments/Meta/vignette.rds",
+    "lib/R/library/GenomicAlignments/NAMESPACE",
+    "lib/R/library/GenomicAlignments/NEWS",
+    "lib/R/library/GenomicAlignments/R/GenomicAlignments",
+    "lib/R/library/GenomicAlignments/R/GenomicAlignments.rdb",
+    "lib/R/library/GenomicAlignments/R/GenomicAlignments.rdx",
+    "lib/R/library/GenomicAlignments/doc/GenomicAlignmentsIntroduction.R",
+    "lib/R/library/GenomicAlignments/doc/GenomicAlignmentsIntroduction.Rnw",
+    "lib/R/library/GenomicAlignments/doc/GenomicAlignmentsIntroduction.pdf",
+    "lib/R/library/GenomicAlignments/doc/OverlapEncodings.R",
+    "lib/R/library/GenomicAlignments/doc/OverlapEncodings.Rnw",
+    "lib/R/library/GenomicAlignments/doc/OverlapEncodings.pdf",
+    "lib/R/library/GenomicAlignments/doc/WorkingWithAlignedNucleotides.R",
+    "lib/R/library/GenomicAlignments/doc/WorkingWithAlignedNucleotides.Rnw",
+    "lib/R/library/GenomicAlignments/doc/WorkingWithAlignedNucleotides.pdf",
+    "lib/R/library/GenomicAlignments/doc/index.html",
+    "lib/R/library/GenomicAlignments/doc/summarizeOverlaps.R",
+    "lib/R/library/GenomicAlignments/doc/summarizeOverlaps.Rnw",
+    "lib/R/library/GenomicAlignments/doc/summarizeOverlaps.pdf",
+    "lib/R/library/GenomicAlignments/extdata/sm_treated1.bam",
+    "lib/R/library/GenomicAlignments/extdata/sm_untreated1.bam",
+    "lib/R/library/GenomicAlignments/help/AnIndex",
+    "lib/R/library/GenomicAlignments/help/GenomicAlignments.rdb",
+    "lib/R/library/GenomicAlignments/help/GenomicAlignments.rdx",
+    "lib/R/library/GenomicAlignments/help/aliases.rds",
+    "lib/R/library/GenomicAlignments/help/paths.rds",
+    "lib/R/library/GenomicAlignments/html/00Index.html",
+    "lib/R/library/GenomicAlignments/html/R.css",
+    "lib/R/library/GenomicAlignments/libs/GenomicAlignments.dylib",
+    "lib/R/library/GenomicAlignments/unitTests/test_GAlignments-class.R",
+    "lib/R/library/GenomicAlignments/unitTests/test_GAlignmentsList-class.R",
+    "lib/R/library/GenomicAlignments/unitTests/test_cigar-utils.R",
+    "lib/R/library/GenomicAlignments/unitTests/test_coordinate-mapping-methods.R",
+    "lib/R/library/GenomicAlignments/unitTests/test_findSpliceOverlaps-methods.R",
+    "lib/R/library/GenomicAlignments/unitTests/test_intra-range-methods.R",
+    "lib/R/library/GenomicAlignments/unitTests/test_readGAlignmentPairs.R",
+    "lib/R/library/GenomicAlignments/unitTests/test_readGAlignments.R",
+    "lib/R/library/GenomicAlignments/unitTests/test_readGAlignmentsList.R",
+    "lib/R/library/GenomicAlignments/unitTests/test_summarizeOverlaps-methods.R"
+  ],
+  "fn": "bioconductor-genomicalignments-1.22.0-r36h01d97ff_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/bioconductor-genomicalignments-1.22.0-r36h01d97ff_0",
+    "type": 1
+  },
+  "md5": "bed9e381429bfaec0a0f3615432405aa",
+  "name": "bioconductor-genomicalignments",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/bioconductor-genomicalignments-1.22.0-r36h01d97ff_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/GenomicAlignments/CITATION",
+        "path_type": "hardlink",
+        "sha256": "9dfd64478cacbf9e9d18c8feecf202e2aa169bd78b068bef032ac5f461d90755",
+        "sha256_in_prefix": "9dfd64478cacbf9e9d18c8feecf202e2aa169bd78b068bef032ac5f461d90755",
+        "size_in_bytes": 940
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "742c5aab62914e28a956664367e1bd99e1e82435450a44ea2c14f0e573120865",
+        "sha256_in_prefix": "742c5aab62914e28a956664367e1bd99e1e82435450a44ea2c14f0e573120865",
+        "size_in_bytes": 2408
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/INDEX",
+        "path_type": "hardlink",
+        "sha256": "59cb5bd1db0337ef15af98deb2da3167f97c4b253323e5b8ce8fa23022a6553c",
+        "sha256_in_prefix": "59cb5bd1db0337ef15af98deb2da3167f97c4b253323e5b8ce8fa23022a6553c",
+        "size_in_bytes": 2050
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "e7161e8a4efa5951f50936a557bcc76582b0f591dfb7ad2888b1995240b11035",
+        "sha256_in_prefix": "e7161e8a4efa5951f50936a557bcc76582b0f591dfb7ad2888b1995240b11035",
+        "size_in_bytes": 2950
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "sha256_in_prefix": "2be501af3bb473d6ec652a8d185cb3448eff628d7bf2ce5f3d750b720e28f016",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "eb6e7a42df89a5d18c186187e54a47fa9e2a255348ae6126d7f2ad8ed0a197c7",
+        "sha256_in_prefix": "eb6e7a42df89a5d18c186187e54a47fa9e2a255348ae6126d7f2ad8ed0a197c7",
+        "size_in_bytes": 3185
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "10272c8ad721967521fdbb9ce876aa5e8c706a7c1115f2986d505bcf30741490",
+        "sha256_in_prefix": "10272c8ad721967521fdbb9ce876aa5e8c706a7c1115f2986d505bcf30741490",
+        "size_in_bytes": 2448
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "13f84c461f9b25952c721d58e4e459b0d670742125490578f6198589066405a6",
+        "sha256_in_prefix": "13f84c461f9b25952c721d58e4e459b0d670742125490578f6198589066405a6",
+        "size_in_bytes": 1349
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d48ff4c8e8692ad26c06da2d26600dad085952f300a9c9c480a8952e59ac1df6",
+        "sha256_in_prefix": "d48ff4c8e8692ad26c06da2d26600dad085952f300a9c9c480a8952e59ac1df6",
+        "size_in_bytes": 1931
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "dc186c51555032ab32c8f4f2e2969f35f376b98b0aa934d17b48ed03ad895618",
+        "sha256_in_prefix": "dc186c51555032ab32c8f4f2e2969f35f376b98b0aa934d17b48ed03ad895618",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "fe470f1d342e5c53da28a15a72ddaf40698172c3adddbc0c507901b3a2c659c0",
+        "sha256_in_prefix": "fe470f1d342e5c53da28a15a72ddaf40698172c3adddbc0c507901b3a2c659c0",
+        "size_in_bytes": 5182
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/NEWS",
+        "path_type": "hardlink",
+        "sha256": "c0fb4150564986a9ee3761a122e841368f2e5f3b97302265d3904f52836d9d2f",
+        "sha256_in_prefix": "c0fb4150564986a9ee3761a122e841368f2e5f3b97302265d3904f52836d9d2f",
+        "size_in_bytes": 10956
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/R/GenomicAlignments",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/R/GenomicAlignments.rdb",
+        "path_type": "hardlink",
+        "sha256": "a6c793282edbdc2438bd44ca998d835b24296cefba8fd74ab514b8e657f92515",
+        "sha256_in_prefix": "a6c793282edbdc2438bd44ca998d835b24296cefba8fd74ab514b8e657f92515",
+        "size_in_bytes": 1295233
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/R/GenomicAlignments.rdx",
+        "path_type": "hardlink",
+        "sha256": "e3ce4337d87522b7ce3d660147b8c3a95524449852f3aab1e44a6ff7f20d24ee",
+        "sha256_in_prefix": "e3ce4337d87522b7ce3d660147b8c3a95524449852f3aab1e44a6ff7f20d24ee",
+        "size_in_bytes": 7968
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/GenomicAlignmentsIntroduction.R",
+        "path_type": "hardlink",
+        "sha256": "539238304dd8da10ae626517d4aef2a8de9279fb211f743a6634c9ba7d53952d",
+        "sha256_in_prefix": "539238304dd8da10ae626517d4aef2a8de9279fb211f743a6634c9ba7d53952d",
+        "size_in_bytes": 1441
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/GenomicAlignmentsIntroduction.Rnw",
+        "path_type": "hardlink",
+        "sha256": "bb0e1fa3294e6e2416533df387adf45d2ca594461cac77558a925cd8056cb4e9",
+        "sha256_in_prefix": "bb0e1fa3294e6e2416533df387adf45d2ca594461cac77558a925cd8056cb4e9",
+        "size_in_bytes": 5654
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/GenomicAlignmentsIntroduction.pdf",
+        "path_type": "hardlink",
+        "sha256": "1dc6bb3018d52160a5842a5d35a648bbc770bb28f48653d29cf70476fc4f15e0",
+        "sha256_in_prefix": "1dc6bb3018d52160a5842a5d35a648bbc770bb28f48653d29cf70476fc4f15e0",
+        "size_in_bytes": 185314
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/OverlapEncodings.R",
+        "path_type": "hardlink",
+        "sha256": "9b88370bc6935eb24e0b186cac8787f43749441cf191000820d819a78931fd5a",
+        "sha256_in_prefix": "9b88370bc6935eb24e0b186cac8787f43749441cf191000820d819a78931fd5a",
+        "size_in_bytes": 32043
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/OverlapEncodings.Rnw",
+        "path_type": "hardlink",
+        "sha256": "e646ad53f66b27496332bcacb3b7ac2914a3f24df9b1d5b96834321d84bc24e7",
+        "sha256_in_prefix": "e646ad53f66b27496332bcacb3b7ac2914a3f24df9b1d5b96834321d84bc24e7",
+        "size_in_bytes": 58627
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/OverlapEncodings.pdf",
+        "path_type": "hardlink",
+        "sha256": "2873dda84c75c05a3dac5b680f009f2cd9949740712863315c88bce90d481c5b",
+        "sha256_in_prefix": "2873dda84c75c05a3dac5b680f009f2cd9949740712863315c88bce90d481c5b",
+        "size_in_bytes": 283211
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/WorkingWithAlignedNucleotides.R",
+        "path_type": "hardlink",
+        "sha256": "99fdd2fce34af93fb87fab440381c390a1d39b3d9093cfcb8f6c5c4dd734b115",
+        "sha256_in_prefix": "99fdd2fce34af93fb87fab440381c390a1d39b3d9093cfcb8f6c5c4dd734b115",
+        "size_in_bytes": 5215
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/WorkingWithAlignedNucleotides.Rnw",
+        "path_type": "hardlink",
+        "sha256": "ef3b603dcb80f41220c523f4ee3ee0b31933ad1cd5fafb6aab0f56fa9770c40d",
+        "sha256_in_prefix": "ef3b603dcb80f41220c523f4ee3ee0b31933ad1cd5fafb6aab0f56fa9770c40d",
+        "size_in_bytes": 14414
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/WorkingWithAlignedNucleotides.pdf",
+        "path_type": "hardlink",
+        "sha256": "f587e4df72b10117d435f0a7fd63e0ab0ed37c0b5926f9cbd032833972dd8efd",
+        "sha256_in_prefix": "f587e4df72b10117d435f0a7fd63e0ab0ed37c0b5926f9cbd032833972dd8efd",
+        "size_in_bytes": 214688
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "25a94173e34eaa2dec50e4a47ef4daa78e9792267163097ca8d575f3f1e4ff8f",
+        "sha256_in_prefix": "25a94173e34eaa2dec50e4a47ef4daa78e9792267163097ca8d575f3f1e4ff8f",
+        "size_in_bytes": 3304
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/summarizeOverlaps.R",
+        "path_type": "hardlink",
+        "sha256": "1d1a5cae9c48a646dcbe8bb4d6d29c505623ae8957e6e6ea2b6f1df4eed2584f",
+        "sha256_in_prefix": "1d1a5cae9c48a646dcbe8bb4d6d29c505623ae8957e6e6ea2b6f1df4eed2584f",
+        "size_in_bytes": 7698
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/summarizeOverlaps.Rnw",
+        "path_type": "hardlink",
+        "sha256": "1b95fedf7b261f8c76e32ccae532e8916e788852625927b11dc7294c1c3ef6e0",
+        "sha256_in_prefix": "1b95fedf7b261f8c76e32ccae532e8916e788852625927b11dc7294c1c3ef6e0",
+        "size_in_bytes": 13595
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/doc/summarizeOverlaps.pdf",
+        "path_type": "hardlink",
+        "sha256": "ccb9b35ec6dbe1a138635dcfad4d5d3bad10e2d905bde98d1071d214d425f972",
+        "sha256_in_prefix": "ccb9b35ec6dbe1a138635dcfad4d5d3bad10e2d905bde98d1071d214d425f972",
+        "size_in_bytes": 203923
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/extdata/sm_treated1.bam",
+        "path_type": "hardlink",
+        "sha256": "ac2681fae928f670d597e0f95854602e1daea9aa34947e07335bd88a8be9ee53",
+        "sha256_in_prefix": "ac2681fae928f670d597e0f95854602e1daea9aa34947e07335bd88a8be9ee53",
+        "size_in_bytes": 52098
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/extdata/sm_untreated1.bam",
+        "path_type": "hardlink",
+        "sha256": "1dcac9a766cf853862d6299ca56ff04c5b1bae77ba29752145eeebc1ec850175",
+        "sha256_in_prefix": "1dcac9a766cf853862d6299ca56ff04c5b1bae77ba29752145eeebc1ec850175",
+        "size_in_bytes": 95007
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "da63c97a67218078981ec757917fd6452811bf9a1f7d344ff101052251689e60",
+        "sha256_in_prefix": "da63c97a67218078981ec757917fd6452811bf9a1f7d344ff101052251689e60",
+        "size_in_bytes": 15380
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/help/GenomicAlignments.rdb",
+        "path_type": "hardlink",
+        "sha256": "a245a6127aba550a7060eb29079739855bf900eb1ef2cc698bf79f4532e390a9",
+        "sha256_in_prefix": "a245a6127aba550a7060eb29079739855bf900eb1ef2cc698bf79f4532e390a9",
+        "size_in_bytes": 236265
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/help/GenomicAlignments.rdx",
+        "path_type": "hardlink",
+        "sha256": "7100ad6bcf0c183f48ad0e81554cc3435a021f7400455cb836c057e3c4c417c9",
+        "sha256_in_prefix": "7100ad6bcf0c183f48ad0e81554cc3435a021f7400455cb836c057e3c4c417c9",
+        "size_in_bytes": 719
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "cf62517e0cdd539ca5dab1eeb4b46e973719c1f05639c68baf181d2e1813a093",
+        "sha256_in_prefix": "cf62517e0cdd539ca5dab1eeb4b46e973719c1f05639c68baf181d2e1813a093",
+        "size_in_bytes": 2493
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "743a339d00eba5caea602aad8c7fb62c2fc952535dd96a393c29c3b7d6ddb106",
+        "sha256_in_prefix": "743a339d00eba5caea602aad8c7fb62c2fc952535dd96a393c29c3b7d6ddb106",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "ac0a21dfa78ba43c1d3a6fe617f803e79e90b1be48073c5fe39e47638971f381",
+        "sha256_in_prefix": "ac0a21dfa78ba43c1d3a6fe617f803e79e90b1be48073c5fe39e47638971f381",
+        "size_in_bytes": 34684
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/libs/GenomicAlignments.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/bioconductor-genomicalignments_1572659573335/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "6b5e2d875c1609e82fa9a2887b77e87f2d2ab87bcbee2c975ff83ef5d44df89b",
+        "sha256_in_prefix": "5179410371a96b508bdfa58c749dba3d39c07e1a21f5c351c6f0659352d8b431",
+        "size_in_bytes": 64064
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/unitTests/test_GAlignments-class.R",
+        "path_type": "hardlink",
+        "sha256": "9d8563f3a4459cf69613633f9f3f88ffcfe3952f4eff0cbd65a4488738e6d945",
+        "sha256_in_prefix": "9d8563f3a4459cf69613633f9f3f88ffcfe3952f4eff0cbd65a4488738e6d945",
+        "size_in_bytes": 1174
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/unitTests/test_GAlignmentsList-class.R",
+        "path_type": "hardlink",
+        "sha256": "16a195e6e4a2d865ff20d7af3ab4f9f04ff1e7bfab8a5dcdea07dfb9d32b9cfd",
+        "sha256_in_prefix": "16a195e6e4a2d865ff20d7af3ab4f9f04ff1e7bfab8a5dcdea07dfb9d32b9cfd",
+        "size_in_bytes": 5046
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/unitTests/test_cigar-utils.R",
+        "path_type": "hardlink",
+        "sha256": "39a5952606108489dc08d257d96266b62aa5194395ac0f0ed192c781cb5bbe8f",
+        "sha256_in_prefix": "39a5952606108489dc08d257d96266b62aa5194395ac0f0ed192c781cb5bbe8f",
+        "size_in_bytes": 4374
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/unitTests/test_coordinate-mapping-methods.R",
+        "path_type": "hardlink",
+        "sha256": "2e79cf2ae982c92024c225e629e4963a5658eaf0cc37dba3499c11bdf18d4ff9",
+        "sha256_in_prefix": "2e79cf2ae982c92024c225e629e4963a5658eaf0cc37dba3499c11bdf18d4ff9",
+        "size_in_bytes": 5040
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/unitTests/test_findSpliceOverlaps-methods.R",
+        "path_type": "hardlink",
+        "sha256": "9fd94d04906e20fecfe3bbd332fabb3f37957d671e70dbc440f2f8d120ada20e",
+        "sha256_in_prefix": "9fd94d04906e20fecfe3bbd332fabb3f37957d671e70dbc440f2f8d120ada20e",
+        "size_in_bytes": 9950
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/unitTests/test_intra-range-methods.R",
+        "path_type": "hardlink",
+        "sha256": "255e05132ac697cf6b1db41453cf60177a2fd75a70ab8bf8ea3fa873230ef691",
+        "sha256_in_prefix": "255e05132ac697cf6b1db41453cf60177a2fd75a70ab8bf8ea3fa873230ef691",
+        "size_in_bytes": 1642
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/unitTests/test_readGAlignmentPairs.R",
+        "path_type": "hardlink",
+        "sha256": "8d9d4bf3a72fe4765e1f1b2ef9d363453fc3b81c9290aff07c1f8aa69ca9bd2f",
+        "sha256_in_prefix": "8d9d4bf3a72fe4765e1f1b2ef9d363453fc3b81c9290aff07c1f8aa69ca9bd2f",
+        "size_in_bytes": 12261
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/unitTests/test_readGAlignments.R",
+        "path_type": "hardlink",
+        "sha256": "5aaf854433e8db738a657f215035c0ea7dddcd3f5b3f131f38fea13ecdb83aac",
+        "sha256_in_prefix": "5aaf854433e8db738a657f215035c0ea7dddcd3f5b3f131f38fea13ecdb83aac",
+        "size_in_bytes": 2249
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/unitTests/test_readGAlignmentsList.R",
+        "path_type": "hardlink",
+        "sha256": "5b3752983b16618237c79227f2f1b251f7766527a4dabd1df43a5110f213b490",
+        "sha256_in_prefix": "5b3752983b16618237c79227f2f1b251f7766527a4dabd1df43a5110f213b490",
+        "size_in_bytes": 7534
+      },
+      {
+        "_path": "lib/R/library/GenomicAlignments/unitTests/test_summarizeOverlaps-methods.R",
+        "path_type": "hardlink",
+        "sha256": "9b3fc960b85df089234f9c750819c0932cf38e3016b73e641a9c0e02cf59da16",
+        "sha256_in_prefix": "9b3fc960b85df089234f9c750819c0932cf38e3016b73e641a9c0e02cf59da16",
+        "size_in_bytes": 12560
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fc6723028a843d9246360b9aa2b9d61127bc7212258968d5940fbaacc476fc34",
+  "size": 2347896,
+  "subdir": "osx-64",
+  "timestamp": 1572659709449,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/bioconductor-genomicalignments-1.22.0-r36h01d97ff_0.tar.bz2",
+  "version": "1.22.0"
+}

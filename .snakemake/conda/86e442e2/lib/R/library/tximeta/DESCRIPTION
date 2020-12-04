@@ -1,0 +1,39 @@
+Package: tximeta
+Version: 1.4.0
+Title: Transcript Quantification Import with Automatic Metadata
+Description: Transcript quantification import from Salmon with
+    automatic population of metadata and transcript ranges.
+    Filtered, combined, or de novo transcriptomes can be linked
+    to the appropriate sources with linkedTxomes and shared for
+    reproducible analyses.
+Authors@R: c(
+    person("Michael", "Love", email="michaelisaiahlove@gmail.com", role = c("aut","cre")),
+    person("Rob", "Patro", role = c("aut","ctb")),
+    person("Peter", "Hickey", role = c("aut","ctb")),
+    person("Charlotte", "Soneson", role = c("aut","ctb")))
+Maintainer: Michael Love <michaelisaiahlove@gmail.com>
+License: GPL-2
+VignetteBuilder: knitr
+Imports: SummarizedExperiment, tximport, jsonlite, S4Vectors,
+        GenomicRanges, AnnotationDbi, GenomicFeatures, ensembldb,
+        Biostrings, BiocFileCache, tibble, GenomeInfoDb, rappdirs,
+        utils, methods
+Suggests: knitr, rmarkdown, testthat, tximportData, org.Dm.eg.db,
+        DESeq2, edgeR, limma, devtools
+URL: https://github.com/mikelove/tximeta
+biocViews: Annotation, DataImport, Preprocessing, RNASeq,
+        Transcriptomics, Transcription, GeneExpression, ImmunoOncology
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+git_url: https://git.bioconductor.org/packages/tximeta
+git_branch: RELEASE_3_10
+git_last_commit: 7b58074
+git_last_commit_date: 2019-10-29
+Date/Publication: 2019-10-29
+NeedsCompilation: no
+Packaged: 2019-10-30 03:16:18 UTC; biocbuild
+Author: Michael Love [aut, cre],
+  Rob Patro [aut, ctb],
+  Peter Hickey [aut, ctb],
+  Charlotte Soneson [aut, ctb]
+Built: R 3.6.1; ; 2019-11-04 20:26:41 UTC; unix

@@ -1,0 +1,270 @@
+{
+  "build": "r36h6b199c2_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-xfun-0.19-r36h6b199c2_0",
+  "features": "",
+  "files": [
+    "lib/R/library/xfun/DESCRIPTION",
+    "lib/R/library/xfun/INDEX",
+    "lib/R/library/xfun/LICENSE",
+    "lib/R/library/xfun/Meta/Rd.rds",
+    "lib/R/library/xfun/Meta/features.rds",
+    "lib/R/library/xfun/Meta/hsearch.rds",
+    "lib/R/library/xfun/Meta/links.rds",
+    "lib/R/library/xfun/Meta/nsInfo.rds",
+    "lib/R/library/xfun/Meta/package.rds",
+    "lib/R/library/xfun/Meta/vignette.rds",
+    "lib/R/library/xfun/NAMESPACE",
+    "lib/R/library/xfun/NEWS.md",
+    "lib/R/library/xfun/R/xfun",
+    "lib/R/library/xfun/R/xfun.rdb",
+    "lib/R/library/xfun/R/xfun.rdx",
+    "lib/R/library/xfun/doc/index.html",
+    "lib/R/library/xfun/doc/xfun.R",
+    "lib/R/library/xfun/doc/xfun.Rmd",
+    "lib/R/library/xfun/doc/xfun.html",
+    "lib/R/library/xfun/help/AnIndex",
+    "lib/R/library/xfun/help/aliases.rds",
+    "lib/R/library/xfun/help/paths.rds",
+    "lib/R/library/xfun/help/xfun.rdb",
+    "lib/R/library/xfun/help/xfun.rdx",
+    "lib/R/library/xfun/html/00Index.html",
+    "lib/R/library/xfun/html/R.css",
+    "lib/R/library/xfun/libs/xfun.dylib",
+    "lib/R/library/xfun/scripts/call-fun.R",
+    "lib/R/library/xfun/scripts/child_pids.sh"
+  ],
+  "fn": "r-xfun-0.19-r36h6b199c2_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-xfun-0.19-r36h6b199c2_0",
+    "type": 1
+  },
+  "md5": "28750934ba988f4e137345fc3a617aad",
+  "name": "r-xfun",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-xfun-0.19-r36h6b199c2_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/xfun/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "2989f24275f8dcaeade560c2708d3eff67804d9c33a9ac51824e1de94e8b95aa",
+        "sha256_in_prefix": "2989f24275f8dcaeade560c2708d3eff67804d9c33a9ac51824e1de94e8b95aa",
+        "size_in_bytes": 1352
+      },
+      {
+        "_path": "lib/R/library/xfun/INDEX",
+        "path_type": "hardlink",
+        "sha256": "9281eb4cd0c751217455fa22048a2f8c5d008dfbeb118d2fd948cc06be1ee9a9",
+        "sha256_in_prefix": "9281eb4cd0c751217455fa22048a2f8c5d008dfbeb118d2fd948cc06be1ee9a9",
+        "size_in_bytes": 4758
+      },
+      {
+        "_path": "lib/R/library/xfun/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "549fe783eec2b71f820f1da82eb2de0d3f63ce617985bf0722c688c7d274575e",
+        "sha256_in_prefix": "549fe783eec2b71f820f1da82eb2de0d3f63ce617985bf0722c688c7d274575e",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/R/library/xfun/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "2102aab43d5494c0c43e969d441a6369b1a9534d92b7a6624d3c43e793a70c44",
+        "sha256_in_prefix": "2102aab43d5494c0c43e969d441a6369b1a9534d92b7a6624d3c43e793a70c44",
+        "size_in_bytes": 2867
+      },
+      {
+        "_path": "lib/R/library/xfun/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "sha256_in_prefix": "914c5ad3b433ff978717a6e9e4d2f2f3a6b41bf1e77aa8003ce66e76b484674b",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/R/library/xfun/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "0f5cd64d501427137c924523a1ec47b10ee40bc73c0bbdb5efa0a9749dc88998",
+        "sha256_in_prefix": "0f5cd64d501427137c924523a1ec47b10ee40bc73c0bbdb5efa0a9749dc88998",
+        "size_in_bytes": 2761
+      },
+      {
+        "_path": "lib/R/library/xfun/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "2252b7d07f9d6852f2c4c9d6aafd91d449615c952298d51850bfed00d0a9727f",
+        "sha256_in_prefix": "2252b7d07f9d6852f2c4c9d6aafd91d449615c952298d51850bfed00d0a9727f",
+        "size_in_bytes": 1182
+      },
+      {
+        "_path": "lib/R/library/xfun/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "e81f87d2075564ba264b969cfc701654f40c3e7aff9eef7e9cdca5abda6b8501",
+        "sha256_in_prefix": "e81f87d2075564ba264b969cfc701654f40c3e7aff9eef7e9cdca5abda6b8501",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "lib/R/library/xfun/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d65018cb3a7d093901c0429dcb7718a3a5a86393500abe7c71d06203801e063b",
+        "sha256_in_prefix": "d65018cb3a7d093901c0429dcb7718a3a5a86393500abe7c71d06203801e063b",
+        "size_in_bytes": 1180
+      },
+      {
+        "_path": "lib/R/library/xfun/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "01cd5f8fd42a1b070d0da42d6f6637396f7d25fb8df08895a019992e11a14700",
+        "sha256_in_prefix": "01cd5f8fd42a1b070d0da42d6f6637396f7d25fb8df08895a019992e11a14700",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "lib/R/library/xfun/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "c2279f82cd12ee34b88c23cd821a28472c4fcb86497fa5c522b4f435b0395c5a",
+        "sha256_in_prefix": "c2279f82cd12ee34b88c23cd821a28472c4fcb86497fa5c522b4f435b0395c5a",
+        "size_in_bytes": 1951
+      },
+      {
+        "_path": "lib/R/library/xfun/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "b8b475a7409aad1d0bed52e1a8e6c6540c98027281079122985403610e970fe6",
+        "sha256_in_prefix": "b8b475a7409aad1d0bed52e1a8e6c6540c98027281079122985403610e970fe6",
+        "size_in_bytes": 10468
+      },
+      {
+        "_path": "lib/R/library/xfun/R/xfun",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/xfun/R/xfun.rdb",
+        "path_type": "hardlink",
+        "sha256": "b248600c9a1323187f3041a8b40d4ee4e3defa7abdb347bf829ec0f9a4e4f626",
+        "sha256_in_prefix": "b248600c9a1323187f3041a8b40d4ee4e3defa7abdb347bf829ec0f9a4e4f626",
+        "size_in_bytes": 129159
+      },
+      {
+        "_path": "lib/R/library/xfun/R/xfun.rdx",
+        "path_type": "hardlink",
+        "sha256": "7eec7658461ffe786722931e1bec3daf997fd142003c97c5930e7676489ebc56",
+        "sha256_in_prefix": "7eec7658461ffe786722931e1bec3daf997fd142003c97c5930e7676489ebc56",
+        "size_in_bytes": 2196
+      },
+      {
+        "_path": "lib/R/library/xfun/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "ec2c2b137c081488c9974c54385b8cc4cef2af4cccb2dadbb7e796e1b4cc470d",
+        "sha256_in_prefix": "ec2c2b137c081488c9974c54385b8cc4cef2af4cccb2dadbb7e796e1b4cc470d",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "lib/R/library/xfun/doc/xfun.R",
+        "path_type": "hardlink",
+        "sha256": "85b7a5474ba1f814fed8fbdd8945658ba4581e380ea9aa0e8bdf10d16484f3ba",
+        "sha256_in_prefix": "85b7a5474ba1f814fed8fbdd8945658ba4581e380ea9aa0e8bdf10d16484f3ba",
+        "size_in_bytes": 3151
+      },
+      {
+        "_path": "lib/R/library/xfun/doc/xfun.Rmd",
+        "path_type": "hardlink",
+        "sha256": "1369440483a36e9a2379a005858b27784f52be5e169b61964d46408c313b1ec0",
+        "sha256_in_prefix": "1369440483a36e9a2379a005858b27784f52be5e169b61964d46408c313b1ec0",
+        "size_in_bytes": 14190
+      },
+      {
+        "_path": "lib/R/library/xfun/doc/xfun.html",
+        "path_type": "hardlink",
+        "sha256": "4941aa1548a2ae7420c2961548dd12801ddc076a2f683dc72ca679829fc1a7ea",
+        "sha256_in_prefix": "4941aa1548a2ae7420c2961548dd12801ddc076a2f683dc72ca679829fc1a7ea",
+        "size_in_bytes": 49508
+      },
+      {
+        "_path": "lib/R/library/xfun/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "f0de6c2f0d0173b7d5ea8b18466f54244ac90cd1e7344972216991605b23c9dd",
+        "sha256_in_prefix": "f0de6c2f0d0173b7d5ea8b18466f54244ac90cd1e7344972216991605b23c9dd",
+        "size_in_bytes": 2100
+      },
+      {
+        "_path": "lib/R/library/xfun/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "972502b5c580564954e9187b90ee40626e5ed9481286809674600c24836a356f",
+        "sha256_in_prefix": "972502b5c580564954e9187b90ee40626e5ed9481286809674600c24836a356f",
+        "size_in_bytes": 880
+      },
+      {
+        "_path": "lib/R/library/xfun/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "58495deebc5417529be2e99f470f6f1499c472d8ad71415e5046d42f82fd4de1",
+        "sha256_in_prefix": "58495deebc5417529be2e99f470f6f1499c472d8ad71415e5046d42f82fd4de1",
+        "size_in_bytes": 682
+      },
+      {
+        "_path": "lib/R/library/xfun/help/xfun.rdb",
+        "path_type": "hardlink",
+        "sha256": "9748a54577992bd802b30c81114794b11faa9a1b11bc184b3410be114d956455",
+        "sha256_in_prefix": "9748a54577992bd802b30c81114794b11faa9a1b11bc184b3410be114d956455",
+        "size_in_bytes": 117573
+      },
+      {
+        "_path": "lib/R/library/xfun/help/xfun.rdx",
+        "path_type": "hardlink",
+        "sha256": "021b3db3bf4094db11c642a788ce5a700f02fb440222f5d3f8602104e34d59eb",
+        "sha256_in_prefix": "021b3db3bf4094db11c642a788ce5a700f02fb440222f5d3f8602104e34d59eb",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "lib/R/library/xfun/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "608eb084be1095d6620b39366c25e92b2daf24a167559e5501949ca17833aef6",
+        "sha256_in_prefix": "608eb084be1095d6620b39366c25e92b2daf24a167559e5501949ca17833aef6",
+        "size_in_bytes": 12957
+      },
+      {
+        "_path": "lib/R/library/xfun/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/xfun/libs/xfun.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/r-xfun_1604113889503/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "f9de51258d49f7237ffc71ccb96f779f5a1525cb75a76d73edb418602d51adb6",
+        "sha256_in_prefix": "914b4e69d2eb268b402cbde5bffa2652e9feab779777bfacd34300b612fda34f",
+        "size_in_bytes": 13916
+      },
+      {
+        "_path": "lib/R/library/xfun/scripts/call-fun.R",
+        "path_type": "hardlink",
+        "sha256": "4e2d33a61b387303806e6f3ccdb31f434b7680e9919cef9bb8ee28707ed833f4",
+        "sha256_in_prefix": "4e2d33a61b387303806e6f3ccdb31f434b7680e9919cef9bb8ee28707ed833f4",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "lib/R/library/xfun/scripts/child_pids.sh",
+        "path_type": "hardlink",
+        "sha256": "c4c84aa1576a185ff80b0f755b5f5fc6df1865b60e1fe2387b45a439ac405546",
+        "sha256_in_prefix": "c4c84aa1576a185ff80b0f755b5f5fc6df1865b60e1fe2387b45a439ac405546",
+        "size_in_bytes": 192
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "474786964ce0ebc503ed2a15d4e6f64c115242a89901152ae9e38abe9926eee2",
+  "size": 297501,
+  "subdir": "osx-64",
+  "timestamp": 1604114146976,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-xfun-0.19-r36h6b199c2_0.tar.bz2",
+  "version": "0.19"
+}

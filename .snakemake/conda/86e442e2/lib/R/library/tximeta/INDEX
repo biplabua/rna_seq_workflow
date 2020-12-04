@@ -1,0 +1,11 @@
+addExons                Add exons to rowRanges of a transcript-level
+                        SummarizedExperiment
+addIds                  Add IDs to rowRanges of a SummarizedExperiment
+getTximetaBFC           Get or set the directory of the BiocFileCache
+                        used by tximeta
+linkedTxome             Make and load linked transcriptomes
+                        ("linkedTxome")
+summarizeToGene,SummarizedExperiment-method
+                        Summarize estimated quantitites to gene-level
+tximeta                 tximeta: Transcript quantification import with
+                        automatic metadata

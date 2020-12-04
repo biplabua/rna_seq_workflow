@@ -1,0 +1,45 @@
+{
+  "build": "default_h9e6edd0_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=11.0.0",
+    "libllvm11 >=11.0.0,<11.1.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/libclang-cpp11-11.0.0-default_h9e6edd0_2",
+  "features": "",
+  "files": [
+    "lib/libclang-cpp.11.dylib"
+  ],
+  "fn": "libclang-cpp11-11.0.0-default_h9e6edd0_2.tar.bz2",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/libclang-cpp11-11.0.0-default_h9e6edd0_2",
+    "type": 1
+  },
+  "md5": "fd996d0e9539f6725388d73dbdf72ae0",
+  "name": "libclang-cpp11",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/libclang-cpp11-11.0.0-default_h9e6edd0_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libclang-cpp.11.dylib",
+        "path_type": "hardlink",
+        "sha256": "f79b15c5d03442d0d2729d61e5cff5308a0a83272070ab4db0474e2c616a90f0",
+        "sha256_in_prefix": "f79b15c5d03442d0d2729d61e5cff5308a0a83272070ab4db0474e2c616a90f0",
+        "size_in_bytes": 47408572
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6c449b4d01816983e57e42c608ac82cdbdf72a6cd27ad6a5c6b4c4e3c69eee54",
+  "size": 13156380,
+  "subdir": "osx-64",
+  "timestamp": 1605745069716,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libclang-cpp11-11.0.0-default_h9e6edd0_2.tar.bz2",
+  "version": "11.0.0"
+}

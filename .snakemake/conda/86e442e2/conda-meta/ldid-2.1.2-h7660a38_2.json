@@ -1,0 +1,44 @@
+{
+  "build": "h7660a38_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/ldid-2.1.2-h7660a38_2",
+  "features": "",
+  "files": [
+    "bin/ldid"
+  ],
+  "fn": "ldid-2.1.2-h7660a38_2.tar.bz2",
+  "license": "AGPL-3.0-only",
+  "license_family": "AGPL",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/ldid-2.1.2-h7660a38_2",
+    "type": 1
+  },
+  "md5": "be1a378e6e6fa263ebb6c46c86834176",
+  "name": "ldid",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/ldid-2.1.2-h7660a38_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/ldid",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/ldid_1602885300457/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "5bcbc7e1ecf4d7ccdcc3563553737de825d0554da78c83dd9415fc3e19ad8c7f",
+        "sha256_in_prefix": "e4da03575f70fa3abe98063c7c68985161282389d4f7469a2e23ccb6012aff61",
+        "size_in_bytes": 117940
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "eb573b382f63f235e7c6870355d0e42727fb98ea153a5e97134628b4a987f43d",
+  "size": 56818,
+  "subdir": "osx-64",
+  "timestamp": 1602885411066,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ldid-2.1.2-h7660a38_2.tar.bz2",
+  "version": "2.1.2"
+}

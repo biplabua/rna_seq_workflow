@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: Utilities to create and use Ensembl-based annotation databases</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> Utilities to create and use Ensembl-based annotation databases
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;ensembldb&rsquo; version 2.10.0</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p style="text-align: center;">
+<a href="#A">A</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#F">F</a>
+<a href="#G">G</a>
+<a href="#H">H</a>
+<a href="#I">I</a>
+<a href="#K">K</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#O">O</a>
+<a href="#P">P</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#U">U</a>
+</p>
+
+
+<h2><a name="A">-- A --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="global-filters.html">activeFilter</a></td>
+<td>Globally add filters to an EnsDb database</td></tr>
+<tr><td style="width: 25%;"><a href="global-filters.html">activeFilter-method</a></td>
+<td>Globally add filters to an EnsDb database</td></tr>
+<tr><td style="width: 25%;"><a href="global-filters.html">addFilter</a></td>
+<td>Globally add filters to an EnsDb database</td></tr>
+<tr><td style="width: 25%;"><a href="global-filters.html">addFilter-method</a></td>
+<td>Globally add filters to an EnsDb database</td></tr>
+</table>
+
+<h2><a name="C">-- C --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">cdsBy</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">cdsBy-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="cdsToTranscript.html">cdsToTranscript</a></td>
+<td>Map positions within the CDS to coordinates relative to the start of the transcript</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-AnnotationDbi.html">columns-method</a></td>
+<td>Integration into the AnnotationDbi framework</td></tr>
+<tr><td style="width: 25%;"><a href="convertFilter.html">convertFilter-method</a></td>
+<td>Convert an AnnotationFilter to a SQL WHERE condition for EnsDb</td></tr>
+</table>
+
+<h2><a name="D">-- D --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">dbconn</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">dbconn-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">Deprecated</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">disjointExons-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="global-filters.html">dropFilter</a></td>
+<td>Globally add filters to an EnsDb database</td></tr>
+<tr><td style="width: 25%;"><a href="global-filters.html">dropFilter-method</a></td>
+<td>Globally add filters to an EnsDb database</td></tr>
+</table>
+
+<h2><a name="E">-- E --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="EnsDb.html">EnsDb</a></td>
+<td>Connect to an EnsDb object</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">EnsDb-class</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="makeEnsemblDbPackage.html">ensDbFromAH</a></td>
+<td>Generating a Ensembl annotation package from Ensembl</td></tr>
+<tr><td style="width: 25%;"><a href="makeEnsemblDbPackage.html">ensDbFromGff</a></td>
+<td>Generating a Ensembl annotation package from Ensembl</td></tr>
+<tr><td style="width: 25%;"><a href="makeEnsemblDbPackage.html">ensDbFromGRanges</a></td>
+<td>Generating a Ensembl annotation package from Ensembl</td></tr>
+<tr><td style="width: 25%;"><a href="makeEnsemblDbPackage.html">ensDbFromGtf</a></td>
+<td>Generating a Ensembl annotation package from Ensembl</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">ensembldb-deprecated</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">ensemblVersion</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">ensemblVersion-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">EntrezidFilter</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">ExonidFilter</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">ExonrankFilter</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">exons</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">exons-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">exonsBy</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">exonsBy-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">exonsByOverlaps-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+</table>
+
+<h2><a name="F">-- F --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="makeEnsemblDbPackage.html">fetchTablesFromEnsembl</a></td>
+<td>Generating a Ensembl annotation package from Ensembl</td></tr>
+<tr><td style="width: 25%;"><a href="global-filters.html">filter</a></td>
+<td>Globally add filters to an EnsDb database</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">Filter-classes</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">fiveUTRsByTranscript-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+</table>
+
+<h2><a name="G">-- G --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="Deprecated.html">GenebiotypeFilter</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">GeneidFilter</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">genes</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">genes-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="genomeToProtein.html">genomeToProtein</a></td>
+<td>Map genomic coordinates to protein coordinates</td></tr>
+<tr><td style="width: 25%;"><a href="genomeToTranscript.html">genomeToTranscript</a></td>
+<td>Map genomic coordinates to transcript coordinates</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-utils.html">getGeneRegionTrackForGviz</a></td>
+<td>Utility functions</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-utils.html">getGeneRegionTrackForGviz-method</a></td>
+<td>Utility functions</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-sequences.html">getGenomeFaFile</a></td>
+<td>Functionality related to DNA/RNA sequences</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-sequences.html">getGenomeFaFile-method</a></td>
+<td>Functionality related to DNA/RNA sequences</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-sequences.html">getGenomeTwoBitFile</a></td>
+<td>Functionality related to DNA/RNA sequences</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-sequences.html">getGenomeTwoBitFile-method</a></td>
+<td>Functionality related to DNA/RNA sequences</td></tr>
+</table>
+
+<h2><a name="H">-- H --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="hasProteinData-EnsDb-method.html">hasProteinData</a></td>
+<td>Determine whether protein data is available in the database</td></tr>
+<tr><td style="width: 25%;"><a href="hasProteinData-EnsDb-method.html">hasProteinData-method</a></td>
+<td>Determine whether protein data is available in the database</td></tr>
+</table>
+
+<h2><a name="I">-- I --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">intronsByTranscript-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+</table>
+
+<h2><a name="K">-- K --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="EnsDb-AnnotationDbi.html">keys-method</a></td>
+<td>Integration into the AnnotationDbi framework</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-AnnotationDbi.html">keytypes-method</a></td>
+<td>Integration into the AnnotationDbi framework</td></tr>
+</table>
+
+<h2><a name="L">-- L --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="EnsDb-lengths.html">lengthOf</a></td>
+<td>Calculating lengths of features</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-lengths.html">lengthOf-method</a></td>
+<td>Calculating lengths of features</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">listColumns</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">listColumns-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="listEnsDbs.html">listEnsDbs</a></td>
+<td>List EnsDb databases in a MariaDB/MySQL server</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">listGenebiotypes</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">listGenebiotypes-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="ProteinFunctionality.html">listProteinColumns</a></td>
+<td>Protein related functionality</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">listTables</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">listTables-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">listTxbiotypes</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">listTxbiotypes-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="ProteinFunctionality.html">listUniprotDbs</a></td>
+<td>Protein related functionality</td></tr>
+<tr><td style="width: 25%;"><a href="ProteinFunctionality.html">listUniprotDbs-method</a></td>
+<td>Protein related functionality</td></tr>
+<tr><td style="width: 25%;"><a href="ProteinFunctionality.html">listUniprotMappingTypes</a></td>
+<td>Protein related functionality</td></tr>
+<tr><td style="width: 25%;"><a href="ProteinFunctionality.html">listUniprotMappingTypes-method</a></td>
+<td>Protein related functionality</td></tr>
+</table>
+
+<h2><a name="M">-- M --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="makeEnsemblDbPackage.html">makeEnsembldbPackage</a></td>
+<td>Generating a Ensembl annotation package from Ensembl</td></tr>
+<tr><td style="width: 25%;"><a href="makeEnsemblDbPackage.html">makeEnsemblSQLiteFromTables</a></td>
+<td>Generating a Ensembl annotation package from Ensembl</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-AnnotationDbi.html">mapIds-method</a></td>
+<td>Integration into the AnnotationDbi framework</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">metadata</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">metadata-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+</table>
+
+<h2><a name="O">-- O --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="Filter-classes.html">OnlyCodingTxFilter</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">OnlyCodingTxFilter-class</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">organism</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">organism-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+</table>
+
+<h2><a name="P">-- P --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">promoters</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">promoters-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">ProtDomIdFilter</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">ProtDomIdFilter-class</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">ProteinDomainIdFilter</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">ProteinDomainIdFilter-class</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">ProteinDomainSourceFilter</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">ProteinDomainSourceFilter-class</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="ProteinFunctionality.html">proteins</a></td>
+<td>Protein related functionality</td></tr>
+<tr><td style="width: 25%;"><a href="ProteinFunctionality.html">proteins-method</a></td>
+<td>Protein related functionality</td></tr>
+<tr><td style="width: 25%;"><a href="proteinToGenome.html">proteinToGenome</a></td>
+<td>Map within-protein coordinates to genomic coordinates</td></tr>
+<tr><td style="width: 25%;"><a href="proteinToTranscript.html">proteinToTranscript</a></td>
+<td>Map protein-relative coordinates to positions within the transcript</td></tr>
+</table>
+
+<h2><a name="R">-- R --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">returnFilterColumns</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">returnFilterColumns-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">returnFilterColumns&lt;-</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">returnFilterColumns&lt;--method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="runEnsDbApp.html">runEnsDbApp</a></td>
+<td>Search annotations interactively</td></tr>
+</table>
+
+<h2><a name="S">-- S --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="EnsDb-AnnotationDbi.html">select</a></td>
+<td>Integration into the AnnotationDbi framework</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-AnnotationDbi.html">select-method</a></td>
+<td>Integration into the AnnotationDbi framework</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">SeqendFilter</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">seqinfo</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">seqinfo-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">seqlevels</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">seqlevels-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">seqlevels-method</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-seqlevels.html">seqlevelsStyle</a></td>
+<td>Support for other than Ensembl seqlevel style</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-seqlevels.html">seqlevelsStyle-method</a></td>
+<td>Support for other than Ensembl seqlevel style</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-seqlevels.html">seqlevelsStyle&lt;-</a></td>
+<td>Support for other than Ensembl seqlevel style</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-seqlevels.html">seqlevelsStyle&lt;--method</a></td>
+<td>Support for other than Ensembl seqlevel style</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">SeqnameFilter</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">seqnames-method</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">SeqstartFilter</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">SeqstrandFilter</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">show</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">show-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">supportedFilters-method</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-seqlevels.html">supportedSeqlevelsStyles</a></td>
+<td>Support for other than Ensembl seqlevel style</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-seqlevels.html">supportedSeqlevelsStyles-method</a></td>
+<td>Support for other than Ensembl seqlevel style</td></tr>
+</table>
+
+<h2><a name="T">-- T --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">threeUTRsByTranscript-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">toSAF</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">toSAF-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">transcripts</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">transcripts-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">transcriptsBy</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">transcriptsBy-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-exonsBy.html">transcriptsByOverlaps-method</a></td>
+<td>Retrieve annotation data from an Ensembl based package</td></tr>
+<tr><td style="width: 25%;"><a href="transcriptToCds.html">transcriptToCds</a></td>
+<td>Map transcript-relative coordinates to positions within the CDS</td></tr>
+<tr><td style="width: 25%;"><a href="transcriptToGenome.html">transcriptToGenome</a></td>
+<td>Map transcript-relative coordinates to genomic coordinates</td></tr>
+<tr><td style="width: 25%;"><a href="transcriptToProtein.html">transcriptToProtein</a></td>
+<td>Map transcript-relative coordinates to amino acid residues of the encoded protein</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">TxbiotypeFilter</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="Deprecated.html">TxidFilter</a></td>
+<td>Deprecated functionality</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">TxSupportLevelFilter</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">TxSupportLevelFilter-class</a></td>
+<td>Filters supported by ensembldb</td></tr>
+</table>
+
+<h2><a name="U">-- U --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="Filter-classes.html">UniprotDbFilter</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">UniprotDbFilter-class</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">UniprotMappingTypeFilter</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="Filter-classes.html">UniprotMappingTypeFilter-class</a></td>
+<td>Filters supported by ensembldb</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">updateEnsDb</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="EnsDb-class.html">updateEnsDb-method</a></td>
+<td>Basic usage of an Ensembl based annotation database</td></tr>
+<tr><td style="width: 25%;"><a href="useMySQL-EnsDb-method.html">useMySQL</a></td>
+<td>Use a MariaDB/MySQL backend</td></tr>
+<tr><td style="width: 25%;"><a href="useMySQL-EnsDb-method.html">useMySQL-method</a></td>
+<td>Use a MariaDB/MySQL backend</td></tr>
+</table>
+</body></html>

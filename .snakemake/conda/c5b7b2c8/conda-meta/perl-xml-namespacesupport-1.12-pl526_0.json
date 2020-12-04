@@ -1,0 +1,62 @@
+{
+  "build": "pl526_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0",
+    "perl-constant"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/perl-xml-namespacesupport-1.12-pl526_0",
+  "features": "",
+  "files": [
+    "lib/site_perl/5.26.2/XML/NamespaceSupport.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/XML/NamespaceSupport/.packlist",
+    "man/man3/XML::NamespaceSupport.3"
+  ],
+  "fn": "perl-xml-namespacesupport-1.12-pl526_0.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/perl-xml-namespacesupport-1.12-pl526_0",
+    "type": 1
+  },
+  "md5": "4d4623843b0cf3c6915d3ef87c50a47a",
+  "name": "perl-xml-namespacesupport",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/perl-xml-namespacesupport-1.12-pl526_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/site_perl/5.26.2/XML/NamespaceSupport.pm",
+        "path_type": "hardlink",
+        "sha256": "62529604853467c7c581ba3ec7675daf2c0281127a899ee4d09f40c70dd0c73d",
+        "sha256_in_prefix": "62529604853467c7c581ba3ec7675daf2c0281127a899ee4d09f40c70dd0c73d",
+        "size_in_bytes": 19946
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/XML/NamespaceSupport/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "7ecb7fb45f7d70b6e09fe1e2bf81f4e8eeef3b97410aee4a9bc4c9377faffb39",
+        "sha256_in_prefix": "272bf40cb43f4c29295ee696e87954ff2546d9a27f390aed38d0801b4007e018",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "man/man3/XML::NamespaceSupport.3",
+        "path_type": "hardlink",
+        "sha256": "26b757d8019e693e8ce4e8b4161dd73a26055277c6a904110fc478c2c459bfe7",
+        "sha256_in_prefix": "26b757d8019e693e8ce4e8b4161dd73a26055277c6a904110fc478c2c459bfe7",
+        "size_in_bytes": 11633
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "618f3c90199e4adfbb78b4f0ae08e327d04d5e6a22c64cdf1fb6eb30eb14ae8a",
+  "size": 11963,
+  "subdir": "osx-64",
+  "timestamp": 1531642677721,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/perl-xml-namespacesupport-1.12-pl526_0.tar.bz2",
+  "version": "1.12"
+}

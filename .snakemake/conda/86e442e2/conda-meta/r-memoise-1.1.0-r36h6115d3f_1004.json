@@ -1,0 +1,207 @@
+{
+  "build": "r36h6115d3f_1004",
+  "build_number": 1004,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-digest >=0.6.3"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-memoise-1.1.0-r36h6115d3f_1004",
+  "features": "",
+  "files": [
+    "lib/R/library/memoise/DESCRIPTION",
+    "lib/R/library/memoise/INDEX",
+    "lib/R/library/memoise/LICENSE",
+    "lib/R/library/memoise/Meta/Rd.rds",
+    "lib/R/library/memoise/Meta/features.rds",
+    "lib/R/library/memoise/Meta/hsearch.rds",
+    "lib/R/library/memoise/Meta/links.rds",
+    "lib/R/library/memoise/Meta/nsInfo.rds",
+    "lib/R/library/memoise/Meta/package.rds",
+    "lib/R/library/memoise/NAMESPACE",
+    "lib/R/library/memoise/NEWS.md",
+    "lib/R/library/memoise/R/memoise",
+    "lib/R/library/memoise/R/memoise.rdb",
+    "lib/R/library/memoise/R/memoise.rdx",
+    "lib/R/library/memoise/help/AnIndex",
+    "lib/R/library/memoise/help/aliases.rds",
+    "lib/R/library/memoise/help/memoise.rdb",
+    "lib/R/library/memoise/help/memoise.rdx",
+    "lib/R/library/memoise/help/paths.rds",
+    "lib/R/library/memoise/html/00Index.html",
+    "lib/R/library/memoise/html/R.css"
+  ],
+  "fn": "r-memoise-1.1.0-r36h6115d3f_1004.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-memoise-1.1.0-r36h6115d3f_1004",
+    "type": 1
+  },
+  "md5": "ccfe15c055bf16f53665a9f0302c4395",
+  "name": "r-memoise",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-memoise-1.1.0-r36h6115d3f_1004.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/memoise/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "c15e0f3c9a5ce619fd6eb5d198458579c46e720ab516f5665cda7df65f9342b8",
+        "sha256_in_prefix": "c15e0f3c9a5ce619fd6eb5d198458579c46e720ab516f5665cda7df65f9342b8",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "lib/R/library/memoise/INDEX",
+        "path_type": "hardlink",
+        "sha256": "d5ee9a676814a371d8471292d168d12a500e301b53653a8d81cf096c7a0d4d24",
+        "sha256_in_prefix": "d5ee9a676814a371d8471292d168d12a500e301b53653a8d81cf096c7a0d4d24",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "lib/R/library/memoise/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "728149b1a13e7dce2e5ebf88bf86cce3c98db357a4cf60fc06fb1ae7d5d341b8",
+        "sha256_in_prefix": "728149b1a13e7dce2e5ebf88bf86cce3c98db357a4cf60fc06fb1ae7d5d341b8",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "lib/R/library/memoise/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "4d307ce6bde4cdf6bd6141f6913e1cc2924dc09b5995a945aa7f738382a239ff",
+        "sha256_in_prefix": "4d307ce6bde4cdf6bd6141f6913e1cc2924dc09b5995a945aa7f738382a239ff",
+        "size_in_bytes": 580
+      },
+      {
+        "_path": "lib/R/library/memoise/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/memoise/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "8c239da3ac08f980dee92fc7e0a57f6393385c64a7d6d5e9234bc0649938ae0f",
+        "sha256_in_prefix": "8c239da3ac08f980dee92fc7e0a57f6393385c64a7d6d5e9234bc0649938ae0f",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "lib/R/library/memoise/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "ea1b05e9fbff91b241257b98cb3a9a5ff5bd86184770bf5b8c57b2d7ef8c952a",
+        "sha256_in_prefix": "ea1b05e9fbff91b241257b98cb3a9a5ff5bd86184770bf5b8c57b2d7ef8c952a",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "lib/R/library/memoise/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "33ef1a19341b31586b6e4ff6ee0177e2e8a7cdb4a7fa5c2d8719f3f813376190",
+        "sha256_in_prefix": "33ef1a19341b31586b6e4ff6ee0177e2e8a7cdb4a7fa5c2d8719f3f813376190",
+        "size_in_bytes": 303
+      },
+      {
+        "_path": "lib/R/library/memoise/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "24c2568d13852437a0dee0351ae24a0118845b39cf3f2cda55d91ddfc2606152",
+        "sha256_in_prefix": "24c2568d13852437a0dee0351ae24a0118845b39cf3f2cda55d91ddfc2606152",
+        "size_in_bytes": 1057
+      },
+      {
+        "_path": "lib/R/library/memoise/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "1bd7b607d87627970c0c7cb6c7cc86c254cc873879c6e4c54c3127a67b545f57",
+        "sha256_in_prefix": "1bd7b607d87627970c0c7cb6c7cc86c254cc873879c6e4c54c3127a67b545f57",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "lib/R/library/memoise/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "1b1310cd19a007a91938583ca9ecbf86a316792f532d3618cd4a7d17ba8ac8df",
+        "sha256_in_prefix": "1b1310cd19a007a91938583ca9ecbf86a316792f532d3618cd4a7d17ba8ac8df",
+        "size_in_bytes": 1707
+      },
+      {
+        "_path": "lib/R/library/memoise/R/memoise",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/memoise/R/memoise.rdb",
+        "path_type": "hardlink",
+        "sha256": "a1a2a6884dcdc042fa871394499c55cb0bace6557c0a7dd82249245b9ef4a0f0",
+        "sha256_in_prefix": "a1a2a6884dcdc042fa871394499c55cb0bace6557c0a7dd82249245b9ef4a0f0",
+        "size_in_bytes": 13892
+      },
+      {
+        "_path": "lib/R/library/memoise/R/memoise.rdx",
+        "path_type": "hardlink",
+        "sha256": "e9498593112d2336698663286f81aea7f9b86d081d322911b49927fdd9280331",
+        "sha256_in_prefix": "e9498593112d2336698663286f81aea7f9b86d081d322911b49927fdd9280331",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "lib/R/library/memoise/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "ed4ded4649b93eac8fffddd4a58918f18075730fd6ca2f243b5a9c030d34724a",
+        "sha256_in_prefix": "ed4ded4649b93eac8fffddd4a58918f18075730fd6ca2f243b5a9c030d34724a",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "lib/R/library/memoise/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "0a4e8a1e1b3009b809fefcdc12ec41172e288dd3a556ba2088fa6648c36e8485",
+        "sha256_in_prefix": "0a4e8a1e1b3009b809fefcdc12ec41172e288dd3a556ba2088fa6648c36e8485",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "lib/R/library/memoise/help/memoise.rdb",
+        "path_type": "hardlink",
+        "sha256": "fa7244f31927473725ff2d25abc156f5aa64d57df75db030b6ab8749f8a43501",
+        "sha256_in_prefix": "fa7244f31927473725ff2d25abc156f5aa64d57df75db030b6ab8749f8a43501",
+        "size_in_bytes": 14146
+      },
+      {
+        "_path": "lib/R/library/memoise/help/memoise.rdx",
+        "path_type": "hardlink",
+        "sha256": "c174856cf6d156c1eb0454b503853f2d702b8792170fccfb649b9b34eb6bf7be",
+        "sha256_in_prefix": "c174856cf6d156c1eb0454b503853f2d702b8792170fccfb649b9b34eb6bf7be",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "lib/R/library/memoise/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "728089fb24f4c1c3ad658ae00d6c37a72086a3dc4343b337d4c763591a2133ef",
+        "sha256_in_prefix": "728089fb24f4c1c3ad658ae00d6c37a72086a3dc4343b337d4c763591a2133ef",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "lib/R/library/memoise/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "01c73f2bb1f7ec7aec0601aa34806dd8ee9f79ab3bf44c796df2f2e123cf90f6",
+        "sha256_in_prefix": "01c73f2bb1f7ec7aec0601aa34806dd8ee9f79ab3bf44c796df2f2e123cf90f6",
+        "size_in_bytes": 2423
+      },
+      {
+        "_path": "lib/R/library/memoise/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "76d203945e46271418ede4e7c177df604bbdde20c1c9d6f89fc0db3e44b7b873",
+  "size": 42881,
+  "subdir": "noarch",
+  "timestamp": 1588537839463,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-memoise-1.1.0-r36h6115d3f_1004.tar.bz2",
+  "version": "1.1.0"
+}

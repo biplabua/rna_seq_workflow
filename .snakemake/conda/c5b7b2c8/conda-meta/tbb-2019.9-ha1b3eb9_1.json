@@ -1,0 +1,65 @@
+{
+  "build": "ha1b3eb9_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=9.0.0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/tbb-2019.9-ha1b3eb9_1",
+  "features": "",
+  "files": [
+    "lib/libtbb.dylib",
+    "lib/libtbbmalloc.dylib",
+    "lib/libtbbmalloc_proxy.dylib"
+  ],
+  "fn": "tbb-2019.9-ha1b3eb9_1.tar.bz2",
+  "license": "Apache 2.0",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/tbb-2019.9-ha1b3eb9_1",
+    "type": 1
+  },
+  "md5": "15273afe7a3dec4669fe01917d6550e4",
+  "name": "tbb",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/tbb-2019.9-ha1b3eb9_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libtbb.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/tbb_1575072817470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "8076ae7ef1fc7a8622c78586596373f55e603e540481f575dbc0247bbc07bc08",
+        "sha256_in_prefix": "071840c8bcb51431d0447e5b115b3712c40ae0d26b5d63baea1efb59cc5299a7",
+        "size_in_bytes": 369272
+      },
+      {
+        "_path": "lib/libtbbmalloc.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/tbb_1575072817470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "1799076cf48c90f1694896321666c41ac6c9bf3f6994138e8eba630f90a8a8d4",
+        "sha256_in_prefix": "abe8ca6a7a68818445287ecd91f4268888f840e9add07098b0c9690b9727679b",
+        "size_in_bytes": 179360
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/tbb_1575072817470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "b9504dde03521504afb74d844238184925f641fa1cf9de65826c33835fb2df1e",
+        "sha256_in_prefix": "70bb5cf4d8f1a8b1dd1d7decf3a90ddea8759c8ad8f352b3eb05b841698306bf",
+        "size_in_bytes": 18472
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9a132b30c86da6b833b26f6e93ed1b89f617367aee1226ce3d7cdf8453903f17",
+  "size": 160735,
+  "subdir": "osx-64",
+  "timestamp": 1575073094644,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/tbb-2019.9-ha1b3eb9_1.tar.bz2",
+  "version": "2019.9"
+}

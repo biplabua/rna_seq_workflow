@@ -1,0 +1,3 @@
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib/site_perl/5.26.2/darwin-thread-multi-2level/Data/Dumper.pm relocate_as=../../../Data/Dumper.pm
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Data/Dumper/Dumper.bundle relocate_as=Dumper.bundle
+/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8/man/man3/Data::Dumper.3 relocate_as=../../../../../../../man/man3/Data::Dumper.3

@@ -1,0 +1,2 @@
+CC=x86_64-apple-darwin13.4.0-clang
+CFLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/86e442e2/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/r-base_1603148835326/work=/usr/local/src/conda/r-base-3.6.3 -fdebug-prefix-map=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/86e442e2=/usr/local/src/conda-prefix

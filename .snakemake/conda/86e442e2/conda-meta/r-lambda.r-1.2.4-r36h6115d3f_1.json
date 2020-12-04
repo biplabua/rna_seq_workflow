@@ -1,0 +1,191 @@
+{
+  "build": "r36h6115d3f_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-formatr"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-lambda.r-1.2.4-r36h6115d3f_1",
+  "features": "",
+  "files": [
+    "lib/R/library/lambda.r/DESCRIPTION",
+    "lib/R/library/lambda.r/INDEX",
+    "lib/R/library/lambda.r/Meta/Rd.rds",
+    "lib/R/library/lambda.r/Meta/features.rds",
+    "lib/R/library/lambda.r/Meta/hsearch.rds",
+    "lib/R/library/lambda.r/Meta/links.rds",
+    "lib/R/library/lambda.r/Meta/nsInfo.rds",
+    "lib/R/library/lambda.r/Meta/package.rds",
+    "lib/R/library/lambda.r/NAMESPACE",
+    "lib/R/library/lambda.r/R/lambda.r",
+    "lib/R/library/lambda.r/R/lambda.r.rdb",
+    "lib/R/library/lambda.r/R/lambda.r.rdx",
+    "lib/R/library/lambda.r/help/AnIndex",
+    "lib/R/library/lambda.r/help/aliases.rds",
+    "lib/R/library/lambda.r/help/lambda.r.rdb",
+    "lib/R/library/lambda.r/help/lambda.r.rdx",
+    "lib/R/library/lambda.r/help/paths.rds",
+    "lib/R/library/lambda.r/html/00Index.html",
+    "lib/R/library/lambda.r/html/R.css"
+  ],
+  "fn": "r-lambda.r-1.2.4-r36h6115d3f_1.tar.bz2",
+  "license": "LGPL-3",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-lambda.r-1.2.4-r36h6115d3f_1",
+    "type": 1
+  },
+  "md5": "009690ac9061a7a29bb47f4df4706956",
+  "name": "r-lambda.r",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-lambda.r-1.2.4-r36h6115d3f_1.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/lambda.r/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "ab51c8fc0212f1afb04070aeefbb87b9cfec56ee975ad859e7e38e39a37d1905",
+        "sha256_in_prefix": "ab51c8fc0212f1afb04070aeefbb87b9cfec56ee975ad859e7e38e39a37d1905",
+        "size_in_bytes": 654
+      },
+      {
+        "_path": "lib/R/library/lambda.r/INDEX",
+        "path_type": "hardlink",
+        "sha256": "c3d58d911a19773a03053a1e4f678d62bda417c2a4d5775296a25eeb65cec4bd",
+        "sha256_in_prefix": "c3d58d911a19773a03053a1e4f678d62bda417c2a4d5775296a25eeb65cec4bd",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/R/library/lambda.r/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "23e90a36a0dc7b60011d6cd79ceda845d974731ef9868a557783576f84ae0373",
+        "sha256_in_prefix": "23e90a36a0dc7b60011d6cd79ceda845d974731ef9868a557783576f84ae0373",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "lib/R/library/lambda.r/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/lambda.r/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "06d8267f0542b4cd12fcd9253a9778738f07116a9477dadf53644b51f7b117cd",
+        "sha256_in_prefix": "06d8267f0542b4cd12fcd9253a9778738f07116a9477dadf53644b51f7b117cd",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "lib/R/library/lambda.r/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "3032ef89b831adcc645de4c6175f8e29cad526b2838ab29ff953f7be3247ada7",
+        "sha256_in_prefix": "3032ef89b831adcc645de4c6175f8e29cad526b2838ab29ff953f7be3247ada7",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "lib/R/library/lambda.r/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "203b0c81da5d69741031e07d5a70468f4440673aab38295560ee0b832d1c16ff",
+        "sha256_in_prefix": "203b0c81da5d69741031e07d5a70468f4440673aab38295560ee0b832d1c16ff",
+        "size_in_bytes": 390
+      },
+      {
+        "_path": "lib/R/library/lambda.r/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "28a8e1ab30d829ceb16c5e4d4d58858d134ca7531d6b1f67acea5f017c17de94",
+        "sha256_in_prefix": "28a8e1ab30d829ceb16c5e4d4d58858d134ca7531d6b1f67acea5f017c17de94",
+        "size_in_bytes": 814
+      },
+      {
+        "_path": "lib/R/library/lambda.r/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "4a4799fd150826af343b4166b82f3b7aea41928c9bb11b84710d17db467ab0c1",
+        "sha256_in_prefix": "4a4799fd150826af343b4166b82f3b7aea41928c9bb11b84710d17db467ab0c1",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "lib/R/library/lambda.r/R/lambda.r",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/lambda.r/R/lambda.r.rdb",
+        "path_type": "hardlink",
+        "sha256": "fec79b286ab7afcaccf3883915520817a73fb38fac2dd827bd7a2466dd33687a",
+        "sha256_in_prefix": "fec79b286ab7afcaccf3883915520817a73fb38fac2dd827bd7a2466dd33687a",
+        "size_in_bytes": 80631
+      },
+      {
+        "_path": "lib/R/library/lambda.r/R/lambda.r.rdx",
+        "path_type": "hardlink",
+        "sha256": "7e3df415236ac3aecbdb9c3f54633d51de0bac96cd0bbd23d1ef8a0bcaa40ade",
+        "sha256_in_prefix": "7e3df415236ac3aecbdb9c3f54633d51de0bac96cd0bbd23d1ef8a0bcaa40ade",
+        "size_in_bytes": 1371
+      },
+      {
+        "_path": "lib/R/library/lambda.r/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "90f17ebbfe25ec5ac5b6d1631a4215d5d7e2d8f4d983d9c32dd383e4f66a054a",
+        "sha256_in_prefix": "90f17ebbfe25ec5ac5b6d1631a4215d5d7e2d8f4d983d9c32dd383e4f66a054a",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "lib/R/library/lambda.r/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "20e7bcc652c8eb7a90f4677d21c98458b9b40f557f194ee7b91b497dc2f19795",
+        "sha256_in_prefix": "20e7bcc652c8eb7a90f4677d21c98458b9b40f557f194ee7b91b497dc2f19795",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "lib/R/library/lambda.r/help/lambda.r.rdb",
+        "path_type": "hardlink",
+        "sha256": "5cf4d8eef07dd1bdf17945444d5cbc3fa558a2f57752121e353e3d5694cb143f",
+        "sha256_in_prefix": "5cf4d8eef07dd1bdf17945444d5cbc3fa558a2f57752121e353e3d5694cb143f",
+        "size_in_bytes": 24534
+      },
+      {
+        "_path": "lib/R/library/lambda.r/help/lambda.r.rdx",
+        "path_type": "hardlink",
+        "sha256": "a9dcb7c7d1ad0f8811ef988acd277919309f816d095ba06355f62a3ab34c6846",
+        "sha256_in_prefix": "a9dcb7c7d1ad0f8811ef988acd277919309f816d095ba06355f62a3ab34c6846",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "lib/R/library/lambda.r/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "28703c3fbf3656ae4ef4e38dbb2ea6c177ab925041d4ab553abb65238413f777",
+        "sha256_in_prefix": "28703c3fbf3656ae4ef4e38dbb2ea6c177ab925041d4ab553abb65238413f777",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "lib/R/library/lambda.r/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "47ae6f69bc8778d5e22aa1ce439e39e9e8a8b8fa06187505d5d03661dbf76353",
+        "sha256_in_prefix": "47ae6f69bc8778d5e22aa1ce439e39e9e8a8b8fa06187505d5d03661dbf76353",
+        "size_in_bytes": 3433
+      },
+      {
+        "_path": "lib/R/library/lambda.r/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6d8ccb870db36c3fd3e46b523d1eb49e35dc2f71be4f2c17156512d2cf85ef7f",
+  "size": 122458,
+  "subdir": "noarch",
+  "timestamp": 1588552409963,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-lambda.r-1.2.4-r36h6115d3f_1.tar.bz2",
+  "version": "1.2.4"
+}
