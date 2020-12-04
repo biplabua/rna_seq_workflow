@@ -1,0 +1,137 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job counts:
+	count	jobs
+	1	all
+	1	dge_deseq2
+	4	download_reads
+	1	download_transcriptome
+	1	make_salmon_index
+	4	salmon_count
+	12
+
+[Wed Dec  2 09:49:38 2020]
+rule download_transcriptome:
+    output: rna_coding.fasta.gz
+    jobid: 5
+
+[Wed Dec  2 09:49:48 2020]
+Finished job 5.
+1 of 12 steps (8%) done
+
+[Wed Dec  2 09:49:48 2020]
+rule download_reads:
+    output: raw_data/SRR1761161.fq.gz
+    jobid: 2
+    wildcards: sample=SRR1761161
+
+[Wed Dec  2 09:57:50 2020]
+Finished job 2.
+2 of 12 steps (17%) done
+
+[Wed Dec  2 09:57:50 2020]
+rule download_reads:
+    output: raw_data/SRR1761162.fq.gz
+    jobid: 4
+    wildcards: sample=SRR1761162
+
+[Wed Dec  2 10:02:15 2020]
+Finished job 4.
+3 of 12 steps (25%) done
+
+[Wed Dec  2 10:02:15 2020]
+rule download_reads:
+    output: raw_data/SRR1761158.fq.gz
+    jobid: 1
+    wildcards: sample=SRR1761158
+
+[Wed Dec  2 10:11:08 2020]
+Finished job 1.
+4 of 12 steps (33%) done
+
+[Wed Dec  2 10:11:08 2020]
+rule download_reads:
+    output: raw_data/SRR1761159.fq.gz
+    jobid: 3
+    wildcards: sample=SRR1761159
+
+[Wed Dec  2 10:16:36 2020]
+Finished job 3.
+5 of 12 steps (42%) done
+
+[Wed Dec  2 10:16:37 2020]
+rule make_salmon_index:
+    input: rna_coding.fasta.gz
+    output: rna_coding_index
+    jobid: 6
+
+[Wed Dec  2 10:16:48 2020]
+Finished job 6.
+6 of 12 steps (50%) done
+
+[Wed Dec  2 10:16:48 2020]
+rule salmon_count:
+    input: raw_data/SRR1761159.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761159
+    jobid: 9
+    wildcards: sample=SRR1761159
+
+[Wed Dec  2 10:18:06 2020]
+Finished job 9.
+7 of 12 steps (58%) done
+
+[Wed Dec  2 10:18:06 2020]
+rule salmon_count:
+    input: raw_data/SRR1761162.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761162
+    jobid: 10
+    wildcards: sample=SRR1761162
+
+[Wed Dec  2 10:19:04 2020]
+Finished job 10.
+8 of 12 steps (67%) done
+
+[Wed Dec  2 10:19:04 2020]
+rule salmon_count:
+    input: raw_data/SRR1761158.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761158
+    jobid: 7
+    wildcards: sample=SRR1761158
+
+[Wed Dec  2 10:21:09 2020]
+Finished job 7.
+9 of 12 steps (75%) done
+
+[Wed Dec  2 10:21:09 2020]
+rule salmon_count:
+    input: raw_data/SRR1761161.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761161
+    jobid: 8
+    wildcards: sample=SRR1761161
+
+[Wed Dec  2 10:22:59 2020]
+Finished job 8.
+10 of 12 steps (83%) done
+
+[Wed Dec  2 10:22:59 2020]
+rule dge_deseq2:
+    input: meta_data.csv, out_salmon/SRR1761158, out_salmon/SRR1761161, out_salmon/SRR1761159, out_salmon/SRR1761162
+    output: log2fc.csv
+    jobid: 11
+
+[Wed Dec  2 10:23:13 2020]
+Finished job 11.
+11 of 12 steps (92%) done
+
+[Wed Dec  2 10:23:13 2020]
+localrule all:
+    input: raw_data/SRR1761158.fq.gz, raw_data/SRR1761161.fq.gz, raw_data/SRR1761159.fq.gz, raw_data/SRR1761162.fq.gz, rna_coding.fasta.gz, rna_coding_index, out_salmon/SRR1761158, out_salmon/SRR1761161, out_salmon/SRR1761159, out_salmon/SRR1761162, log2fc.csv
+    jobid: 0
+
+[Wed Dec  2 10:23:13 2020]
+Finished job 0.
+12 of 12 steps (100%) done
+Complete log: /Users/biplab/Documents/rna_seq_workflow/.snakemake/log/2020-12-02T094937.589967.snakemake.log
