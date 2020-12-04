@@ -16,6 +16,8 @@ After installing snakemake run following command to run the pipeline.
 # To analyze geo data of your interest
 Remove the default link and add link for the transcript sequence in the congif.yaml file.
 
+If the data is pair end set paired=True in the congif.yaml file, otherwise set paired=False. 
+
 Remove the default sra id in meta-data.csv file and add your own sra id number.
 
 Then run
