@@ -11,15 +11,15 @@ After installing snakemake run following command to run the pipeline.
 
 ```conda activate snakemake```
 
-```snakemake --core 1```
+```snakemake --core 1 --use-conda```
 
 # To analyze geo data of your interest
 Remove the default link and add link for the transcript sequence in the ```congif.yaml``` file.
 
-If the data is pair end set ```paired=True``` in the ```congif.yaml``` file, otherwise set ```paired=False```. 
+If the data is pair end set ```paired: True``` in the ```congif.yaml``` file, otherwise set ```paired: False```. 
 
 Remove the default sra id in ```meta-data.csv``` file and add your own sra id number.
 
 Then run
 
-```snakemake --core 1```
+```snakemake --core 1 --use-conda```
