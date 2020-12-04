@@ -21,14 +21,7 @@ rule all:
         "rna_coding_index",
         expand("out_salmon/{sample}", sample=SAMPLES),
         "log2fc.csv"
-# download yeast rna-seq data from Schurch et al, 2016 study
-#rule all:
-    #input:
-        #expand("raw_data/{sample}.fq.gz", sample=SAMPLES)
-        
-        #"quants/{sample}_quant"
-
-# rule to download each individual file specified in samples_df
+# Rule to download fastq file from SRA
 rule download_reads:
     output: "raw_data/{sample}.fq.gz" 
     params:
@@ -49,7 +42,7 @@ rule download_reads_pe:
         "environment.yaml"
     shell:
         "fastq-dump --split-3 {params.download_link} -O {params.output_dir}"
-
+# Rule to download transcritome sequence fro the link in config.yaml file
 rule download_transcriptome:
     output:
         "rna_coding.fasta.gz"
@@ -57,7 +50,7 @@ rule download_transcriptome:
         transcriptome=config["transcript_sequence"]
     shell:
         "wget {params.transcriptome} -O {output}"
-
+# Rule to make salmon index of transcript sequence
 rule make_salmon_index:
     input:
         "rna_coding.fasta.gz"
@@ -67,7 +60,7 @@ rule make_salmon_index:
         "environment.yaml"
     shell:
         "salmon index -t {input} -i {output}"
-
+# Rule to get count from fastq file using Salmon 
 rule salmon_count_se:
     input:
         fq="raw_data/{sample}.fq.gz",
@@ -90,6 +83,7 @@ rule salmon_count_pe:
         "environment.yaml"
     shell:
         "salmon quant -i {input.index} -l A -1 {input.fq1} -2 {input.fq2} --validateMappings -o {output}"
+# Rule for differential expression between two sample
 rule dge_deseq2:
     input:
         meta_data="meta_data.csv",
