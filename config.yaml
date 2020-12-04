@@ -1,2 +1,2 @@
 transcript_sequence: ftp://ftp.ensembl.org/pub/release-102/fasta/saccharomyces_cerevisiae/cds/Saccharomyces_cerevisiae.R64-1-1.cds.all.fa.gz
-layout: paired
+paired = False
