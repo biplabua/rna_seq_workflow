@@ -26,7 +26,7 @@ rule all:
 rule download_reads:
     output: "raw_data/{sample}.fq.gz" 
     params:
-        # dynamically grab the download link from the "dl_link" column in the samples data frame
+        # dynamically grab the SRA ID from the "id" column in the samples_df data frame
         download_link = lambda wildcards: samples_df.loc[wildcards.sample, "id"]
     conda:
         "environment.yaml"
@@ -36,7 +36,7 @@ rule download_reads:
 rule download_reads_pe:
     output: "raw_data/{sample}_1.fastq", "raw_data/{sample}_2.fastq"
     params:
-        # dynamically grab the download link from the "dl_link" column in the samples data frame
+        # dynamically grab the SRA ID from the "id" column in the samples_df data frame
         download_link = lambda wildcards: samples_df.loc[wildcards.sample, "id"],
         output_dir = directory("raw_data")
     conda:
