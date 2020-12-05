@@ -23,3 +23,5 @@ Remove the default sra id in ```meta-data.csv``` file and add your own sra id nu
 Then run
 
 ```snakemake --core 1 --use-conda```
+
+In the result directory you will find log2foldchange and a volcano plot of your comparison.
