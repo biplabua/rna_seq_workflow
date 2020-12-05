@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	volcano_plot
+	2
+
+[Sat Dec  5 01:06:37 2020]
+rule volcano_plot:
+    input: results/log2fc.csv
+    output: results/volcano_plot.png
+    jobid: 12
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 98 of /Users/biplab/Documents/rna_seq_workflow/Snakefile:
+Job Missing files after 5 seconds:
+results/volcano_plot.png
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait. completed successfully, but some output files are missing. 12
+  File "/Users/biplab/miniconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 575, in handle_job_success
+  File "/Users/biplab/miniconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 247, in handle_job_success
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/biplab/Documents/rna_seq_workflow/.snakemake/log/2020-12-05T010636.904790.snakemake.log

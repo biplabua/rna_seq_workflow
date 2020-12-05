@@ -1,0 +1,161 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	dge_deseq2
+	4	download_reads
+	1	download_transcriptome
+	1	make_salmon_index
+	4	salmon_count_se
+	1	volcano_plot
+	13
+
+[Sat Dec  5 00:27:34 2020]
+rule download_reads:
+    output: raw_data/SRR1761159.fq.gz
+    jobid: 3
+    wildcards: sample=SRR1761159
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Sat Dec  5 00:32:27 2020]
+Finished job 3.
+1 of 13 steps (8%) done
+
+[Sat Dec  5 00:32:27 2020]
+rule download_reads:
+    output: raw_data/SRR1761162.fq.gz
+    jobid: 4
+    wildcards: sample=SRR1761162
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Sat Dec  5 00:36:21 2020]
+Finished job 4.
+2 of 13 steps (15%) done
+
+[Sat Dec  5 00:36:21 2020]
+rule download_reads:
+    output: raw_data/SRR1761161.fq.gz
+    jobid: 2
+    wildcards: sample=SRR1761161
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Sat Dec  5 00:43:15 2020]
+Finished job 2.
+3 of 13 steps (23%) done
+
+[Sat Dec  5 00:43:15 2020]
+rule download_transcriptome:
+    output: rna_coding.fasta.gz
+    jobid: 5
+
+[Sat Dec  5 00:43:24 2020]
+Finished job 5.
+4 of 13 steps (31%) done
+
+[Sat Dec  5 00:43:24 2020]
+rule download_reads:
+    output: raw_data/SRR1761158.fq.gz
+    jobid: 1
+    wildcards: sample=SRR1761158
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Sat Dec  5 00:52:03 2020]
+Finished job 1.
+5 of 13 steps (38%) done
+
+[Sat Dec  5 00:52:03 2020]
+rule make_salmon_index:
+    input: rna_coding.fasta.gz
+    output: rna_coding_index
+    jobid: 6
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Sat Dec  5 00:52:16 2020]
+Finished job 6.
+6 of 13 steps (46%) done
+
+[Sat Dec  5 00:52:16 2020]
+rule salmon_count_se:
+    input: raw_data/SRR1761161.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761161
+    jobid: 8
+    wildcards: sample=SRR1761161
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Sat Dec  5 00:54:13 2020]
+Finished job 8.
+7 of 13 steps (54%) done
+
+[Sat Dec  5 00:54:13 2020]
+rule salmon_count_se:
+    input: raw_data/SRR1761158.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761158
+    jobid: 7
+    wildcards: sample=SRR1761158
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Sat Dec  5 01:02:24 2020]
+Finished job 7.
+8 of 13 steps (62%) done
+
+[Sat Dec  5 01:02:24 2020]
+rule salmon_count_se:
+    input: raw_data/SRR1761162.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761162
+    jobid: 10
+    wildcards: sample=SRR1761162
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Sat Dec  5 01:03:34 2020]
+Finished job 10.
+9 of 13 steps (69%) done
+
+[Sat Dec  5 01:03:34 2020]
+rule salmon_count_se:
+    input: raw_data/SRR1761159.fq.gz, rna_coding_index
+    output: out_salmon/SRR1761159
+    jobid: 9
+    wildcards: sample=SRR1761159
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+[Sat Dec  5 01:04:57 2020]
+Finished job 9.
+10 of 13 steps (77%) done
+
+[Sat Dec  5 01:04:58 2020]
+rule dge_deseq2:
+    input: meta_data.csv, out_salmon/SRR1761158, out_salmon/SRR1761161, out_salmon/SRR1761159, out_salmon/SRR1761162
+    output: results/log2fc.csv
+    jobid: 11
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/86e442e2
+[Sat Dec  5 01:05:19 2020]
+Finished job 11.
+11 of 13 steps (85%) done
+
+[Sat Dec  5 01:05:19 2020]
+rule volcano_plot:
+    input: results/log2fc.csv
+    output: results/volcano_plot.png
+    jobid: 12
+
+[Sat Dec  5 01:05:20 2020]
+Error in rule volcano_plot:
+    jobid: 12
+    output: results/volcano_plot.png
+
+RuleException:
+CalledProcessError in line 104 of /Users/biplab/Documents/rna_seq_workflow/Snakefile:
+Command 'set -euo pipefail;  Rscript --vanilla /Users/biplab/Documents/rna_seq_workflow/.snakemake/scripts/tmpn4o07cd_.volcano_plot.R' returned non-zero exit status 1.
+  File "/Users/biplab/miniconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/Users/biplab/Documents/rna_seq_workflow/Snakefile", line 104, in __rule_volcano_plot
+  File "/Users/biplab/miniconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/Users/biplab/miniconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/Users/biplab/miniconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/Users/biplab/miniconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/biplab/Documents/rna_seq_workflow/.snakemake/log/2020-12-05T002733.310824.snakemake.log

@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	volcano_plot
+	2
+
+[Sat Dec  5 01:17:34 2020]
+rule volcano_plot:
+    input: results/log2fc.csv
+    output: results/volcano_plot.png
+    jobid: 12
+
+[Sat Dec  5 01:17:36 2020]
+Finished job 12.
+1 of 2 steps (50%) done
+
+[Sat Dec  5 01:17:36 2020]
+localrule all:
+    input: raw_data/SRR1761158.fq.gz, raw_data/SRR1761161.fq.gz, raw_data/SRR1761159.fq.gz, raw_data/SRR1761162.fq.gz, rna_coding.fasta.gz, rna_coding_index, out_salmon/SRR1761158, out_salmon/SRR1761161, out_salmon/SRR1761159, out_salmon/SRR1761162, results/log2fc.csv, results/volcano_plot.png
+    jobid: 0
+
+[Sat Dec  5 01:17:36 2020]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /Users/biplab/Documents/rna_seq_workflow/.snakemake/log/2020-12-05T011733.763532.snakemake.log

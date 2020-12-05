@@ -20,7 +20,8 @@ rule all:
         "rna_coding.fasta.gz",
         "rna_coding_index",
         expand("out_salmon/{sample}", sample=SAMPLES),
-        "log2fc.csv"
+        "results/log2fc.csv",
+        "results/volcano_plot.png"
 # Rule to download fastq file from SRA
 rule download_reads:
     output: "raw_data/{sample}.fq.gz" 
@@ -89,11 +90,20 @@ rule dge_deseq2:
         meta_data="meta_data.csv",
         file_path=expand("out_salmon/{sample}", sample=SAMPLES)
     output:
-        out_file="log2fc.csv"
+        out_file="results/log2fc.csv"
     conda:
         "dge.yaml"
     script:
-        "deseq2.R"
+        "scripts/deseq2.R"
+rule volcano_plot:
+    input: 
+        log2fc="results/log2fc.csv"
+    output: 
+        volcano_plot="results/volcano_plot.png"
+    script:
+        "scripts/volcano_plot.R"
+
+
 
 
 
