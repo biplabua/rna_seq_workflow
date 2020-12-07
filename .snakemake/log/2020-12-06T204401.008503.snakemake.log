@@ -1,0 +1,118 @@
+Building DAG of jobs...
+Creating conda environment dge.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /Users/biplab/Documents/rna_seq_workflow/dge.yaml:
+
+# >>>>>>>>>>>>>>>>>>>>>> ERROR REPORT <<<<<<<<<<<<<<<<<<<<<<
+
+    Traceback (most recent call last):
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/conda/exceptions.py", line 1079, in __call__
+        return func(*args, **kwargs)
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/conda_env/cli/main.py", line 80, in do_call
+        exit_code = getattr(module, func_name)(args, parser)
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/conda_env/cli/main_create.py", line 87, in execute
+        spec = specs.detect(name=name, filename=filename, directory=os.getcwd())
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/conda_env/specs/__init__.py", line 43, in detect
+        if spec.can_handle():
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/conda_env/specs/yaml_file.py", line 18, in can_handle
+        self._environment = env.from_file(self.filename)
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/conda_env/env.py", line 160, in from_file
+        return from_yaml(yamlstr, filename=filename)
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/conda_env/env.py", line 141, in from_yaml
+        data = yaml_safe_load(yamlstr)
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/conda/common/serialize.py", line 67, in yaml_safe_load
+        return yaml.safe_load(string, version="1.2")
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/main.py", line 980, in safe_load
+        return load(stream, SafeLoader, version)
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/main.py", line 935, in load
+        return loader._constructor.get_single_data()
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/constructor.py", line 106, in get_single_data
+        node = self.composer.get_single_node()
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/composer.py", line 78, in get_single_node
+        document = self.compose_document()
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/composer.py", line 101, in compose_document
+        node = self.compose_node(None, None)
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/composer.py", line 138, in compose_node
+        node = self.compose_mapping_node(anchor)
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/composer.py", line 217, in compose_mapping_node
+        item_value = self.compose_node(node, item_key)
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/composer.py", line 136, in compose_node
+        node = self.compose_sequence_node(anchor)
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/composer.py", line 178, in compose_sequence_node
+        while not self.parser.check_event(SequenceEndEvent):
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/parser.py", line 141, in check_event
+        self.current_event = self.state()
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/parser.py", line 502, in parse_block_sequence_entry
+        if self.scanner.check_token(BlockEntryToken):
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/scanner.py", line 168, in check_token
+        while self.need_more_tokens():
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/scanner.py", line 205, in need_more_tokens
+        self.stale_possible_simple_keys()
+      File "/Users/biplab/miniconda3/lib/python3.7/site-packages/ruamel_yaml/scanner.py", line 358, in stale_possible_simple_keys
+        self.reader.get_mark(),
+    ruamel_yaml.scanner.ScannerError: while scanning a simple key
+      in "<unicode string>", line 9, column 2:
+         -r-ggplot2=3.0.0
+         ^ (line: 9)
+    could not find expected ':'
+      in "<unicode string>", line 10, column 1:
+        
+        ^ (line: 10)
+
+`$ /Users/biplab/miniconda3/bin/conda-env create --quiet --file /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/e2c9227f.yaml --prefix /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/e2c9227f`
+
+  environment variables:
+                 CIO_TEST=<not set>
+  CONDA_AUTO_UPDATE_CONDA=false
+        CONDA_DEFAULT_ENV=snakemake
+                CONDA_EXE=/Users/biplab/miniconda3/bin/conda
+             CONDA_PREFIX=/Users/biplab/miniconda3/envs/snakemake
+           CONDA_PREFIX_1=/Users/biplab/miniconda3
+    CONDA_PROMPT_MODIFIER=(snakemake)
+         CONDA_PYTHON_EXE=/Users/biplab/miniconda3/bin/python
+               CONDA_ROOT=/Users/biplab/miniconda3
+              CONDA_SHLVL=2
+           CURL_CA_BUNDLE=<not set>
+                     PATH=/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/
+                          usr/bin:/bin:/usr/sbin:/sbin:/Users/biplab/miniconda3/envs/snakemake/b
+                          in:/Users/biplab/miniconda3/condabin:/Users/biplab/Documents/software/
+                          sratoolkit.2.9.6-1-mac64/bin:/Users/biplab/edirect
+       REQUESTS_CA_BUNDLE=<not set>
+            SSL_CERT_FILE=<not set>
+
+     active environment : snakemake
+    active env location : /Users/biplab/miniconda3/envs/snakemake
+            shell level : 2
+       user config file : /Users/biplab/.condarc
+ populated config files : /Users/biplab/.condarc
+          conda version : 4.9.2
+    conda-build version : not installed
+         python version : 3.7.6.final.0
+       virtual packages : __osx=10.15.6=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /Users/biplab/miniconda3  (writable)
+           channel URLs : https://conda.anaconda.org/conda-forge/osx-64
+                          https://conda.anaconda.org/conda-forge/noarch
+                          https://conda.anaconda.org/bioconda/osx-64
+                          https://conda.anaconda.org/bioconda/noarch
+                          https://repo.anaconda.com/pkgs/main/osx-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/osx-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /Users/biplab/miniconda3/pkgs
+                          /Users/biplab/.conda/pkgs
+       envs directories : /Users/biplab/miniconda3/envs
+                          /Users/biplab/.conda/envs
+               platform : osx-64
+             user-agent : conda/4.9.2 requests/2.25.0 CPython/3.7.6 Darwin/19.6.0 OSX/10.15.6
+                UID:GID : 501:20
+             netrc file : None
+           offline mode : False
+
+
+An unexpected error has occurred. Conda has prepared the above report.
+
+
+  File "/Users/biplab/miniconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/deployment/conda.py", line 350, in create
