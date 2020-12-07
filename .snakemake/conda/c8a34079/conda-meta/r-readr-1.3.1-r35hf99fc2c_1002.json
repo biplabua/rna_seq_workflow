@@ -1,0 +1,391 @@
+{
+  "build": "r35hf99fc2c_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "r-base >=3.5,<3.6.0a0",
+    "r-clipr",
+    "r-crayon",
+    "r-hms >=0.4.1",
+    "r-r6",
+    "r-rcpp >=0.12.0.5",
+    "r-tibble"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-readr-1.3.1-r35hf99fc2c_1002",
+  "features": "",
+  "files": [
+    "lib/R/library/readr/DESCRIPTION",
+    "lib/R/library/readr/INDEX",
+    "lib/R/library/readr/LICENSE",
+    "lib/R/library/readr/Meta/Rd.rds",
+    "lib/R/library/readr/Meta/features.rds",
+    "lib/R/library/readr/Meta/hsearch.rds",
+    "lib/R/library/readr/Meta/links.rds",
+    "lib/R/library/readr/Meta/nsInfo.rds",
+    "lib/R/library/readr/Meta/package.rds",
+    "lib/R/library/readr/Meta/vignette.rds",
+    "lib/R/library/readr/NAMESPACE",
+    "lib/R/library/readr/NEWS.md",
+    "lib/R/library/readr/R/readr",
+    "lib/R/library/readr/R/readr.rdb",
+    "lib/R/library/readr/R/readr.rdx",
+    "lib/R/library/readr/R/sysdata.rdb",
+    "lib/R/library/readr/R/sysdata.rdx",
+    "lib/R/library/readr/WORDLIST",
+    "lib/R/library/readr/doc/index.html",
+    "lib/R/library/readr/doc/locales.R",
+    "lib/R/library/readr/doc/locales.Rmd",
+    "lib/R/library/readr/doc/locales.html",
+    "lib/R/library/readr/doc/readr.R",
+    "lib/R/library/readr/doc/readr.Rmd",
+    "lib/R/library/readr/doc/readr.html",
+    "lib/R/library/readr/extdata/challenge.csv",
+    "lib/R/library/readr/extdata/epa78.txt",
+    "lib/R/library/readr/extdata/example.log",
+    "lib/R/library/readr/extdata/fwf-sample.txt",
+    "lib/R/library/readr/extdata/massey-rating.txt",
+    "lib/R/library/readr/extdata/mtcars.csv",
+    "lib/R/library/readr/extdata/mtcars.csv.bz2",
+    "lib/R/library/readr/extdata/mtcars.csv.zip",
+    "lib/R/library/readr/help/AnIndex",
+    "lib/R/library/readr/help/aliases.rds",
+    "lib/R/library/readr/help/figures/logo.png",
+    "lib/R/library/readr/help/paths.rds",
+    "lib/R/library/readr/help/readr.rdb",
+    "lib/R/library/readr/help/readr.rdx",
+    "lib/R/library/readr/html/00Index.html",
+    "lib/R/library/readr/html/R.css",
+    "lib/R/library/readr/libs/readr.so",
+    "lib/R/library/readr/rcon/librcon.so"
+  ],
+  "fn": "r-readr-1.3.1-r35hf99fc2c_1002.tar.bz2",
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-readr-1.3.1-r35hf99fc2c_1002",
+    "type": 1
+  },
+  "md5": "98548cf68ee8eb554547cace9c6a10d8",
+  "name": "r-readr",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-readr-1.3.1-r35hf99fc2c_1002.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/readr/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "15d8b3b200dd822cca90a4d3031d040643591cd2c8b17bc23a480ec18b902330",
+        "sha256_in_prefix": "15d8b3b200dd822cca90a4d3031d040643591cd2c8b17bc23a480ec18b902330",
+        "size_in_bytes": 1821
+      },
+      {
+        "_path": "lib/R/library/readr/INDEX",
+        "path_type": "hardlink",
+        "sha256": "1432c35b5b4539bce46cfe55e62dee122eab5e161ed7feae00ca77e2b9ea3434",
+        "sha256_in_prefix": "1432c35b5b4539bce46cfe55e62dee122eab5e161ed7feae00ca77e2b9ea3434",
+        "size_in_bytes": 1930
+      },
+      {
+        "_path": "lib/R/library/readr/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+        "sha256_in_prefix": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+        "size_in_bytes": 18092
+      },
+      {
+        "_path": "lib/R/library/readr/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "18c0e6a82eed4cbbb36fac9d4e5fa9439d8b2a7b1d707da5dacc86b5e939865f",
+        "sha256_in_prefix": "18c0e6a82eed4cbbb36fac9d4e5fa9439d8b2a7b1d707da5dacc86b5e939865f",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "lib/R/library/readr/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "c22d9d242fd52a4bbbe805dae5c5df6a19451d10060881260200999f9115b12d",
+        "sha256_in_prefix": "c22d9d242fd52a4bbbe805dae5c5df6a19451d10060881260200999f9115b12d",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/readr/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "70562e4ca89ae58f240313fbc753af04a2b302a6c68d3ec6f199b6b1911b07a0",
+        "sha256_in_prefix": "70562e4ca89ae58f240313fbc753af04a2b302a6c68d3ec6f199b6b1911b07a0",
+        "size_in_bytes": 1919
+      },
+      {
+        "_path": "lib/R/library/readr/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "3e743db2430f1fe2f663d22275b5bb188f742fbbc1148c1f81c613036ab4ad9f",
+        "sha256_in_prefix": "3e743db2430f1fe2f663d22275b5bb188f742fbbc1148c1f81c613036ab4ad9f",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "lib/R/library/readr/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "39d42bb7953cdfced7c45ecf6127c51978639e7e67ce1cf3b256acc743e773be",
+        "sha256_in_prefix": "39d42bb7953cdfced7c45ecf6127c51978639e7e67ce1cf3b256acc743e773be",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "lib/R/library/readr/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "a18b90908810b461cc12911cb1efd7153711a0180a0236e44e7e2d9d4d70a2cb",
+        "sha256_in_prefix": "a18b90908810b461cc12911cb1efd7153711a0180a0236e44e7e2d9d4d70a2cb",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "lib/R/library/readr/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "c04365bf1afd779910a450587a4e851a3d9c53852839fe69edd2ff172bee8541",
+        "sha256_in_prefix": "c04365bf1afd779910a450587a4e851a3d9c53852839fe69edd2ff172bee8541",
+        "size_in_bytes": 226
+      },
+      {
+        "_path": "lib/R/library/readr/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "b8cda2be040e27a9a41b4c715891c4d1cc373785a5c1d7d1cef13cab86f3f622",
+        "sha256_in_prefix": "b8cda2be040e27a9a41b4c715891c4d1cc373785a5c1d7d1cef13cab86f3f622",
+        "size_in_bytes": 2888
+      },
+      {
+        "_path": "lib/R/library/readr/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "3d8396abec763932a9f1fd9fc3499e6e9f64f9ae679830dd4ff9cd4ed5a3b6cc",
+        "sha256_in_prefix": "3d8396abec763932a9f1fd9fc3499e6e9f64f9ae679830dd4ff9cd4ed5a3b6cc",
+        "size_in_bytes": 28397
+      },
+      {
+        "_path": "lib/R/library/readr/R/readr",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/readr/R/readr.rdb",
+        "path_type": "hardlink",
+        "sha256": "0da5e1bba465c32217325aaf1babaff0e89e4564507b2b208ca0be6a4cb46ff8",
+        "sha256_in_prefix": "0da5e1bba465c32217325aaf1babaff0e89e4564507b2b208ca0be6a4cb46ff8",
+        "size_in_bytes": 287842
+      },
+      {
+        "_path": "lib/R/library/readr/R/readr.rdx",
+        "path_type": "hardlink",
+        "sha256": "30e6513488ebde58d6b4f483893347961621beca47044061d8b959fe9ee6e5ca",
+        "sha256_in_prefix": "30e6513488ebde58d6b4f483893347961621beca47044061d8b959fe9ee6e5ca",
+        "size_in_bytes": 3119
+      },
+      {
+        "_path": "lib/R/library/readr/R/sysdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "f88c7b8533cbe6f292ed6346957324731c436666d26a471f45770b053fe29800",
+        "sha256_in_prefix": "f88c7b8533cbe6f292ed6346957324731c436666d26a471f45770b053fe29800",
+        "size_in_bytes": 36762
+      },
+      {
+        "_path": "lib/R/library/readr/R/sysdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "05d95ef6d0bdd1a807cc7c550aede8910324a2eb42ccb90132949dca9c9fd583",
+        "sha256_in_prefix": "05d95ef6d0bdd1a807cc7c550aede8910324a2eb42ccb90132949dca9c9fd583",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/R/library/readr/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "1b6f3e4a9dda039a9dec5ea71b596fb7de7cd316c3ebd040d2f4742737623150",
+        "sha256_in_prefix": "1b6f3e4a9dda039a9dec5ea71b596fb7de7cd316c3ebd040d2f4742737623150",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "lib/R/library/readr/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "1a79997a60cfd36bbd9ab7c8fc1fe52f7c587d9f83cec56514e19f4f637d2af4",
+        "sha256_in_prefix": "1a79997a60cfd36bbd9ab7c8fc1fe52f7c587d9f83cec56514e19f4f637d2af4",
+        "size_in_bytes": 1757
+      },
+      {
+        "_path": "lib/R/library/readr/doc/locales.R",
+        "path_type": "hardlink",
+        "sha256": "75786bdaa563bc946800f38df1f2bb6fe6b48e6ab9e07f8736504ea436f86e18",
+        "sha256_in_prefix": "75786bdaa563bc946800f38df1f2bb6fe6b48e6ab9e07f8736504ea436f86e18",
+        "size_in_bytes": 3478
+      },
+      {
+        "_path": "lib/R/library/readr/doc/locales.Rmd",
+        "path_type": "hardlink",
+        "sha256": "2d52835bec3d668b27958836533ed492fb761fb6664d9ed213df1336f11cb4f0",
+        "sha256_in_prefix": "2d52835bec3d668b27958836533ed492fb761fb6664d9ed213df1336f11cb4f0",
+        "size_in_bytes": 8209
+      },
+      {
+        "_path": "lib/R/library/readr/doc/locales.html",
+        "path_type": "hardlink",
+        "sha256": "a22298619482a5dabe0183278bd6c26fd3867d1878e45d8745acbd462e51372d",
+        "sha256_in_prefix": "a22298619482a5dabe0183278bd6c26fd3867d1878e45d8745acbd462e51372d",
+        "size_in_bytes": 34388
+      },
+      {
+        "_path": "lib/R/library/readr/doc/readr.R",
+        "path_type": "hardlink",
+        "sha256": "702662d9cbd80fb82b607809b08b1d5990fc39b2bb8f03158c7ae5b367549b22",
+        "sha256_in_prefix": "702662d9cbd80fb82b607809b08b1d5990fc39b2bb8f03158c7ae5b367549b22",
+        "size_in_bytes": 2604
+      },
+      {
+        "_path": "lib/R/library/readr/doc/readr.Rmd",
+        "path_type": "hardlink",
+        "sha256": "e1e64d65dcd93f9053bfe054e45d32955b4b9ee0b4b7160f8a3b005de117d2d5",
+        "sha256_in_prefix": "e1e64d65dcd93f9053bfe054e45d32955b4b9ee0b4b7160f8a3b005de117d2d5",
+        "size_in_bytes": 10421
+      },
+      {
+        "_path": "lib/R/library/readr/doc/readr.html",
+        "path_type": "hardlink",
+        "sha256": "df90333bbbe43b70e10290c6e2aa7d28eb43a077af13bb316c0d03f8781b67cf",
+        "sha256_in_prefix": "df90333bbbe43b70e10290c6e2aa7d28eb43a077af13bb316c0d03f8781b67cf",
+        "size_in_bytes": 40283
+      },
+      {
+        "_path": "lib/R/library/readr/extdata/challenge.csv",
+        "path_type": "hardlink",
+        "sha256": "159122fdf24f24a80f07b933734a0d0a212b5287c012e14609809e954103ec56",
+        "sha256_in_prefix": "159122fdf24f24a80f07b933734a0d0a212b5287c012e14609809e954103ec56",
+        "size_in_bytes": 38041
+      },
+      {
+        "_path": "lib/R/library/readr/extdata/epa78.txt",
+        "path_type": "hardlink",
+        "sha256": "30df59442d2ec61e288e3547d29d0c4a8d8e00d98da60686711924df51e46bd4",
+        "sha256_in_prefix": "30df59442d2ec61e288e3547d29d0c4a8d8e00d98da60686711924df51e46bd4",
+        "size_in_bytes": 2180
+      },
+      {
+        "_path": "lib/R/library/readr/extdata/example.log",
+        "path_type": "hardlink",
+        "sha256": "5a8214accb1090c37b687aeea6e870f96291054208a8f9a20d844543e4648476",
+        "sha256_in_prefix": "5a8214accb1090c37b687aeea6e870f96291054208a8f9a20d844543e4648476",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "lib/R/library/readr/extdata/fwf-sample.txt",
+        "path_type": "hardlink",
+        "sha256": "311643171c3771c57d4c059faf7d3a9b535011b43150c6437139c1231c53c633",
+        "sha256_in_prefix": "311643171c3771c57d4c059faf7d3a9b535011b43150c6437139c1231c53c633",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "lib/R/library/readr/extdata/massey-rating.txt",
+        "path_type": "hardlink",
+        "sha256": "ae271623141ed5687bfc98c2e71259c7442e9eace21bd34a801a355ae9878fa4",
+        "sha256_in_prefix": "ae271623141ed5687bfc98c2e71259c7442e9eace21bd34a801a355ae9878fa4",
+        "size_in_bytes": 758
+      },
+      {
+        "_path": "lib/R/library/readr/extdata/mtcars.csv",
+        "path_type": "hardlink",
+        "sha256": "450a97ba6b438c6ea5bdf2aaac7eab0ecbbf812b5ff74b56f62dcf0a0c7eb0e5",
+        "sha256_in_prefix": "450a97ba6b438c6ea5bdf2aaac7eab0ecbbf812b5ff74b56f62dcf0a0c7eb0e5",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "lib/R/library/readr/extdata/mtcars.csv.bz2",
+        "path_type": "hardlink",
+        "sha256": "1c20ba0ceeb12086e1f165835c9d9951a644b91524e107e768b76014c8056c8d",
+        "sha256_in_prefix": "1c20ba0ceeb12086e1f165835c9d9951a644b91524e107e768b76014c8056c8d",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "lib/R/library/readr/extdata/mtcars.csv.zip",
+        "path_type": "hardlink",
+        "sha256": "384e3398cfedd55757872150bc4546a9ab19b36898d05fb2683cfef23a55af95",
+        "sha256_in_prefix": "384e3398cfedd55757872150bc4546a9ab19b36898d05fb2683cfef23a55af95",
+        "size_in_bytes": 711
+      },
+      {
+        "_path": "lib/R/library/readr/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "8bc7d24de7393a0b4cb22384194ddb51d70df6e6e851a073ac51a13a61ac2af8",
+        "sha256_in_prefix": "8bc7d24de7393a0b4cb22384194ddb51d70df6e6e851a073ac51a13a61ac2af8",
+        "size_in_bytes": 2749
+      },
+      {
+        "_path": "lib/R/library/readr/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "6e563c3299a600bc4a5a345e38dc85e54202ea7ccabcb883f65c177d5b51d25b",
+        "sha256_in_prefix": "6e563c3299a600bc4a5a345e38dc85e54202ea7ccabcb883f65c177d5b51d25b",
+        "size_in_bytes": 879
+      },
+      {
+        "_path": "lib/R/library/readr/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "20c4d388ff209619af26f14746e72bf82f08d1f5e599ae3c9a0da2d12a307de5",
+        "sha256_in_prefix": "20c4d388ff209619af26f14746e72bf82f08d1f5e599ae3c9a0da2d12a307de5",
+        "size_in_bytes": 16383
+      },
+      {
+        "_path": "lib/R/library/readr/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "30920a145d99400a7bd47e8f5f1e208653a89788da297d995cfb7adffc8b7e9d",
+        "sha256_in_prefix": "30920a145d99400a7bd47e8f5f1e208653a89788da297d995cfb7adffc8b7e9d",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "lib/R/library/readr/help/readr.rdb",
+        "path_type": "hardlink",
+        "sha256": "8fed38e18c50c7fe6e1f35950299fa591ece50680201ef187ae45a080f7283f4",
+        "sha256_in_prefix": "8fed38e18c50c7fe6e1f35950299fa591ece50680201ef187ae45a080f7283f4",
+        "size_in_bytes": 142256
+      },
+      {
+        "_path": "lib/R/library/readr/help/readr.rdx",
+        "path_type": "hardlink",
+        "sha256": "8d20701f295e30f916713e7112449568cc5ccf5612cc13de7725ccc87c5c459c",
+        "sha256_in_prefix": "8d20701f295e30f916713e7112449568cc5ccf5612cc13de7725ccc87c5c459c",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "lib/R/library/readr/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "66a2eebaa7a5fb8617ddf0e0af3a056ab9ca8209397bbba1f04b8a9bcc814991",
+        "sha256_in_prefix": "66a2eebaa7a5fb8617ddf0e0af3a056ab9ca8209397bbba1f04b8a9bcc814991",
+        "size_in_bytes": 11102
+      },
+      {
+        "_path": "lib/R/library/readr/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/readr/libs/readr.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/r-readr_1568202192081/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "fedaacd3e99794b41ac468224a90fb0c98c8d4bbdc436858812e0f817f07e3ee",
+        "sha256_in_prefix": "6d727247c4ce384d7aa4bf4683e2de76c15ed5d343e17724c38742bffb12c2f3",
+        "size_in_bytes": 601656
+      },
+      {
+        "_path": "lib/R/library/readr/rcon/librcon.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/r-readr_1568202192081/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "3ceac76aa3cf1bc3d7a9c0feb7fbb80a235492812bbd889a5e186e6dbf3deb29",
+        "sha256_in_prefix": "7f3cc022b2641abce166f4c8b0928c7ac1dc3a31db1873f4166c8c120a005240",
+        "size_in_bytes": 8536
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-readr=1.3.1",
+  "sha256": "48039cc8040c6ca3f95cabf40ce4d6b23745abbcb7986c4f29aaa021b97f7bf1",
+  "size": 777800,
+  "subdir": "osx-64",
+  "timestamp": 1568202952383,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-readr-1.3.1-r35hf99fc2c_1002.tar.bz2",
+  "version": "1.3.1"
+}

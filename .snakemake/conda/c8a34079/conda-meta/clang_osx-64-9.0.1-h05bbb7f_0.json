@@ -1,0 +1,63 @@
+{
+  "build": "h05bbb7f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "cctools",
+    "clang 9.0.1.*",
+    "compiler-rt 9.0.1.*",
+    "compiler-rt_osx-64 9.0.1.*",
+    "ld64"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/clang_osx-64-9.0.1-h05bbb7f_0",
+  "features": "",
+  "files": [
+    "bin/x86_64-apple-darwin13.4.0-clang",
+    "etc/conda/activate.d/activate_clang_osx-64.sh",
+    "etc/conda/deactivate.d/deactivate_clang_osx-64.sh"
+  ],
+  "fn": "clang_osx-64-9.0.1-h05bbb7f_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/clang_osx-64-9.0.1-h05bbb7f_0",
+    "type": 1
+  },
+  "md5": "57a81369771865296da6f41f9c91172d",
+  "name": "clang_osx-64",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/clang_osx-64-9.0.1-h05bbb7f_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/x86_64-apple-darwin13.4.0-clang",
+        "path_type": "softlink",
+        "sha256": "fcb6fd02cb09034058e7a87755911a7aaee405e8d741f35aad3fe3b2c60cf6ba",
+        "size_in_bytes": 146140
+      },
+      {
+        "_path": "etc/conda/activate.d/activate_clang_osx-64.sh",
+        "path_type": "hardlink",
+        "sha256": "0c3a9e86b65344432b41ab0cb54aa6684c060a07cb1f8508db5553ed3b723de5",
+        "sha256_in_prefix": "0c3a9e86b65344432b41ab0cb54aa6684c060a07cb1f8508db5553ed3b723de5",
+        "size_in_bytes": 6216
+      },
+      {
+        "_path": "etc/conda/deactivate.d/deactivate_clang_osx-64.sh",
+        "path_type": "hardlink",
+        "sha256": "a1285715e496919e60d72ba6305cad633c1823b1dcabeb5105da3ce0be86dda5",
+        "sha256_in_prefix": "a1285715e496919e60d72ba6305cad633c1823b1dcabeb5105da3ce0be86dda5",
+        "size_in_bytes": 6035
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fc41a3057ca5cf6004dddf8d1d3f300624f217e3d91221f14ffd8ae6ef4f5ed7",
+  "size": 14527,
+  "subdir": "osx-64",
+  "timestamp": 1578193243081,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/clang_osx-64-9.0.1-h05bbb7f_0.tar.bz2",
+  "version": "9.0.1"
+}

@@ -1,0 +1,246 @@
+{
+  "build": "r35h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.5,<3.6.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-clipr-0.7.0-r35h6115d3f_0",
+  "features": "",
+  "files": [
+    "lib/R/library/clipr/DESCRIPTION",
+    "lib/R/library/clipr/INDEX",
+    "lib/R/library/clipr/Meta/Rd.rds",
+    "lib/R/library/clipr/Meta/features.rds",
+    "lib/R/library/clipr/Meta/hsearch.rds",
+    "lib/R/library/clipr/Meta/links.rds",
+    "lib/R/library/clipr/Meta/nsInfo.rds",
+    "lib/R/library/clipr/Meta/package.rds",
+    "lib/R/library/clipr/Meta/vignette.rds",
+    "lib/R/library/clipr/NAMESPACE",
+    "lib/R/library/clipr/NEWS.md",
+    "lib/R/library/clipr/R/clipr",
+    "lib/R/library/clipr/R/clipr.rdb",
+    "lib/R/library/clipr/R/clipr.rdx",
+    "lib/R/library/clipr/doc/developing-with-clipr.R",
+    "lib/R/library/clipr/doc/developing-with-clipr.Rmd",
+    "lib/R/library/clipr/doc/developing-with-clipr.html",
+    "lib/R/library/clipr/doc/index.html",
+    "lib/R/library/clipr/help/AnIndex",
+    "lib/R/library/clipr/help/aliases.rds",
+    "lib/R/library/clipr/help/clipr.rdb",
+    "lib/R/library/clipr/help/clipr.rdx",
+    "lib/R/library/clipr/help/paths.rds",
+    "lib/R/library/clipr/html/00Index.html",
+    "lib/R/library/clipr/html/R.css",
+    "lib/R/library/clipr/rstudio/addins.dcf"
+  ],
+  "fn": "r-clipr-0.7.0-r35h6115d3f_0.tar.bz2",
+  "license": "GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-clipr-0.7.0-r35h6115d3f_0",
+    "type": 1
+  },
+  "md5": "64961dc9c4c530724c3d619358c3e5f2",
+  "name": "r-clipr",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-clipr-0.7.0-r35h6115d3f_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/clipr/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "182238f4c6f9101214ee40f9c38d1220d6d73208ea218ed3e689075e19ee6e5b",
+        "sha256_in_prefix": "182238f4c6f9101214ee40f9c38d1220d6d73208ea218ed3e689075e19ee6e5b",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "lib/R/library/clipr/INDEX",
+        "path_type": "hardlink",
+        "sha256": "2cdb522715900b378b277db44fca982a8890764d07311db7fd038a8bd6b95a8d",
+        "sha256_in_prefix": "2cdb522715900b378b277db44fca982a8890764d07311db7fd038a8bd6b95a8d",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "lib/R/library/clipr/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "33cd0e0823a258faa75c0e3a5ae35f205b2276cb0f71b830ef3cd907caff3cd1",
+        "sha256_in_prefix": "33cd0e0823a258faa75c0e3a5ae35f205b2276cb0f71b830ef3cd907caff3cd1",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "lib/R/library/clipr/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "c22d9d242fd52a4bbbe805dae5c5df6a19451d10060881260200999f9115b12d",
+        "sha256_in_prefix": "c22d9d242fd52a4bbbe805dae5c5df6a19451d10060881260200999f9115b12d",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/clipr/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "5c7c660c3d916b4e6836e53454b95a4cf7a80417d7035c8be1d28c1195579ac8",
+        "sha256_in_prefix": "5c7c660c3d916b4e6836e53454b95a4cf7a80417d7035c8be1d28c1195579ac8",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "lib/R/library/clipr/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "da0e15013ae0a5380fa0c3437846c59ce4cfde30076ddbf5a3eb423345479d21",
+        "sha256_in_prefix": "da0e15013ae0a5380fa0c3437846c59ce4cfde30076ddbf5a3eb423345479d21",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "lib/R/library/clipr/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "bbacbb4174428c31ff42efaef146a8f346e52361d8b1534a674a1cb4ee757cf9",
+        "sha256_in_prefix": "bbacbb4174428c31ff42efaef146a8f346e52361d8b1534a674a1cb4ee757cf9",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "lib/R/library/clipr/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "2b9dbeb4f028e3a1985f938e659670379747c0fabc69e5779692e3ab1bef0d68",
+        "sha256_in_prefix": "2b9dbeb4f028e3a1985f938e659670379747c0fabc69e5779692e3ab1bef0d68",
+        "size_in_bytes": 1186
+      },
+      {
+        "_path": "lib/R/library/clipr/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "0e3c2f7c6f02c2b45135b53cd75c9040383f5118335e250e5f49c2386b41aadc",
+        "sha256_in_prefix": "0e3c2f7c6f02c2b45135b53cd75c9040383f5118335e250e5f49c2386b41aadc",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "lib/R/library/clipr/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "161ab2c9bef0b13709c3ba45d48eb79c14755738f17d393c3f72ecfa4b9002e5",
+        "sha256_in_prefix": "161ab2c9bef0b13709c3ba45d48eb79c14755738f17d393c3f72ecfa4b9002e5",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "lib/R/library/clipr/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "92b9a57ecba58d1043abb06ff66a827d5cdeb430df69cc371428a262b1da8a47",
+        "sha256_in_prefix": "92b9a57ecba58d1043abb06ff66a827d5cdeb430df69cc371428a262b1da8a47",
+        "size_in_bytes": 4870
+      },
+      {
+        "_path": "lib/R/library/clipr/R/clipr",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/clipr/R/clipr.rdb",
+        "path_type": "hardlink",
+        "sha256": "1119ea47a98632706fed6297dc6ad4ade5cd3ee3a4e017e0b805a45029afdfb2",
+        "sha256_in_prefix": "1119ea47a98632706fed6297dc6ad4ade5cd3ee3a4e017e0b805a45029afdfb2",
+        "size_in_bytes": 18472
+      },
+      {
+        "_path": "lib/R/library/clipr/R/clipr.rdx",
+        "path_type": "hardlink",
+        "sha256": "310c1025ac5b41355bd77e256fc545ad4a54df3194f3ff95f7bd2dbd2065b170",
+        "sha256_in_prefix": "310c1025ac5b41355bd77e256fc545ad4a54df3194f3ff95f7bd2dbd2065b170",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "lib/R/library/clipr/doc/developing-with-clipr.R",
+        "path_type": "hardlink",
+        "sha256": "48269904e90909a1d837a9f3a67c6778bed8ec45a3318aeb3868e443033d9d2e",
+        "sha256_in_prefix": "48269904e90909a1d837a9f3a67c6778bed8ec45a3318aeb3868e443033d9d2e",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/R/library/clipr/doc/developing-with-clipr.Rmd",
+        "path_type": "hardlink",
+        "sha256": "4ff9ace3233d56359492c606f82ca7eb9c76f7ac0e9ece08dba21c4c1f0708c8",
+        "sha256_in_prefix": "4ff9ace3233d56359492c606f82ca7eb9c76f7ac0e9ece08dba21c4c1f0708c8",
+        "size_in_bytes": 3242
+      },
+      {
+        "_path": "lib/R/library/clipr/doc/developing-with-clipr.html",
+        "path_type": "hardlink",
+        "sha256": "9b078953e61da69e523dc1f7143343f9fd517481f79388a90b36dda951ee3e0d",
+        "sha256_in_prefix": "9b078953e61da69e523dc1f7143343f9fd517481f79388a90b36dda951ee3e0d",
+        "size_in_bytes": 7729
+      },
+      {
+        "_path": "lib/R/library/clipr/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "cfc1d3948b68953ca36203b5f0e2fc04a3d337527c8a5f3af4895f5a0a71ff0d",
+        "sha256_in_prefix": "cfc1d3948b68953ca36203b5f0e2fc04a3d337527c8a5f3af4895f5a0a71ff0d",
+        "size_in_bytes": 1392
+      },
+      {
+        "_path": "lib/R/library/clipr/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "58526f605c1c12ce30c2067dbbbf603d6a8dab0771a1f70202a1c2c1f3965aa6",
+        "sha256_in_prefix": "58526f605c1c12ce30c2067dbbbf603d6a8dab0771a1f70202a1c2c1f3965aa6",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/R/library/clipr/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "a50fc5c3bf071d4a6fd5e36f36b1db908caaae84e3976f1cbaf92fd3589a5eb1",
+        "sha256_in_prefix": "a50fc5c3bf071d4a6fd5e36f36b1db908caaae84e3976f1cbaf92fd3589a5eb1",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/R/library/clipr/help/clipr.rdb",
+        "path_type": "hardlink",
+        "sha256": "754e1119259755be74083f265138e49e0ae62f928a0493d7290fd7b943cf80eb",
+        "sha256_in_prefix": "754e1119259755be74083f265138e49e0ae62f928a0493d7290fd7b943cf80eb",
+        "size_in_bytes": 14266
+      },
+      {
+        "_path": "lib/R/library/clipr/help/clipr.rdx",
+        "path_type": "hardlink",
+        "sha256": "27449495d7dadb79b332647dc7632bad43c1fac888129c3912388063f3579357",
+        "sha256_in_prefix": "27449495d7dadb79b332647dc7632bad43c1fac888129c3912388063f3579357",
+        "size_in_bytes": 297
+      },
+      {
+        "_path": "lib/R/library/clipr/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "8d60343a9c4d071e1727ce36fce4424707ba45a712dfc56e485143ee95dead69",
+        "sha256_in_prefix": "8d60343a9c4d071e1727ce36fce4424707ba45a712dfc56e485143ee95dead69",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "lib/R/library/clipr/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "7be02f3ba347ddf7ba9d9c014c74d3a56f32010a66f72741c534b41da6395f11",
+        "sha256_in_prefix": "7be02f3ba347ddf7ba9d9c014c74d3a56f32010a66f72741c534b41da6395f11",
+        "size_in_bytes": 2179
+      },
+      {
+        "_path": "lib/R/library/clipr/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/clipr/rstudio/addins.dcf",
+        "path_type": "hardlink",
+        "sha256": "50b2d973777c48d01113ad72984894bd65360e05c49d9a51afad2e5a7fdad980",
+        "sha256_in_prefix": "50b2d973777c48d01113ad72984894bd65360e05c49d9a51afad2e5a7fdad980",
+        "size_in_bytes": 303
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "99c6921e1f2fcb14ee6ae746c3ef91124c03406022d3cc4f551fb58052f2e561",
+  "size": 64766,
+  "subdir": "noarch",
+  "timestamp": 1563860005490,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-clipr-0.7.0-r35h6115d3f_0.tar.bz2",
+  "version": "0.7.0"
+}

@@ -1,0 +1,206 @@
+{
+  "build": "r35h17f1fa6_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.5,<3.6.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-backports-1.1.6-r35h17f1fa6_1",
+  "features": "",
+  "files": [
+    "lib/R/library/backports/DESCRIPTION",
+    "lib/R/library/backports/INDEX",
+    "lib/R/library/backports/Meta/Rd.rds",
+    "lib/R/library/backports/Meta/features.rds",
+    "lib/R/library/backports/Meta/hsearch.rds",
+    "lib/R/library/backports/Meta/links.rds",
+    "lib/R/library/backports/Meta/nsInfo.rds",
+    "lib/R/library/backports/Meta/package.rds",
+    "lib/R/library/backports/NAMESPACE",
+    "lib/R/library/backports/NEWS.md",
+    "lib/R/library/backports/R/backports",
+    "lib/R/library/backports/R/backports.rdb",
+    "lib/R/library/backports/R/backports.rdx",
+    "lib/R/library/backports/help/AnIndex",
+    "lib/R/library/backports/help/aliases.rds",
+    "lib/R/library/backports/help/backports.rdb",
+    "lib/R/library/backports/help/backports.rdx",
+    "lib/R/library/backports/help/paths.rds",
+    "lib/R/library/backports/html/00Index.html",
+    "lib/R/library/backports/html/R.css",
+    "lib/R/library/backports/libs/backports.so"
+  ],
+  "fn": "r-backports-1.1.6-r35h17f1fa6_1.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "license_family": "GPL2",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-backports-1.1.6-r35h17f1fa6_1",
+    "type": 1
+  },
+  "md5": "fbb4a8928228bdd3c48e9d13f0b64b27",
+  "name": "r-backports",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-backports-1.1.6-r35h17f1fa6_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/backports/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "9fced731dccfbb07a6c6296b4e5a6b7631198e545df591c42c1b7a6eac490311",
+        "sha256_in_prefix": "9fced731dccfbb07a6c6296b4e5a6b7631198e545df591c42c1b7a6eac490311",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "lib/R/library/backports/INDEX",
+        "path_type": "hardlink",
+        "sha256": "0dffdb6c06b6a1b706268da10a50c1408d4b5e2ff3f80b630ecff6c19a92c796",
+        "sha256_in_prefix": "0dffdb6c06b6a1b706268da10a50c1408d4b5e2ff3f80b630ecff6c19a92c796",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "lib/R/library/backports/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "f882f0ef8e3a780614c58273bc9bf207e0d360a3e2b2d7639d61942576ff8f4d",
+        "sha256_in_prefix": "f882f0ef8e3a780614c58273bc9bf207e0d360a3e2b2d7639d61942576ff8f4d",
+        "size_in_bytes": 928
+      },
+      {
+        "_path": "lib/R/library/backports/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "c22d9d242fd52a4bbbe805dae5c5df6a19451d10060881260200999f9115b12d",
+        "sha256_in_prefix": "c22d9d242fd52a4bbbe805dae5c5df6a19451d10060881260200999f9115b12d",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/backports/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "d9b246492cb0fdcffb18276fa349c570e37bb55822f41a1e74f1fce54953a8f6",
+        "sha256_in_prefix": "d9b246492cb0fdcffb18276fa349c570e37bb55822f41a1e74f1fce54953a8f6",
+        "size_in_bytes": 867
+      },
+      {
+        "_path": "lib/R/library/backports/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "4fecff6daccd3253787f3dbb4d4352a81c8f5e34e98862c601f72d839e2b2327",
+        "sha256_in_prefix": "4fecff6daccd3253787f3dbb4d4352a81c8f5e34e98862c601f72d839e2b2327",
+        "size_in_bytes": 454
+      },
+      {
+        "_path": "lib/R/library/backports/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "afdbe0084197ccaa56d25f3eb2faa2bce7f116ccb23e51ef643683414fb0ee63",
+        "sha256_in_prefix": "afdbe0084197ccaa56d25f3eb2faa2bce7f116ccb23e51ef643683414fb0ee63",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "lib/R/library/backports/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "a7ce6c376518c2cbfe193abd76aad3bc0c97237b7c350401a63d04bf2666652c",
+        "sha256_in_prefix": "a7ce6c376518c2cbfe193abd76aad3bc0c97237b7c350401a63d04bf2666652c",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "lib/R/library/backports/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "39f033dde5853d84cd5bc25632372e03520275db5fc4eb5d4a309fdf9721ecad",
+        "sha256_in_prefix": "39f033dde5853d84cd5bc25632372e03520275db5fc4eb5d4a309fdf9721ecad",
+        "size_in_bytes": 1346
+      },
+      {
+        "_path": "lib/R/library/backports/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "2a451d39cf127c6995eaf5c1e0f9b8ebaaa431791711c437f1288aacf1daf4a4",
+        "sha256_in_prefix": "2a451d39cf127c6995eaf5c1e0f9b8ebaaa431791711c437f1288aacf1daf4a4",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "lib/R/library/backports/R/backports",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/backports/R/backports.rdb",
+        "path_type": "hardlink",
+        "sha256": "27e2178cb851bf21439fbc24de5a2860647b444c0a7c3a2b3130d58b9499f6e8",
+        "sha256_in_prefix": "27e2178cb851bf21439fbc24de5a2860647b444c0a7c3a2b3130d58b9499f6e8",
+        "size_in_bytes": 21247
+      },
+      {
+        "_path": "lib/R/library/backports/R/backports.rdx",
+        "path_type": "hardlink",
+        "sha256": "2efb4a18ba6236758e23e16d007eeb9fb40bb3755789d698bd097ed250ebf8c5",
+        "sha256_in_prefix": "2efb4a18ba6236758e23e16d007eeb9fb40bb3755789d698bd097ed250ebf8c5",
+        "size_in_bytes": 652
+      },
+      {
+        "_path": "lib/R/library/backports/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "2c0ab46bfdc44df7c9da866e6bd316748889c05ac0e8d4597ffe2704ba3d23c6",
+        "sha256_in_prefix": "2c0ab46bfdc44df7c9da866e6bd316748889c05ac0e8d4597ffe2704ba3d23c6",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "lib/R/library/backports/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "f1b68b3a06c5e883dd92d9853c208a4fe558c7db8709621e27d3bf368e2ea5cb",
+        "sha256_in_prefix": "f1b68b3a06c5e883dd92d9853c208a4fe558c7db8709621e27d3bf368e2ea5cb",
+        "size_in_bytes": 321
+      },
+      {
+        "_path": "lib/R/library/backports/help/backports.rdb",
+        "path_type": "hardlink",
+        "sha256": "d9d1d1c9cbee39fc24bf9d87c174b9c9d5eeea84ec831beea10245c0ff02319d",
+        "sha256_in_prefix": "d9d1d1c9cbee39fc24bf9d87c174b9c9d5eeea84ec831beea10245c0ff02319d",
+        "size_in_bytes": 29487
+      },
+      {
+        "_path": "lib/R/library/backports/help/backports.rdx",
+        "path_type": "hardlink",
+        "sha256": "644730f1e73c25713be357e386168a60f9b101f5ff368ba90bd2eea286b020d0",
+        "sha256_in_prefix": "644730f1e73c25713be357e386168a60f9b101f5ff368ba90bd2eea286b020d0",
+        "size_in_bytes": 646
+      },
+      {
+        "_path": "lib/R/library/backports/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "9d778c2a7ad1dbc23fa8f7ba0e91ac39f6b50ebf506d5872e899799066a1bfa7",
+        "sha256_in_prefix": "9d778c2a7ad1dbc23fa8f7ba0e91ac39f6b50ebf506d5872e899799066a1bfa7",
+        "size_in_bytes": 367
+      },
+      {
+        "_path": "lib/R/library/backports/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "0b3df6f9876e94731abab13408d21b482fedff18321f539970d4fc12788ef864",
+        "sha256_in_prefix": "0b3df6f9876e94731abab13408d21b482fedff18321f539970d4fc12788ef864",
+        "size_in_bytes": 1443
+      },
+      {
+        "_path": "lib/R/library/backports/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/backports/libs/backports.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/r-backports_1588283166714/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "2089dbc776d007d01d3feaf6a4b1a8c8dd45bd1d524009521eae9b786b4ad7eb",
+        "sha256_in_prefix": "7a33141704f490726531357227a9fcbb0c98235a9b1b282f4007b8e364a4dd1c",
+        "size_in_bytes": 13272
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0bc6e01ff9b246f75932c5bdfae73d788203fd392b7a32c6cd0b57dc67b664b6",
+  "size": 76676,
+  "subdir": "osx-64",
+  "timestamp": 1588283392747,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-backports-1.1.6-r35h17f1fa6_1.tar.bz2",
+  "version": "1.1.6"
+}

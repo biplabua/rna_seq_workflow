@@ -1,0 +1,38 @@
+Building DAG of jobs...
+Creating conda environment volcano_plot.yaml...
+Downloading and installing remote packages.
+Environment for volcano_plot.yaml created (location: .snakemake/conda/c8a34079)
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	dge_deseq2
+	4	download_reads
+	1	download_transcriptome
+	1	make_salmon_index
+	4	salmon_count_se
+	1	volcano_plot
+	13
+
+[Mon Dec  7 09:14:55 2020]
+rule download_reads:
+    output: raw_data/SRR1761159.fq.gz
+    jobid: 3
+    wildcards: sample=SRR1761159
+
+Activating conda environment: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+Terminating processes on user request, this might take some time.
+[Mon Dec  7 09:15:34 2020]
+Error in rule download_reads:
+    jobid: 3
+    output: raw_data/SRR1761159.fq.gz
+    conda-env: /Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c5b7b2c8
+    shell:
+        fastq-dump -Z --gzip SRR1761159 > raw_data/SRR1761159.fq.gz
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job download_reads since they might be corrupted:
+raw_data/SRR1761159.fq.gz
+Complete log: /Users/biplab/Documents/rna_seq_workflow/.snakemake/log/2020-12-07T091234.998614.snakemake.log

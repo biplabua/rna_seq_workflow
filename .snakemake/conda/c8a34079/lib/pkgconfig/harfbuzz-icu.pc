@@ -1,0 +1,13 @@
+prefix=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079
+exec_prefix=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079
+libdir=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079/lib
+includedir=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library ICU integration
+Version: 2.4.0
+
+Requires: harfbuzz
+Requires.private: icu-uc
+Libs: -L${libdir} -lharfbuzz-icu
+Cflags: -I${includedir}/harfbuzz

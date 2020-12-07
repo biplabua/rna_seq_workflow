@@ -1,0 +1,10 @@
+prefix=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libjpeg
+Description: Reads and writes JPEG files
+Version: 9.4.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

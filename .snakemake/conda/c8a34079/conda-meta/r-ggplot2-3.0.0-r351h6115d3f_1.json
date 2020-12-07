@@ -1,0 +1,336 @@
+{
+  "build": "r351h6115d3f_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-digest",
+    "r-gtable >=0.1.1",
+    "r-lazyeval",
+    "r-mass",
+    "r-mgcv",
+    "r-plyr >=1.7.1",
+    "r-reshape2",
+    "r-rlang",
+    "r-scales >=0.5.0",
+    "r-tibble",
+    "r-viridislite",
+    "r-withr >=2.0.0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-ggplot2-3.0.0-r351h6115d3f_1",
+  "features": "",
+  "files": [
+    "lib/R/library/ggplot2/CITATION",
+    "lib/R/library/ggplot2/DESCRIPTION",
+    "lib/R/library/ggplot2/INDEX",
+    "lib/R/library/ggplot2/LICENSE",
+    "lib/R/library/ggplot2/Meta/Rd.rds",
+    "lib/R/library/ggplot2/Meta/data.rds",
+    "lib/R/library/ggplot2/Meta/features.rds",
+    "lib/R/library/ggplot2/Meta/hsearch.rds",
+    "lib/R/library/ggplot2/Meta/links.rds",
+    "lib/R/library/ggplot2/Meta/nsInfo.rds",
+    "lib/R/library/ggplot2/Meta/package.rds",
+    "lib/R/library/ggplot2/Meta/vignette.rds",
+    "lib/R/library/ggplot2/NAMESPACE",
+    "lib/R/library/ggplot2/NEWS.md",
+    "lib/R/library/ggplot2/R/ggplot2",
+    "lib/R/library/ggplot2/R/ggplot2.rdb",
+    "lib/R/library/ggplot2/R/ggplot2.rdx",
+    "lib/R/library/ggplot2/data/Rdata.rdb",
+    "lib/R/library/ggplot2/data/Rdata.rds",
+    "lib/R/library/ggplot2/data/Rdata.rdx",
+    "lib/R/library/ggplot2/doc/extending-ggplot2.R",
+    "lib/R/library/ggplot2/doc/extending-ggplot2.Rmd",
+    "lib/R/library/ggplot2/doc/extending-ggplot2.html",
+    "lib/R/library/ggplot2/doc/ggplot2-specs.R",
+    "lib/R/library/ggplot2/doc/ggplot2-specs.Rmd",
+    "lib/R/library/ggplot2/doc/ggplot2-specs.html",
+    "lib/R/library/ggplot2/doc/index.html",
+    "lib/R/library/ggplot2/help/AnIndex",
+    "lib/R/library/ggplot2/help/aliases.rds",
+    "lib/R/library/ggplot2/help/figures/README-example-1.png",
+    "lib/R/library/ggplot2/help/figures/logo.png",
+    "lib/R/library/ggplot2/help/ggplot2.rdb",
+    "lib/R/library/ggplot2/help/ggplot2.rdx",
+    "lib/R/library/ggplot2/help/paths.rds",
+    "lib/R/library/ggplot2/html/00Index.html",
+    "lib/R/library/ggplot2/html/R.css"
+  ],
+  "fn": "r-ggplot2-3.0.0-r351h6115d3f_1.tar.bz2",
+  "license": "GPL-2",
+  "license_family": "GPL2",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-ggplot2-3.0.0-r351h6115d3f_1",
+    "type": 1
+  },
+  "md5": "54efc3aa1ee12495a5e3a5d50b52a728",
+  "name": "r-ggplot2",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-ggplot2-3.0.0-r351h6115d3f_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ggplot2/CITATION",
+        "path_type": "hardlink",
+        "sha256": "2852148b8b6a343c0054780293a539995a8da1f2a3f85d819d2b48fd8bded2bd",
+        "sha256_in_prefix": "2852148b8b6a343c0054780293a539995a8da1f2a3f85d819d2b48fd8bded2bd",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "lib/R/library/ggplot2/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "86b8929f41a2ed41b65a97facba9af61e10b6a187646722329d7d8c0a7748271",
+        "sha256_in_prefix": "86b8929f41a2ed41b65a97facba9af61e10b6a187646722329d7d8c0a7748271",
+        "size_in_bytes": 5174
+      },
+      {
+        "_path": "lib/R/library/ggplot2/INDEX",
+        "path_type": "hardlink",
+        "sha256": "5589c1ff87c2a88e56f6d0f96baffd086596093cc43179a202457a5e9ea8521f",
+        "sha256_in_prefix": "5589c1ff87c2a88e56f6d0f96baffd086596093cc43179a202457a5e9ea8521f",
+        "size_in_bytes": 7027
+      },
+      {
+        "_path": "lib/R/library/ggplot2/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d8c320ffc0030d1b096ae4732b50d2b811cf95e9a9b7377c1127b2563e0a0388",
+        "sha256_in_prefix": "d8c320ffc0030d1b096ae4732b50d2b811cf95e9a9b7377c1127b2563e0a0388",
+        "size_in_bytes": 15220
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "dadc4786936eb5318cdbfa25b74f036471f3b4bf133b216c508cd54de3da78b1",
+        "sha256_in_prefix": "dadc4786936eb5318cdbfa25b74f036471f3b4bf133b216c508cd54de3da78b1",
+        "size_in_bytes": 8021
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "21219d50e4e55526f59d8a4486ef47e0af5fff50ee9e2ca4c484cd76b627d05e",
+        "sha256_in_prefix": "21219d50e4e55526f59d8a4486ef47e0af5fff50ee9e2ca4c484cd76b627d05e",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "c22d9d242fd52a4bbbe805dae5c5df6a19451d10060881260200999f9115b12d",
+        "sha256_in_prefix": "c22d9d242fd52a4bbbe805dae5c5df6a19451d10060881260200999f9115b12d",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "28572c7bdec3b3c6e2b0b356c7194413801955203bcd9705294eac71707bd1d8",
+        "sha256_in_prefix": "28572c7bdec3b3c6e2b0b356c7194413801955203bcd9705294eac71707bd1d8",
+        "size_in_bytes": 7639
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "7b822a244b113e6749efa483a059680c601674aa31ffe81ab28c6ce010b13eb1",
+        "sha256_in_prefix": "7b822a244b113e6749efa483a059680c601674aa31ffe81ab28c6ce010b13eb1",
+        "size_in_bytes": 4318
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "60d3cacf94972b2ed3920b1ff4a4e688d7da914e3fd201a0bdf56e976de64b43",
+        "sha256_in_prefix": "60d3cacf94972b2ed3920b1ff4a4e688d7da914e3fd201a0bdf56e976de64b43",
+        "size_in_bytes": 3385
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "76647d2a9e849b50c486a017a2c7127d38e0f8c095f1100e2809644b60d05888",
+        "sha256_in_prefix": "76647d2a9e849b50c486a017a2c7127d38e0f8c095f1100e2809644b60d05888",
+        "size_in_bytes": 2733
+      },
+      {
+        "_path": "lib/R/library/ggplot2/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "1222f9f84c941b458f15d9fe6c877b6cf42bfadc49337a2bdbad3bffa024396b",
+        "sha256_in_prefix": "1222f9f84c941b458f15d9fe6c877b6cf42bfadc49337a2bdbad3bffa024396b",
+        "size_in_bytes": 245
+      },
+      {
+        "_path": "lib/R/library/ggplot2/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "f7d954f7360fe2d8b2c1baf50711369c203ad02492e7a367e2b22f9b6a060dc2",
+        "sha256_in_prefix": "f7d954f7360fe2d8b2c1baf50711369c203ad02492e7a367e2b22f9b6a060dc2",
+        "size_in_bytes": 13398
+      },
+      {
+        "_path": "lib/R/library/ggplot2/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "d20853a90a4fabcb5cfa42132d47ec90fe62943bfbf8e4fd4003fa886389f397",
+        "sha256_in_prefix": "d20853a90a4fabcb5cfa42132d47ec90fe62943bfbf8e4fd4003fa886389f397",
+        "size_in_bytes": 60071
+      },
+      {
+        "_path": "lib/R/library/ggplot2/R/ggplot2",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/ggplot2/R/ggplot2.rdb",
+        "path_type": "hardlink",
+        "sha256": "576930894587634ffa4b806a580cc92461d0fda7b2f0c788306b6ea2322865ec",
+        "sha256_in_prefix": "576930894587634ffa4b806a580cc92461d0fda7b2f0c788306b6ea2322865ec",
+        "size_in_bytes": 875672
+      },
+      {
+        "_path": "lib/R/library/ggplot2/R/ggplot2.rdx",
+        "path_type": "hardlink",
+        "sha256": "f59580dd4c14ec28b2b06a924dfe1fd36da7aa2e9ccd1757abfa9133feb694f4",
+        "sha256_in_prefix": "f59580dd4c14ec28b2b06a924dfe1fd36da7aa2e9ccd1757abfa9133feb694f4",
+        "size_in_bytes": 11810
+      },
+      {
+        "_path": "lib/R/library/ggplot2/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "8c0c6a02b94c3bd6e05ae02afb666620abc746163c616e59f1196d469169c4f3",
+        "sha256_in_prefix": "8c0c6a02b94c3bd6e05ae02afb666620abc746163c616e59f1196d469169c4f3",
+        "size_in_bytes": 799373
+      },
+      {
+        "_path": "lib/R/library/ggplot2/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "80c4ccfb897b6c38a90f0711818e52288895e618ab773f700bd515a26d058e54",
+        "sha256_in_prefix": "80c4ccfb897b6c38a90f0711818e52288895e618ab773f700bd515a26d058e54",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "lib/R/library/ggplot2/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "cd8fca102a72199a0c893a0d150a1b9e37aa983c363e92d33174bcdeb5b4b918",
+        "sha256_in_prefix": "cd8fca102a72199a0c893a0d150a1b9e37aa983c363e92d33174bcdeb5b4b918",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/extending-ggplot2.R",
+        "path_type": "hardlink",
+        "sha256": "dc900a5130562e292dba4894af6ed87569034dc2280eb1d0be8eb218b8e71109",
+        "sha256_in_prefix": "dc900a5130562e292dba4894af6ed87569034dc2280eb1d0be8eb218b8e71109",
+        "size_in_bytes": 23944
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/extending-ggplot2.Rmd",
+        "path_type": "hardlink",
+        "sha256": "425911890cd3438ce2ee58bce9216d55be4524996933638a136ae2039e4c5971",
+        "sha256_in_prefix": "425911890cd3438ce2ee58bce9216d55be4524996933638a136ae2039e4c5971",
+        "size_in_bytes": 41579
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/extending-ggplot2.html",
+        "path_type": "hardlink",
+        "sha256": "52953cf2359826cd99f35b0131729492c46a57ddf2d8ea1a0045ee8604eea2ff",
+        "sha256_in_prefix": "52953cf2359826cd99f35b0131729492c46a57ddf2d8ea1a0045ee8604eea2ff",
+        "size_in_bytes": 1439288
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/ggplot2-specs.R",
+        "path_type": "hardlink",
+        "sha256": "6c1e737bcfeaa26ce51faf532a8902e6545a87b7e5cd84ba0ad654db5518dcdf",
+        "sha256_in_prefix": "6c1e737bcfeaa26ce51faf532a8902e6545a87b7e5cd84ba0ad654db5518dcdf",
+        "size_in_bytes": 4541
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/ggplot2-specs.Rmd",
+        "path_type": "hardlink",
+        "sha256": "20e8b5c9de53d772829dc85fb1b0a43e1e98b3d7d436a915dd293bcde4de1d95",
+        "sha256_in_prefix": "20e8b5c9de53d772829dc85fb1b0a43e1e98b3d7d436a915dd293bcde4de1d95",
+        "size_in_bytes": 9039
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/ggplot2-specs.html",
+        "path_type": "hardlink",
+        "sha256": "53591f3dc500943dcf1bd2c693554e6e47c406f3d396b3cf82afc25353449f2f",
+        "sha256_in_prefix": "53591f3dc500943dcf1bd2c693554e6e47c406f3d396b3cf82afc25353449f2f",
+        "size_in_bytes": 362764
+      },
+      {
+        "_path": "lib/R/library/ggplot2/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "6cff100918be1e905ce0afe2cf5c5f4856855770e348cc66359c1308a652cd07",
+        "sha256_in_prefix": "6cff100918be1e905ce0afe2cf5c5f4856855770e348cc66359c1308a652cd07",
+        "size_in_bytes": 1882
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "4914c78ae0f218ef6b2c614959f6760cd36e78a751d3d359a191031fadc77316",
+        "sha256_in_prefix": "4914c78ae0f218ef6b2c614959f6760cd36e78a751d3d359a191031fadc77316",
+        "size_in_bytes": 13389
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "d6013aeddc27c083534b37adf91306ae933319018037c1383aa933d7782e7f5e",
+        "sha256_in_prefix": "d6013aeddc27c083534b37adf91306ae933319018037c1383aa933d7782e7f5e",
+        "size_in_bytes": 3611
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/figures/README-example-1.png",
+        "path_type": "hardlink",
+        "sha256": "66e3d4dbb65018eb5de4087a80df3687053d6fafb5bc097c00b68c3168ec3fa4",
+        "sha256_in_prefix": "66e3d4dbb65018eb5de4087a80df3687053d6fafb5bc097c00b68c3168ec3fa4",
+        "size_in_bytes": 44345
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "69ba101e5383b00a33791f557143377c98193a260caf5a870600ac21e8653e26",
+        "sha256_in_prefix": "69ba101e5383b00a33791f557143377c98193a260caf5a870600ac21e8653e26",
+        "size_in_bytes": 15488
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/ggplot2.rdb",
+        "path_type": "hardlink",
+        "sha256": "f877175587f5953a250ff461ec6fe8eb8b4f86ff2cba94ce1dc9d8e9094b6437",
+        "sha256_in_prefix": "f877175587f5953a250ff461ec6fe8eb8b4f86ff2cba94ce1dc9d8e9094b6437",
+        "size_in_bytes": 618036
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/ggplot2.rdx",
+        "path_type": "hardlink",
+        "sha256": "cf2d4d2f55f057d0a1345be1d411fc6223649ac6b9ec63a48921c7cc55908a93",
+        "sha256_in_prefix": "cf2d4d2f55f057d0a1345be1d411fc6223649ac6b9ec63a48921c7cc55908a93",
+        "size_in_bytes": 3823
+      },
+      {
+        "_path": "lib/R/library/ggplot2/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "83cd246f46fe4aba60e586d7ecbf75d0f45d69aef58bce2900e8cbacad522a29",
+        "sha256_in_prefix": "83cd246f46fe4aba60e586d7ecbf75d0f45d69aef58bce2900e8cbacad522a29",
+        "size_in_bytes": 1492
+      },
+      {
+        "_path": "lib/R/library/ggplot2/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "f81b09c35d21daa1b5c057f5ed63dbe606374049119db936c1b0367f46c8da05",
+        "sha256_in_prefix": "f81b09c35d21daa1b5c057f5ed63dbe606374049119db936c1b0367f46c8da05",
+        "size_in_bytes": 41142
+      },
+      {
+        "_path": "lib/R/library/ggplot2/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-ggplot2=3.0.0",
+  "sha256": "d90d3e77d3ab6d960c11dc29ab278e0b8ec0a900b682eb005c2eaba8798cdb58",
+  "size": 3649473,
+  "subdir": "osx-64",
+  "timestamp": 1536494151162,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-ggplot2-3.0.0-r351h6115d3f_1.tar.bz2",
+  "version": "3.0.0"
+}

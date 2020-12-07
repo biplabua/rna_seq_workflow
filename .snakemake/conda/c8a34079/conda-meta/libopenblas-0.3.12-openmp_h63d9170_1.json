@@ -1,0 +1,57 @@
+{
+  "build": "openmp_h63d9170_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "openblas >=0.3.12,<0.3.13.0a0"
+  ],
+  "depends": [
+    "libgfortran 4.*",
+    "libgfortran4 >=7.5.0",
+    "llvm-openmp >=11.0.0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/libopenblas-0.3.12-openmp_h63d9170_1",
+  "features": "",
+  "files": [
+    "lib/libopenblas.0.dylib",
+    "lib/libopenblasp-r0.3.12.dylib"
+  ],
+  "fn": "libopenblas-0.3.12-openmp_h63d9170_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/libopenblas-0.3.12-openmp_h63d9170_1",
+    "type": 1
+  },
+  "md5": "eef885eb44a8d6e11edfa18cb5d024dc",
+  "name": "libopenblas",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/libopenblas-0.3.12-openmp_h63d9170_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libopenblas.0.dylib",
+        "path_type": "softlink",
+        "sha256": "5d840918fb004672d3691f2f5f0ba982bdc0c73d45e626d13ab99e59c1f4473f",
+        "size_in_bytes": 64575536
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.12.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/openblas_1603561130374/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "5d840918fb004672d3691f2f5f0ba982bdc0c73d45e626d13ab99e59c1f4473f",
+        "sha256_in_prefix": "cf313523a2115329636276646928a711ad6875de54d9f52e6658e0d2d0045e5d",
+        "size_in_bytes": 64575536
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7698d05c42c3ba7bb6eb421271c6e397ff974227ba9f06fb1ab73b2cc125b9d8",
+  "size": 9101221,
+  "subdir": "osx-64",
+  "timestamp": 1603562323427,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libopenblas-0.3.12-openmp_h63d9170_1.tar.bz2",
+  "version": "0.3.12"
+}

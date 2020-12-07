@@ -1,0 +1,14 @@
+prefix=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079
+exec_prefix=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079
+libdir=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079/lib
+includedir=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 23.4.17
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

@@ -1,0 +1,14 @@
+prefix=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vendor=MIT
+
+defccname=KCM:
+defktname=FILE:/etc/krb5.keytab
+defcktname=FILE:/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079/var/krb5/user/%{euid}/client.keytab
+
+Name: krb5
+Description: An implementation of Kerberos network authentication
+Version: 1.16.4
+Requires: mit-krb5

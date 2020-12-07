@@ -1,0 +1,70 @@
+{
+  "build": "ha57cd0f_1009",
+  "build_number": 1009,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.2.0,<7.0a0",
+    "mpfr >=4.0.2,<5.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/mpc-1.1.0-ha57cd0f_1009",
+  "features": "",
+  "files": [
+    "include/mpc.h",
+    "lib/libmpc.3.dylib",
+    "lib/libmpc.dylib",
+    "share/info/mpc.info"
+  ],
+  "fn": "mpc-1.1.0-ha57cd0f_1009.tar.bz2",
+  "license": "LGPL-3.0-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/mpc-1.1.0-ha57cd0f_1009",
+    "type": 1
+  },
+  "md5": "e97438cea7c25b9906edf9525f580674",
+  "name": "mpc",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/mpc-1.1.0-ha57cd0f_1009.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/mpc.h",
+        "path_type": "hardlink",
+        "sha256": "2822bb51fac89c972f6fe2ce3b3ff22bd91cad08fddffa10f29c58839bb0a3e6",
+        "sha256_in_prefix": "2822bb51fac89c972f6fe2ce3b3ff22bd91cad08fddffa10f29c58839bb0a3e6",
+        "size_in_bytes": 12898
+      },
+      {
+        "_path": "lib/libmpc.3.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/mpc_1596494563303/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "ae35f47ec97d4b3d384c73c2d883df7cf44561be5f9da031b54be23f45db8e6c",
+        "sha256_in_prefix": "1b19938829fc238af394dcbd2b124729aebe1b93ca541ca377fc71745a164f83",
+        "size_in_bytes": 91792
+      },
+      {
+        "_path": "lib/libmpc.dylib",
+        "path_type": "softlink",
+        "sha256": "ae35f47ec97d4b3d384c73c2d883df7cf44561be5f9da031b54be23f45db8e6c",
+        "size_in_bytes": 91792
+      },
+      {
+        "_path": "share/info/mpc.info",
+        "path_type": "hardlink",
+        "sha256": "661e792cc57d4703578a943aa2ba3fd9f87aa8c8ab9b1954e7b7c67f6a4d5789",
+        "sha256_in_prefix": "661e792cc57d4703578a943aa2ba3fd9f87aa8c8ab9b1954e7b7c67f6a4d5789",
+        "size_in_bytes": 88514
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3049678241f909629a9e1d11b162672055a6a3953c543f26d1cbc82080c7a087",
+  "size": 102144,
+  "subdir": "osx-64",
+  "timestamp": 1596494772605,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/mpc-1.1.0-ha57cd0f_1009.tar.bz2",
+  "version": "1.1.0"
+}

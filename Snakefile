@@ -100,6 +100,8 @@ rule volcano_plot:
         log2fc="results/log2fc.csv"
     output: 
         volcano_plot="results/volcano_plot.png"
+    conda:
+        "volcano_plot.yaml"
     script:
         "scripts/volcano_plot.R"
 

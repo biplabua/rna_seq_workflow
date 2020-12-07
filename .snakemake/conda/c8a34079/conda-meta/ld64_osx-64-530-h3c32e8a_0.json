@@ -1,0 +1,125 @@
+{
+  "build": "h3c32e8a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "clang >=9.0.1,<10.0a0",
+    "ld 530.*",
+    "cctools 949.0.1.*",
+    "cctools_osx-64 949.0.1.*"
+  ],
+  "depends": [
+    "libcxx",
+    "libllvm9 >=9.0.1,<9.1.0a0",
+    "tapi >=1000.10.8,<1001.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/ld64_osx-64-530-h3c32e8a_0",
+  "features": "",
+  "files": [
+    "bin/x86_64-apple-darwin13.4.0-ObjectDump",
+    "bin/x86_64-apple-darwin13.4.0-dyldinfo",
+    "bin/x86_64-apple-darwin13.4.0-ld",
+    "bin/x86_64-apple-darwin13.4.0-machocheck",
+    "bin/x86_64-apple-darwin13.4.0-unwinddump",
+    "share/man/man1/x86_64-apple-darwin13.4.0-dyldinfo.1",
+    "share/man/man1/x86_64-apple-darwin13.4.0-ld.1",
+    "share/man/man1/x86_64-apple-darwin13.4.0-ld64.1",
+    "share/man/man1/x86_64-apple-darwin13.4.0-unwinddump.1"
+  ],
+  "fn": "ld64_osx-64-530-h3c32e8a_0.tar.bz2",
+  "license": "APSL-2.0",
+  "license_family": "Other",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/ld64_osx-64-530-h3c32e8a_0",
+    "type": 1
+  },
+  "md5": "000c2330489f10a4134e31e3c52729a7",
+  "name": "ld64_osx-64",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/ld64_osx-64-530-h3c32e8a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/x86_64-apple-darwin13.4.0-ObjectDump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/cctools-and-ld64_1594578830020/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "0a470355a79c8e492fa26528e2dfb2219b5e800e2fb6ef78d384882aa4844105",
+        "sha256_in_prefix": "a511f386156079268df9583149171044792d8f5b9d2b1b38baa54a6873f1fa7a",
+        "size_in_bytes": 996260
+      },
+      {
+        "_path": "bin/x86_64-apple-darwin13.4.0-dyldinfo",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/cctools-and-ld64_1594578830020/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "f24b9207c4e3735371f714bd4a700fd2f173a34eb35723ac462a14301ad55d1b",
+        "sha256_in_prefix": "a8a6febdc4b5f26af68b532f118b287b3e96a0cad541018729c99e9a94f669d9",
+        "size_in_bytes": 261772
+      },
+      {
+        "_path": "bin/x86_64-apple-darwin13.4.0-ld",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/cctools-and-ld64_1594578830020/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "218133e4b1a23025c8994da853e38cd2c2f1fbf6f5dcc3224855461197b14790",
+        "sha256_in_prefix": "fd3e9cbcd62adc82dad10eff2b8a16bfedbf0ac080cd1af9dd71936361993474",
+        "size_in_bytes": 3920276
+      },
+      {
+        "_path": "bin/x86_64-apple-darwin13.4.0-machocheck",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/cctools-and-ld64_1594578830020/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "c62b507c0e05ceaf09da65067d7c7ff38c85e7daf6a58be7a94f72fb5a07ea05",
+        "sha256_in_prefix": "6fc75fb77d8998512b447d9e025ae57e37ec9f8ede1c29b2c57af401c42924b9",
+        "size_in_bytes": 153236
+      },
+      {
+        "_path": "bin/x86_64-apple-darwin13.4.0-unwinddump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/cctools-and-ld64_1594578830020/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "0ca59e1c8a7bba25db709f9d7a0996857dfae7f1e8f42056b33644675f3002df",
+        "sha256_in_prefix": "114816f21ab287aa8d53d24992c82c7a61367fbd75a3c92ef4a9876ffae021aa",
+        "size_in_bytes": 54012
+      },
+      {
+        "_path": "share/man/man1/x86_64-apple-darwin13.4.0-dyldinfo.1",
+        "path_type": "hardlink",
+        "sha256": "65bf015e0eceb28a634a41b9ab529fc38845430dad99fca14b2d4bd3545a72b8",
+        "sha256_in_prefix": "65bf015e0eceb28a634a41b9ab529fc38845430dad99fca14b2d4bd3545a72b8",
+        "size_in_bytes": 1780
+      },
+      {
+        "_path": "share/man/man1/x86_64-apple-darwin13.4.0-ld.1",
+        "path_type": "hardlink",
+        "sha256": "62eb4fbc956fd723c4bb99c82bb97af5f35a3072034824d8b849002b18e53665",
+        "sha256_in_prefix": "62eb4fbc956fd723c4bb99c82bb97af5f35a3072034824d8b849002b18e53665",
+        "size_in_bytes": 53194
+      },
+      {
+        "_path": "share/man/man1/x86_64-apple-darwin13.4.0-ld64.1",
+        "path_type": "hardlink",
+        "sha256": "5087a7a3829b727a623fde146c812041bb9cd08fe41b28425bbbcde45c05e9d9",
+        "sha256_in_prefix": "5087a7a3829b727a623fde146c812041bb9cd08fe41b28425bbbcde45c05e9d9",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "share/man/man1/x86_64-apple-darwin13.4.0-unwinddump.1",
+        "path_type": "hardlink",
+        "sha256": "758829d66a892f6af26ab9cdf14d754df4bdad7dcc40ea51021b9fde9bc90147",
+        "sha256_in_prefix": "758829d66a892f6af26ab9cdf14d754df4bdad7dcc40ea51021b9fde9bc90147",
+        "size_in_bytes": 770
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b9331d2e23199645ba69a34422f31db8e8700545f9457c72fb6dc13f78035514",
+  "size": 1350999,
+  "subdir": "osx-64",
+  "timestamp": 1594579551154,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ld64_osx-64-530-h3c32e8a_0.tar.bz2",
+  "version": "530"
+}

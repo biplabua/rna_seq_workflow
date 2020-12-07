@@ -1,0 +1,42 @@
+{
+  "build": "default_hf57f61e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "clang 9.0.1 default_hf57f61e_0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/clangxx-9.0.1-default_hf57f61e_0",
+  "features": "",
+  "files": [
+    "bin/clang++"
+  ],
+  "fn": "clangxx-9.0.1-default_hf57f61e_0.tar.bz2",
+  "license": "NCSA",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/clangxx-9.0.1-default_hf57f61e_0",
+    "type": 1
+  },
+  "md5": "3d948170f8a16a43ea3b267481a59756",
+  "name": "clangxx",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/clangxx-9.0.1-default_hf57f61e_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/clang++",
+        "path_type": "softlink",
+        "sha256": "add8d9b31b2b4a7451c087f7ca704ce1a41869c590db330fb651c46fe34af170",
+        "size_in_bytes": 146140
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "61d9c5fbe33a890b77159f58f011ca20d08026a983047d0f64d2986605b3d919",
+  "size": 125011,
+  "subdir": "osx-64",
+  "timestamp": 1578107080549,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/clangxx-9.0.1-default_hf57f61e_0.tar.bz2",
+  "version": "9.0.1"
+}

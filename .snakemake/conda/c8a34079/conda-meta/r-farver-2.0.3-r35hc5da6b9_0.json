@@ -1,0 +1,279 @@
+{
+  "build": "r35hc5da6b9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=9.0.1",
+    "r-base >=3.5,<3.6.0a0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/r-farver-2.0.3-r35hc5da6b9_0",
+  "features": "",
+  "files": [
+    "lib/R/library/farver/DESCRIPTION",
+    "lib/R/library/farver/INDEX",
+    "lib/R/library/farver/LICENSE",
+    "lib/R/library/farver/Meta/Rd.rds",
+    "lib/R/library/farver/Meta/features.rds",
+    "lib/R/library/farver/Meta/hsearch.rds",
+    "lib/R/library/farver/Meta/links.rds",
+    "lib/R/library/farver/Meta/nsInfo.rds",
+    "lib/R/library/farver/Meta/package.rds",
+    "lib/R/library/farver/NAMESPACE",
+    "lib/R/library/farver/NEWS.md",
+    "lib/R/library/farver/R/farver",
+    "lib/R/library/farver/R/farver.rdb",
+    "lib/R/library/farver/R/farver.rdx",
+    "lib/R/library/farver/R/sysdata.rdb",
+    "lib/R/library/farver/R/sysdata.rdx",
+    "lib/R/library/farver/help/AnIndex",
+    "lib/R/library/farver/help/aliases.rds",
+    "lib/R/library/farver/help/farver.rdb",
+    "lib/R/library/farver/help/farver.rdx",
+    "lib/R/library/farver/help/figures/README-unnamed-chunk-4-1.png",
+    "lib/R/library/farver/help/figures/README-unnamed-chunk-5-1.png",
+    "lib/R/library/farver/help/figures/README-unnamed-chunk-7-1.png",
+    "lib/R/library/farver/help/figures/README-unnamed-chunk-8-1.png",
+    "lib/R/library/farver/help/figures/logo.png",
+    "lib/R/library/farver/help/figures/logo.svg",
+    "lib/R/library/farver/help/paths.rds",
+    "lib/R/library/farver/html/00Index.html",
+    "lib/R/library/farver/html/R.css",
+    "lib/R/library/farver/libs/farver.so"
+  ],
+  "fn": "r-farver-2.0.3-r35hc5da6b9_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/r-farver-2.0.3-r35hc5da6b9_0",
+    "type": 1
+  },
+  "md5": "835d4fde0cf1715147435031daa840f9",
+  "name": "r-farver",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/r-farver-2.0.3-r35hc5da6b9_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/farver/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "d72e8a8137a08800d8843a580a025698bab7301e85ccfb18fe878e67ea352907",
+        "sha256_in_prefix": "d72e8a8137a08800d8843a580a025698bab7301e85ccfb18fe878e67ea352907",
+        "size_in_bytes": 1887
+      },
+      {
+        "_path": "lib/R/library/farver/INDEX",
+        "path_type": "hardlink",
+        "sha256": "a495f8f2b4d724932ab1ede55e52e3a5cbb72f0faa61b00f583c371ed7a7c3f7",
+        "sha256_in_prefix": "a495f8f2b4d724932ab1ede55e52e3a5cbb72f0faa61b00f583c371ed7a7c3f7",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "lib/R/library/farver/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "24ba6a50d5d62be8d2def5bd6735022f3c7eb24af83db65b322c47f1831b4b78",
+        "sha256_in_prefix": "24ba6a50d5d62be8d2def5bd6735022f3c7eb24af83db65b322c47f1831b4b78",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "lib/R/library/farver/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "dc6fe8ae2c5401416f29fa6fb9a38810a09ef9dac5353e489f8042de1ca7f66a",
+        "sha256_in_prefix": "dc6fe8ae2c5401416f29fa6fb9a38810a09ef9dac5353e489f8042de1ca7f66a",
+        "size_in_bytes": 581
+      },
+      {
+        "_path": "lib/R/library/farver/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "c22d9d242fd52a4bbbe805dae5c5df6a19451d10060881260200999f9115b12d",
+        "sha256_in_prefix": "c22d9d242fd52a4bbbe805dae5c5df6a19451d10060881260200999f9115b12d",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/farver/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "4c95e7354d62a033371c8a4dfc555fdd34bdf90a290a39a97cc2056582ee37c9",
+        "sha256_in_prefix": "4c95e7354d62a033371c8a4dfc555fdd34bdf90a290a39a97cc2056582ee37c9",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "lib/R/library/farver/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "adcdc706cbdf5ef0faaa962f9e0660a9827cd5431c06a5d6dc862362a084e056",
+        "sha256_in_prefix": "adcdc706cbdf5ef0faaa962f9e0660a9827cd5431c06a5d6dc862362a084e056",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/R/library/farver/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "bd3747cea0c0adf31232cc91aa8730512fca910c2f24c95f23e37df0e7a290d2",
+        "sha256_in_prefix": "bd3747cea0c0adf31232cc91aa8730512fca910c2f24c95f23e37df0e7a290d2",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "lib/R/library/farver/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "8f148fc425e6d1c8e79f6e189f16f7d4ee8796cba104ab2872bb896298957292",
+        "sha256_in_prefix": "8f148fc425e6d1c8e79f6e189f16f7d4ee8796cba104ab2872bb896298957292",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "lib/R/library/farver/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "552b9622b447a0f0a276094b051df97a40ba19e6ad5d719c86d48c050f2df4df",
+        "sha256_in_prefix": "552b9622b447a0f0a276094b051df97a40ba19e6ad5d719c86d48c050f2df4df",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "lib/R/library/farver/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "024609de74b8b8cc75eeeec2d48b8e628fcf57d73928333030c54430c4e32916",
+        "sha256_in_prefix": "024609de74b8b8cc75eeeec2d48b8e628fcf57d73928333030c54430c4e32916",
+        "size_in_bytes": 1498
+      },
+      {
+        "_path": "lib/R/library/farver/R/farver",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/farver/R/farver.rdb",
+        "path_type": "hardlink",
+        "sha256": "abc5c999da39700fe2581e9e53e81351d247c1b90702c09fac580333bd89b2f7",
+        "sha256_in_prefix": "abc5c999da39700fe2581e9e53e81351d247c1b90702c09fac580333bd89b2f7",
+        "size_in_bytes": 17823
+      },
+      {
+        "_path": "lib/R/library/farver/R/farver.rdx",
+        "path_type": "hardlink",
+        "sha256": "717edaef3733bd1d9abe6ec67f1edc9bd0218f4f1a91ecf3645eb3f63204b097",
+        "sha256_in_prefix": "717edaef3733bd1d9abe6ec67f1edc9bd0218f4f1a91ecf3645eb3f63204b097",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "lib/R/library/farver/R/sysdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "bbb078e43fb125996ab865431629ddc17a000b5942663783dcc71b1df66c2ce5",
+        "sha256_in_prefix": "bbb078e43fb125996ab865431629ddc17a000b5942663783dcc71b1df66c2ce5",
+        "size_in_bytes": 4607
+      },
+      {
+        "_path": "lib/R/library/farver/R/sysdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "84402b951081ee715ec9343b900d040cfc8408b230e6999b5a963d50aebc847c",
+        "sha256_in_prefix": "84402b951081ee715ec9343b900d040cfc8408b230e6999b5a963d50aebc847c",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/R/library/farver/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "f52971b8d30d6ca6bcda884abd59e130f9ec6dccb66518ef991f588d1db6a32c",
+        "sha256_in_prefix": "f52971b8d30d6ca6bcda884abd59e130f9ec6dccb66518ef991f588d1db6a32c",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "lib/R/library/farver/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "5c65f1deeae6c4de82f551212364ec7460cee160bc7a454db6f9b3113ae34af2",
+        "sha256_in_prefix": "5c65f1deeae6c4de82f551212364ec7460cee160bc7a454db6f9b3113ae34af2",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "lib/R/library/farver/help/farver.rdb",
+        "path_type": "hardlink",
+        "sha256": "26dc98a52ad68afab94ff24d886b4887bc8557353ca476a7079ae0c0f236f0a6",
+        "sha256_in_prefix": "26dc98a52ad68afab94ff24d886b4887bc8557353ca476a7079ae0c0f236f0a6",
+        "size_in_bytes": 23391
+      },
+      {
+        "_path": "lib/R/library/farver/help/farver.rdx",
+        "path_type": "hardlink",
+        "sha256": "1dfcc49d874b6a5efe18dc78be5d227635d90bd31dc9510ce55714c95698a546",
+        "sha256_in_prefix": "1dfcc49d874b6a5efe18dc78be5d227635d90bd31dc9510ce55714c95698a546",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "lib/R/library/farver/help/figures/README-unnamed-chunk-4-1.png",
+        "path_type": "hardlink",
+        "sha256": "d2dadb4c021bdda3c9bb92388b7baf54c7fe1a9290d4b33a01260c771d105fe5",
+        "sha256_in_prefix": "d2dadb4c021bdda3c9bb92388b7baf54c7fe1a9290d4b33a01260c771d105fe5",
+        "size_in_bytes": 23346
+      },
+      {
+        "_path": "lib/R/library/farver/help/figures/README-unnamed-chunk-5-1.png",
+        "path_type": "hardlink",
+        "sha256": "e10a14d45d03cd27cb5e370e176d7b1a72d92f8ef9509986027f757886376944",
+        "sha256_in_prefix": "e10a14d45d03cd27cb5e370e176d7b1a72d92f8ef9509986027f757886376944",
+        "size_in_bytes": 29425
+      },
+      {
+        "_path": "lib/R/library/farver/help/figures/README-unnamed-chunk-7-1.png",
+        "path_type": "hardlink",
+        "sha256": "8516781661c2c966aa94fcf7befc8a913a7e4144630d00012739aced26e2175d",
+        "sha256_in_prefix": "8516781661c2c966aa94fcf7befc8a913a7e4144630d00012739aced26e2175d",
+        "size_in_bytes": 29448
+      },
+      {
+        "_path": "lib/R/library/farver/help/figures/README-unnamed-chunk-8-1.png",
+        "path_type": "hardlink",
+        "sha256": "d919658f44322914ddca60e238421ac8c05fcd331f3140fae1d587daee9d203a",
+        "sha256_in_prefix": "d919658f44322914ddca60e238421ac8c05fcd331f3140fae1d587daee9d203a",
+        "size_in_bytes": 25635
+      },
+      {
+        "_path": "lib/R/library/farver/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "573e1abe3cf2c1960232fb513508bf88f9f928ca32e54788324875610657c8aa",
+        "sha256_in_prefix": "573e1abe3cf2c1960232fb513508bf88f9f928ca32e54788324875610657c8aa",
+        "size_in_bytes": 102713
+      },
+      {
+        "_path": "lib/R/library/farver/help/figures/logo.svg",
+        "path_type": "hardlink",
+        "sha256": "5e10839fc32c0851ff77ad5ad0336d4d4332afc6c334d3be8c4581c95ab406ba",
+        "sha256_in_prefix": "5e10839fc32c0851ff77ad5ad0336d4d4332afc6c334d3be8c4581c95ab406ba",
+        "size_in_bytes": 1373089
+      },
+      {
+        "_path": "lib/R/library/farver/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "03f1f8d8094185d3e0da31be2e884d169d8558e44f53809edf684699f6fd58e0",
+        "sha256_in_prefix": "03f1f8d8094185d3e0da31be2e884d169d8558e44f53809edf684699f6fd58e0",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "lib/R/library/farver/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "79387bdc7575f2230839aed0e421e0caefb18f6d0df11dd7d34347e36a446825",
+        "sha256_in_prefix": "79387bdc7575f2230839aed0e421e0caefb18f6d0df11dd7d34347e36a446825",
+        "size_in_bytes": 2554
+      },
+      {
+        "_path": "lib/R/library/farver/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/farver/libs/farver.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/r-farver_1579187255475/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "b31703cc0065cc5b49904dae113281e2767a58708b9508b37c62fd8f33888b93",
+        "sha256_in_prefix": "38f184b08c83de87f4c7af9f310dd26f035fc967403b62f5507fbb25a0afe362",
+        "size_in_bytes": 676756
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3a1471de7b1038526d29b12fef4c5911efa7a2ea23136d1f1990679460ef6cb3",
+  "size": 1454687,
+  "subdir": "osx-64",
+  "timestamp": 1579187478124,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/r-farver-2.0.3-r35hc5da6b9_0.tar.bz2",
+  "version": "2.0.3"
+}

@@ -1,0 +1,107 @@
+{
+  "build": "h044cb63_8",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "cctools_osx-64",
+    "clang",
+    "clang_osx-64",
+    "gfortran_impl_osx-64 7.5.0",
+    "ld64_osx-64",
+    "libgfortran 4.*",
+    "libgfortran4 >=7.5.0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/gfortran_osx-64-7.5.0-h044cb63_8",
+  "features": "",
+  "files": [
+    "etc/conda/activate.d/activate-gfortran_osx-64.sh",
+    "etc/conda/deactivate.d/deactivate-gfortran_osx-64.sh",
+    "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/ar",
+    "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/as",
+    "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/clang",
+    "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/ld",
+    "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/nm",
+    "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/ranlib",
+    "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/strip"
+  ],
+  "fn": "gfortran_osx-64-7.5.0-h044cb63_8.tar.bz2",
+  "license": "GPL-3.0-or-later WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/gfortran_osx-64-7.5.0-h044cb63_8",
+    "type": 1
+  },
+  "md5": "6e54600b3328b788f74d55146f0c42be",
+  "name": "gfortran_osx-64",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/gfortran_osx-64-7.5.0-h044cb63_8.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/conda/activate.d/activate-gfortran_osx-64.sh",
+        "path_type": "hardlink",
+        "sha256": "3b07513bf29b01930bb869c825051c921127863eae7ff51efe5084a526687cd2",
+        "sha256_in_prefix": "3b07513bf29b01930bb869c825051c921127863eae7ff51efe5084a526687cd2",
+        "size_in_bytes": 4606
+      },
+      {
+        "_path": "etc/conda/deactivate.d/deactivate-gfortran_osx-64.sh",
+        "path_type": "hardlink",
+        "sha256": "f82f451ee2de66c2abcc794c1121f2e3fb143a8f8cd5fb10cca69b2b7a0e128c",
+        "sha256_in_prefix": "f82f451ee2de66c2abcc794c1121f2e3fb143a8f8cd5fb10cca69b2b7a0e128c",
+        "size_in_bytes": 4672
+      },
+      {
+        "_path": "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/ar",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/as",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/clang",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/ld",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/nm",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/ranlib",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/gcc/x86_64-apple-darwin13.4.0/7.5.0/strip",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b5a423a8907ecd7321f310c94943207305d1cf83baa588c1811a4bdfa696d88d",
+  "size": 21654,
+  "subdir": "osx-64",
+  "timestamp": 1600571122015,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/gfortran_osx-64-7.5.0-h044cb63_8.tar.bz2",
+  "version": "7.5.0"
+}

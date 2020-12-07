@@ -1,0 +1,11 @@
+prefix=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079
+exec_prefix=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079
+libdir=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079/lib
+includedir=/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.5
+Libs: -L/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079/lib -lgsl ${GSL_CBLAS_LIB}  -lcblas -lm
+Cflags: -I/Users/biplab/Documents/rna_seq_workflow/.snakemake/conda/c8a34079/include

@@ -1,0 +1,46 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "cctools 949.0.1.*",
+    "cctools_osx-64 949.0.1.*"
+  ],
+  "depends": [
+    "ld64_osx-64 530 h3c32e8a_0"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/ld64-530-0",
+  "features": "",
+  "files": [
+    "bin/ld"
+  ],
+  "fn": "ld64-530-0.tar.bz2",
+  "license": "APSL-2.0",
+  "license_family": "Other",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/ld64-530-0",
+    "type": 1
+  },
+  "md5": "89214b296d5b83528dcc8de824fbf79d",
+  "name": "ld64",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/ld64-530-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/ld",
+        "path_type": "softlink",
+        "sha256": "218133e4b1a23025c8994da853e38cd2c2f1fbf6f5dcc3224855461197b14790",
+        "size_in_bytes": 3920276
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "04788b2a359d592735686eb192f024964fd8f28fb2deeaf845a70486f860a84f",
+  "size": 14097,
+  "subdir": "osx-64",
+  "timestamp": 1594579607884,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ld64-530-0.tar.bz2",
+  "version": "530"
+}

@@ -1,0 +1,1032 @@
+{
+  "build": "h879752b_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10"
+  ],
+  "extracted_package_dir": "/Users/biplab/miniconda3/pkgs/tapi-1000.10.8-h879752b_4",
+  "features": "",
+  "files": [
+    "bin/tapi",
+    "include/tapi/APIVersion.h",
+    "include/tapi/Defines.h",
+    "include/tapi/LinkerInterfaceFile.h",
+    "include/tapi/PackedVersion32.h",
+    "include/tapi/Symbol.h",
+    "include/tapi/Version.h",
+    "include/tapi/Version.inc",
+    "include/tapi/tapi.h",
+    "lib/libtapi.dylib",
+    "lib/tapi/10.0.0/include/__clang_cuda_builtin_vars.h",
+    "lib/tapi/10.0.0/include/__clang_cuda_cmath.h",
+    "lib/tapi/10.0.0/include/__clang_cuda_complex_builtins.h",
+    "lib/tapi/10.0.0/include/__clang_cuda_intrinsics.h",
+    "lib/tapi/10.0.0/include/__clang_cuda_math_forward_declares.h",
+    "lib/tapi/10.0.0/include/__clang_cuda_runtime_wrapper.h",
+    "lib/tapi/10.0.0/include/__stddef_max_align_t.h",
+    "lib/tapi/10.0.0/include/__wmmintrin_aes.h",
+    "lib/tapi/10.0.0/include/__wmmintrin_pclmul.h",
+    "lib/tapi/10.0.0/include/adxintrin.h",
+    "lib/tapi/10.0.0/include/altivec.h",
+    "lib/tapi/10.0.0/include/ammintrin.h",
+    "lib/tapi/10.0.0/include/arm64intr.h",
+    "lib/tapi/10.0.0/include/arm_acle.h",
+    "lib/tapi/10.0.0/include/arm_neon.h",
+    "lib/tapi/10.0.0/include/armintr.h",
+    "lib/tapi/10.0.0/include/avx2intrin.h",
+    "lib/tapi/10.0.0/include/avx512bitalgintrin.h",
+    "lib/tapi/10.0.0/include/avx512bwintrin.h",
+    "lib/tapi/10.0.0/include/avx512cdintrin.h",
+    "lib/tapi/10.0.0/include/avx512dqintrin.h",
+    "lib/tapi/10.0.0/include/avx512erintrin.h",
+    "lib/tapi/10.0.0/include/avx512fintrin.h",
+    "lib/tapi/10.0.0/include/avx512ifmaintrin.h",
+    "lib/tapi/10.0.0/include/avx512ifmavlintrin.h",
+    "lib/tapi/10.0.0/include/avx512pfintrin.h",
+    "lib/tapi/10.0.0/include/avx512vbmi2intrin.h",
+    "lib/tapi/10.0.0/include/avx512vbmiintrin.h",
+    "lib/tapi/10.0.0/include/avx512vbmivlintrin.h",
+    "lib/tapi/10.0.0/include/avx512vlbitalgintrin.h",
+    "lib/tapi/10.0.0/include/avx512vlbwintrin.h",
+    "lib/tapi/10.0.0/include/avx512vlcdintrin.h",
+    "lib/tapi/10.0.0/include/avx512vldqintrin.h",
+    "lib/tapi/10.0.0/include/avx512vlintrin.h",
+    "lib/tapi/10.0.0/include/avx512vlvbmi2intrin.h",
+    "lib/tapi/10.0.0/include/avx512vlvnniintrin.h",
+    "lib/tapi/10.0.0/include/avx512vnniintrin.h",
+    "lib/tapi/10.0.0/include/avx512vpopcntdqintrin.h",
+    "lib/tapi/10.0.0/include/avx512vpopcntdqvlintrin.h",
+    "lib/tapi/10.0.0/include/avxintrin.h",
+    "lib/tapi/10.0.0/include/bmi2intrin.h",
+    "lib/tapi/10.0.0/include/bmiintrin.h",
+    "lib/tapi/10.0.0/include/cetintrin.h",
+    "lib/tapi/10.0.0/include/clflushoptintrin.h",
+    "lib/tapi/10.0.0/include/clwbintrin.h",
+    "lib/tapi/10.0.0/include/clzerointrin.h",
+    "lib/tapi/10.0.0/include/cpuid.h",
+    "lib/tapi/10.0.0/include/cuda_wrappers/algorithm",
+    "lib/tapi/10.0.0/include/cuda_wrappers/complex",
+    "lib/tapi/10.0.0/include/cuda_wrappers/new",
+    "lib/tapi/10.0.0/include/emmintrin.h",
+    "lib/tapi/10.0.0/include/f16cintrin.h",
+    "lib/tapi/10.0.0/include/float.h",
+    "lib/tapi/10.0.0/include/fma4intrin.h",
+    "lib/tapi/10.0.0/include/fmaintrin.h",
+    "lib/tapi/10.0.0/include/fxsrintrin.h",
+    "lib/tapi/10.0.0/include/gfniintrin.h",
+    "lib/tapi/10.0.0/include/htmintrin.h",
+    "lib/tapi/10.0.0/include/htmxlintrin.h",
+    "lib/tapi/10.0.0/include/ia32intrin.h",
+    "lib/tapi/10.0.0/include/immintrin.h",
+    "lib/tapi/10.0.0/include/intrin.h",
+    "lib/tapi/10.0.0/include/inttypes.h",
+    "lib/tapi/10.0.0/include/iso646.h",
+    "lib/tapi/10.0.0/include/limits.h",
+    "lib/tapi/10.0.0/include/lwpintrin.h",
+    "lib/tapi/10.0.0/include/lzcntintrin.h",
+    "lib/tapi/10.0.0/include/mm3dnow.h",
+    "lib/tapi/10.0.0/include/mm_malloc.h",
+    "lib/tapi/10.0.0/include/mmintrin.h",
+    "lib/tapi/10.0.0/include/module.modulemap",
+    "lib/tapi/10.0.0/include/msa.h",
+    "lib/tapi/10.0.0/include/mwaitxintrin.h",
+    "lib/tapi/10.0.0/include/nmmintrin.h",
+    "lib/tapi/10.0.0/include/opencl-c.h",
+    "lib/tapi/10.0.0/include/pkuintrin.h",
+    "lib/tapi/10.0.0/include/pmmintrin.h",
+    "lib/tapi/10.0.0/include/popcntintrin.h",
+    "lib/tapi/10.0.0/include/prfchwintrin.h",
+    "lib/tapi/10.0.0/include/rdseedintrin.h",
+    "lib/tapi/10.0.0/include/rtmintrin.h",
+    "lib/tapi/10.0.0/include/s390intrin.h",
+    "lib/tapi/10.0.0/include/shaintrin.h",
+    "lib/tapi/10.0.0/include/smmintrin.h",
+    "lib/tapi/10.0.0/include/stdalign.h",
+    "lib/tapi/10.0.0/include/stdarg.h",
+    "lib/tapi/10.0.0/include/stdatomic.h",
+    "lib/tapi/10.0.0/include/stdbool.h",
+    "lib/tapi/10.0.0/include/stddef.h",
+    "lib/tapi/10.0.0/include/stdint.h",
+    "lib/tapi/10.0.0/include/stdnoreturn.h",
+    "lib/tapi/10.0.0/include/tbmintrin.h",
+    "lib/tapi/10.0.0/include/tgmath.h",
+    "lib/tapi/10.0.0/include/tmmintrin.h",
+    "lib/tapi/10.0.0/include/unwind.h",
+    "lib/tapi/10.0.0/include/vadefs.h",
+    "lib/tapi/10.0.0/include/vaesintrin.h",
+    "lib/tapi/10.0.0/include/varargs.h",
+    "lib/tapi/10.0.0/include/vecintrin.h",
+    "lib/tapi/10.0.0/include/vpclmulqdqintrin.h",
+    "lib/tapi/10.0.0/include/wmmintrin.h",
+    "lib/tapi/10.0.0/include/x86intrin.h",
+    "lib/tapi/10.0.0/include/xmmintrin.h",
+    "lib/tapi/10.0.0/include/xopintrin.h",
+    "lib/tapi/10.0.0/include/xsavecintrin.h",
+    "lib/tapi/10.0.0/include/xsaveintrin.h",
+    "lib/tapi/10.0.0/include/xsaveoptintrin.h",
+    "lib/tapi/10.0.0/include/xsavesintrin.h",
+    "lib/tapi/10.0.0/include/xtestintrin.h",
+    "share/man/man1/tapi-archive.1",
+    "share/man/man1/tapi-installapi.1",
+    "share/man/man1/tapi-reexport.1",
+    "share/man/man1/tapi-stubify.1",
+    "share/man/man1/tapi.1"
+  ],
+  "fn": "tapi-1000.10.8-h879752b_4.tar.bz2",
+  "license": "UIUC",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/biplab/miniconda3/pkgs/tapi-1000.10.8-h879752b_4",
+    "type": 1
+  },
+  "md5": "2d7b2c23581ac3e2d3d547d93557e382",
+  "name": "tapi",
+  "package_tarball_full_path": "/Users/biplab/miniconda3/pkgs/tapi-1000.10.8-h879752b_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/tapi",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/tapi_1596220500936/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "7ffd8ce882e5d76e82205558bdc0ce4300bf25cf1ee717467b6cf3c361aa4aaf",
+        "sha256_in_prefix": "105de43730cf45be06a433c2310c5d4fd9e43dd9294b7e2695693d88ce79ba9e",
+        "size_in_bytes": 13594512
+      },
+      {
+        "_path": "include/tapi/APIVersion.h",
+        "path_type": "hardlink",
+        "sha256": "d5e260e842bd2a0484915c38627f85d7aaacdd05938f7d6474f3f597db40d63a",
+        "sha256_in_prefix": "d5e260e842bd2a0484915c38627f85d7aaacdd05938f7d6474f3f597db40d63a",
+        "size_in_bytes": 3077
+      },
+      {
+        "_path": "include/tapi/Defines.h",
+        "path_type": "hardlink",
+        "sha256": "5b99f9c0097e92d34ed3544dc5060e15e0a1ecb480ebe82623dbac82d1905ade",
+        "sha256_in_prefix": "5b99f9c0097e92d34ed3544dc5060e15e0a1ecb480ebe82623dbac82d1905ade",
+        "size_in_bytes": 886
+      },
+      {
+        "_path": "include/tapi/LinkerInterfaceFile.h",
+        "path_type": "hardlink",
+        "sha256": "ee70c0c2c3e102636e4acbf57af4eea4e81f4f637dbe898e1348d3f91f886a11",
+        "sha256_in_prefix": "ee70c0c2c3e102636e4acbf57af4eea4e81f4f637dbe898e1348d3f91f886a11",
+        "size_in_bytes": 14406
+      },
+      {
+        "_path": "include/tapi/PackedVersion32.h",
+        "path_type": "hardlink",
+        "sha256": "163a0b75a3bcee9eda687065a99d94efd4e2fb5b954b00b2bf846910b6f70fe9",
+        "sha256_in_prefix": "163a0b75a3bcee9eda687065a99d94efd4e2fb5b954b00b2bf846910b6f70fe9",
+        "size_in_bytes": 2636
+      },
+      {
+        "_path": "include/tapi/Symbol.h",
+        "path_type": "hardlink",
+        "sha256": "5f696c7bb27813edbbcd76613764830f7e63adf205c5b92536b928016a718862",
+        "sha256_in_prefix": "5f696c7bb27813edbbcd76613764830f7e63adf205c5b92536b928016a718862",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "include/tapi/Version.h",
+        "path_type": "hardlink",
+        "sha256": "532ee250c75011febfdeabfd87b78e919a543f6da9a9d2b80a8d9153530ea38e",
+        "sha256_in_prefix": "532ee250c75011febfdeabfd87b78e919a543f6da9a9d2b80a8d9153530ea38e",
+        "size_in_bytes": 2465
+      },
+      {
+        "_path": "include/tapi/Version.inc",
+        "path_type": "hardlink",
+        "sha256": "6618865bcf3364233dcbb680463765ab546a52062fd48f270d6c3fec5c9e48b3",
+        "sha256_in_prefix": "6618865bcf3364233dcbb680463765ab546a52062fd48f270d6c3fec5c9e48b3",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "include/tapi/tapi.h",
+        "path_type": "hardlink",
+        "sha256": "d737bb5ba430fac02e3807334389db8b018a184d2eebd6878e7dcb47fa817759",
+        "sha256_in_prefix": "d737bb5ba430fac02e3807334389db8b018a184d2eebd6878e7dcb47fa817759",
+        "size_in_bytes": 883
+      },
+      {
+        "_path": "lib/libtapi.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/tapi_1596220500936/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "eb5636f6c6c75d1066ae1f254eef236377590616681d31fdbf598bf9d238c625",
+        "sha256_in_prefix": "43a29326a72e7e355c3f1940503107587f0d6923a21e9f7e0e799e04dfcf6364",
+        "size_in_bytes": 334552
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/__clang_cuda_builtin_vars.h",
+        "path_type": "hardlink",
+        "sha256": "23d9bdc9559e0e7d3c626280c8dc180b37d4d63a0657384b34b4dd9b784a33c7",
+        "sha256_in_prefix": "23d9bdc9559e0e7d3c626280c8dc180b37d4d63a0657384b34b4dd9b784a33c7",
+        "size_in_bytes": 5544
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/__clang_cuda_cmath.h",
+        "path_type": "hardlink",
+        "sha256": "4cfbf2900d35827afe8cd7642bc641d5e2a86f636594fae4fcaca191ca38c887",
+        "sha256_in_prefix": "4cfbf2900d35827afe8cd7642bc641d5e2a86f636594fae4fcaca191ca38c887",
+        "size_in_bytes": 17185
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/__clang_cuda_complex_builtins.h",
+        "path_type": "hardlink",
+        "sha256": "8b43728bc9d8b97afb2ffc5eea7d62e909077e279689539a94274ccab33702ce",
+        "sha256_in_prefix": "8b43728bc9d8b97afb2ffc5eea7d62e909077e279689539a94274ccab33702ce",
+        "size_in_bytes": 8458
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/__clang_cuda_intrinsics.h",
+        "path_type": "hardlink",
+        "sha256": "4b19a977e038760b8a5537ecf1cef5a4be9aaf3fa937d4d41060ff0c7714a6a0",
+        "sha256_in_prefix": "4b19a977e038760b8a5537ecf1cef5a4be9aaf3fa937d4d41060ff0c7714a6a0",
+        "size_in_bytes": 22746
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/__clang_cuda_math_forward_declares.h",
+        "path_type": "hardlink",
+        "sha256": "558dbac7bfaaa0a352692520edb79a30649ba36c496b97166b1b00fd1caf23ac",
+        "sha256_in_prefix": "558dbac7bfaaa0a352692520edb79a30649ba36c496b97166b1b00fd1caf23ac",
+        "size_in_bytes": 9077
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/__clang_cuda_runtime_wrapper.h",
+        "path_type": "hardlink",
+        "sha256": "b60d6a64096255d35f6727c52f5d4ea72a09be1914aea68bb092dab07bd06b21",
+        "sha256_in_prefix": "b60d6a64096255d35f6727c52f5d4ea72a09be1914aea68bb092dab07bd06b21",
+        "size_in_bytes": 13939
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/__stddef_max_align_t.h",
+        "path_type": "hardlink",
+        "sha256": "5d26aeae66fc6f9cb969df50a2382536208f94dec476dd17239924e34550f33d",
+        "sha256_in_prefix": "5d26aeae66fc6f9cb969df50a2382536208f94dec476dd17239924e34550f33d",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/__wmmintrin_aes.h",
+        "path_type": "hardlink",
+        "sha256": "9ab53da53b9b10ff9ebff2462fa1257e7a8d9917bc96e224a652c4538ad35f30",
+        "sha256_in_prefix": "9ab53da53b9b10ff9ebff2462fa1257e7a8d9917bc96e224a652c4538ad35f30",
+        "size_in_bytes": 6062
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/__wmmintrin_pclmul.h",
+        "path_type": "hardlink",
+        "sha256": "0eeb7c93dccb602a9f747aa1024702780ae2262e8c3f31ec3a2705200dd223bd",
+        "sha256_in_prefix": "0eeb7c93dccb602a9f747aa1024702780ae2262e8c3f31ec3a2705200dd223bd",
+        "size_in_bytes": 2833
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/adxintrin.h",
+        "path_type": "hardlink",
+        "sha256": "3898d9126f6c77f6c66ceefc078e0c425fa597ecc3552f9c072c127cbb243527",
+        "sha256_in_prefix": "3898d9126f6c77f6c66ceefc078e0c425fa597ecc3552f9c072c127cbb243527",
+        "size_in_bytes": 3247
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/altivec.h",
+        "path_type": "hardlink",
+        "sha256": "f7d7b46114bf2ac130bf06233ab71d941d97c94a6d52d173d4bff97f44943931",
+        "sha256_in_prefix": "f7d7b46114bf2ac130bf06233ab71d941d97c94a6d52d173d4bff97f44943931",
+        "size_in_bytes": 607042
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/ammintrin.h",
+        "path_type": "hardlink",
+        "sha256": "83cdd63bb88eb640b3ab3971f34d5da3e115817f27c44bf515c78916bef053bf",
+        "sha256_in_prefix": "83cdd63bb88eb640b3ab3971f34d5da3e115817f27c44bf515c78916bef053bf",
+        "size_in_bytes": 8480
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/arm64intr.h",
+        "path_type": "hardlink",
+        "sha256": "c4f52eab6c5320b238c9f0dfba9edf6c1a68de089780b1066900fe8a72bf97f7",
+        "sha256_in_prefix": "c4f52eab6c5320b238c9f0dfba9edf6c1a68de089780b1066900fe8a72bf97f7",
+        "size_in_bytes": 1864
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/arm_acle.h",
+        "path_type": "hardlink",
+        "sha256": "55aeba757906ec02bd3a8388f3f7c15fde2e7d3c61efd075104b2489d07498c3",
+        "sha256_in_prefix": "55aeba757906ec02bd3a8388f3f7c15fde2e7d3c61efd075104b2489d07498c3",
+        "size_in_bytes": 20663
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/arm_neon.h",
+        "path_type": "hardlink",
+        "sha256": "3fe9fe213df655d79e8a144602977e3626ac4bea8f41af21bf28a54a4535a20a",
+        "sha256_in_prefix": "3fe9fe213df655d79e8a144602977e3626ac4bea8f41af21bf28a54a4535a20a",
+        "size_in_bytes": 2396345
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/armintr.h",
+        "path_type": "hardlink",
+        "sha256": "60a6e13d8e517b846dfa072b9971069cff7e2e2858dc4b3831b21758625abc63",
+        "sha256_in_prefix": "60a6e13d8e517b846dfa072b9971069cff7e2e2858dc4b3831b21758625abc63",
+        "size_in_bytes": 1714
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx2intrin.h",
+        "path_type": "hardlink",
+        "sha256": "ecf38de394585ff96acf97ca9c48a39d92b32af0d0b158f223ca7a511ec6e80d",
+        "sha256_in_prefix": "ecf38de394585ff96acf97ca9c48a39d92b32af0d0b158f223ca7a511ec6e80d",
+        "size_in_bytes": 50474
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512bitalgintrin.h",
+        "path_type": "hardlink",
+        "sha256": "2b2c65b42d91cce76c8a59fa885c3a735dcb78c77839c0b32f22291c39b97963",
+        "sha256_in_prefix": "2b2c65b42d91cce76c8a59fa885c3a735dcb78c77839c0b32f22291c39b97963",
+        "size_in_bytes": 3304
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512bwintrin.h",
+        "path_type": "hardlink",
+        "sha256": "2bb3d606c3f1a27d5d3d0f2570247295add911dba4a13d5a1709d2338a32d2ca",
+        "sha256_in_prefix": "2bb3d606c3f1a27d5d3d0f2570247295add911dba4a13d5a1709d2338a32d2ca",
+        "size_in_bytes": 85265
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512cdintrin.h",
+        "path_type": "hardlink",
+        "sha256": "c1cb1325042b9c42a7f178cfcc577581fc762daabd565584330b9e10bdcc3656",
+        "sha256_in_prefix": "c1cb1325042b9c42a7f178cfcc577581fc762daabd565584330b9e10bdcc3656",
+        "size_in_bytes": 4865
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512dqintrin.h",
+        "path_type": "hardlink",
+        "sha256": "88f941dd32bb6001b4bf027dd17c9b6d1fab0a479f98f2e28638df36a422e686",
+        "sha256_in_prefix": "88f941dd32bb6001b4bf027dd17c9b6d1fab0a479f98f2e28638df36a422e686",
+        "size_in_bytes": 62842
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512erintrin.h",
+        "path_type": "hardlink",
+        "sha256": "71de0a5a9abc0660753b3aa9497b1c9796992a7ea3a91f225d37bdba6b7c050b",
+        "sha256_in_prefix": "71de0a5a9abc0660753b3aa9497b1c9796992a7ea3a91f225d37bdba6b7c050b",
+        "size_in_bytes": 13472
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512fintrin.h",
+        "path_type": "hardlink",
+        "sha256": "b84dbfd9d8b4df9a0e499a6cbd0fe93ed53e3d71022a3cffd69b8ca6ec29b324",
+        "sha256_in_prefix": "b84dbfd9d8b4df9a0e499a6cbd0fe93ed53e3d71022a3cffd69b8ca6ec29b324",
+        "size_in_bytes": 423705
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512ifmaintrin.h",
+        "path_type": "hardlink",
+        "sha256": "27f68d18e7c1b1936a1d94d3eb0973f4bc79d5d9bb480559d3a4ec22c5fd59df",
+        "sha256_in_prefix": "27f68d18e7c1b1936a1d94d3eb0973f4bc79d5d9bb480559d3a4ec22c5fd59df",
+        "size_in_bytes": 3371
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512ifmavlintrin.h",
+        "path_type": "hardlink",
+        "sha256": "3bf453a240742975f0fccfc3ec56cab50ec5a150060c1f9b570de47db947e4f2",
+        "sha256_in_prefix": "3bf453a240742975f0fccfc3ec56cab50ec5a150060c1f9b570de47db947e4f2",
+        "size_in_bytes": 5119
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512pfintrin.h",
+        "path_type": "hardlink",
+        "sha256": "4937298200b9762557726e52a24e8a4d82bb194a98681629b47fbbca69729e7f",
+        "sha256_in_prefix": "4937298200b9762557726e52a24e8a4d82bb194a98681629b47fbbca69729e7f",
+        "size_in_bytes": 5823
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vbmi2intrin.h",
+        "path_type": "hardlink",
+        "sha256": "7a6f472eb92c4568fc958d1f1f08d5e74aea05e32e1759ae49a63ff183797619",
+        "sha256_in_prefix": "7a6f472eb92c4568fc958d1f1f08d5e74aea05e32e1759ae49a63ff183797619",
+        "size_in_bytes": 13323
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vbmiintrin.h",
+        "path_type": "hardlink",
+        "sha256": "9c9f6e735ef34b857b01c805721dab58cc46bcbeba616c8ddcff7bc3c196126d",
+        "sha256_in_prefix": "9c9f6e735ef34b857b01c805721dab58cc46bcbeba616c8ddcff7bc3c196126d",
+        "size_in_bytes": 4742
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vbmivlintrin.h",
+        "path_type": "hardlink",
+        "sha256": "60fbfdcf11169c32d8d7e172c688050638d2933306afa3fd2de6a13132be66f4",
+        "sha256_in_prefix": "60fbfdcf11169c32d8d7e172c688050638d2933306afa3fd2de6a13132be66f4",
+        "size_in_bytes": 8032
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vlbitalgintrin.h",
+        "path_type": "hardlink",
+        "sha256": "7d41ac35dab1baaa8778f2fc008d6538b79af348158a6d15863ad65b94c7dca1",
+        "sha256_in_prefix": "7d41ac35dab1baaa8778f2fc008d6538b79af348158a6d15863ad65b94c7dca1",
+        "size_in_bytes": 4956
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vlbwintrin.h",
+        "path_type": "hardlink",
+        "sha256": "92bc583f604fd9b40ecd0b731d7382c11e25b0da4c0893b6d6214d6006118c90",
+        "sha256_in_prefix": "92bc583f604fd9b40ecd0b731d7382c11e25b0da4c0893b6d6214d6006118c90",
+        "size_in_bytes": 112051
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vlcdintrin.h",
+        "path_type": "hardlink",
+        "sha256": "e38fcc4ba1ce65ce542f75f70cd87dc023a69e45a8604a6153203e3e7864dfc3",
+        "sha256_in_prefix": "e38fcc4ba1ce65ce542f75f70cd87dc023a69e45a8604a6153203e3e7864dfc3",
+        "size_in_bytes": 8255
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vldqintrin.h",
+        "path_type": "hardlink",
+        "sha256": "1aab9ea4ce751b1aad0021f782b397838198db44ecde253b8096acedd81b8ccb",
+        "sha256_in_prefix": "1aab9ea4ce751b1aad0021f782b397838198db44ecde253b8096acedd81b8ccb",
+        "size_in_bytes": 48690
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vlintrin.h",
+        "path_type": "hardlink",
+        "sha256": "11a567bee3de159c5dcb2e1bb1fb9664c269cb09b23711f3c304cfbedacd9e45",
+        "sha256_in_prefix": "11a567bee3de159c5dcb2e1bb1fb9664c269cb09b23711f3c304cfbedacd9e45",
+        "size_in_bytes": 330171
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vlvbmi2intrin.h",
+        "path_type": "hardlink",
+        "sha256": "db80a84f4ee3abaf71b2703c5709130bca9bbde3436f81e5225a66c931dda8d9",
+        "sha256_in_prefix": "db80a84f4ee3abaf71b2703c5709130bca9bbde3436f81e5225a66c931dda8d9",
+        "size_in_bytes": 24809
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vlvnniintrin.h",
+        "path_type": "hardlink",
+        "sha256": "df2218f40cba356a2d6e8619c024ce3f2c2a3620a2da784680f594399cb0856c",
+        "sha256_in_prefix": "df2218f40cba356a2d6e8619c024ce3f2c2a3620a2da784680f594399cb0856c",
+        "size_in_bytes": 8224
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vnniintrin.h",
+        "path_type": "hardlink",
+        "sha256": "3e15b2ac95600bad632773c7070215d3b502457153dd2e35cc8328096423ed73",
+        "sha256_in_prefix": "3e15b2ac95600bad632773c7070215d3b502457153dd2e35cc8328096423ed73",
+        "size_in_bytes": 4987
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vpopcntdqintrin.h",
+        "path_type": "hardlink",
+        "sha256": "24722bbfdc4cb372fa33fac5284d0a2c091b5a07e923d303778bd5f89a4f2473",
+        "sha256_in_prefix": "24722bbfdc4cb372fa33fac5284d0a2c091b5a07e923d303778bd5f89a4f2473",
+        "size_in_bytes": 2970
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avx512vpopcntdqvlintrin.h",
+        "path_type": "hardlink",
+        "sha256": "526da955916dc38204100cd889dfd497323755050e03664dce6dce5525b3d235",
+        "sha256_in_prefix": "526da955916dc38204100cd889dfd497323755050e03664dce6dce5525b3d235",
+        "size_in_bytes": 3984
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/avxintrin.h",
+        "path_type": "hardlink",
+        "sha256": "985389acd96549351b4db430b24f209d591bc9b826d4a496c76ae913c041958e",
+        "sha256_in_prefix": "985389acd96549351b4db430b24f209d591bc9b826d4a496c76ae913c041958e",
+        "size_in_bytes": 202828
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/bmi2intrin.h",
+        "path_type": "hardlink",
+        "sha256": "a0140406a28587796ddfda5184ffd20ad6d58aeef2727757604f6b0e66f1e2ae",
+        "sha256_in_prefix": "a0140406a28587796ddfda5184ffd20ad6d58aeef2727757604f6b0e66f1e2ae",
+        "size_in_bytes": 3177
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/bmiintrin.h",
+        "path_type": "hardlink",
+        "sha256": "db5d5b8c43d3c3d08033198d262c9febc639e2006b229753ebfc636996ba4012",
+        "sha256_in_prefix": "db5d5b8c43d3c3d08033198d262c9febc639e2006b229753ebfc636996ba4012",
+        "size_in_bytes": 13260
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/cetintrin.h",
+        "path_type": "hardlink",
+        "sha256": "2dcd8378697b64ec156f347fc8fef7be49e56c14ec5f50b6b612b4ccf6e3c41e",
+        "sha256_in_prefix": "2dcd8378697b64ec156f347fc8fef7be49e56c14ec5f50b6b612b4ccf6e3c41e",
+        "size_in_bytes": 3160
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/clflushoptintrin.h",
+        "path_type": "hardlink",
+        "sha256": "a0650ecaba5ab9015ca00ad3a1f09eaef9421364b34f63da2a6d014302627050",
+        "sha256_in_prefix": "a0650ecaba5ab9015ca00ad3a1f09eaef9421364b34f63da2a6d014302627050",
+        "size_in_bytes": 1744
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/clwbintrin.h",
+        "path_type": "hardlink",
+        "sha256": "cb19ec25b9ab1160d176cfeed2be244e43e776de89448a9d3ddf89def9c3f744",
+        "sha256_in_prefix": "cb19ec25b9ab1160d176cfeed2be244e43e776de89448a9d3ddf89def9c3f744",
+        "size_in_bytes": 2107
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/clzerointrin.h",
+        "path_type": "hardlink",
+        "sha256": "edb99f682db1521eb70394e8e525b54f8e180396749ee01d6ca5a7d77ce8d442",
+        "sha256_in_prefix": "edb99f682db1521eb70394e8e525b54f8e180396749ee01d6ca5a7d77ce8d442",
+        "size_in_bytes": 2002
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/cpuid.h",
+        "path_type": "hardlink",
+        "sha256": "5c46351ad27d612faac9a42f2d9c092768f5fa6bb4feee0ab0770e8c46d04caa",
+        "sha256_in_prefix": "5c46351ad27d612faac9a42f2d9c092768f5fa6bb4feee0ab0770e8c46d04caa",
+        "size_in_bytes": 10733
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/cuda_wrappers/algorithm",
+        "path_type": "hardlink",
+        "sha256": "7078fd7ad670331fa15d13cabdbea56796a2ab2977b16bc527f019347756a0fd",
+        "sha256_in_prefix": "7078fd7ad670331fa15d13cabdbea56796a2ab2977b16bc527f019347756a0fd",
+        "size_in_bytes": 3572
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/cuda_wrappers/complex",
+        "path_type": "hardlink",
+        "sha256": "eabf1aacd953edc1cd9ec63907e49bb91f991125511830480f76959146c34c41",
+        "sha256_in_prefix": "eabf1aacd953edc1cd9ec63907e49bb91f991125511830480f76959146c34c41",
+        "size_in_bytes": 3345
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/cuda_wrappers/new",
+        "path_type": "hardlink",
+        "sha256": "62d0e96f65b7978f9d801a9346c165d50ec207c1e3719c580cc162731599bee8",
+        "sha256_in_prefix": "62d0e96f65b7978f9d801a9346c165d50ec207c1e3719c580cc162731599bee8",
+        "size_in_bytes": 3312
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/emmintrin.h",
+        "path_type": "hardlink",
+        "sha256": "bb0e042041dafb082cd68f8696bc2c747669f74b08420a8427b4f2f3011c460f",
+        "sha256_in_prefix": "bb0e042041dafb082cd68f8696bc2c747669f74b08420a8427b4f2f3011c460f",
+        "size_in_bytes": 187468
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/f16cintrin.h",
+        "path_type": "hardlink",
+        "sha256": "e59f18309378b6802b1b6f3b27a8f89afc4415c76c2d366beed75be2e09c2e3a",
+        "sha256_in_prefix": "e59f18309378b6802b1b6f3b27a8f89afc4415c76c2d366beed75be2e09c2e3a",
+        "size_in_bytes": 4569
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/float.h",
+        "path_type": "hardlink",
+        "sha256": "7e26584fc87289d7af109a9c59f23d3b3fa2df30ac1b4b75093eef47a1ee5bac",
+        "sha256_in_prefix": "7e26584fc87289d7af109a9c59f23d3b3fa2df30ac1b4b75093eef47a1ee5bac",
+        "size_in_bytes": 5191
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/fma4intrin.h",
+        "path_type": "hardlink",
+        "sha256": "7d030e1c429dafccaa9d752bd28e8bcdfe264eb0148f1eda7fcc1034455731b7",
+        "sha256_in_prefix": "7d030e1c429dafccaa9d752bd28e8bcdfe264eb0148f1eda7fcc1034455731b7",
+        "size_in_bytes": 7574
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/fmaintrin.h",
+        "path_type": "hardlink",
+        "sha256": "edd1e9d1f8472a3cf361f7f5a7be64983eff298eb32a20413607f5cd69bee70e",
+        "sha256_in_prefix": "edd1e9d1f8472a3cf361f7f5a7be64983eff298eb32a20413607f5cd69bee70e",
+        "size_in_bytes": 7585
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/fxsrintrin.h",
+        "path_type": "hardlink",
+        "sha256": "b7488e1760f2ad84fd28c3d8b1f47cb8a6fbaaeb3b246c6155afe140eca4dafb",
+        "sha256_in_prefix": "b7488e1760f2ad84fd28c3d8b1f47cb8a6fbaaeb3b246c6155afe140eca4dafb",
+        "size_in_bytes": 3817
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/gfniintrin.h",
+        "path_type": "hardlink",
+        "sha256": "7a8e0eadefdf5db9d5749f42ac4d7f030888ee0974cc8df14ee96d36286305c2",
+        "sha256_in_prefix": "7a8e0eadefdf5db9d5749f42ac4d7f030888ee0974cc8df14ee96d36286305c2",
+        "size_in_bytes": 8788
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/htmintrin.h",
+        "path_type": "hardlink",
+        "sha256": "44924d8067e2342b54447f459fd1d8ae6d02f2bba84ac15f9dc29cf8fa93bb97",
+        "sha256_in_prefix": "44924d8067e2342b54447f459fd1d8ae6d02f2bba84ac15f9dc29cf8fa93bb97",
+        "size_in_bytes": 7154
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/htmxlintrin.h",
+        "path_type": "hardlink",
+        "sha256": "fda6d2cee095384a70abc842742a4630985ac9051c2e119204fd36e5e47856d3",
+        "sha256_in_prefix": "fda6d2cee095384a70abc842742a4630985ac9051c2e119204fd36e5e47856d3",
+        "size_in_bytes": 10098
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/ia32intrin.h",
+        "path_type": "hardlink",
+        "sha256": "a36e01bba4a5b809338ea707459e0e09fda6321d3c234789bb6d31e2dee42498",
+        "sha256_in_prefix": "a36e01bba4a5b809338ea707459e0e09fda6321d3c234789bb6d31e2dee42498",
+        "size_in_bytes": 2460
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/immintrin.h",
+        "path_type": "hardlink",
+        "sha256": "f9db02c642ed4f5e37eb4ec9cb4ba4c3529347a70e812e1c991e112af784ab76",
+        "sha256_in_prefix": "f9db02c642ed4f5e37eb4ec9cb4ba4c3529347a70e812e1c991e112af784ab76",
+        "size_in_bytes": 11390
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/intrin.h",
+        "path_type": "hardlink",
+        "sha256": "3159c312aff019afa559033731ca955ca77b00d5b60ceabfa92244097af33f5c",
+        "sha256_in_prefix": "3159c312aff019afa559033731ca955ca77b00d5b60ceabfa92244097af33f5c",
+        "size_in_bytes": 40124
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/inttypes.h",
+        "path_type": "hardlink",
+        "sha256": "32b2086bc84c55b984d14bfa32e8e1c7e181541220697aa266e5e934f1ad0215",
+        "sha256_in_prefix": "32b2086bc84c55b984d14bfa32e8e1c7e181541220697aa266e5e934f1ad0215",
+        "size_in_bytes": 2939
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/iso646.h",
+        "path_type": "hardlink",
+        "sha256": "938a87314be1c6c07afe46d8d4df38484c4f4c153e7d0a820ab10ecec880749a",
+        "sha256_in_prefix": "938a87314be1c6c07afe46d8d4df38484c4f4c153e7d0a820ab10ecec880749a",
+        "size_in_bytes": 1565
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/limits.h",
+        "path_type": "hardlink",
+        "sha256": "bf25c7d82a41beee3f258c44664eeb179366222baa9dd2402d04b9d06620347f",
+        "sha256_in_prefix": "bf25c7d82a41beee3f258c44664eeb179366222baa9dd2402d04b9d06620347f",
+        "size_in_bytes": 3734
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/lwpintrin.h",
+        "path_type": "hardlink",
+        "sha256": "4d8d15eb5cf6a8f325b7ca8eddf70609e2d6e4d87157fe59bd2bb1114299a8d8",
+        "sha256_in_prefix": "4d8d15eb5cf6a8f325b7ca8eddf70609e2d6e4d87157fe59bd2bb1114299a8d8",
+        "size_in_bytes": 6026
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/lzcntintrin.h",
+        "path_type": "hardlink",
+        "sha256": "1777d8653453d43867f508e728d88db57d011197be3ec2c96dfe7ab6796b7dfd",
+        "sha256_in_prefix": "1777d8653453d43867f508e728d88db57d011197be3ec2c96dfe7ab6796b7dfd",
+        "size_in_bytes": 4135
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/mm3dnow.h",
+        "path_type": "hardlink",
+        "sha256": "44dba0f7f880def06f68132c46763e71c41e60c4cc5085f3dba5c32ff25dc2c7",
+        "sha256_in_prefix": "44dba0f7f880def06f68132c46763e71c41e60c4cc5085f3dba5c32ff25dc2c7",
+        "size_in_bytes": 5377
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/mm_malloc.h",
+        "path_type": "hardlink",
+        "sha256": "be7ba89d11bfc333aa42242fd2f81a2391bb90349f501f3385b4860ec085e5e6",
+        "sha256_in_prefix": "be7ba89d11bfc333aa42242fd2f81a2391bb90349f501f3385b4860ec085e5e6",
+        "size_in_bytes": 2611
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/mmintrin.h",
+        "path_type": "hardlink",
+        "sha256": "e2eac55ebdfaa57cb660a67cfce244e9eef5bf7ecc5618a16023e842ba547769",
+        "sha256_in_prefix": "e2eac55ebdfaa57cb660a67cfce244e9eef5bf7ecc5618a16023e842ba547769",
+        "size_in_bytes": 58440
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/module.modulemap",
+        "path_type": "hardlink",
+        "sha256": "cd239fed22dc7da72a303d1ce00c32fe843532b6b269ba070a27bec6c2de4b56",
+        "sha256_in_prefix": "cd239fed22dc7da72a303d1ce00c32fe843532b6b269ba070a27bec6c2de4b56",
+        "size_in_bytes": 3903
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/msa.h",
+        "path_type": "hardlink",
+        "sha256": "b1558490a0625dedb47dfc4ed926bfc79ec3567eaccec0f715690a59aab27eb1",
+        "sha256_in_prefix": "b1558490a0625dedb47dfc4ed926bfc79ec3567eaccec0f715690a59aab27eb1",
+        "size_in_bytes": 26324
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/mwaitxintrin.h",
+        "path_type": "hardlink",
+        "sha256": "7635359cd1cb1b2eb6d654ba43eb978a390b4d39d980b29f8f952fb5cd107fe7",
+        "sha256_in_prefix": "7635359cd1cb1b2eb6d654ba43eb978a390b4d39d980b29f8f952fb5cd107fe7",
+        "size_in_bytes": 1977
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/nmmintrin.h",
+        "path_type": "hardlink",
+        "sha256": "bdbafc4ad380cc0e53d08dbf9adaba4b4a7e6e3cdc65f9da7eda4905cc6b790c",
+        "sha256_in_prefix": "bdbafc4ad380cc0e53d08dbf9adaba4b4a7e6e3cdc65f9da7eda4905cc6b790c",
+        "size_in_bytes": 1448
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/opencl-c.h",
+        "path_type": "hardlink",
+        "sha256": "46a3dbb04d456a10920381b71ddf8459868f338f99c5685161c7558dc9dd85f3",
+        "sha256_in_prefix": "46a3dbb04d456a10920381b71ddf8459868f338f99c5685161c7558dc9dd85f3",
+        "size_in_bytes": 804469
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/pkuintrin.h",
+        "path_type": "hardlink",
+        "sha256": "eaf9e60c6fa1c46f2762c5ddd3c2f93aa4db89e179f80fc0ae13b73886ff3ba2",
+        "sha256_in_prefix": "eaf9e60c6fa1c46f2762c5ddd3c2f93aa4db89e179f80fc0ae13b73886ff3ba2",
+        "size_in_bytes": 1802
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/pmmintrin.h",
+        "path_type": "hardlink",
+        "sha256": "63193ce05bce0ccc4f32dc3e6ebbc58c5b76533b6a3d8477eb8a1ceb83ff3e25",
+        "sha256_in_prefix": "63193ce05bce0ccc4f32dc3e6ebbc58c5b76533b6a3d8477eb8a1ceb83ff3e25",
+        "size_in_bytes": 11281
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/popcntintrin.h",
+        "path_type": "hardlink",
+        "sha256": "a3aaa2da2ff9d03f84cab60def6a5c605f634f0ec62410ed118d2c6602287698",
+        "sha256_in_prefix": "a3aaa2da2ff9d03f84cab60def6a5c605f634f0ec62410ed118d2c6602287698",
+        "size_in_bytes": 3402
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/prfchwintrin.h",
+        "path_type": "hardlink",
+        "sha256": "c079831d77cc50928da5c2b15a256bec3d20b607e6fb86f8c9fd632d02712c41",
+        "sha256_in_prefix": "c079831d77cc50928da5c2b15a256bec3d20b607e6fb86f8c9fd632d02712c41",
+        "size_in_bytes": 2913
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/rdseedintrin.h",
+        "path_type": "hardlink",
+        "sha256": "79ee08dd2bb46eaea403b852b0639e4c4e056815585f565107e85d957cf336a2",
+        "sha256_in_prefix": "79ee08dd2bb46eaea403b852b0639e4c4e056815585f565107e85d957cf336a2",
+        "size_in_bytes": 2029
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/rtmintrin.h",
+        "path_type": "hardlink",
+        "sha256": "f0b75f05e433a8f52e9ff7724b89dcb7b83ad5b0b17c9bd5fe3899fb25583892",
+        "sha256_in_prefix": "f0b75f05e433a8f52e9ff7724b89dcb7b83ad5b0b17c9bd5fe3899fb25583892",
+        "size_in_bytes": 2137
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/s390intrin.h",
+        "path_type": "hardlink",
+        "sha256": "b013d14d5bb225a32d60af7642274c0e5626f314fdcf285f0ac0824fbf5e7f42",
+        "sha256_in_prefix": "b013d14d5bb225a32d60af7642274c0e5626f314fdcf285f0ac0824fbf5e7f42",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/shaintrin.h",
+        "path_type": "hardlink",
+        "sha256": "9cfa7c7550b906ed9ba55f7e08ff4c83bf47c9d44d7ca2add53dfb8f5a0b641b",
+        "sha256_in_prefix": "9cfa7c7550b906ed9ba55f7e08ff4c83bf47c9d44d7ca2add53dfb8f5a0b641b",
+        "size_in_bytes": 2776
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/smmintrin.h",
+        "path_type": "hardlink",
+        "sha256": "d22879277904ac9a161fd14f427436f6103bcadfa83d56218e83554aed31aaac",
+        "sha256_in_prefix": "d22879277904ac9a161fd14f427436f6103bcadfa83d56218e83554aed31aaac",
+        "size_in_bytes": 104338
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/stdalign.h",
+        "path_type": "hardlink",
+        "sha256": "9ec83bf3e2c0fb570496d782b78ae897e2044dcc93359315dadb9fd281d04e13",
+        "sha256_in_prefix": "9ec83bf3e2c0fb570496d782b78ae897e2044dcc93359315dadb9fd281d04e13",
+        "size_in_bytes": 1454
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/stdarg.h",
+        "path_type": "hardlink",
+        "sha256": "57d06c56729aed5cc4e20486db91c9cf6d4dc9061a920d732d3d37b40505254f",
+        "sha256_in_prefix": "57d06c56729aed5cc4e20486db91c9cf6d4dc9061a920d732d3d37b40505254f",
+        "size_in_bytes": 2024
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/stdatomic.h",
+        "path_type": "hardlink",
+        "sha256": "2dc6138390507e4dae260ad397b92d1c609201b2991e891b7a7f7b454fdd5a2c",
+        "sha256_in_prefix": "2dc6138390507e4dae260ad397b92d1c609201b2991e891b7a7f7b454fdd5a2c",
+        "size_in_bytes": 8172
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/stdbool.h",
+        "path_type": "hardlink",
+        "sha256": "692544a895d1dc984e0d64ed08e39472ccac266d2f74824b237603268146a807",
+        "sha256_in_prefix": "692544a895d1dc984e0d64ed08e39472ccac266d2f74824b237603268146a807",
+        "size_in_bytes": 1806
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/stddef.h",
+        "path_type": "hardlink",
+        "sha256": "4fe29f8d1e821017f3cfc5dd56ba39160d7629a49f049e39aef8ffeeec008a60",
+        "sha256_in_prefix": "4fe29f8d1e821017f3cfc5dd56ba39160d7629a49f049e39aef8ffeeec008a60",
+        "size_in_bytes": 4498
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/stdint.h",
+        "path_type": "hardlink",
+        "sha256": "3c19bc3689ac369c9c4acd8c49a9f6575ac982e731fc4527987834edf436913f",
+        "sha256_in_prefix": "3c19bc3689ac369c9c4acd8c49a9f6575ac982e731fc4527987834edf436913f",
+        "size_in_bytes": 23387
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/stdnoreturn.h",
+        "path_type": "hardlink",
+        "sha256": "4919ed8a963bfe90fd830333718223bc3d30f24c370d70c10ef022832519f7a4",
+        "sha256_in_prefix": "4919ed8a963bfe90fd830333718223bc3d30f24c370d70c10ef022832519f7a4",
+        "size_in_bytes": 1381
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/tbmintrin.h",
+        "path_type": "hardlink",
+        "sha256": "5c4978340ff87be8561af2dfd2f3095f12059f403c028189107bc4d343b3615c",
+        "sha256_in_prefix": "5c4978340ff87be8561af2dfd2f3095f12059f403c028189107bc4d343b3615c",
+        "size_in_bytes": 4096
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/tgmath.h",
+        "path_type": "hardlink",
+        "sha256": "d3ab2839f7b2d065100683a39343570533fdcc476cb699f7feaa5557ddff8dc9",
+        "sha256_in_prefix": "d3ab2839f7b2d065100683a39343570533fdcc476cb699f7feaa5557ddff8dc9",
+        "size_in_bytes": 31300
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/tmmintrin.h",
+        "path_type": "hardlink",
+        "sha256": "3a9c3b1013f4c588ab96b318502a58834deadb19937deb7d069c90e70ff70b93",
+        "sha256_in_prefix": "3a9c3b1013f4c588ab96b318502a58834deadb19937deb7d069c90e70ff70b93",
+        "size_in_bytes": 30938
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/unwind.h",
+        "path_type": "hardlink",
+        "sha256": "8af60ed1688714eb42719a14e57da365c651f6608f55989f4907659273992ab4",
+        "sha256_in_prefix": "8af60ed1688714eb42719a14e57da365c651f6608f55989f4907659273992ab4",
+        "size_in_bytes": 11842
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/vadefs.h",
+        "path_type": "hardlink",
+        "sha256": "596e6acf7a19399e9a936003fd4d4bb4000f4be9afd79c1df982de2382586494",
+        "sha256_in_prefix": "596e6acf7a19399e9a936003fd4d4bb4000f4be9afd79c1df982de2382586494",
+        "size_in_bytes": 2291
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/vaesintrin.h",
+        "path_type": "hardlink",
+        "sha256": "d9cec83f5702bd8610a8040dacfc8b25dc4b3a7a2f7ccfae973baea91a4800e1",
+        "sha256_in_prefix": "d9cec83f5702bd8610a8040dacfc8b25dc4b3a7a2f7ccfae973baea91a4800e1",
+        "size_in_bytes": 3263
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/varargs.h",
+        "path_type": "hardlink",
+        "sha256": "0b0258d0553a64e8501c02aaf73685891784596e27f25c3a754333c28f83ff62",
+        "sha256_in_prefix": "0b0258d0553a64e8501c02aaf73685891784596e27f25c3a754333c28f83ff62",
+        "size_in_bytes": 1334
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/vecintrin.h",
+        "path_type": "hardlink",
+        "sha256": "b81ce2cf7bd5bd4a43014b98a07c793784abd4e6b786cf9b8972fae1629cce7f",
+        "sha256_in_prefix": "b81ce2cf7bd5bd4a43014b98a07c793784abd4e6b786cf9b8972fae1629cce7f",
+        "size_in_bytes": 336130
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/vpclmulqdqintrin.h",
+        "path_type": "hardlink",
+        "sha256": "21cdcffe1e1a3c68df55e489ed2d4f67c2aeb6963361a832b4769637722a9f78",
+        "sha256_in_prefix": "21cdcffe1e1a3c68df55e489ed2d4f67c2aeb6963361a832b4769637722a9f78",
+        "size_in_bytes": 1941
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/wmmintrin.h",
+        "path_type": "hardlink",
+        "sha256": "c6c140cffa46363df13249ed14c3f26ca82b2a36a93ccc17e98f7aceee1c2a17",
+        "sha256_in_prefix": "c6c140cffa46363df13249ed14c3f26ca82b2a36a93ccc17e98f7aceee1c2a17",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/x86intrin.h",
+        "path_type": "hardlink",
+        "sha256": "00f623da27583f6bbf2247be66d2f3c920933930546906754a613e3ab629fbe6",
+        "sha256_in_prefix": "00f623da27583f6bbf2247be66d2f3c920933930546906754a613e3ab629fbe6",
+        "size_in_bytes": 2906
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/xmmintrin.h",
+        "path_type": "hardlink",
+        "sha256": "de3a6a9e654093c483e69dc699bc80bdfabf2fb506cc6727c1f532c522411567",
+        "sha256_in_prefix": "de3a6a9e654093c483e69dc699bc80bdfabf2fb506cc6727c1f532c522411567",
+        "size_in_bytes": 108273
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/xopintrin.h",
+        "path_type": "hardlink",
+        "sha256": "c7b31183ac302dedf804b9a03f9569c5bfc2e11c1aeb63f3efd2654cadc65ef2",
+        "sha256_in_prefix": "c7b31183ac302dedf804b9a03f9569c5bfc2e11c1aeb63f3efd2654cadc65ef2",
+        "size_in_bytes": 21405
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/xsavecintrin.h",
+        "path_type": "hardlink",
+        "sha256": "264a339af508b63ec9a876881671261cb6ccd58cdbc2673e4a2f46af8cb536f1",
+        "sha256_in_prefix": "264a339af508b63ec9a876881671261cb6ccd58cdbc2673e4a2f46af8cb536f1",
+        "size_in_bytes": 1885
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/xsaveintrin.h",
+        "path_type": "hardlink",
+        "sha256": "be5c36baac61aba097ab2168414bf2ccfc2b1f381e84e046704cd0f002471a3d",
+        "sha256_in_prefix": "be5c36baac61aba097ab2168414bf2ccfc2b1f381e84e046704cd0f002471a3d",
+        "size_in_bytes": 2157
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/xsaveoptintrin.h",
+        "path_type": "hardlink",
+        "sha256": "9af96aa2606d072c4e0c6849ed55583a3f6fde963824e01a7411d39e41e899e5",
+        "sha256_in_prefix": "9af96aa2606d072c4e0c6849ed55583a3f6fde963824e01a7411d39e41e899e5",
+        "size_in_bytes": 1919
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/xsavesintrin.h",
+        "path_type": "hardlink",
+        "sha256": "b38737701646045775fe003cc8cdeb34f8d8cc52efab3c2d4a8c896ca57b1aa7",
+        "sha256_in_prefix": "b38737701646045775fe003cc8cdeb34f8d8cc52efab3c2d4a8c896ca57b1aa7",
+        "size_in_bytes": 2143
+      },
+      {
+        "_path": "lib/tapi/10.0.0/include/xtestintrin.h",
+        "path_type": "hardlink",
+        "sha256": "9920e4dae0d032dff7119ca94e29c12b56ea19fc61c40dc097561d5b48f9cb79",
+        "sha256_in_prefix": "9920e4dae0d032dff7119ca94e29c12b56ea19fc61c40dc097561d5b48f9cb79",
+        "size_in_bytes": 1743
+      },
+      {
+        "_path": "share/man/man1/tapi-archive.1",
+        "path_type": "hardlink",
+        "sha256": "b9d229e7cf740fa1c2b3b7e0a06f77ab2ac466e874f0eb4e05761df141e0c34a",
+        "sha256_in_prefix": "b9d229e7cf740fa1c2b3b7e0a06f77ab2ac466e874f0eb4e05761df141e0c34a",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "share/man/man1/tapi-installapi.1",
+        "path_type": "hardlink",
+        "sha256": "a11cd1f597e1de2bfdb66d5ef7aadfcd54aada45e31a5c80c01da919725bc80b",
+        "sha256_in_prefix": "a11cd1f597e1de2bfdb66d5ef7aadfcd54aada45e31a5c80c01da919725bc80b",
+        "size_in_bytes": 3904
+      },
+      {
+        "_path": "share/man/man1/tapi-reexport.1",
+        "path_type": "hardlink",
+        "sha256": "48b6911e073edf33778b77bc0b78209467195864a375dc1e6ed4c795938859ea",
+        "sha256_in_prefix": "48b6911e073edf33778b77bc0b78209467195864a375dc1e6ed4c795938859ea",
+        "size_in_bytes": 1771
+      },
+      {
+        "_path": "share/man/man1/tapi-stubify.1",
+        "path_type": "hardlink",
+        "sha256": "acc49f2d0c1824e95878c9df048dad8c62c88d014137049aba19827f05e98068",
+        "sha256_in_prefix": "acc49f2d0c1824e95878c9df048dad8c62c88d014137049aba19827f05e98068",
+        "size_in_bytes": 2464
+      },
+      {
+        "_path": "share/man/man1/tapi.1",
+        "path_type": "hardlink",
+        "sha256": "c7732da395abbfeb84ca196e95008f5a8d7112cf027f7fd6c2bb283415f9956d",
+        "sha256_in_prefix": "c7732da395abbfeb84ca196e95008f5a8d7112cf027f7fd6c2bb283415f9956d",
+        "size_in_bytes": 1287
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "507c489c73bc0c29b309be9084f946874b85ba8335132112fbb46fecabc8abd7",
+  "size": 5113165,
+  "subdir": "osx-64",
+  "timestamp": 1596224864981,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/tapi-1000.10.8-h879752b_4.tar.bz2",
+  "version": "1000.10.8"
+}
