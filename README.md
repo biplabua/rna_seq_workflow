@@ -25,3 +25,10 @@ Then run
 ```snakemake --core 1 --use-conda```
 
 In the result directory you will find log2foldchange and a volcano plot of your comparison.
+
+# To analyze your own data
+
+Make a directory name raw_data and copy your raw fastq file in the directory then run
+
+```snakemake --core 1 --use-conda```
+
