@@ -28,6 +28,8 @@ In the result directory you will find log2foldchange and a volcano plot of your 
 
 # To analyze your own data
 
+You need to put the file names for control and treatment to the meta_data.csv file. Do not include ```.fq.gz``` or ```_1.fastq.gz``` and ```_2.fastq.gz```.
+
 Make a directory name ```raw_data``` and copy your raw fastq file in the directory then run
 
 ```snakemake --core 1 --use-conda```
